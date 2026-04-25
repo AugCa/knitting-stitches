@@ -84,7 +84,7 @@ pnpm exec tsx knitting-stitches/build-app-symbol-library.ts
 
 ## Data model
 
-### Stitches are the source of truth
+### Stitch definitions are the source of truth (not symbols)
 
 Each stitch has an `id` (e.g., `cdd`, `k2tog`), `surface_forms` (abbreviations and alternate names that legend search matches against), `stitch_manipulation` (semantic stitch math), and `execution` (steps for the knitter). See `schema.ts` for the full type and `stitches/decreases.json` for examples.
 

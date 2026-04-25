@@ -5,7 +5,7 @@ This is a community-friendly knitting-vocabulary library. Most contributions lan
 ## What we love
 
 - **Translations.** Most of the `translations/` files are skeletons. Native speakers in any language can fill in canonical names, abbreviations, and written forms. See [`translations/README.md`](./translations/README.md).
-- **Missing publisher abbreviations.** If your favorite designer (Vogue / Rowan / DROPS / Pom Pom / etc.) uses a different abbreviation for an stitch we already have, add it.
+- **Missing publisher abbreviations.** If your favorite designer (Vogue / Rowan / DROPS / Pom Pom / etc.) uses a different abbreviation for a stitch we already have, add it.
 - **New stitches.** Rare but valid — Estonian or Aran or other tradition-specific stitches that don't exist yet.
 - **Corrections.** Wrong stitch count, broken `relationships.{mirror,similar,ws_equivalent,variant_of}` reference, typo in execution steps.
 
@@ -21,9 +21,9 @@ Do not merge stitches that real publishers treat as distinct, even if their char
 
 This library does not pick winners between "ssk" vs "skp" vs "sl1-k1-psso". They're all real abbreviations real publishers use. Capture them all in `surface_forms.abbreviations` and disambiguate downstream via `ambiguity_notes` or pattern context.
 
-### 3. Stitches are the source of truth for stitch identity.
+### 3. A stitch is defined by what it does, not how it's drawn.
 
-A symbol on a chart is just a rendering. The stitch is what the knitter actually does. Two stitches with the same chart symbol but different mechanics (e.g., `cdd` vs `cdd_tbl`) are *not* the same stitch, even though the symbol designer drew them the same.
+A symbol on a chart is just a rendering. The mechanics — what the knitter actually performs — define a stitch's identity. Two stitches with the same chart symbol but different mechanics (e.g., `cdd` vs `cdd_tbl`) are *not* the same stitch, even though the symbol designer drew them the same.
 
 ### 4. Cite a source.
 

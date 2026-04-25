@@ -31,7 +31,7 @@ pnpm add @knitr/knitting-stitches
 
 ## Quick examples
 
-**Look up an stitch by id:**
+**Look up a stitch by id:**
 
 ```ts
 import { getDefaultRegistry } from "knitting-stitches";
@@ -64,7 +64,7 @@ const knitDe = mergeTranslations(reg.lookupById("knit"), de.knit);
 
 **Publisher-faithful.** Preserve the abbreviations and conventions real designers use, even when they collide. Disambiguate via `ambiguity_notes` and `source_specific` rather than picking a winner.
 
-**Stitches are the source of truth for stitch identity.** A symbol on a chart is just a rendering; the stitch is what the knitter actually does.
+**A stitch is defined by what it does, not how it's drawn.** A symbol on a chart is just a rendering; the stitch's mechanics — its inputs, outputs, lean, and execution steps — are what the knitter actually performs.
 
 See [`CURATOR.md`](./CURATOR.md) for the full curation philosophy.
 
@@ -73,7 +73,7 @@ See [`CURATOR.md`](./CURATOR.md) for the full curation philosophy.
 PRs are welcome — especially for:
 
 - **Translations** — most of the language files are skeletons. If you knit in German / French / Japanese / Spanish / Swedish / Italian / [your language], you can fill in canonical names, abbreviations, and written forms for any stitch. See [`translations/README.md`](./translations/README.md).
-- **Missing publisher abbreviations** — if Vogue / Rowan / DROPS / Lana Grossa / Phildar / a Japanese pattern uses a different abbreviation for an stitch we already have, add it to `surface_forms.source_specific.{publisher}` in the relevant stitches file.
+- **Missing publisher abbreviations** — if Vogue / Rowan / DROPS / Lana Grossa / Phildar / a Japanese pattern uses a different abbreviation for a stitch we already have, add it to `surface_forms.source_specific.{publisher}` in the relevant stitches file.
 - **Missing stitches** — rare, but possible. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the checklist.
 - **Corrections** — wrong stitch counts, broken relationship references, typos in execution steps.
 

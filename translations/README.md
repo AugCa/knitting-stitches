@@ -4,7 +4,7 @@ Localized canonical names, abbreviations, alternate names, and written forms —
 
 ## Why translations live here (and not in `stitches/`)
 
-The `stitches/*.json` files capture stitch identity in a publisher- and tradition-faithful way. Most of the existing `surface_forms.abbreviations` and `alternate_names` are English / English-language conventions. There's also a `surface_forms.source_specific` field that captures publisher-specific terminology (Vogue, DROPS, Lana Grossa, etc.) — but that's keyed by publisher, not by language, and English-language patterns published by German publishers (e.g., DROPS English editions) live there too.
+The `stitches/*.json` files define each stitch in a publisher- and tradition-faithful way. Most of the existing `surface_forms.abbreviations` and `alternate_names` are English / English-language conventions. There's also a `surface_forms.source_specific` field that captures publisher-specific terminology (Vogue, DROPS, Lana Grossa, etc.) — but that's keyed by publisher, not by language, and English-language patterns published by German publishers (e.g., DROPS English editions) live there too.
 
 Translations are *language*-keyed and *publisher*-agnostic. They answer: **"How does a knitter in Germany / France / Japan / Spain / Sweden / Italy say this stitch?"** — independent of who published the pattern they're reading.
 
@@ -61,7 +61,7 @@ Each language file looks like:
 ## How to contribute a translation
 
 1. Open the file for your language (e.g. `de.json` for German).
-2. Find an stitch by id (the keys are the same across all language files — they match `stitches/*.json`).
+2. Find a stitch by id (the keys are the same across all language files — they match `stitches/*.json`).
 3. Fill in any of `canonical_name` / `abbreviations` / `alternate_names` / `written_forms`. Empty fields are fine — leave what you don't know.
 4. Optionally add yourself to `maintainers`.
 5. Open a PR. Mention which traditions / publishers / regions inform your translations (e.g., "These are the abbreviations used by DROPS Norwegian and Pickles patterns").
