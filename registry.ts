@@ -13,6 +13,25 @@
 
 import type { KnittingOperation, OperationCategory } from "./schema";
 import { generateAllStandardCables } from "./cable-generator";
+
+/**
+ * Coerces JSON-imported operations into the typed `KnittingOperation[]`.
+ *
+ * Why this exists: TypeScript's `resolveJsonModule` infers JSON literals more
+ * narrowly than the schema accepts. For example, it widens `category: "decrease"`
+ * to `string` (rather than the `OperationCategory` union), and surfaces optional
+ * `source_specific` keys as `undefined` values, which doesn't structurally match
+ * `Record<string, string[]>`.
+ *
+ * The schema is the source of truth, validated separately by `pnpm validate`,
+ * so the runtime cast is sound. The function exists to centralize the cast in
+ * one named, documented place rather than scatter `as unknown as` casts across
+ * every JSON import site.
+ */
+function loadJsonOperations(data: unknown): KnittingOperation[] {
+  return data as KnittingOperation[];
+}
+
 import { generateAllSequenceCables } from "./cable-sequence-generator";
 import { generateAllCenterCables } from "./cable-center-generator";
 import { generateAllCompositeCableOperations } from "./cable-composite-generator";
@@ -252,20 +271,28 @@ let _defaultRegistry: OperationRegistry | null = null;
 export function getDefaultRegistry(): OperationRegistry {
   if (!_defaultRegistry) {
     // Hand-authored operation files plus generated cable families.
+    //
+    // The `loadJsonOperations` helper is used to coerce JSON-imported arrays
+    // into `KnittingOperation[]`. We need this because `resolveJsonModule`
+    // infers JSON literal types more narrowly than the schema (e.g. it widens
+    // `category: "decrease"` to `string` rather than the `OperationCategory`
+    // union, and surfaces optional `source_specific` keys with `undefined`
+    // values). The JSON files are validated separately via `pnpm validate`,
+    // so the runtime cast is sound.
     const allOps: KnittingOperation[] = [
-      ...(basicOps as KnittingOperation[]),
-      ...(slippedOps as KnittingOperation[]),
-      ...(decreaseOps as KnittingOperation[]),
-      ...(increaseOps as KnittingOperation[]),
-      ...(cableOps as KnittingOperation[]),
-      ...(textureOps as KnittingOperation[]),
-      ...(briocheOps as KnittingOperation[]),
-      ...(edgeOps as KnittingOperation[]),
-      ...(castOnOps as KnittingOperation[]),
-      ...(bindOffOps as KnittingOperation[]),
-      ...(compositeOps as KnittingOperation[]),
-      ...(structuralOps as KnittingOperation[]),
-      ...(placeholderOps as KnittingOperation[]),
+      ...loadJsonOperations(basicOps),
+      ...loadJsonOperations(slippedOps),
+      ...loadJsonOperations(decreaseOps),
+      ...loadJsonOperations(increaseOps),
+      ...loadJsonOperations(cableOps),
+      ...loadJsonOperations(textureOps),
+      ...loadJsonOperations(briocheOps),
+      ...loadJsonOperations(edgeOps),
+      ...loadJsonOperations(castOnOps),
+      ...loadJsonOperations(bindOffOps),
+      ...loadJsonOperations(compositeOps),
+      ...loadJsonOperations(structuralOps),
+      ...loadJsonOperations(placeholderOps),
     ];
 
     // Add generated cables that don't overlap with hand-authored ones
