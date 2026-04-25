@@ -51,6 +51,7 @@
     "brioche"
   ],
   "license": "Apache-2.0",
+  "homepage": "https://knitr.app",
   "repository": {
     "type": "git",
     "url": "https://github.com/AugCa/knitting-stitches"
