@@ -1,0 +1,3043 @@
+[
+  {
+    "id": "k2tog",
+    "canonical_name": "Knit Two Together",
+    "category": "decrease",
+    "subcategory": "single_right",
+    "semantic_description": "A right-leaning single decrease that merges two stitches into one by knitting them together. The second stitch overlaps the first, creating a line that leans to the right on the right side of the fabric. The most common right-leaning decrease in knitting. Paired with SSK for symmetrical shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k2tog",
+        "k2t",
+        "k2 tog",
+        "k2tog.",
+        "K-2-tog",
+        "knit 2 tog"
+      ],
+      "alternate_names": [
+        "knit two together",
+        "knit 2 together",
+        "right-leaning decrease"
+      ],
+      "written_forms": [
+        "knit the next two stitches together",
+        "insert needle through next 2 stitches together knitwise, wrap yarn, pull through both",
+        "knit 2 together"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "k2 tog",
+          "k 2 tog"
+        ],
+        "japanese_english": [
+          "right decrease",
+          "knit 2 together"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC standard is 'k2tog'. Both 'k2tog' and 'K2tog' are in active use. 'K2 tog' (with space) appears in older patterns."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 2 stitches on left needle together, knitwise (from left to right through both)",
+        "Wrap working yarn counterclockwise around right needle",
+        "Pull new loop through both stitches",
+        "Slide both old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "ssk",
+      "ws_equivalent": "p2tog",
+      "similar": [
+        "k2tog_tbl"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "basic",
+      "right_leaning",
+      "shaping",
+      "lace",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "ssk",
+    "canonical_name": "Slip Slip Knit",
+    "category": "decrease",
+    "subcategory": "single_left",
+    "semantic_description": "A left-leaning single decrease that merges two stitches into one. Two stitches are slipped individually knitwise to reorient them, returned to the left needle, then knit together through the back loops. The first stitch overlaps the second, creating a line that leans to the left on the right side. The standard left-leaning counterpart to k2tog.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "ssk",
+        "s2k",
+        "ssk tbl",
+        "ssktbl",
+        "ssk-tbl"
+      ],
+      "alternate_names": [
+        "slip slip knit",
+        "left-leaning decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches individually knitwise, then knit them together through the back loops",
+        "slip, slip, knit slipped stitches together",
+        "slip 1 knitwise, slip 1 knitwise, insert left needle into front of both slipped stitches and knit together",
+        "slip 1 knitwise, slip 1 knitwise, insert left needle tip into fronts of both slipped stitches from left to right and knit together through back loops"
+      ],
+      "source_specific": {
+        "vintage": [
+          "sl 1, k1, psso was the original left-leaning decrease before SSK became standard"
+        ],
+        "japanese_english": [
+          "left decrease"
+        ],
+        "phildar": [
+          "gl, gl, t end"
+        ],
+        "drops": [
+          "ssk"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'ssk'. 'sl1-k1-psso' is the older form that 'ssk' replaced; some older Rowan/Debbie Bliss patterns still use it. 'SKP' in CYC is specifically slip 1 knitwise, k1, psso \u2014 equivalent result but mechanically distinct from the standard ssk slip-slip-knit. Both are left-leaning single decreases; treat 'SKP' as mapping to this operation cautiously.",
+        "Some publishers write 'ssk tbl', 'ssktbl', or 'ssk-tbl' to mean standard ssk, reflecting a misunderstanding that the tbl knit step is already implicit in the ssk instruction. Map these to `ssk` unless the pattern's legend explicitly describes a double-twisted result (in which case it is a rare Eastern European lace variant, not in this library)."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip the first stitch knitwise to right needle",
+        "Slip the second stitch knitwise to right needle",
+        "Insert left needle into the front of both slipped stitches (from left to right)",
+        "Knit the two stitches together from this position"
+      ]
+    },
+    "relationships": {
+      "mirror": "k2tog",
+      "ws_equivalent": "ssp",
+      "similar": [
+        "skp",
+        "k2tog_tbl"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "basic",
+      "left_leaning",
+      "shaping",
+      "lace",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "skp",
+    "canonical_name": "Slip Knit Pass Slipped Stitch Over",
+    "category": "decrease",
+    "subcategory": "single_left",
+    "semantic_description": "An older method of creating a left-leaning single decrease. Slip one stitch knitwise, knit the next stitch, then pass the slipped stitch over the knit stitch. Produces the same left-leaning result as SSK but with slightly different tension. The traditional British left-leaning decrease, largely replaced by SSK in modern patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "SKP",
+        "skpo",
+        "sl1-k1-psso",
+        "s1-k1-psso",
+        "sl1k1psso",
+        "sl 1, k1, psso",
+        "s1k1p1",
+        "skpo2"
+      ],
+      "alternate_names": [
+        "slip knit pass",
+        "slip one knit one pass slipped stitch over",
+        "pass slipped stitch over",
+        "slip one knit one pass over"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, knit 1, pass slipped stitch over",
+        "sl 1, k1, pass slipped stitch over the knit stitch",
+        "slip, knit, pass slipped stitch over",
+        "slip 1 stitch knitwise to right needle, knit the next stitch, pass the slipped stitch over the knit stitch and off the needle"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "s1, k1, p.s.s.o.",
+          "skpo"
+        ],
+        "barbara_walker": [
+          "SKPO",
+          "SKP"
+        ],
+        "uk_vintage": [
+          "s.k.p.o.",
+          "s1, k1, p.s.s.o.",
+          "skpo",
+          "sl 1, k1, psso",
+          "sl 1, k1, p.s.s.o."
+        ],
+        "sirdar": [
+          "skpo"
+        ],
+        "emu_patterns": [
+          "skpo"
+        ],
+        "rowan_vintage": [
+          "skpo"
+        ],
+        "cyc": [
+          "SKP",
+          "skp"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists SKP as its own entry. SKP and ssk produce the same visual lean but use different mechanics. Some publishers use them interchangeably; others differentiate. Flag both as mapping to the same decrease direction (left-leaning single) but keep as distinct operations. 'skpo' is the UK form (slip, knit, pass over)."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch knitwise to right needle",
+        "Knit the next stitch",
+        "Using left needle tip, lift the slipped stitch over the knit stitch and off the right needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "ssk",
+        "k2tog_tbl"
+      ],
+      "ws_equivalent": "ssp"
+    },
+    "tags": [
+      "decrease",
+      "basic",
+      "left_leaning",
+      "shaping",
+      "vintage"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "k2tog_tbl",
+    "canonical_name": "Knit Two Together Through Back Loop",
+    "category": "decrease",
+    "subcategory": "single_left",
+    "semantic_description": "A left-leaning single decrease achieved by knitting two stitches together through their back loops. Produces a similar left-leaning result to SSK but with a slightly tighter, more twisted appearance. Some lace designers prefer this method for its neater result. The stitch is twisted in the process.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k2tog-tbl",
+        "k2togtbl",
+        "k2tog tbl",
+        "k2tbl",
+        "k2t-tbl",
+        "k-2-tog-tbl"
+      ],
+      "alternate_names": [
+        "knit two together through back loop",
+        "twisted k2tog",
+        "knit two together through back loops",
+        "twisted left-leaning decrease",
+        "German twisted decrease"
+      ],
+      "written_forms": [
+        "knit 2 stitches together through their back loops",
+        "k2tog through back loop",
+        "insert right needle knitwise through the back loops of the next 2 stitches simultaneously and knit together"
+      ],
+      "source_specific": {
+        "german": [
+          "li verschr.",
+          "li ab verschr."
+        ],
+        "estonian_lace": [
+          "k2ktbl"
+        ]
+      },
+      "ambiguity_notes": [
+        "This is a left-leaning twisted decrease. Some publishers (especially German/Austrian) use it where English-language publishers use ssk. The twisted result is visually similar to ssk but with a crossed stitch leg."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the back loops of the next 2 stitches (from right to left, behind the left needle)",
+        "Wrap yarn and pull through both stitches",
+        "Slide both old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "variant_of": "k2tog",
+      "similar": [
+        "ssk",
+        "skp"
+      ],
+      "mirror": "k2tog",
+      "ws_equivalent": "p2tog_tbl"
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "left_leaning",
+      "twisted",
+      "lace"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p2tog",
+    "canonical_name": "Purl Two Together",
+    "category": "decrease",
+    "subcategory": "single_right",
+    "semantic_description": "The purl-side equivalent of k2tog. Merges two stitches by purling them together. When viewed from the right side, it produces the same right-leaning decrease as k2tog. Used on wrong-side rows to maintain the shaping line established by k2tog on right-side rows.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p2tog",
+        "p2t",
+        "p2 tog",
+        "purl 2 tog"
+      ],
+      "alternate_names": [
+        "purl two together",
+        "purl 2 together",
+        "right-leaning purl decrease"
+      ],
+      "written_forms": [
+        "purl the next two stitches together",
+        "insert needle purlwise through next 2 stitches and purl together"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "p 2 tog",
+          "p2 tog"
+        ],
+        "drops": [
+          "p2tog"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle through the next 2 stitches purlwise (from right to left through both)",
+        "Wrap yarn and purl through both stitches",
+        "Slide both old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "k2tog",
+      "mirror": "ssp",
+      "similar": [
+        "p2tog_tbl"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "basic",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "ssp",
+    "canonical_name": "Slip Slip Purl",
+    "category": "decrease",
+    "subcategory": "single_left",
+    "semantic_description": "The purl-side equivalent of SSK. Two stitches are slipped individually knitwise, returned to the left needle, and purled together through the back loops. Produces a left-leaning decrease when viewed from the right side. Used on wrong-side rows to maintain left-leaning shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "ssp",
+        "slip slip purl",
+        "s2p"
+      ],
+      "alternate_names": [
+        "slip slip purl",
+        "purl left-leaning decrease",
+        "left-leaning purl decrease",
+        "slip-slip-purl"
+      ],
+      "written_forms": [
+        "slip 2 stitches individually knitwise, slip them back to left needle, purl together through back loops",
+        "slip, slip, purl slipped stitches together"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'ssp' as a left-leaning purl decrease. Distinct from 'SSP' (same letters, different caps conventions across publishers).",
+        "Some patterns use 'p2tog-tbl' instead of SSP \u2014 the result is similar but the mechanics differ slightly. p2tog-tbl is often easier to execute."
+      ],
+      "source_specific": {
+        "rowan": [
+          "ssp"
+        ],
+        "drops": [
+          "ssp"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip the first stitch knitwise",
+        "Slip the second stitch knitwise",
+        "Slip both stitches back to left needle in their new orientation",
+        "Purl the 2 stitches together through the back loops"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "ssk",
+      "mirror": "p2tog"
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p2tog_tbl",
+    "canonical_name": "Purl Two Together Through Back Loop",
+    "category": "decrease",
+    "subcategory": "single_left",
+    "semantic_description": "Purls two stitches together through their back loops, producing a left-leaning decrease when viewed from the right side. An alternative to SSP that some knitters find easier to execute. The result is nearly identical to SSP.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p2tog-tbl",
+        "p2togtbl",
+        "p2tog tbl",
+        "p2tbl",
+        "p2t-tbl"
+      ],
+      "alternate_names": [
+        "purl two together through back loop",
+        "twisted purl decrease",
+        "left-leaning purl tbl"
+      ],
+      "written_forms": [
+        "purl 2 stitches together through their back loops",
+        "insert needle purlwise through the back loops of the next 2 stitches simultaneously and purl together"
+      ],
+      "source_specific": {
+        "german": [
+          "re ab verschr."
+        ],
+        "continental": [
+          "p2tog-tbl"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle through the back loops of the next 2 stitches from left to right",
+        "Wrap yarn and purl through both stitches",
+        "Slide both old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "ssp"
+      ],
+      "variant_of": "p2tog",
+      "ws_equivalent": "k2tog_tbl"
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "left_leaning",
+      "twisted",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cdd",
+    "canonical_name": "Central Double Decrease",
+    "category": "decrease",
+    "subcategory": "double_center",
+    "semantic_description": "A centered double decrease that reduces three stitches to one with the center stitch on top, creating a vertically aligned decrease with no lean. Slip two stitches together knitwise, knit one, then pass the two slipped stitches over. The center stitch dominates visually. The standard centered decrease for lace patterns and symmetrical shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "CDD",
+        "S2KP2",
+        "sl2-k1-p2sso",
+        "centered double dec",
+        "central double decrease",
+        "sl2tog-k1-psso",
+        "cdd2"
+      ],
+      "alternate_names": [
+        "central double decrease",
+        "slip 2 knit 1 pass 2 slipped stitches over",
+        "centered double decrease",
+        "vertical double decrease",
+        "slip 2, k1, p2sso",
+        "centered three-stitch decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together knitwise, knit 1, pass the 2 slipped stitches over the knit stitch",
+        "sl2tog kwise, k1, pass both slipped stitches over",
+        "slip 2 as if to k2tog, k1, pass slipped stitches over"
+      ],
+      "source_specific": {
+        "vogue_knitting": [
+          "s2kp",
+          "cdd"
+        ],
+        "japanese_english": [
+          "center decrease",
+          "vertical decrease"
+        ],
+        "knitty": [
+          "cdd"
+        ],
+        "twist_collective": [
+          "cdd"
+        ],
+        "pom_pom_quarterly": [
+          "cdd"
+        ],
+        "tin_can_knits": [
+          "cdd"
+        ],
+        "interweave_knits": [
+          "s2kp"
+        ],
+        "cyc": [
+          "S2KP2",
+          "cdd",
+          "s2kp"
+        ]
+      },
+      "ambiguity_notes": [
+        "'cdd' (centered/central double decrease) and 's2kp' (slip 2 together knitwise, k1, pass 2 slipped sts over) are the two most common forms. CYC lists 'S2KP2'. Some publishers use 'cdd', others 's2kp'. All produce a vertically stacked, left-center leaning result. 'SSSP' (CYC) is a different 3-stitch decrease \u2014 do not conflate.",
+        "Some publishers write 's2kp' and others 's2kp2' \u2014 the trailing '2' indicates passing 2 slipped stitches over. Both refer to the same operation.",
+        "The two stitches should be slipped TOGETHER (as if to k2tog), not individually. Slipping individually reorients the stitches and changes the appearance.",
+        "'S2KP' / 's2kp' is notationally ambiguous: CYC and JIS use it as the centered double decrease abbreviation, but many knitters read the letters literally as 'slip-slip-knit-pass' which is left-leaning (see op `s2kp`). Use 'S2KP2' / 'CDD' for unambiguous centered-double-decrease references. If a pattern writes bare 's2kp', consult its legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the next 2 stitches as if to k2tog (together, knitwise) and slip them to right needle",
+        "Knit the next stitch",
+        "Using left needle, pass both slipped stitches over the knit stitch and off the right needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "sk2p",
+        "k3tog",
+        "s2kp"
+      ],
+      "ws_equivalent": "pcdd",
+      "contrast": [
+        "cdd_tbl"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "centered",
+      "lace",
+      "shaping",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cdd_tbl",
+    "canonical_name": "Central Double Decrease (TBL)",
+    "category": "decrease",
+    "subcategory": "double_center_tbl",
+    "semantic_description": "A centered 3-to-1 double decrease worked through the back loop: slip 2 stitches together through the back loops, knit 1, then pass the 2 slipped stitches over. The result is centered with no lean (like CDD), but the flanking stitches are twisted, producing a faux-cable / textured central column rather than the smooth column of standard CDD. Used in textured lace and Estonian-influenced charts where the designer wants extra definition around the centered decrease.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "cdd-tbl",
+        "cdd_tbl",
+        "sl2tog-tbl-k1-p2sso",
+        "sl2 tbl k1 p2sso",
+        "s2tog tbl k1 psso",
+        "sl2tog tbl, k1, p2sso",
+        "cdd tbl",
+        "CDD TBL",
+        "CDD-tbl",
+        "CDD-TBL"
+      ],
+      "alternate_names": [
+        "central double decrease through back loop",
+        "centered double decrease tbl",
+        "twisted central double decrease",
+        "twisted CDD",
+        "faux-cable centered double decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together through the back loop, knit 1, pass the 2 slipped stitches over the knit stitch",
+        "sl2tog tbl, k1, p2sso"
+      ],
+      "ambiguity_notes": [
+        "The chart symbol (centered peaked triangle) is visually identical to standard cdd \u2014 disambiguate via legend text. If a pattern's legend specifies 'sl2 tbl k1 p2sso' or 'tbl' anywhere in the decrease description, this is the operation; otherwise default to cdd.",
+        "Documented as a deliberate textural alternative to cdd by Tin Can Knits and several Estonian lace publishers. Mechanically distinct from cdd because the back-loop slip leaves the flanking stitches twisted."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the next 2 stitches together through the back loops and slip them to the right needle",
+        "Knit the next stitch",
+        "Using left needle, pass both slipped stitches over the knit stitch and off the right needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cdd",
+        "sk2p",
+        "k3tog_tbl"
+      ],
+      "variant_of": "cdd",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "centered",
+      "tbl",
+      "twisted",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sk2p",
+    "canonical_name": "Slip 1 Knit 2 Together Pass Slipped Stitch Over",
+    "category": "decrease",
+    "subcategory": "double_left",
+    "semantic_description": "A left-leaning double decrease. Slip one stitch, knit the next two together, then pass the slipped stitch over. Reduces three stitches to one with a slight left lean. Similar to CDD but the visual emphasis differs \u2014 the slipped stitch travels over the k2tog, putting the leftmost original stitch on top.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "SK2P",
+        "sl1-k2tog-psso",
+        "sl1k2togpsso",
+        "s1k2p",
+        "s1-k2p"
+      ],
+      "alternate_names": [
+        "slip knit 2 together pass slipped stitch over",
+        "left-leaning double decrease",
+        "left double decrease",
+        "slip 1 k2tog psso"
+      ],
+      "written_forms": [
+        "slip 1, knit 2 together, pass slipped stitch over the k2tog",
+        "slip 1 knitwise, k2tog, pass slipped stitch over"
+      ],
+      "source_specific": {
+        "berroco": [
+          "sk2p"
+        ],
+        "barbara_walker": [
+          "SK2P"
+        ],
+        "cascade_yarns": [
+          "sk2p"
+        ],
+        "lion_brand": [
+          "sk2p"
+        ],
+        "drops": [
+          "sl 1 k2tog psso",
+          "sl1-k2tog-psso"
+        ],
+        "vogue_knitting": [
+          "sk2p"
+        ],
+        "cyc": [
+          "SK2P",
+          "sk2p"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'SK2P' as slip 1 knitwise, k2tog, pass slipped stitch over \u2014 this is a left-leaning double decrease (not centered). Distinct from cdd/s2kp which is centered. Some patterns confuse these \u2014 the mechanical difference: sk2p slips only 1 stitch, cdd slips 2 together."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch knitwise to right needle",
+        "Knit the next 2 stitches together (k2tog)",
+        "Using left needle, lift the slipped stitch over the k2tog stitch and off the needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cdd",
+        "sssk"
+      ],
+      "mirror": "k3tog",
+      "ws_equivalent": "sp2kp"
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "left_leaning",
+      "lace",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k3tog",
+    "canonical_name": "Knit Three Together",
+    "category": "decrease",
+    "subcategory": "double_right",
+    "semantic_description": "A right-leaning double decrease that merges three stitches into one by knitting them all together. The rightmost stitch dominates visually. Produces a strong right-leaning line. The right-leaning counterpart to SSSK or SK2P.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k3tog",
+        "k3t",
+        "k3 tog",
+        "knit 3 tog"
+      ],
+      "alternate_names": [
+        "knit three together",
+        "knit 3 together",
+        "right-leaning double decrease",
+        "right double decrease"
+      ],
+      "written_forms": [
+        "knit the next three stitches together",
+        "insert needle through 3 stitches knitwise and knit together"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "k3 tog",
+          "k 3 tog"
+        ],
+        "drops": [
+          "k3tog"
+        ]
+      },
+      "ambiguity_notes": [
+        "Right-leaning double decrease. CYC does not list it explicitly but it follows the k2tog pattern."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 3 stitches on left needle together, knitwise",
+        "Wrap yarn and pull through all 3 stitches",
+        "Slide all 3 old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "sssk",
+      "ws_equivalent": "p3tog",
+      "similar": [
+        "sk2p",
+        "dec_3_to_1_right"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "right_leaning",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sssk",
+    "canonical_name": "Slip Slip Slip Knit",
+    "category": "decrease",
+    "subcategory": "double_left",
+    "semantic_description": "A left-leaning double decrease. Three stitches are slipped individually knitwise, returned to the left needle, and knit together through the back loops. The left-leaning counterpart to k3tog. Less common than CDD or SK2P.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sssk",
+        "slip slip slip knit",
+        "sl3k",
+        "s3k"
+      ],
+      "alternate_names": [
+        "slip slip slip knit",
+        "triple left decrease",
+        "left double decrease",
+        "triple slip knit decrease",
+        "triple left-leaning decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, then knit all 3 together through the back loops",
+        "slip, slip, slip, knit slipped stitches together",
+        "slip 1 knitwise, slip 1 knitwise, slip 1 knitwise, insert left needle from left to right through fronts of all 3 slipped stitches and knit together"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'sssk' as a double left-leaning decrease. The 'SSSK' form (uppercase) is occasionally seen."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 stitches individually knitwise to right needle",
+        "Insert left needle into the front of all 3 slipped stitches",
+        "Knit all 3 together from this position"
+      ]
+    },
+    "relationships": {
+      "mirror": "k3tog",
+      "ws_equivalent": "sssp",
+      "similar": [
+        "dec_3_to_1_left"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "left_leaning",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p3tog",
+    "canonical_name": "Purl Three Together",
+    "category": "decrease",
+    "subcategory": "double_right",
+    "semantic_description": "The purl-side equivalent of k3tog. Purls three stitches together, producing a right-leaning double decrease when viewed from the right side. Used on wrong-side rows.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p3tog",
+        "p3t"
+      ],
+      "alternate_names": [
+        "purl three together",
+        "purl 3 together"
+      ],
+      "written_forms": [
+        "purl the next three stitches together"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "p3 tog",
+          "p 3 tog"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle through the next 3 stitches purlwise",
+        "Wrap yarn and purl through all 3 stitches",
+        "Slide all 3 old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "k3tog",
+      "mirror": "sssp",
+      "similar": [
+        "p3tog_tbl"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "intermediate",
+      "right_leaning",
+      "wrong_side",
+      "double_decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p3tog_tbl",
+    "canonical_name": "Purl Three Together Through Back Loop",
+    "category": "decrease",
+    "subcategory": "double_right",
+    "semantic_description": "A purl-side double decrease that merges three stitches into one by inserting the needle through the back loops of all three stitches and purling them together. Produces a right-leaning decrease when viewed from the right side, identical in lean to p3tog, but with all stitch legs twisted due to the through-back-loop execution. The result is a tighter, more textured decrease than p3tog, often used in lace traditions that deliberately exploit twisted stitches as a decorative element (Estonian and German lace in particular). The execution is physically demanding: the needle must navigate behind three stacked stitches simultaneously, which requires loose tension and some practice. It is the three-stitch extension of p2tog_tbl and shares its mechanical logic. It is distinct from sssp (which achieves a left-leaning purl double decrease via slipping and back-loop purling) \u2014 the lean here is right, not left.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p3tog-tbl",
+        "p3togtbl",
+        "p3tog tbl",
+        "p3tbl",
+        "p3t-tbl"
+      ],
+      "alternate_names": [
+        "purl three together through back loop",
+        "purl 3 together through back loops",
+        "twisted purl double decrease",
+        "right-leaning purl tbl double decrease"
+      ],
+      "written_forms": [
+        "purl 3 stitches together through their back loops",
+        "insert needle through the back loops of the next 3 stitches simultaneously, purlwise, and purl together",
+        "p3tog tbl: with yarn in front, insert right needle through back loops of next 3 sts from left to right and purl all 3 together"
+      ],
+      "source_specific": {
+        "german": [
+          "3 re ab verschr.",
+          "3 M re ab verschr."
+        ],
+        "estonian_lace": [
+          "p3ktbl"
+        ],
+        "lana_grossa": [
+          "3 M re abkn. versch."
+        ]
+      },
+      "ambiguity_notes": [
+        "p3tog_tbl is visually similar to p3tog on a chart \u2014 differentiate only by legend. If a pattern's legend does not explicitly include 'tbl', 'through back loop', or the equivalent German/Estonian notation, default to p3tog.",
+        "Some knitters substitute p3tog for p3tog_tbl in practice because the back-loop entry across three stitches is awkward. The stitch count is identical; the visual difference is a slightly tighter, crossed texture visible only on the RS."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle from left to right through the back loops of the next 3 stitches simultaneously (needle passes behind the left needle through all three back loops)",
+        "Wrap yarn and pull through all 3 stitches in one motion",
+        "Slide all 3 original stitches off the left needle"
+      ]
+    },
+    "relationships": {
+      "variant_of": "p3tog",
+      "similar": [
+        "p2tog_tbl",
+        "sssp"
+      ],
+      "ws_equivalent": "k3tog_tbl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "twisted",
+      "wrong_side",
+      "double_decrease",
+      "lace"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "sssp",
+    "canonical_name": "Slip Slip Slip Purl",
+    "category": "decrease",
+    "subcategory": "double_left",
+    "semantic_description": "The purl-side equivalent of SSSK. Produces a left-leaning double decrease when viewed from the right side. Rarely encountered but used in fully charted patterns with WS shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sssp"
+      ],
+      "alternate_names": [
+        "slip slip slip purl",
+        "triple slip purl",
+        "left purl double decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, return to left needle, purl together through back loops",
+        "slip 3 stitches individually knitwise, return all 3 to left needle purlwise, purl all 3 together through their back loops"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'SSPP2' for a different centered purl decrease. 'sssp' is the purl equivalent of sssk (3-stitch left purl decrease). Not to be confused with the CYC 'SSPP2' entry which is centered."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 stitches individually knitwise",
+        "Return all 3 to left needle in new orientation",
+        "Purl all 3 together through the back loops"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "sssk",
+      "mirror": "p3tog"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "left_leaning",
+      "wrong_side",
+      "double_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "pcdd",
+    "canonical_name": "Purl Central Double Decrease",
+    "category": "decrease",
+    "subcategory": "double_center",
+    "semantic_description": "The wrong-side equivalent of the central double decrease (CDD). Produces a centered, vertically aligned double decrease when viewed from the right side. Used when a centered decrease line must continue on wrong-side rows.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "pcdd",
+        "SSPP2",
+        "purl CDD",
+        "centered purl double decrease",
+        "SP2P",
+        "p-cdd",
+        "scdd",
+        "p-s2kp",
+        "purl-s2kp"
+      ],
+      "alternate_names": [
+        "purl central double decrease",
+        "wrong-side centered decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together purlwise, purl 1, pass slipped stitches over",
+        "slip 2 stitches together purlwise to right needle, purl 1, pass both slipped stitches over the purled stitch"
+      ],
+      "source_specific": {
+        "vickie_howell": [
+          "pcdd"
+        ],
+        "cyc": [
+          "SSPP2",
+          "sspp2"
+        ]
+      },
+      "ambiguity_notes": [
+        "The purl-side centered double decrease. 'sp2p' (slip 1, p2tog, pass slipped st over) is one mechanical implementation. CYC lists 'SSPP2' as a similar centered purl decrease \u2014 'SSPP2' is: slip 2 sts as if to p2tog-tbl, purl 1, pass 2 slipped sts over. These may or may not be identical depending on the publisher."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 stitches together as if to p2tog to right needle",
+        "Purl the next stitch",
+        "Pass both slipped stitches over the purled stitch"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "cdd",
+      "similar": [
+        "sp2kp"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "wrong_side",
+      "double_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_4_to_1_right",
+    "canonical_name": "Decrease 4 to 1 (Right-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_right",
+    "semantic_description": "A large right-leaning decrease that reduces four stitches to one. Equivalent to k4tog \u2014 knitting four stitches together. Used in dramatic shaping, star-top decreases on hats, and some lace motifs. Creates a strong rightward lean.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec 4-to-1-R",
+        "dec4-1R",
+        "right 4-to-1 dec",
+        "5-st right dec",
+        "dec_4_to_1_right",
+        "dec4r",
+        "4-to-1-r",
+        "k4tog"
+      ],
+      "alternate_names": [
+        "knit four together",
+        "4-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 4 stitches together",
+        "insert needle through next 4 stitches knitwise and knit together"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 4 stitches on left needle knitwise",
+        "Wrap yarn and pull through all 4",
+        "Slide all 4 old stitches off left needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_4_to_1_left",
+      "ws_equivalent": "p4tog"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_4_to_1_left",
+    "canonical_name": "Decrease 4 to 1 (Left-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_left",
+    "semantic_description": "A large left-leaning decrease that reduces four stitches to one. Slip three stitches knitwise individually, knit one, pass all three slipped stitches over. The mirror image of k4tog.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec 4-to-1-L",
+        "dec4-1L",
+        "left 4-to-1 dec",
+        "5-st left dec",
+        "dec4l",
+        "4-to-1-l",
+        "sl3-k1-p3sso"
+      ],
+      "alternate_names": [
+        "4-stitch left decrease",
+        "left-leaning quadruple decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, knit 1, pass all 3 slipped stitches over",
+        "sssk-k variant: work sssk then k2tog, or equivalent publisher-defined technique"
+      ],
+      "ambiguity_notes": [
+        "No universally standard single abbreviation. 'sl3-k1-p3sso' is descriptive. Some patterns write 'sl3 kwise, k1, p3sso'. 'dec4l' is a reasonable internal shorthand."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 stitches individually knitwise to right needle",
+        "Knit the next stitch",
+        "Pass all 3 slipped stitches over the knit stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_4_to_1_right",
+      "ws_equivalent": "dec_4_to_1_left_purl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "left_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_4_to_1_center",
+    "canonical_name": "Decrease 4 to 1 (Centered)",
+    "category": "decrease",
+    "subcategory": "multi_center",
+    "semantic_description": "A large centered decrease that reduces four stitches to one with the center stitch on top. A vertically-aligned quadruple decrease. Used in star motifs and dramatic lace decreases.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec4c",
+        "4-to-1-c",
+        "4-st cdd"
+      ],
+      "alternate_names": [
+        "centered quadruple decrease",
+        "4-stitch centered decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches together, knit 1, pass slipped stitches over \u2014 centered variant"
+      ],
+      "ambiguity_notes": [
+        "No standard abbreviation. These are typically pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 stitches together knitwise",
+        "Slip 1 stitch knitwise",
+        "Reorder so center stitch is on top",
+        "Knit 1 (the center stitch)",
+        "Pass remaining stitches over"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cdd"
+      ],
+      "ws_equivalent": "dec_4_to_1_center_purl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_5_to_1_right",
+    "canonical_name": "Decrease 5 to 1 (Right-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_right",
+    "semantic_description": "A dramatic right-leaning decrease reducing five stitches to one. Knit five stitches together. Used in star-top shaping, dramatic lace motifs, and entrelac endings.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec_5_to_1_right",
+        "dec5r",
+        "5-to-1-r",
+        "k5tog"
+      ],
+      "alternate_names": [
+        "knit five together",
+        "5-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 5 stitches together"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 5 stitches knitwise",
+        "Wrap yarn and pull through all 5",
+        "Slide all 5 old stitches off"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_5_to_1_left",
+      "ws_equivalent": "p5tog"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_5_to_1_left",
+    "canonical_name": "Decrease 5 to 1 (Left-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_left",
+    "semantic_description": "A dramatic left-leaning decrease reducing five stitches to one. The mirror of k5tog.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec5l",
+        "5-to-1-l"
+      ],
+      "alternate_names": [
+        "5-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 4 stitches individually knitwise, knit 1, pass all 4 slipped stitches over",
+        "sssk2 variant: work sssk then k2tog twice, or equivalent publisher-defined technique"
+      ],
+      "ambiguity_notes": [
+        "No standard abbreviation. Pattern-defined in most sources."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 4 stitches individually knitwise",
+        "Knit the next stitch",
+        "Pass all 4 slipped stitches over"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_5_to_1_right",
+      "ws_equivalent": "dec_5_to_1_left_purl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "left_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_6_to_1_right",
+    "canonical_name": "Decrease 6 to 1 (Right-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_right",
+    "semantic_description": "Reduces six stitches to one with a right lean. Rare but used in some star motifs and dramatic shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec_6_to_1_right",
+        "dec6r",
+        "6-to-1-r",
+        "k6tog"
+      ],
+      "alternate_names": [
+        "knit six together",
+        "6-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 6 stitches together"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 6 stitches knitwise",
+        "Wrap yarn and pull through all 6"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_6_to_1_left",
+      "ws_equivalent": "p6tog"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_6_to_1_left",
+    "canonical_name": "Decrease 6 to 1 (Left-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_left",
+    "semantic_description": "Reduces six stitches to one with a left lean. The mirror of k6tog.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec6l",
+        "6-to-1-l"
+      ],
+      "alternate_names": [
+        "6-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 5 stitches individually knitwise, knit 1, pass all 5 slipped stitches over"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 5 stitches individually knitwise",
+        "Knit the next stitch",
+        "Pass all 5 slipped stitches over"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_6_to_1_right",
+      "ws_equivalent": "dec_6_to_1_left_purl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "left_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_7_to_1_right",
+    "canonical_name": "Decrease 7 to 1 (Right-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_right",
+    "semantic_description": "Reduces seven stitches to one with a right lean. Very rare, used in some star and flower motifs.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec_7_to_1_right",
+        "dec7r",
+        "7-to-1-r",
+        "k7tog"
+      ],
+      "alternate_names": [
+        "knit seven together",
+        "7-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 7 stitches together"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle through the next 7 stitches knitwise",
+        "Wrap yarn and pull through all 7"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_7_to_1_left",
+      "ws_equivalent": "p7tog"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "dec_7_to_1_left",
+    "canonical_name": "Decrease 7 to 1 (Left-Leaning)",
+    "category": "decrease",
+    "subcategory": "multi_left",
+    "semantic_description": "Reduces seven stitches to one with a left lean.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec7l",
+        "7-to-1-l"
+      ],
+      "alternate_names": [
+        "7-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 6 stitches individually knitwise, knit 1, pass all 6 slipped stitches over"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 6 stitches individually knitwise",
+        "Knit the next stitch",
+        "Pass all 6 slipped stitches over"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_7_to_1_right",
+      "ws_equivalent": "dec_7_to_1_left_purl"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "left_leaning",
+      "multi_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "decrease_left",
+    "canonical_name": "Left-Leaning Decrease (Unspecified)",
+    "category": "decrease",
+    "subcategory": "single_left_generic",
+    "semantic_description": "A generic left-leaning single decrease symbol. Unlike exact operations such as SSK, SKP, or k2tog tbl, this entry represents a chart or legend item that specifies only the lean direction, not the exact mechanics. It is appropriate when the source distinguishes a generic left-slanting decrease from named methods.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec-left",
+        "left-dec",
+        "dec-l",
+        "slant-left"
+      ],
+      "alternate_names": [
+        "left-leaning decrease",
+        "left-slanting decrease",
+        "slant left"
+      ],
+      "written_forms": [
+        "work a left-leaning decrease as specified in the legend",
+        "decrease two stitches to one with a left slant"
+      ],
+      "source_specific": {
+        "marnen": [
+          "slant left"
+        ],
+        "stitchmastery": [
+          "decrease left-leaning",
+          "knitwise left-leaning decrease",
+          "k-l-dec"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic chart placeholder only. Should always resolve to a specific operation (ssk, sssk, skp) per pattern legend. Use only when the pattern gives a 'left decrease' symbol without specifying method."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning decrease method specified by the pattern or legend",
+        "Common realizations include SSK, SKP, or k2tog tbl depending on the designer's convention"
+      ]
+    },
+    "relationships": {
+      "mirror": "decrease_right",
+      "similar": [
+        "ssk",
+        "skp",
+        "k2tog_tbl"
+      ],
+      "ws_equivalent": "ssp"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "left_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "decrease_right",
+    "canonical_name": "Right-Leaning Decrease (Unspecified)",
+    "category": "decrease",
+    "subcategory": "single_right_generic",
+    "semantic_description": "A generic right-leaning single decrease symbol. Unlike exact operations such as k2tog, this entry captures sources that specify only a right slant without committing to a particular method. It is the mirror-image counterpart to a generic left-leaning decrease.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec-right",
+        "right-dec",
+        "dec-r",
+        "slant-right"
+      ],
+      "alternate_names": [
+        "right-leaning decrease",
+        "right-slanting decrease",
+        "slant right"
+      ],
+      "written_forms": [
+        "work a right-leaning decrease as specified in the legend",
+        "decrease two stitches to one with a right slant"
+      ],
+      "source_specific": {
+        "marnen": [
+          "slant right"
+        ],
+        "stitchmastery": [
+          "decrease right-leaning",
+          "knitwise right-leaning decrease",
+          "k-r-dec"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic placeholder. Always prefer k2tog or specific form."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the right-leaning decrease method specified by the pattern or legend",
+        "Common realizations include k2tog or a source-specific right-slanting decrease"
+      ]
+    },
+    "relationships": {
+      "mirror": "decrease_left",
+      "similar": [
+        "k2tog"
+      ],
+      "ws_equivalent": "p2tog"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "right_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "decrease_unspecified",
+    "canonical_name": "Decrease (Unspecified)",
+    "category": "decrease",
+    "subcategory": "single_unspecified",
+    "semantic_description": "A generic decrease symbol whose exact lean or method is not specified. This represents a legend-level decrease instruction rather than a named operation such as k2tog or SSK. It should only be used when the source truly leaves the decrease unspecified.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec",
+        "decrease",
+        "dc"
+      ],
+      "alternate_names": [
+        "generic decrease",
+        "unspecified decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "decrease",
+          "decorates decrease",
+          "decorates decreases"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'dec' as a general term. 'dc' in a knitting context is fine but can look like crochet double crochet \u2014 flag if pattern may be mixed craft. Use only as last resort when no directional information is given.",
+        "'dc' also means double crochet in crochet patterns; treat as ambiguous and resolve by context"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Follow the pattern's legend for the specific decrease method"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "decrease_left",
+        "decrease_right",
+        "k2tog",
+        "ssk"
+      ],
+      "ws_equivalent": "purl_decrease"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "ambiguous",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "purl_decrease",
+    "canonical_name": "Purl Decrease (Unspecified)",
+    "category": "decrease",
+    "subcategory": "single_purl_generic",
+    "semantic_description": "A generic purl-side decrease symbol. It identifies a decrease worked purlwise or on a purl ground without fully specifying whether the exact method is p2tog, SSP, or another purl decrease. It is more precise than a fully generic decrease, but less specific than a named purl decrease method.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "purl-dec",
+        "p-dec",
+        "p dec",
+        "pd"
+      ],
+      "alternate_names": [
+        "purl decrease",
+        "decrease on purl ground"
+      ],
+      "written_forms": [
+        "work a purl decrease as specified in the legend"
+      ],
+      "ambiguity_notes": [
+        "Generic purl decrease placeholder. 'pd' is rare and low-collision in pure knitting context."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the purl decrease method specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "p2tog",
+        "ssp"
+      ],
+      "ws_equivalent": "decrease_unspecified"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "purl_ground",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "decrease_tbl",
+    "canonical_name": "Decrease Through Back Loop (Generic)",
+    "category": "decrease",
+    "subcategory": "single_tbl_generic",
+    "semantic_description": "A generic decrease worked through the back loop or in a twisted orientation. This captures source symbols that indicate the decrease is twisted or back-looped without fully specifying whether the underlying method is knitwise or purlwise.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec-tbl",
+        "decrease-tbl"
+      ],
+      "alternate_names": [
+        "decrease through back loop",
+        "twisted decrease",
+        "back-loop decrease"
+      ],
+      "written_forms": [
+        "work the decrease through the back loop as specified in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "decrease through back loop"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic twisted decrease placeholder. Specific forms (k2tog-tbl, p2tog-tbl) should be preferred when known."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the named decrease through the back loop or crossed orientation specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "k2tog_tbl",
+        "p2tog_tbl",
+        "decrease_left",
+        "decrease_right"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "twisted",
+      "worked_tbl",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_3_to_1_right",
+    "canonical_name": "Decrease 3 to 1 (Right-Leaning)",
+    "category": "decrease",
+    "subcategory": "double_right_generic",
+    "semantic_description": "A generic right-leaning three-to-one decrease symbol. Unlike k3tog, this entry captures sources that identify the stitch-count change and lean direction without committing to one exact method. Marnen's JIS-derived symbol list and StitchMastery both distinguish a generic 3-to-1 right decrease from named methods.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec3r",
+        "3-to-1-r"
+      ],
+      "alternate_names": [
+        "decrease 3 to 1 right",
+        "3-to-1 right decrease",
+        "right-leaning 3-to-1 decrease"
+      ],
+      "written_forms": [
+        "work a three-to-one decrease with a right lean as specified in the legend"
+      ],
+      "source_specific": {
+        "marnen": [
+          "3 to 1 right"
+        ],
+        "stitchmastery": [
+          "decrease 3 to 1 - right leaning"
+        ]
+      },
+      "ambiguity_notes": [
+        "'k3tog' is the most common form for 3-to-1 right. 'dec3r' is an internal convenience abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the right-leaning 3-to-1 decrease method specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_3_to_1_left",
+      "similar": [
+        "k3tog",
+        "sssk",
+        "sk2p"
+      ],
+      "ws_equivalent": "p3tog"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "right_leaning",
+      "double_decrease",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_3_to_1_left",
+    "canonical_name": "Decrease 3 to 1 (Left-Leaning)",
+    "category": "decrease",
+    "subcategory": "double_left_generic",
+    "semantic_description": "A generic left-leaning three-to-one decrease symbol. It captures the left slant and the 3-to-1 stitch change without forcing a specific method such as SSSK or SK2P. This is distinct from exact named operations and is the mirror of a generic 3-to-1 right decrease.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec3l",
+        "3-to-1-l"
+      ],
+      "alternate_names": [
+        "decrease 3 to 1 left",
+        "3-to-1 left decrease",
+        "left-leaning 3-to-1 decrease"
+      ],
+      "written_forms": [
+        "work a three-to-one decrease with a left lean as specified in the legend"
+      ],
+      "source_specific": {
+        "marnen": [
+          "3 to 1 left"
+        ],
+        "stitchmastery": [
+          "decrease 3 to 1 - left leaning"
+        ]
+      },
+      "ambiguity_notes": [
+        "'sssk' is the most common form for 3-to-1 left. 'dec3l' is internal."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 3-to-1 decrease method specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "dec_3_to_1_right",
+      "similar": [
+        "sssk",
+        "sk2p",
+        "k3tog"
+      ],
+      "ws_equivalent": "sssp"
+    },
+    "tags": [
+      "decrease",
+      "generic",
+      "left_leaning",
+      "double_decrease",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bunny_ears_outward",
+    "canonical_name": "Bunny Ears Outward",
+    "category": "decrease",
+    "subcategory": "double_compound_outward",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BEO",
+        "bee-o",
+        "bunny ears outward",
+        "bunny ears back",
+        "BEB"
+      ],
+      "alternate_names": [
+        "bunny ears outward",
+        "double decrease outward",
+        "outward double decrease",
+        "k2tog-k-ssk compound"
+      ],
+      "written_forms": [
+        "compound decrease where two outer stitches decrease toward the outside; method varies by designer, consult legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "bunny ears outward",
+          "k2tog + ssk outward"
+        ]
+      },
+      "ambiguity_notes": [
+        "'Bunny ears outward' (also called 'outward double decrease') is the compound k2tog-then-ssk on the same stitch. Not in CYC. 'BEO' follows the pattern of the informal community name. Pattern-defined in most cases."
+      ]
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "compound",
+      "lace",
+      "double_decrease"
+    ],
+    "relationships": {
+      "similar": [
+        "k3tog",
+        "cdd"
+      ],
+      "mirror": "bunny_ears_inward",
+      "ws_equivalent": "rs_only"
+    },
+    "semantic_description": "Bunny Ears Outward \u2014 also called bunny ears outward, double decrease outward, outward double decrease. compound decrease where two outer stitches decrease toward the outside; method varies by designer, consult legend",
+    "execution": {
+      "rs": [
+        "compound decrease where two outer stitches decrease toward the outside; method varies by designer, consult legend"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bunny_ears_inward",
+    "canonical_name": "Bunny Ears Inward",
+    "category": "decrease",
+    "subcategory": "double_compound_inward",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BEI",
+        "bee-i",
+        "bunny ears inward"
+      ],
+      "alternate_names": [
+        "bunny ears inward",
+        "double decrease inward",
+        "inward double decrease",
+        "ssk-k-k2tog compound"
+      ],
+      "written_forms": [
+        "compound decrease where two outer stitches decrease toward the inside; method varies, consult legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "bunny ears inward",
+          "ssk + k2tog inward"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same situation as bunny_ears_outward but mirrored (ssk-then-k2tog). Community term not in CYC."
+      ]
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "compound",
+      "lace",
+      "double_decrease"
+    ],
+    "relationships": {
+      "similar": [
+        "sssk",
+        "cdd"
+      ],
+      "mirror": "bunny_ears_outward",
+      "ws_equivalent": "rs_only"
+    },
+    "semantic_description": "Bunny Ears Inward \u2014 also called bunny ears inward, double decrease inward, inward double decrease. compound decrease where two outer stitches decrease toward the inside; method varies, consult legend",
+    "execution": {
+      "rs": [
+        "compound decrease where two outer stitches decrease toward the inside; method varies, consult legend"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k3tog_tbl",
+    "canonical_name": "Knit Three Together Through Back Loop",
+    "category": "decrease",
+    "subcategory": "double_right",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k3tog-tbl",
+        "k3togtbl",
+        "k3tog tbl"
+      ],
+      "alternate_names": [
+        "knit three together through back loop",
+        "twisted k3tog"
+      ],
+      "written_forms": [
+        "insert needle knitwise through back loops of next 3 stitches simultaneously and knit together"
+      ],
+      "source_specific": {
+        "german": [
+          "3 re ab verschr.",
+          "3 M re abs verschr."
+        ]
+      }
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "right_leaning",
+      "twisted",
+      "double_decrease"
+    ],
+    "relationships": {
+      "variant_of": "k3tog",
+      "similar": [
+        "sssk"
+      ],
+      "ws_equivalent": "p3tog_tbl"
+    },
+    "semantic_description": "Knit Three Together Through Back Loop \u2014 also called knit three together through back loop, twisted k3tog. insert needle knitwise through back loops of next 3 stitches simultaneously and knit together",
+    "execution": {
+      "rs": [
+        "insert needle knitwise through back loops of next 3 stitches simultaneously and knit together"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_5_to_1_center",
+    "canonical_name": "Decrease 5 to 1 (Centered)",
+    "category": "decrease",
+    "subcategory": "multi_center",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec5c",
+        "5-to-1-c",
+        "5-st cdd"
+      ],
+      "alternate_names": [
+        "centered quintuple decrease",
+        "5-stitch centered decrease",
+        "5-to-1 center"
+      ],
+      "written_forms": [
+        "slip 4 stitches together knitwise, knit 1, pass all 4 slipped stitches over"
+      ],
+      "source_specific": {
+        "japanese_english": [
+          "5-to-1 center decrease"
+        ]
+      },
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "lace",
+      "multi_decrease"
+    ],
+    "relationships": {
+      "similar": [
+        "cdd",
+        "dec_5_to_1_right",
+        "dec_5_to_1_left"
+      ],
+      "ws_equivalent": "dec_5_to_1_center_purl"
+    },
+    "semantic_description": "Decrease 5 to 1 (Centered) \u2014 also called centered quintuple decrease, 5-stitch centered decrease, 5-to-1 center. slip 4 stitches together knitwise, knit 1, pass all 4 slipped stitches over",
+    "execution": {
+      "rs": [
+        "slip 4 stitches together knitwise, knit 1, pass all 4 slipped stitches over"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_6_to_1_center",
+    "canonical_name": "Decrease 6 to 1 (Centered)",
+    "category": "decrease",
+    "subcategory": "multi_center",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec6c",
+        "6-to-1-c"
+      ],
+      "alternate_names": [
+        "centered 6-stitch decrease",
+        "6-to-1 center"
+      ],
+      "written_forms": [
+        "work 6 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "lace",
+      "multi_decrease"
+    ],
+    "relationships": {
+      "similar": [
+        "dec_6_to_1_right",
+        "dec_6_to_1_left"
+      ],
+      "ws_equivalent": "dec_6_to_1_center_purl"
+    },
+    "semantic_description": "Decrease 6 to 1 (Centered) \u2014 also called centered 6-stitch decrease, 6-to-1 center. work 6 stitches together into 1 with a centered lean as specified in the pattern legend",
+    "execution": {
+      "rs": [
+        "work 6 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_7_to_1_center",
+    "canonical_name": "Decrease 7 to 1 (Centered)",
+    "category": "decrease",
+    "subcategory": "multi_center",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec7c",
+        "7-to-1-c"
+      ],
+      "alternate_names": [
+        "centered 7-stitch decrease",
+        "7-to-1 center"
+      ],
+      "written_forms": [
+        "work 7 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ],
+      "source_specific": {
+        "japanese_english": [
+          "7-to-1 center decrease"
+        ]
+      }
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "lace",
+      "multi_decrease"
+    ],
+    "relationships": {
+      "similar": [
+        "dec_7_to_1_right",
+        "dec_7_to_1_left"
+      ],
+      "ws_equivalent": "dec_7_to_1_center_purl"
+    },
+    "semantic_description": "Decrease 7 to 1 (Centered) \u2014 also called centered 7-stitch decrease, 7-to-1 center. work 7 stitches together into 1 with a centered lean as specified in the pattern legend",
+    "execution": {
+      "rs": [
+        "work 7 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "muhu_double_decrease",
+    "canonical_name": "Muhu Double Decrease",
+    "category": "decrease",
+    "subcategory": "double_center_estonian",
+    "semantic_description": "A centered double decrease from Estonian Muhu-island knitting tradition. The center stitch is slipped knitwise, the flanking stitches are worked together (typically through back loop), and the slipped stitch is passed over. Produces a 3-to-1 centered decrease with a distinctive stitch orientation used in Muhu colorwork and selvedge patterning.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Muhu DD",
+        "Muhu-DD",
+        "MuhuDD",
+        "Estonian DD"
+      ],
+      "alternate_names": [
+        "Muhu double decrease",
+        "Estonian double decrease",
+        "Muhu decrease",
+        "Muhu centered decrease"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, work flanking stitches together (often tbl), pass slipped stitch over"
+      ],
+      "ambiguity_notes": [
+        "Not in CYC. Estonian-specific. Usually defined in the pattern legend."
+      ],
+      "source_specific": {
+        "estonian": [
+          "Muhu DD"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip the center stitch knitwise",
+        "Work the two flanking stitches together (often tbl)",
+        "Pass the slipped center stitch over"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cdd"
+      ],
+      "variant_of": null,
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "centered",
+      "estonian",
+      "double_decrease",
+      "regional",
+      "muhu"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "delayed_slip_decrease",
+    "canonical_name": "Delayed Slip Decrease",
+    "category": "decrease",
+    "subcategory": "slip_deferred",
+    "semantic_description": "An Estonian technique where a stitch is slipped on the current row and the corresponding decrease is completed on the following row. The deferred action creates a sharper diagonal than a same-row decrease. Appears in Estonian lace and border patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "DSD",
+        "delayed slip",
+        "deferred slip"
+      ],
+      "alternate_names": [
+        "delayed slip decrease",
+        "deferred slip decrease",
+        "Estonian delayed decrease"
+      ],
+      "written_forms": [
+        "slip a stitch on this row; complete the decrease on the following row"
+      ],
+      "ambiguity_notes": [
+        "Not in CYC. Estonian-specific. Always defined in the pattern legend. Spans two rows mechanically."
+      ],
+      "source_specific": {
+        "estonian": [
+          "DSD"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip a stitch on this row without working it",
+        "On the next row where this stitch is worked, complete the decrease as specified"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "slip_purlwise",
+        "ssk",
+        "cdd"
+      ],
+      "variant_of": null,
+      "ws_equivalent": null
+    },
+    "tags": [
+      "decrease",
+      "advanced",
+      "estonian",
+      "slip",
+      "multi_row",
+      "regional",
+      "deferred"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "ksp",
+    "canonical_name": "Knit, Slip, Pass",
+    "category": "decrease",
+    "subcategory": "single_right",
+    "semantic_description": "A single right-leaning decrease. Knit 1 stitch, slip it back from the right needle to the left needle, pass the next stitch over it, and return the stitch to the right needle. Mechanically distinct from k2tog but produces a similar visual result. CYC-standard abbreviation 'ksp'.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "ksp"
+      ],
+      "alternate_names": [
+        "knit-slip-pass",
+        "k1, sl, pass over"
+      ],
+      "written_forms": [
+        "knit 1, slip stitch back to left needle, pass next stitch over, return stitch to right needle"
+      ],
+      "ambiguity_notes": [
+        "CYC-standard abbreviation. Produces a right-leaning single decrease similar to k2tog in appearance but with a different mechanical sequence. Note: don't confuse with 'skp' (slip-knit-pass) which is LEFT-leaning."
+      ],
+      "source_specific": {
+        "cyc": [
+          "ksp"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Knit the first stitch normally",
+        "Slip the just-knit stitch back to the left needle",
+        "Pass the next stitch on the left needle over the slipped stitch and off",
+        "Return the remaining stitch to the right needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "skp",
+      "similar": [
+        "k2tog"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "decrease",
+      "basic",
+      "right_leaning",
+      "alternative_mechanism"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p4tog",
+    "canonical_name": "Purl 4 Together",
+    "category": "decrease",
+    "subcategory": "multi_rightright",
+    "semantic_description": "Purl 4 stitches together as one, producing a right-leaning decrease as viewed from the right side (the RS counterpart of k4tog). Used on WS rows when a chart shows a right-leaning decrease symbol.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p4tog",
+        "purl 4 tog"
+      ],
+      "alternate_names": [
+        "purl 4 together",
+        "p4 together",
+        "right-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 4 stitches together as one"
+      ],
+      "ambiguity_notes": [
+        "Right-leaning purl decrease. WS equivalent of k4tog \u2014 when a right-leaning decrease symbol appears on a WS row, this is the action worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl 4 stitches together as one stitch"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_4_to_1_right",
+      "mirror": "dec_4_to_1_left",
+      "similar": [
+        "dec_4_to_1_right",
+        "p4tog"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p5tog",
+    "canonical_name": "Purl 5 Together",
+    "category": "decrease",
+    "subcategory": "multi_rightright",
+    "semantic_description": "Purl 5 stitches together as one, producing a right-leaning decrease as viewed from the right side (the RS counterpart of k5tog). Used on WS rows when a chart shows a right-leaning decrease symbol.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p5tog",
+        "purl 5 tog"
+      ],
+      "alternate_names": [
+        "purl 5 together",
+        "p5 together",
+        "right-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 5 stitches together as one"
+      ],
+      "ambiguity_notes": [
+        "Right-leaning purl decrease. WS equivalent of k5tog \u2014 when a right-leaning decrease symbol appears on a WS row, this is the action worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl 5 stitches together as one stitch"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_5_to_1_right",
+      "mirror": "dec_5_to_1_left",
+      "similar": [
+        "dec_5_to_1_right",
+        "p5tog"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p6tog",
+    "canonical_name": "Purl 6 Together",
+    "category": "decrease",
+    "subcategory": "multi_rightright",
+    "semantic_description": "Purl 6 stitches together as one, producing a right-leaning decrease as viewed from the right side (the RS counterpart of k6tog). Used on WS rows when a chart shows a right-leaning decrease symbol.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p6tog",
+        "purl 6 tog"
+      ],
+      "alternate_names": [
+        "purl 6 together",
+        "p6 together",
+        "right-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 6 stitches together as one"
+      ],
+      "ambiguity_notes": [
+        "Right-leaning purl decrease. WS equivalent of k6tog \u2014 when a right-leaning decrease symbol appears on a WS row, this is the action worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl 6 stitches together as one stitch"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_6_to_1_right",
+      "mirror": "dec_6_to_1_left",
+      "similar": [
+        "dec_6_to_1_right",
+        "p6tog"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p7tog",
+    "canonical_name": "Purl 7 Together",
+    "category": "decrease",
+    "subcategory": "multi_rightright",
+    "semantic_description": "Purl 7 stitches together as one, producing a right-leaning decrease as viewed from the right side (the RS counterpart of k7tog). Used on WS rows when a chart shows a right-leaning decrease symbol.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p7tog",
+        "purl 7 tog"
+      ],
+      "alternate_names": [
+        "purl 7 together",
+        "p7 together",
+        "right-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 7 stitches together as one"
+      ],
+      "ambiguity_notes": [
+        "Right-leaning purl decrease. WS equivalent of k7tog \u2014 when a right-leaning decrease symbol appears on a WS row, this is the action worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl 7 stitches together as one stitch"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_7_to_1_right",
+      "mirror": "dec_7_to_1_left",
+      "similar": [
+        "dec_7_to_1_right",
+        "p7tog"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_4_to_1_left_purl",
+    "canonical_name": "Left-Leaning 4-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_left_purl",
+    "semantic_description": "A left-leaning 4-to-1 decrease worked on the WS row as the purl counterpart of dec_4_to_1_left. When a chart shows the left-leaning 4-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec4p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 4-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 4-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_4_to_1_left"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_4_to_1_center_purl",
+    "canonical_name": "Centered 4-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_center_purl",
+    "semantic_description": "A center-leaning 4-to-1 decrease worked on the WS row as the purl counterpart of dec_4_to_1_center. When a chart shows the center-leaning 4-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec4p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 4-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the center-leaning 4-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_4_to_1_center"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "centered",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_5_to_1_left_purl",
+    "canonical_name": "Left-Leaning 5-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_left_purl",
+    "semantic_description": "A left-leaning 5-to-1 decrease worked on the WS row as the purl counterpart of dec_5_to_1_left. When a chart shows the left-leaning 5-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec5p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 5-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 5-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_5_to_1_left"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_5_to_1_center_purl",
+    "canonical_name": "Centered 5-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_center_purl",
+    "semantic_description": "A center-leaning 5-to-1 decrease worked on the WS row as the purl counterpart of dec_5_to_1_center. When a chart shows the center-leaning 5-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec5p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 5-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the center-leaning 5-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_5_to_1_center"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "centered",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_6_to_1_left_purl",
+    "canonical_name": "Left-Leaning 6-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_left_purl",
+    "semantic_description": "A left-leaning 6-to-1 decrease worked on the WS row as the purl counterpart of dec_6_to_1_left. When a chart shows the left-leaning 6-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec6p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 6-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 6-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_6_to_1_left"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_6_to_1_center_purl",
+    "canonical_name": "Centered 6-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_center_purl",
+    "semantic_description": "A center-leaning 6-to-1 decrease worked on the WS row as the purl counterpart of dec_6_to_1_center. When a chart shows the center-leaning 6-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec6p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 6-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the center-leaning 6-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_6_to_1_center"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "centered",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_7_to_1_left_purl",
+    "canonical_name": "Left-Leaning 7-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_left_purl",
+    "semantic_description": "A left-leaning 7-to-1 decrease worked on the WS row as the purl counterpart of dec_7_to_1_left. When a chart shows the left-leaning 7-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec7p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 7-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 7-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_7_to_1_left"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "dec_7_to_1_center_purl",
+    "canonical_name": "Centered 7-to-1 Purl Decrease",
+    "category": "decrease",
+    "subcategory": "multi_center_purl",
+    "semantic_description": "A center-leaning 7-to-1 decrease worked on the WS row as the purl counterpart of dec_7_to_1_center. When a chart shows the center-leaning 7-to-1 decrease symbol on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "dec7p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 7-to-1 purl decrease as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op \u2014 chart symbols that show this decrease on a WS row map here."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the center-leaning 7-to-1 purl decrease per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "dec_7_to_1_center"
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "centered",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sp2kp",
+    "canonical_name": "Slip, P2tog, Pass Slipped Stitch Over",
+    "category": "decrease",
+    "subcategory": "double_left",
+    "semantic_description": "A centered-left-leaning double decrease worked on the WS: slip one purlwise, p2tog, pass the slipped stitch over. The purl counterpart of sk2p (sl1, k2tog, psso), worked when a chart shows an sk2p symbol on a WS row.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sp2kp",
+        "sl1 p2tog psso",
+        "sp2p"
+      ],
+      "alternate_names": [
+        "slip purl 2 together pass over",
+        "purl sk2p"
+      ],
+      "written_forms": [
+        "sl1 purlwise, p2tog, psso"
+      ],
+      "ambiguity_notes": [
+        "WS counterpart of sk2p."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 purlwise, p2tog, pass the slipped stitch over."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "sk2p",
+      "similar": [
+        "pcdd"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "purl",
+      "left_leaning",
+      "double",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "s2kp",
+    "canonical_name": "Slip, Slip, Knit, Pass",
+    "category": "decrease",
+    "subcategory": "double_left",
+    "semantic_description": "A left-leaning 3-to-1 decrease read literally as 'slip-slip-knit-pass': slip 1 knitwise, slip 1 knitwise, knit 1, pass both slipped stitches over. The result is a left-leaning decrease distinct from CDD (which is centered). This op covers the literal letter-by-letter reading of 's2kp' some publishers use. CYC and JIS use 'S2KP' as an abbreviation for the centered CDD \u2014 if a pattern writes 'S2KP' without defining it, check the legend.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "s2kp (slip slip knit pass)",
+        "sl1-sl1-k1-p2sso",
+        "ss-k1-p2sso",
+        "slip slip knit pass"
+      ],
+      "alternate_names": [
+        "slip slip knit pass",
+        "literal s2kp",
+        "left-leaning slip-pass decrease"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, slip 1 knitwise, knit 1, pass both slipped stitches over the knit stitch"
+      ],
+      "ambiguity_notes": [
+        "Bare 'S2KP' / 's2kp' is CYC's abbreviation for the centered CDD. This op covers the alternate reading where s2kp is parsed literally as 'slip slip knit pass' and produces a left-leaning result. Use the pattern's legend to disambiguate."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip the next stitch knitwise to the right needle",
+        "Slip the next stitch knitwise to the right needle",
+        "Knit the next stitch",
+        "Pass both slipped stitches over the knit stitch together"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "rs_only",
+      "similar": [
+        "sssk",
+        "cdd",
+        "sk2p"
+      ]
+    },
+    "tags": [
+      "decrease",
+      "left_leaning",
+      "double",
+      "ambiguous_notation"
+    ],
+    "difficulty": "intermediate"
+  }
+]

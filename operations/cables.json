@@ -1,0 +1,1501 @@
+[
+  {
+    "id": "twist_right",
+    "canonical_name": "Twist Right",
+    "category": "cable",
+    "subcategory": "traveling_stitch",
+    "semantic_description": "A mini cable worked over 2 stitches without a cable needle. The right stitch crosses over the left, both knit. Creates a rightward-traveling knit stitch on a knit ground. The simplest cable unit \u2014 only 2 stitches wide. Can be worked by skipping the first stitch, knitting the second, then knitting the first, or by a quick reorientation on the needle.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "requires_cable_needle": false
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "RT",
+        "rt",
+        "T2R",
+        "t2r",
+        "TwR",
+        "twR",
+        "C2R",
+        "CR",
+        "right twist",
+        "2-st RT"
+      ],
+      "alternate_names": [
+        "twist right",
+        "right twist",
+        "2-stitch right twist",
+        "cross 2 right"
+      ],
+      "written_forms": [
+        "skip the first stitch, knit the second stitch, then knit the skipped stitch, slide both off",
+        "knit 2 stitches out of order, right over left",
+        "right twist: k2nd st on needle, then k1st st, sl both off together"
+      ],
+      "source_specific": {
+        "debbie_bliss": [
+          "T2R",
+          "T2B"
+        ],
+        "drops": [
+          "RT"
+        ]
+      },
+      "ambiguity_notes": [
+        "'RT' (right twist) is the most common US abbreviation (used by Purl Soho, Brooklyn Tweed, Interweave) but ALSO collides with '1/1 RC' cable notation in Stitchmastery and some publishers who use 'RT' for a needle-cable version. The distinction is mechanical: twist_right is typically worked without a cable needle (knit into 2nd stitch, then 1st, both slipped off). '1/1 RC' implies using a cable needle or a structural cross. When both appear in the same legend, treat as distinct. 'T2R' is the Rowan/Debbie Bliss convention for this same no-needle twist. 'C2R' is used by some US publishers.",
+        "'RT' and 'LT' are used both for 2-stitch no-cable-needle twists and for small cables. Some UK patterns use 'T2B'/'T2F' for traveling stitches on purl ground, which is a different operation (twist purl variants).",
+        "Symbols or glossaries labeled '1/1 RC' or '2-st Right Cable' are modeled separately as the explicit cable family worked with a cable needle.",
+        "Ratio-prefixed forms such as '1/1 RT', '2/1 RT', or '2/2 RT' usually refer to twisted cable stitches worked with a cable needle, not this no-cable-needle traveling stitch."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Skip the first stitch on the left needle",
+        "Insert right needle into the second stitch and knit it, leaving both stitches on left needle",
+        "Now knit the first (skipped) stitch",
+        "Slide both stitches off the left needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "twist_left",
+      "ws_equivalent": "rs_only",
+      "similar": [
+        "cable_1_1_rc"
+      ]
+    },
+    "tags": [
+      "cable",
+      "basic",
+      "traveling_stitch",
+      "right_cross",
+      "no_cable_needle"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "twist_left",
+    "canonical_name": "Twist Left",
+    "category": "cable",
+    "subcategory": "traveling_stitch",
+    "semantic_description": "A mini cable worked over 2 stitches without a cable needle. The left stitch crosses over the right, both knit. Creates a leftward-traveling knit stitch on a knit ground. The mirror of twist right.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "requires_cable_needle": false
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "LT",
+        "lt",
+        "T2L",
+        "t2l",
+        "TwL",
+        "twL",
+        "C2L",
+        "CL",
+        "left twist",
+        "2-st LT"
+      ],
+      "alternate_names": [
+        "twist left",
+        "left twist",
+        "2-stitch left twist",
+        "cross 2 left"
+      ],
+      "written_forms": [
+        "slip first stitch behind, knit second stitch through back loop, then knit first stitch, slide both off",
+        "knit 2 stitches out of order, left over right"
+      ],
+      "source_specific": {
+        "debbie_bliss": [
+          "T2L",
+          "T2F"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same collision as twist_right: 'LT' is the most common US abbreviation but collides with '1/1 LC' in some systems. 'T2L' is Rowan/Debbie Bliss convention.",
+        "Symbols or glossaries labeled '1/1 LC' or '2-st Left Cable' are modeled separately as the explicit cable family worked with a cable needle.",
+        "Ratio-prefixed forms such as '1/1 LT', '2/1 LT', or '2/2 LT' usually refer to twisted cable stitches worked with a cable needle, not this no-cable-needle traveling stitch."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Reach behind the first stitch on left needle",
+        "Knit the second stitch through the back loop (or from behind)",
+        "Then knit the first stitch normally",
+        "Slide both off the left needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "twist_right",
+      "ws_equivalent": "rs_only",
+      "similar": [
+        "cable_1_1_lc"
+      ]
+    },
+    "tags": [
+      "cable",
+      "basic",
+      "traveling_stitch",
+      "left_cross",
+      "no_cable_needle"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "twist_right_purl",
+    "canonical_name": "Twist Right Purl",
+    "category": "cable",
+    "subcategory": "traveling_stitch",
+    "semantic_description": "A 2-stitch traveling stitch where a knit stitch crosses rightward over a purl stitch. The right stitch is knit and the left (background) stitch is purled. Creates a knit stitch that travels diagonally to the right across a purl ground. Essential for Aran and Celtic cable patterns where cables travel across reverse stockinette backgrounds.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": false
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "TwRp",
+        "RPT",
+        "T2B",
+        "T2Bp",
+        "RTP",
+        "RtP",
+        "t2r-p"
+      ],
+      "alternate_names": [
+        "twist right purl",
+        "right purl twist",
+        "right purl cross",
+        "right traveling stitch"
+      ],
+      "written_forms": [
+        "slip 1 to cable needle and hold in back, knit 1, purl 1 from cable needle",
+        "right purl cross: 1 knit stitch travels right over 1 purl stitch"
+      ],
+      "source_specific": {
+        "alice_starmore": [
+          "T2B (twist 2 back)"
+        ],
+        "knitlingo": [
+          "RPT",
+          "T2Bp"
+        ]
+      },
+      "ambiguity_notes": [
+        "'T2B' (twist 2 back) is used by Rowan and Debbie Bliss specifically to mean: slip 1 to back, knit 1, purl slipped stitch \u2014 producing a right-leaning purl twist. Some patterns use 'RPT' (right purl twist). Rowan uses 'T2B' where the purl stitch goes behind. Collision: 'T2B' is also used by some publishers for a plain 2-stitch right cable \u2014 always verify with legend.",
+        "'T2B' in some publishers means 'twist 2 back' (right purl cross), in others it means 'twist 2' without purl (same as TwR). Context and the pattern's glossary are essential.",
+        "'RPT' and 'T2Bp' are also used for the same fabric result in some stitch glossaries, especially when the stitch is worked without a cable needle.",
+        "Symbols or glossaries labeled '1/1 RPC' or '2-st Right Purl Cable' are modeled separately as the explicit cable family notation.",
+        "Ratio-prefixed purl-twist forms such as '1/1 RPT' or '2/1 RPT' usually mean twisted cable crossings where the knit stitches are worked through the back loop."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at back of work",
+        "Knit 1 from left needle",
+        "Purl 1 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "twist_left_purl",
+      "ws_equivalent": "rs_only",
+      "similar": [
+        "cable_1_1_rpc"
+      ]
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "traveling_stitch",
+      "right_cross",
+      "purl_cross",
+      "aran"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "twist_left_purl",
+    "canonical_name": "Twist Left Purl",
+    "category": "cable",
+    "subcategory": "traveling_stitch",
+    "semantic_description": "A 2-stitch traveling stitch where a knit stitch crosses leftward over a purl stitch. The left stitch is knit and the right (background) stitch is purled. Creates a knit stitch that travels diagonally to the left across a purl ground. The mirror of twist right purl.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": false
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "TwLp",
+        "LPT",
+        "T2F",
+        "T2Fp",
+        "LTP",
+        "LtP",
+        "t2l-p"
+      ],
+      "alternate_names": [
+        "twist left purl",
+        "left purl twist",
+        "left purl cross",
+        "left traveling stitch"
+      ],
+      "written_forms": [
+        "slip 1 to cable needle and hold in front, purl 1, knit 1 from cable needle",
+        "left purl cross: 1 knit stitch travels left over 1 purl stitch"
+      ],
+      "source_specific": {
+        "alice_starmore": [
+          "T2F (twist 2 front)"
+        ],
+        "knitlingo": [
+          "LPT",
+          "T2Fp"
+        ]
+      },
+      "ambiguity_notes": [
+        "'T2F' (twist 2 front) is the Rowan/Debbie Bliss convention for left purl twist. 'LPT' is used by some US publishers. Same collision risk as T2B: can mean a plain cable cross in some patterns.",
+        "Symbols or glossaries labeled '1/1 LPC' or '2-st Left Purl Cable' are modeled separately as the explicit cable family notation.",
+        "Ratio-prefixed purl-twist forms such as '1/1 LPT' or '2/1 LPT' usually mean twisted cable crossings where the knit stitches are worked through the back loop."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at front of work",
+        "Purl 1 from left needle",
+        "Knit 1 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "twist_right_purl",
+      "ws_equivalent": "rs_only",
+      "similar": [
+        "cable_1_1_lpc"
+      ]
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "traveling_stitch",
+      "left_cross",
+      "purl_cross",
+      "aran"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_1_1_rc",
+    "canonical_name": "1/1 Right Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 2-stitch cable where the right stitch crosses over the left stitch. Both stitches are knit. This is the explicit 1/1 right-cross cable family used by chart legends and symbol sets such as '1/1 RC', '1/1 Right Cable', or '2-st Right Cable'. It usually implies a cable-style crossing worked with an auxiliary needle, even though the finished fabric can resemble a no-cable-needle right twist.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "1/1 RC",
+        "C2B",
+        "cable-1-1-rc",
+        "2-st RC"
+      ],
+      "alternate_names": [
+        "1/1 right cable",
+        "2-stitch right cable",
+        "2-st right cable",
+        "right cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at back, knit 1 from left needle, knit 1 from cable needle",
+        "1/1 right cross cable: sl1 to CN hold back, k1, k1 from CN"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "1/1 RC"
+        ],
+        "cyc": [
+          "1/1 Right Cable",
+          "2-st Right Cable"
+        ],
+        "jis": [
+          "Cable 1 1 Rc"
+        ]
+      },
+      "ambiguity_notes": [
+        "'1/1 RC' is the Stitchmastery standard. 'C2B' (cable 2 back) is used by many UK publishers (Rowan, Debbie Bliss) and means hold 1 st to back, k1, k1. 'RT' is used by some publishers for this same operation when done with a cable needle \u2014 collides with twist_right (no cable needle method). Context and legend are definitive.",
+        "This family is often visually similar to a no-cable-needle right twist, but symbol sets that explicitly label the operation as '1/1 RC' or '2-st Right Cable' are naming the cable-family notation, not the shorthand traveling-stitch instruction."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at the BACK of work",
+        "Knit 1 from left needle",
+        "Knit 1 from cable needle"
+      ],
+      "tools": [
+        "cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_1_1_lc",
+      "similar": [
+        "twist_right"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "standard_cable",
+      "small_cable",
+      "2_stitch_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_1_1_lc",
+    "canonical_name": "1/1 Left Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 2-stitch cable where the left stitch crosses over the right stitch. Both stitches are knit. This is the explicit 1/1 left-cross cable family used by chart legends and symbol sets such as '1/1 LC', '1/1 Left Cable', or '2-st Left Cable'. It usually implies a cable-style crossing worked with an auxiliary needle, even though the finished fabric can resemble a no-cable-needle left twist.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "1/1 LC",
+        "C2F",
+        "cable-1-1-lc",
+        "2-st LC"
+      ],
+      "alternate_names": [
+        "1/1 left cable",
+        "2-stitch left cable",
+        "2-st left cable",
+        "left cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at front, knit 1 from left needle, knit 1 from cable needle",
+        "1/1 left cross cable: sl1 to CN hold front, k1, k1 from CN"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "1/1 LC"
+        ],
+        "cyc": [
+          "1/1 Left Cable",
+          "2-st Left Cable"
+        ],
+        "jis": [
+          "Cable 1 1 Lc"
+        ]
+      },
+      "ambiguity_notes": [
+        "'1/1 LC' is the Stitchmastery standard. 'C2F' (cable 2 front) is the UK publisher equivalent. 'LT' collides with twist_left \u2014 same ambiguity as 1/1 RC vs RT.",
+        "This family is often visually similar to a no-cable-needle left twist, but symbol sets that explicitly label the operation as '1/1 LC' or '2-st Left Cable' are naming the cable-family notation, not the shorthand traveling-stitch instruction."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at the FRONT of work",
+        "Knit 1 from left needle",
+        "Knit 1 from cable needle"
+      ],
+      "tools": [
+        "cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_1_1_rc",
+      "similar": [
+        "twist_left"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "standard_cable",
+      "small_cable",
+      "2_stitch_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_1_1_rpc",
+    "canonical_name": "1/1 Right Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "purl_cross_cable",
+    "semantic_description": "A 2-stitch purl-cross cable where a knit stitch travels rightward over a purl stitch. This is the explicit 1/1 right purl cable family used by chart legends and symbol sets such as '1/1 RPC', '1/1 Right Purl Cable', or '2-st Right Purl Cable'.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "1/1 RPC",
+        "cable-1-1-rpc",
+        "2-st RPC",
+        "T2B"
+      ],
+      "alternate_names": [
+        "1/1 right purl cable",
+        "2-stitch right purl cable",
+        "2-st right purl cable",
+        "right purl cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at back, knit 1 from left needle, purl 1 from cable needle",
+        "1/1 right purl cross cable: sl1 to CN hold back, k1, p1 from CN"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "1/1 RPC"
+        ],
+        "cyc": [
+          "1/1 Right Purl Cable",
+          "2-st Right Purl Cable"
+        ],
+        "jis": [
+          "Cable 1 1 Rpc"
+        ],
+        "vogue_knitting": [
+          "1/1 RPC"
+        ]
+      },
+      "ambiguity_notes": [
+        "'1/1 RPC' is the Stitchmastery standard. 'C2BP' (cable 2 back purl) and 'T2B' both appear in UK patterns. 'T2B' collision with twist_right_purl: some publishers use T2B for purl-involving cable, some for purl-involving no-needle twist \u2014 always check legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at the BACK of work",
+        "Knit 1 from left needle",
+        "Purl 1 from cable needle"
+      ],
+      "tools": [
+        "cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_1_1_lpc",
+      "similar": [
+        "twist_right_purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "purl_cross",
+      "standard_cable",
+      "small_cable",
+      "2_stitch_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_1_1_lpc",
+    "canonical_name": "1/1 Left Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "purl_cross_cable",
+    "semantic_description": "A 2-stitch purl-cross cable where a knit stitch travels leftward over a purl stitch. This is the explicit 1/1 left purl cable family used by chart legends and symbol sets such as '1/1 LPC', '1/1 Left Purl Cable', or '2-st Left Purl Cable'.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        1,
+        1
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "1/1 LPC",
+        "cable-1-1-lpc",
+        "2-st LPC",
+        "T2F"
+      ],
+      "alternate_names": [
+        "1/1 left purl cable",
+        "2-stitch left purl cable",
+        "2-st left purl cable",
+        "left purl cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at front, purl 1 from left needle, knit 1 from cable needle",
+        "1/1 left purl cross cable: sl1 to CN hold front, p1, k1 from CN"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "1/1 LPC"
+        ],
+        "cyc": [
+          "1/1 Left Purl Cable",
+          "2-st Left Purl Cable"
+        ],
+        "jis": [
+          "Cable 1 1 Lpc"
+        ],
+        "vogue_knitting": [
+          "1/1 LPC"
+        ]
+      },
+      "ambiguity_notes": [
+        "'1/1 LPC' is the Stitchmastery standard. 'C2FP' and 'T2F' appear in UK patterns. Same T2F collision as twist_left_purl."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 stitch to cable needle and hold at the FRONT of work",
+        "Purl 1 from left needle",
+        "Knit 1 from cable needle"
+      ],
+      "tools": [
+        "cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_1_1_rpc",
+      "similar": [
+        "twist_left_purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "purl_cross",
+      "standard_cable",
+      "small_cable",
+      "2_stitch_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_2_rc",
+    "canonical_name": "2/2 Right Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 4-stitch cable where the right 2 stitches cross over the left 2 stitches. All 4 stitches are knit. The cable twists to the right when viewed from the RS. One of the most common cable widths \u2014 wide enough to be clearly visible, narrow enough to be worked frequently. Hold 2 stitches at the back, knit 2, knit 2 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 4,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        2,
+        2
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/2 RC",
+        "C4B",
+        "C4R",
+        "4-st RC",
+        "cable-2-2-rc"
+      ],
+      "alternate_names": [
+        "cable 4 back",
+        "2 over 2 right cross",
+        "4-stitch right cable",
+        "right cable cross"
+      ],
+      "written_forms": [
+        "slip 2 stitches to cable needle and hold at back, knit 2 from left needle, knit 2 from cable needle",
+        "cable 4 back: sl2 to CN hold back, k2, k2 from CN"
+      ],
+      "source_specific": {
+        "british": [
+          "C4B (cable 4 back = right cross)"
+        ],
+        "american_explicit": [
+          "2/2 RC"
+        ],
+        "vogue_knitting": [
+          "4-st RC"
+        ]
+      },
+      "ambiguity_notes": [
+        "'C4B' (cable 4 back) is the dominant UK/Rowan/Debbie Bliss form. '2/2 RC' is the Stitchmastery form. Both are extremely common. No genuine ambiguity between them \u2014 they map to the same operation. '4-st RC' is found in some US patterns.",
+        "C4B means 'cable 4, hold BACK' which produces a RIGHT cross. C4F means 'cable 4, hold FRONT' which produces a LEFT cross. The back/front refers to where the cable needle is held, not the visual direction. This is the #1 cable confusion point.",
+        "C4R means 'cable 4, RIGHT cross' \u2014 same operation, more intuitive naming."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip the next 2 stitches onto cable needle and hold at the BACK of work",
+        "Knit the next 2 stitches from left needle",
+        "Knit the 2 stitches from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_2_lc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "standard_cable",
+      "aran"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_2_lc",
+    "canonical_name": "2/2 Left Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 4-stitch cable where the left 2 stitches cross over the right 2 stitches. All 4 stitches are knit. The cable twists to the left when viewed from the RS. Hold 2 stitches at the front, knit 2, knit 2 from holder. The mirror of the 2/2 right cross.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 4,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        2,
+        2
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/2 LC",
+        "C4F",
+        "C4L",
+        "4-st LC",
+        "cable-2-2-lc"
+      ],
+      "alternate_names": [
+        "cable 4 front",
+        "2 over 2 left cross",
+        "4-stitch left cable",
+        "left cable cross"
+      ],
+      "written_forms": [
+        "slip 2 stitches to cable needle and hold at front, knit 2 from left needle, knit 2 from cable needle",
+        "cable 4 front: sl2 to CN hold front, k2, k2 from CN"
+      ],
+      "ambiguity_notes": [
+        "'C4F' (cable 4 front) is the dominant UK form. '2/2 LC' is Stitchmastery."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip the next 2 stitches onto cable needle and hold at the FRONT of work",
+        "Knit the next 2 stitches from left needle",
+        "Knit the 2 stitches from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_2_rc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "standard_cable",
+      "aran"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_2_rpc",
+    "canonical_name": "2/2 Right Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "purl_cross_cable",
+    "semantic_description": "A 4-stitch cable cross where 2 knit stitches travel rightward over 2 purl stitches. The purl stitches form the background, and the knit stitches cross in front moving right. Used in Aran patterns where cables travel across a purl (reverse stockinette) ground. Hold 2 purl stitches at front, knit 2, purl 2 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 4,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        2,
+        2
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/2 RPC",
+        "T4B",
+        "4-st RPC",
+        "cable-2-2-rpc"
+      ],
+      "alternate_names": [
+        "2 over 2 right purl cross",
+        "traveling cable right",
+        "right purl cable cross"
+      ],
+      "written_forms": [
+        "slip 2 to cable needle and hold at back, knit 2, purl 2 from cable needle",
+        "right purl cross: sl2 to CN hold back, k2, p2 from CN"
+      ],
+      "ambiguity_notes": [
+        "'C4BP' (cable 4 back purl) and 'T4B' (twist 4 back) are both used by UK publishers. Rowan uses T4B. Some patterns use 'C4BP'. All mean: hold 2 sts to back, k2, p2."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 stitches to cable needle, hold at BACK",
+        "Knit 2 from left needle",
+        "Purl 2 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_2_lpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "purl_cross",
+      "aran",
+      "traveling"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_2_lpc",
+    "canonical_name": "2/2 Left Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "purl_cross_cable",
+    "semantic_description": "A 4-stitch cable cross where 2 knit stitches travel leftward over 2 purl stitches. The mirror of the 2/2 right purl cross. Hold 2 knit stitches at front, purl 2, knit 2 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 4,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        2,
+        2
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/2 LPC",
+        "T4F",
+        "4-st LPC",
+        "cable-2-2-lpc"
+      ],
+      "alternate_names": [
+        "2 over 2 left purl cross",
+        "traveling cable left",
+        "left purl cable cross"
+      ],
+      "written_forms": [
+        "slip 2 to cable needle and hold at front, purl 2, knit 2 from cable needle",
+        "left purl cross: sl2 to CN hold front, p2, k2 from CN"
+      ],
+      "ambiguity_notes": [
+        "'C4FP' and 'T4F' are UK publisher equivalents. Rowan uses T4F."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 stitches to cable needle, hold at FRONT",
+        "Purl 2 from left needle",
+        "Knit 2 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_2_rpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "purl_cross",
+      "aran",
+      "traveling"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_3_3_rc",
+    "canonical_name": "3/3 Right Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 6-stitch cable where the right 3 stitches cross over the left 3 stitches. All 6 stitches are knit. A bold, chunky cable. Hold 3 at back, knit 3, knit 3 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 6,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        3,
+        3
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "3/3 RC",
+        "C6B",
+        "C6R",
+        "6-st RC",
+        "cable-3-3-rc"
+      ],
+      "alternate_names": [
+        "cable 6 back",
+        "3 over 3 right cross",
+        "6-stitch right cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold back, k3, k3 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "3/3 Right Cable",
+          "6-st Right Cable"
+        ],
+        "vogue_knitting": [
+          "6-st RC"
+        ],
+        "jis": [
+          "Cable 3 3 Rc"
+        ]
+      },
+      "ambiguity_notes": [
+        "'C6B' is the dominant UK form. '3/3 RC' is Stitchmastery."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 to cable needle, hold at back",
+        "Knit 3 from left needle",
+        "Knit 3 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_3_3_lc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "standard_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_3_3_lc",
+    "canonical_name": "3/3 Left Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A 6-stitch cable where the left 3 stitches cross over the right 3. All knit. Hold 3 at front, knit 3, knit 3 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 6,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        3,
+        3
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "3/3 LC",
+        "C6F",
+        "C6L",
+        "6-st LC",
+        "cable-3-3-lc"
+      ],
+      "alternate_names": [
+        "cable 6 front",
+        "3 over 3 left cross",
+        "6-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold front, k3, k3 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "3/3 Left Cable",
+          "6-st Left Cable"
+        ],
+        "vogue_knitting": [
+          "6-st LC"
+        ],
+        "jis": [
+          "Cable 3 3 Lc"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 to cable needle, hold at front",
+        "Knit 3 from left needle",
+        "Knit 3 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_3_3_rc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "standard_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_4_4_rc",
+    "canonical_name": "4/4 Right Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A large 8-stitch cable where the right 4 stitches cross over the left 4. Creates a dramatic, bold cable rope. Hold 4 at back, knit 4, knit 4 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 8,
+      "stitches_out": 8,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        4,
+        4
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "4/4 RC",
+        "C8B",
+        "C8R",
+        "8-st RC",
+        "cable-4-4-rc"
+      ],
+      "alternate_names": [
+        "cable 8 back",
+        "4 over 4 right cross",
+        "8-stitch right cable"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold back, k4, k4 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "4/4 Right Cable",
+          "8-st Right Cable"
+        ],
+        "vogue_knitting": [
+          "8-st RC"
+        ],
+        "jis": [
+          "Cable 4 4 Rc"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip 4 to cable needle, hold at back",
+        "Knit 4 from left needle",
+        "Knit 4 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_4_4_lc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "standard_cable",
+      "bold"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_4_4_lc",
+    "canonical_name": "4/4 Left Cross Cable",
+    "category": "cable",
+    "subcategory": "standard_cable",
+    "semantic_description": "A large 8-stitch cable where the left 4 stitches cross over the right 4. Hold 4 at front, knit 4, knit 4 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 8,
+      "stitches_out": 8,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        4,
+        4
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "4/4 LC",
+        "C8F",
+        "C8L",
+        "8-st LC",
+        "cable-4-4-lc"
+      ],
+      "alternate_names": [
+        "cable 8 front",
+        "4 over 4 left cross",
+        "8-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold front, k4, k4 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "4/4 Left Cable",
+          "8-st Left Cable"
+        ],
+        "vogue_knitting": [
+          "8-st LC"
+        ],
+        "jis": [
+          "Cable 4 4 Lc"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip 4 to cable needle, hold at front",
+        "Knit 4 from left needle",
+        "Knit 4 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_4_4_rc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "standard_cable",
+      "bold"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_1_rc",
+    "canonical_name": "2/1 Right Cross Cable",
+    "category": "cable",
+    "subcategory": "asymmetric_cable",
+    "semantic_description": "An asymmetric 3-stitch cable where 2 stitches cross over 1 stitch to the right. All knit. Creates a smaller cable that's useful for diagonal lines and branching cable patterns. Hold 1 at back, knit 2, knit 1 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 3,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        2,
+        1
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/1 RC",
+        "C3B",
+        "3-st RC",
+        "cable-2-1-rc"
+      ],
+      "alternate_names": [
+        "cable 3 back",
+        "2 over 1 right cross"
+      ],
+      "written_forms": [
+        "slip 1 to CN hold back, k2, k1 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "2/1 Right Cable",
+          "3-st Right Cable"
+        ],
+        "vogue_knitting": [
+          "3-st RC"
+        ],
+        "jis": [
+          "Cable 2 1 Rc"
+        ]
+      },
+      "ambiguity_notes": [
+        "'C3B' is the UK publisher form for a 3-stitch right cable (2 over 1). Some patterns use 'C3R'. This is an asymmetric cable."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 1 to cable needle, hold at back",
+        "Knit 2 from left needle",
+        "Knit 1 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_1_lc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "right_cross",
+      "asymmetric_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_2_1_lc",
+    "canonical_name": "2/1 Left Cross Cable",
+    "category": "cable",
+    "subcategory": "asymmetric_cable",
+    "semantic_description": "An asymmetric 3-stitch cable where 2 stitches cross over 1 stitch to the left. All knit. Hold 2 at front, knit 1, knit 2 from holder.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 3,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        2,
+        1
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/1 LC",
+        "C3F",
+        "3-st LC",
+        "cable-2-1-lc"
+      ],
+      "alternate_names": [
+        "cable 3 front",
+        "2 over 1 left cross",
+        "3-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 2 to CN hold front, k1, k2 from CN"
+      ],
+      "source_specific": {
+        "cyc": [
+          "2/1 Left Cable",
+          "3-st Left Cable"
+        ],
+        "vogue_knitting": [
+          "3-st LC"
+        ],
+        "jis": [
+          "Cable 2 1 Lc"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 to cable needle, hold at front",
+        "Knit 1 from left needle",
+        "Knit 2 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_1_rc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "intermediate",
+      "left_cross",
+      "asymmetric_cable"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_3_1_3_rpc",
+    "canonical_name": "3/1/3 Right Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "three_element_cable",
+    "semantic_description": "A complex 7-stitch three-element right purl cross. Three knit stitches cross rightward over a single center purl stitch and then over three more knit stitches. Creates a dramatic wide cable with a center purl channel. Used in complex Aran panels.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 7,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        3,
+        1,
+        3
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "3/1/3 RPC",
+        "7-st RPC",
+        "cable-3-1-3-rpc"
+      ],
+      "alternate_names": [
+        "three-one-three right purl cross",
+        "wide right purl cable with center purl"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold back, k3, slip center st from CN back to left needle and purl it, k3 from CN"
+      ],
+      "ambiguity_notes": [
+        "No widely-used publisher shorthand for this specific 3-group cable. '3/1/3 RPC' is the Stitchmastery-style notation and the most unambiguous. Some patterns write it out in full."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 4 stitches to cable needle and hold at back",
+        "Knit 3 from left needle",
+        "Slip the center stitch from cable needle back to left needle and purl it",
+        "Knit 3 remaining stitches from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_3_1_3_lpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "advanced",
+      "right_cross",
+      "three_element",
+      "purl_cross",
+      "aran"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_3_1_3_lpc",
+    "canonical_name": "3/1/3 Left Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "three_element_cable",
+    "semantic_description": "The mirror of the 3/1/3 right purl cross. Three knit stitches cross leftward over a center purl stitch and three more knit stitches.",
+    "stitch_manipulation": {
+      "stitches_in": 7,
+      "stitches_out": 7,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        3,
+        1,
+        3
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "3/1/3 LPC",
+        "7-st LPC",
+        "cable-3-1-3-lpc"
+      ],
+      "alternate_names": [
+        "three-one-three left purl cross"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold front, slip next st to 2nd CN hold back, k3, p1 from back CN, k3 from front CN"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 stitches to first cable needle, hold at front",
+        "Slip 1 center stitch to second cable needle, hold at back",
+        "Knit 3 from left needle",
+        "Purl 1 from back cable needle",
+        "Knit 3 from front cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_3_1_3_rpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "advanced",
+      "left_cross",
+      "three_element",
+      "purl_cross",
+      "aran"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_2_1_2_rpc",
+    "canonical_name": "2/1/2 Right Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "three_element_cable",
+    "semantic_description": "A 5-stitch three-element right purl cross. Two knit stitches cross rightward over a single center purl stitch and then over two more knit stitches. It is the 5-stitch counterpart to the 3/1/3 purl-cross cable.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 5,
+      "lean": "right",
+      "cross_direction": "right",
+      "cable_groups": [
+        2,
+        1,
+        2
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/1/2 RPC",
+        "5-st RPC",
+        "cable-2-1-2-rpc"
+      ],
+      "alternate_names": [
+        "two-one-two right purl cross",
+        "5-stitch right purl cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold back, k2, slip center st from CN to left needle and purl it, k2 from CN"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 3 stitches to cable needle, hold at back",
+        "Knit 2 from left needle",
+        "Slip center stitch from CN back to left needle, purl it",
+        "Knit 2 from cable needle"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_1_2_lpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "advanced",
+      "right_cross",
+      "three_element",
+      "purl_cross"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_2_1_2_lpc",
+    "canonical_name": "2/1/2 Left Purl Cross Cable",
+    "category": "cable",
+    "subcategory": "three_element_cable",
+    "semantic_description": "The mirror of the 2/1/2 right purl cross. Two knit stitches cross leftward over a center purl stitch and two more knit stitches.",
+    "stitch_manipulation": {
+      "stitches_in": 5,
+      "stitches_out": 5,
+      "lean": "left",
+      "cross_direction": "left",
+      "cable_groups": [
+        2,
+        1,
+        2
+      ],
+      "purl_cross": true,
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "2/1/2 LPC",
+        "5-st LPC",
+        "cable-2-1-2-lpc"
+      ],
+      "alternate_names": [
+        "two-one-two left purl cross",
+        "5-stitch left purl cable"
+      ],
+      "written_forms": [
+        "slip 2 to CN hold front, slip 1 to 2nd CN hold back, k2, p1 from back CN, k2 from front CN"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip 2 to first CN, hold front",
+        "Slip 1 to second CN, hold back",
+        "Knit 2 from left needle",
+        "Purl 1 from back CN",
+        "Knit 2 from front CN"
+      ]
+    },
+    "relationships": {
+      "mirror": "cable_2_1_2_rpc",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cable",
+      "advanced",
+      "left_cross",
+      "three_element",
+      "purl_cross"
+    ],
+    "difficulty": "advanced"
+  }
+]

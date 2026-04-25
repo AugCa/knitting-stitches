@@ -1,0 +1,131 @@
+[
+  {
+    "id": "selvedge",
+    "canonical_name": "Selvedge Stitch",
+    "category": "edge",
+    "subcategory": "selvedge",
+    "semantic_description": "A dedicated edge stitch at the beginning or end of a row that creates a neat, stable selvage for seaming or finishing. The most common selvedge technique is to slip the first stitch of every row purlwise with yarn in back. Not shown in the chart repeat but accounted for in total stitch count. Creates a chain-like edge that is easy to pick up for seaming.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "selv",
+        "selvedge",
+        "selvage",
+        "edge st",
+        "chain selvage"
+      ],
+      "alternate_names": [
+        "selvedge stitch",
+        "selvage stitch",
+        "edge stitch",
+        "border stitch",
+        "chain selvedge",
+        "garter selvedge",
+        "slip-stitch selvedge"
+      ],
+      "written_forms": [
+        "slip the first stitch of the row purlwise with yarn in back",
+        "selvedge: sl 1 pwise wyib at beginning of row",
+        "work edge stitch as established",
+        "chain selvedge: sl 1 kwise with yarn in front at beg of row",
+        "garter selvedge: knit first and last stitch of every row"
+      ],
+      "source_specific": {
+        "german_english": [
+          "Randmasche (edge stitch)",
+          "Kettmasche (chain edge stitch)"
+        ],
+        "japanese_english": [
+          "edge stitch"
+        ],
+        "cocoknits": [
+          "edge stitch"
+        ]
+      },
+      "ambiguity_notes": [
+        "'Selvedge' and 'selvage' are both accepted spellings. In chart form this is usually a visual border mark, not an abbreviation. 'sl 1 wyif' is the most common mechanical instruction for chain selvedge. Different selvedge methods (garter, slip, yarnover) may all be labeled 'selv' in a legend.",
+        "Many selvedge methods exist: slip purlwise wyib, slip knitwise, knit first stitch, purl first stitch, garter selvedge. 'Selvedge' alone doesn't specify which technique \u2014 check pattern instructions.",
+        "Selvedge stitches are often NOT shown in charts but ARE counted in the cast-on number. This causes confusion when counting chart stitches vs. total stitches."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "At the beginning of a RS row: slip the first stitch purlwise with yarn in back",
+        "At the end of the row: knit or purl the last stitch as specified",
+        "This creates one selvedge stitch \u2014 repeat at each edge"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": null
+    },
+    "tags": [
+      "edge",
+      "basic",
+      "finishing",
+      "seaming"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "icord_edge",
+    "canonical_name": "I-Cord Edge",
+    "category": "edge",
+    "subcategory": "icord",
+    "semantic_description": "An applied i-cord that creates a rounded, tube-like edge on the fabric. Instead of a flat selvedge, 3 edge stitches are worked in a continuous i-cord technique: knit 2, knit the 3rd stitch together with the first body stitch (attaching the cord to the fabric). The i-cord stitches are then slid back to the left needle without turning. Creates a polished, professional edge that doesn't require separate finishing.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "i-cord edge",
+        "i-cord selvedge",
+        "applied i-cord",
+        "attached i-cord"
+      ],
+      "alternate_names": [
+        "i-cord selvedge",
+        "applied i-cord edging",
+        "knitted cord edge",
+        "attached i-cord",
+        "i-cord border",
+        "3-st i-cord edge"
+      ],
+      "written_forms": [
+        "k2, ssk (joining last cord st with first body st), slide 3 sts back to left needle",
+        "applied i-cord: knit 3 cord stitches, attach to body by working together with edge",
+        "applied i-cord selvedge: k2, ssk (cord + body st), slide 3 back"
+      ],
+      "source_specific": {
+        "westknits": [
+          "applied i-cord"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Knit 2 i-cord stitches",
+        "SSK the 3rd i-cord stitch together with the next body stitch",
+        "Slide all 3 i-cord stitches back to left needle (do NOT turn)",
+        "Pull yarn tight across back",
+        "Repeat"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "edge",
+      "intermediate",
+      "icord",
+      "finishing",
+      "decorative"
+    ],
+    "difficulty": "intermediate"
+  }
+]

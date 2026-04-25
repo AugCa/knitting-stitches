@@ -1,0 +1,568 @@
+[
+  {
+    "id": "no_stitch",
+    "canonical_name": "No Stitch",
+    "category": "structural",
+    "subcategory": "placeholder",
+    "semantic_description": "A chart placeholder indicating that no stitch exists at this position. Used to create shaped (non-rectangular) charts \u2014 for example, a triangular shawl chart uses no-stitch cells to pad rows to a rectangular grid. No-stitch cells are skipped entirely during knitting; they do not represent any physical action. Must be excluded from stitch count calculations.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "no stitch",
+        "nostitch",
+        "-",
+        "N/A",
+        "place holder",
+        "no st",
+        "no-st",
+        "NS",
+        "n/s"
+      ],
+      "alternate_names": [
+        "no stitch",
+        "blank cell",
+        "placeholder",
+        "non-existent stitch",
+        "gray cell",
+        "shaded cell",
+        "empty position",
+        "chart filler"
+      ],
+      "written_forms": [
+        "no stitch \u2014 skip this position in the chart",
+        "this cell does not represent a stitch"
+      ],
+      "ambiguity_notes": [
+        "'No stitch' is a chart convention (gray or empty cell) indicating that stitch does not exist at that point in the row due to shaping. It is not an instruction \u2014 it has no physical action. SM and all major charting tools use a filled/gray cell. 'NS' is reasonable as a text-field label."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Skip \u2014 no physical action. This cell is a chart layout placeholder only."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "chart_layout",
+      "placeholder"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "place_marker",
+    "canonical_name": "Place Marker",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "Places a stitch marker on the needle between the previous and next stitch. Markers serve as reference points for pattern repeats, shaping positions, or section boundaries. No stitch is consumed or produced \u2014 the marker sits between stitches on the needle and is slipped from needle to needle on subsequent rows. Not a knitting operation on yarn.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "pm",
+        "PM",
+        "place marker",
+        "m",
+        "mark"
+      ],
+      "alternate_names": [
+        "place marker",
+        "set marker"
+      ],
+      "written_forms": [
+        "place a stitch marker on the needle",
+        "pm: place marker between stitches"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'pm' and 'm' as separate entries (pm = place marker, m = marker). 'M' can be confused with M1 (make one) in uppercase contexts. In chart legends, 'pm' is unambiguous. 'SM' = slip marker, distinct from 'pm'.",
+        "'m' alone collides with 'make' (e.g. m1). Disambiguate by context.",
+        "'M' in some older notation means yarn_over. In modern patterns M usually means marker placement."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slide a stitch marker onto the right needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "slip_marker",
+        "remove_marker"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker",
+      "navigation"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "slip_marker",
+    "canonical_name": "Slip Marker",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "Transfers a stitch marker from the left needle to the right needle as you knit past it. No stitch manipulation occurs. Appears in written instructions to remind the knitter that a marker exists at this point.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sm",
+        "SM",
+        "slip marker",
+        "sl m",
+        "slm"
+      ],
+      "alternate_names": [
+        "slip marker"
+      ],
+      "written_forms": [
+        "slip the marker from left needle to right needle",
+        "sm: transfer marker"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'sm'. 'SM' uppercase is also the Stitchmastery abbreviation prefix \u2014 context should disambiguate. 'sl m' is a longer form. In chart cells this rarely appears as a symbol.",
+        "'sm' collides with the StitchMastery brand abbreviation used as a symbol-source prefix."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "When you reach the marker, simply slide it from left needle to right needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "place_marker"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "move_marker",
+    "canonical_name": "Move Marker",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "Repositions an existing stitch marker along the needle without changing the yarn structure. In chart systems, left and right variants indicate the direction in which the marker is shifted relative to the chart or fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "move marker",
+        "mm"
+      ],
+      "alternate_names": [
+        "reposition marker",
+        "shift marker"
+      ],
+      "written_forms": [
+        "move the marker to a new position on the needle",
+        "reposition the existing stitch marker"
+      ],
+      "ambiguity_notes": [
+        "'mm' is heavily ambiguous (millimeter is the dominant meaning in a general context, though knitting patterns sometimes use it for move marker). Prefer 'move marker' as the spelled-out form."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Reposition the existing marker according to the pattern or chart direction",
+        "Do not create, remove, or knit a yarn stitch while moving the marker"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "slip_marker",
+        "place_marker",
+        "remove_marker"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker",
+      "navigation",
+      "reposition"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "move_marker_left",
+    "canonical_name": "Move Marker Left",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "A directional marker-reposition symbol indicating that the marker should be moved toward the left side of the chart or fabric. This is distinct from a generic slip-marker reminder.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "move marker left",
+        "mml"
+      ],
+      "alternate_names": [
+        "shift marker left",
+        "reposition marker left"
+      ],
+      "written_forms": [
+        "move marker left",
+        "reposition the marker toward the left side"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined instruction; not a chart symbol in any standard convention. 'mml' follows the 'mm' convention but adds direction."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Move the existing marker in the leftward direction indicated by the chart or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "move_marker_right",
+      "variant_of": "move_marker",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker",
+      "navigation",
+      "reposition",
+      "left"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "move_marker_right",
+    "canonical_name": "Move Marker Right",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "A directional marker-reposition symbol indicating that the marker should be moved toward the right side of the chart or fabric. This is distinct from a generic slip-marker reminder.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "move marker right",
+        "mmr"
+      ],
+      "alternate_names": [
+        "shift marker right",
+        "reposition marker right"
+      ],
+      "written_forms": [
+        "move marker right",
+        "reposition the marker toward the right side"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Move the existing marker in the rightward direction indicated by the chart or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "move_marker_left",
+      "variant_of": "move_marker",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker",
+      "navigation",
+      "reposition",
+      "right"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "remove_marker",
+    "canonical_name": "Remove Marker",
+    "category": "structural",
+    "subcategory": "marker",
+    "semantic_description": "Removes a stitch marker from the needle entirely. Used when a marker is no longer needed (e.g., after completing a shaping section).",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "rm",
+        "RM",
+        "remove marker"
+      ],
+      "alternate_names": [
+        "remove marker"
+      ],
+      "written_forms": [
+        "remove the marker from the needle"
+      ],
+      "ambiguity_notes": [
+        "'rm' is clean and unambiguous in a knitting context."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Remove the marker from the needle and set aside"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "place_marker"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "marker"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "stitch_remainder",
+    "canonical_name": "Stitch Remainder",
+    "category": "structural",
+    "subcategory": "holding",
+    "semantic_description": "Indicates that stitches should be held on waste yarn or a stitch holder, not bound off. The stitches remain live for later use (e.g., neckline stitches held while shoulders are shaped, then picked up for a collar). The stitch count changes on the active needle but the stitches are not consumed \u2014 they are parked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "hold",
+        "sl to holder",
+        "WY",
+        "place on holder",
+        "st rem",
+        "place on WY"
+      ],
+      "alternate_names": [
+        "stitch remainder",
+        "hold stitches",
+        "place on stitch holder",
+        "place on waste yarn",
+        "stitch holder"
+      ],
+      "written_forms": [
+        "place remaining stitches on a stitch holder or waste yarn",
+        "hold these stitches for later"
+      ],
+      "ambiguity_notes": [
+        "Not a chart symbol in the conventional sense. Used in pattern instructions when stitches are set aside. 'WY' (waste yarn) is the common shorthand for placing stitches on waste yarn rather than a physical holder."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Transfer the designated stitches to a stitch holder or length of waste yarn",
+        "Continue working the remaining active stitches"
+      ],
+      "tools": [
+        "stitch holder or waste yarn"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "basic",
+      "holding",
+      "construction"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "short_row",
+    "canonical_name": "Short Row (Generic)",
+    "category": "structural",
+    "subcategory": "shaping",
+    "semantic_description": "A method-agnostic short-row turning point. Marks the position where the work is turned without continuing across the full row. Distinct from wrap_and_turn (specific technique) and german_short_row (specific technique). Used when the chart marks a turn but the technique is left to the knitter or specified elsewhere.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "SR",
+        "sr"
+      ],
+      "alternate_names": [
+        "short row",
+        "short row turn",
+        "short-row marker"
+      ],
+      "written_forms": [
+        "turn the work and continue in the opposite direction without working across the rest of the row"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "Short row"
+        ]
+      },
+      "ambiguity_notes": [
+        "'SR' is used by many publishers. 'turn' is the bare instruction. These can appear in chart form as a special symbol on the row end. The specific short-row technique (wrap-and-turn, German, Japanese, yo) is usually specified separately.",
+        "Generic short-row marker. If the pattern specifies wrap-and-turn or German short row technique, use those operations instead."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Turn the work at the indicated point and begin the next row in the opposite direction"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "wrap_and_turn",
+        "german_short_row",
+        "japanese_short_row"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "shaping",
+      "short_row"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "japanese_short_row",
+    "canonical_name": "Japanese Short Row",
+    "category": "structural",
+    "subcategory": "shaping",
+    "semantic_description": "A short-row technique using removable markers (often safety pins or yarn loops) hooked into the wrap. When closing the gap, the marker is pulled to lift the wrap onto the needle. Produces a nearly invisible turn.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "JSR",
+        "J-SR"
+      ],
+      "alternate_names": [
+        "Japanese short row",
+        "Japanese turn",
+        "pin-marker short row"
+      ],
+      "written_forms": [
+        "turn the work, place a removable marker around the working yarn at the turn point"
+      ],
+      "source_specific": {},
+      "ambiguity_notes": [
+        "'JSR' is the Ravelry/community standard for Japanese short row. Used by Norah Gaughan, Joji Locatelli, and many modern designers. The pin/marker is placed after turning, and picked up with the stitch on the return row."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Turn the work at the indicated point",
+        "Attach a removable marker to the working yarn at the turn",
+        "When closing the short-row gap, pull the marker to lift the wrap onto the needle and work it together with the next stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "wrap_and_turn",
+        "german_short_row",
+        "short_row"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "structural",
+      "shaping",
+      "short_row",
+      "japanese"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "yarn_over_short_row",
+    "canonical_name": "Yarn Over Short Row",
+    "category": "structural",
+    "subcategory": "yarn_over",
+    "semantic_description": "A short-row method where a yarn over replaces the traditional wrap or double stitch at the turning point. The yarn over is placed before or after turning (depending on the method), then worked as a decrease with the adjacent stitch on the return pass. Featured prominently in Sock Architecture by Lara Neel.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "yo SR",
+        "YO SR",
+        "yarn over short row",
+        "yo short row"
+      ],
+      "alternate_names": [
+        "yarn over short row",
+        "yo short row method"
+      ],
+      "written_forms": [
+        "work to turning point, yo, turn, yo, work to next turning point",
+        "yarn over short row: place yo at turning point to be closed on return pass"
+      ],
+      "source_specific": {
+        "sock_architecture": [
+          "yarn over short row",
+          "yo short row"
+        ]
+      },
+      "ambiguity_notes": [
+        "A specific short-row method (used by some designers including Amy Herzog and others) where a yo replaces the wrap. 'YO SR' is unambiguous in context. Not in CYC."
+      ]
+    },
+    "tags": [
+      "short_row",
+      "intermediate",
+      "shaping",
+      "sock"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "german_short_row",
+        "wrap_and_turn"
+      ],
+      "ws_equivalent": null
+    },
+    "execution": {
+      "rs": [
+        "work to turning point, yo, turn, yo, work to next turning point",
+        "yarn over short row: place yo at turning point to be closed on return pass"
+      ]
+    }
+  }
+]

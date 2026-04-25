@@ -1,0 +1,3167 @@
+[
+  {
+    "id": "kfb",
+    "canonical_name": "Knit Front and Back",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "A bar increase that creates two stitches from one by knitting into the front and then the back of the same stitch before sliding it off. Leaves a visible horizontal bar (purl bump) at the base of the second stitch. One of the most common and easiest increases. The visible bar makes it easy to count but less invisible than M1 variants.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "kfb",
+        "KFB",
+        "k1f&b",
+        "k1fb",
+        "knit front and back",
+        "k-front-back",
+        "kf&b",
+        "kf/b",
+        "kfab",
+        "inc1"
+      ],
+      "alternate_names": [
+        "knit front and back",
+        "bar increase",
+        "knit into front and back",
+        "bar increase knitwise",
+        "knit in front and back",
+        "knitwise bar increase"
+      ],
+      "written_forms": [
+        "knit into the front of the next stitch, then without removing it from the left needle, knit into the back of the same stitch",
+        "knit front and back of next stitch",
+        "knit 1 front and back",
+        "knit into the front and back of the next stitch"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "inc 1",
+          "inc"
+        ],
+        "drops": [
+          "inc 1 by knitting front and back"
+        ],
+        "rowan": [
+          "inc",
+          "inc in next st"
+        ],
+        "lang_yarns": [
+          "1 aus 1 re"
+        ],
+        "aran_patterns": [
+          "inc. in next st"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'kfb'. Some older patterns use 'inc' or 'inc1' to mean kfb (since it was once the default increase). 'kfb' is now the universal standard. 'inc1' is ambiguous \u2014 could be any increase method.",
+        "'inc' or 'inc 1' alone is the oldest abbreviation and is highly ambiguous \u2014 it could mean kfb, m1, or any generic increase. Always check the pattern's stitch glossary.",
+        "Some patterns write 'inc in next st' which almost always means kfb."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit the next stitch through the front loop as normal but do NOT slide it off the left needle",
+        "Keeping the stitch on the left needle, insert right needle into the back loop of the SAME stitch",
+        "Wrap yarn and knit through the back loop",
+        "Now slide the original stitch off the left needle \u2014 two stitches created from one"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "pfb",
+        "m1l",
+        "m1r",
+        "kfbf"
+      ],
+      "ws_equivalent": "pfb"
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "bar_increase",
+      "visible",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "kfbf",
+    "canonical_name": "Knit Front Back Front",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "A double bar increase that creates three stitches from one by working into the same source stitch three times: knit through the front loop (do not drop), knit through the back loop (do not drop), then knit through the front loop again before dropping the stitch. Leaves two visible horizontal bars at the base of the new stitches. Produces a net increase of two stitches (+2). Common in top-down shawl construction where a single spine stitch is worked into three times on every right-side row to create paired increase columns on either side of a center stitch. Because all three resulting stitches come from one source stitch, the increase is balanced around that stitch with no lean.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "kfbf",
+        "KFBF",
+        "k1fbf",
+        "k-fbf",
+        "kf/b/f"
+      ],
+      "alternate_names": [
+        "knit front back front",
+        "knit into front back front",
+        "double bar increase",
+        "triple knit increase",
+        "knit 1 front back front"
+      ],
+      "written_forms": [
+        "knit into the front of the next stitch but do not drop it, knit into the back of the same stitch but do not drop it, knit into the front of the same stitch again, then drop the stitch from the left needle",
+        "kfbf: [k1f, k1b, k1f] into the same stitch \u2014 3 stitches made from 1",
+        "knit front, knit back, knit front of same stitch before sliding off needle"
+      ],
+      "source_specific": {
+        "tin_can_knits": [
+          "kfbf"
+        ],
+        "joji_locatelli": [
+          "kfbf"
+        ],
+        "bristol_ivy": [
+          "kfbf",
+          "k-fbf"
+        ],
+        "quince_and_co": [
+          "kfbf"
+        ]
+      },
+      "ambiguity_notes": [
+        "kfbf is easily confused with kfb (knit front and back, 1\u21922) \u2014 a legend entry or OCR result that drops the trailing 'f' maps to the wrong stitch count entirely. Always verify the stitch count from the legend or pattern glossary.",
+        "kfbfb (1\u21924 stitches: front, back, front, back) is a further extension and a distinct operation \u2014 do not conflate with kfbf.",
+        "'k1fbf' is an uncommon but valid spelling used by some self-published designers."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the next stitch knitwise (front loop) and knit \u2014 do NOT slide the stitch off the left needle",
+        "Insert right needle into the back loop of the SAME stitch and knit \u2014 do NOT slide the stitch off the left needle",
+        "Insert right needle into the front loop of the SAME stitch again and knit",
+        "Now slide the original stitch off the left needle \u2014 three stitches have been created from one"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kfb",
+        "pfb"
+      ],
+      "variant_of": "kfb",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "increase",
+      "bar_increase",
+      "double_increase",
+      "shawl",
+      "visible",
+      "intermediate"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pfb",
+    "canonical_name": "Purl Front and Back",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "The purl-side equivalent of kfb. Creates two stitches from one by purling into the front and then the back of the same stitch. Used on wrong-side rows to continue a bar increase line established by kfb on right-side rows.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "pfb",
+        "PFB",
+        "p1f&b",
+        "p1fb",
+        "purl front and back",
+        "p-front-back",
+        "pf&b",
+        "pf/b"
+      ],
+      "alternate_names": [
+        "purl front and back",
+        "purl bar increase",
+        "purl into front and back",
+        "purl front back"
+      ],
+      "written_forms": [
+        "purl into the front of the next stitch, then without removing it, purl into the back of the same stitch",
+        "purl front and back of next stitch",
+        "purl into the front and back of the next stitch"
+      ],
+      "source_specific": {
+        "rowan": [
+          "inc"
+        ],
+        "drops": [
+          "inc 1 by purling front and back"
+        ],
+        "british_vintage": [
+          "inc p-wise",
+          "inc 1 p"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'pfb'. Direct purl equivalent of kfb."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl the next stitch through the front loop as normal, do NOT slide off left needle",
+        "Rotate left needle slightly, insert right needle into the back loop of the same stitch from left to right",
+        "Wrap yarn and purl through the back loop",
+        "Slide original stitch off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "kfb",
+      "similar": [
+        "kfb"
+      ]
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "bar_increase",
+      "wrong_side"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1l",
+    "canonical_name": "Make One Left",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "A nearly invisible increase that creates a new stitch by lifting the horizontal bar between two stitches from front to back and knitting it through the back loop. The resulting stitch leans to the left. Consumes no existing stitch \u2014 the new stitch is created from the inter-stitch bar. Paired with M1R for symmetrical shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1L",
+        "m1l",
+        "make one left",
+        "make 1 left",
+        "m1L",
+        "m1-l",
+        "ML",
+        "m1lk"
+      ],
+      "alternate_names": [
+        "make one left",
+        "make 1 left-slanting",
+        "left-leaning make one",
+        "knitwise left-leaning increase",
+        "single left-leaning knit increase",
+        "left bar increase",
+        "lifted make-one left",
+        "lifted increase left",
+        "left-slanting make one knitwise"
+      ],
+      "written_forms": [
+        "lift the bar between stitches from front to back with left needle, knit through the back loop",
+        "make 1 left: insert left needle under the strand between stitches from front to back, knit through back loop",
+        "make one left-slanting increase",
+        "with left needle tip, pick up the strand between stitches from front to back and knit through the back loop"
+      ],
+      "source_specific": {
+        "vogue_knitting": [
+          "M1"
+        ],
+        "drops": [
+          "M1"
+        ],
+        "stitchmastery": [
+          "knitwise left-leaning increase"
+        ],
+        "cascade_yarns": [
+          "M1L"
+        ],
+        "interweave": [
+          "M1-L",
+          "make 1 left (M1L)"
+        ],
+        "knitpicks": [
+          "M1L",
+          "make 1 left"
+        ],
+        "tin_can_knits": [
+          "M1L"
+        ],
+        "joji_locatelli": [
+          "M1L"
+        ],
+        "german": [
+          "lM",
+          "lM1",
+          "linke Masche aufnehmen"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1L'. 'ML' is used by some publishers (Purl Soho occasionally, Brooklyn Tweed). 'm1l' (lowercase) is equally common. Both cases should match to this operation.",
+        "When a pattern says just 'M1' without L or R, it USUALLY means M1L (left-leaning) in Vogue Knitting and most modern US patterns. But this is not universal \u2014 always check the glossary."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle from front to back under the horizontal strand between the stitch just worked and the next stitch",
+        "The strand is now on the left needle with the front leg on the right side",
+        "Knit this strand through the back loop (twisting it closed to avoid a hole)",
+        "One new stitch created; the increase leans to the left"
+      ]
+    },
+    "relationships": {
+      "mirror": "m1r",
+      "similar": [
+        "m1",
+        "lli"
+      ],
+      "ws_equivalent": "m1pl"
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "left_leaning",
+      "invisible",
+      "shaping",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1r",
+    "canonical_name": "Make One Right",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "A nearly invisible increase that creates a new stitch by lifting the horizontal bar between two stitches from back to front and knitting it through the front loop. The resulting stitch leans to the right. The mirror of M1L. Together they create symmetrical, nearly invisible shaping.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1R",
+        "m1r",
+        "make one right",
+        "make 1 right",
+        "m1R",
+        "m1-r",
+        "MR",
+        "m1rk"
+      ],
+      "alternate_names": [
+        "make one right",
+        "make 1 right-slanting",
+        "right-leaning make one",
+        "knitwise right-leaning increase",
+        "single right-leaning knit increase",
+        "right bar increase",
+        "lifted make-one right",
+        "right-slanting make one knitwise"
+      ],
+      "written_forms": [
+        "lift the bar between stitches from back to front with left needle, knit through the front loop",
+        "make 1 right: insert left needle under the strand between stitches from back to front, knit through front loop",
+        "make one right-slanting increase",
+        "with left needle tip, pick up the strand between stitches from back to front and knit through the front loop"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "knitwise right-leaning increase"
+        ],
+        "interweave": [
+          "M1-R",
+          "make 1 right (M1R)"
+        ],
+        "tin_can_knits": [
+          "M1R"
+        ],
+        "german": [
+          "rM",
+          "rM1",
+          "rechte Masche aufnehmen"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1R'. Mirror of M1L."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle from back to front under the horizontal strand between the stitch just worked and the next stitch",
+        "The strand is now on the left needle with the back leg on the right side",
+        "Knit this strand through the front loop (twisting it closed to avoid a hole)",
+        "One new stitch created; the increase leans to the right"
+      ]
+    },
+    "relationships": {
+      "mirror": "m1l",
+      "similar": [
+        "m1",
+        "rli"
+      ],
+      "ws_equivalent": "m1pr"
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "right_leaning",
+      "invisible",
+      "shaping",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1",
+    "canonical_name": "Make One",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "A generic make-one increase where the lean direction is unspecified. Lifts the bar between stitches and knits into it. When a pattern says just 'M1' without specifying left or right, the lean direction is ambiguous. Most modern US patterns default to M1L, but this is not universal. This operation exists to capture the ambiguous form.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1",
+        "m1",
+        "M1K",
+        "m1k",
+        "make one",
+        "make 1",
+        "make one knit",
+        "m-1"
+      ],
+      "alternate_names": [
+        "make one",
+        "make 1",
+        "make one stitch",
+        "make one knitwise",
+        "make-one increase (unspecified direction)",
+        "make one bar increase"
+      ],
+      "written_forms": [
+        "make one increase",
+        "pick up the bar between stitches and knit into it",
+        "insert left needle under the bar between stitches and knit into it"
+      ],
+      "source_specific": {
+        "vogue_knitting": [
+          "M1"
+        ],
+        "rowan": [
+          "M1"
+        ],
+        "stitchmastery": [
+          "make one"
+        ],
+        "patons": [
+          "M1"
+        ],
+        "king_cole": [
+          "M1",
+          "make 1 stitch"
+        ],
+        "sirdar": [
+          "M1",
+          "make 1"
+        ],
+        "stylecraft": [
+          "M1"
+        ],
+        "german": [
+          "M1",
+          "Masche aufnehmen"
+        ],
+        "cyc": [
+          "M1",
+          "M1K"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1 or M1K' as make one stitch knitwise. 'M1' alone is ambiguous: it could be M1L, M1R, or either. When a pattern uses plain 'M1' without direction, it typically means M1L by convention (or the direction is inferred from position). Flag as ambiguous and note it could resolve to m1l or m1r.",
+        "This is the MOST ambiguous abbreviation in knitting. 'M1' can mean: (1) M1L (bar lift, knit tbl) \u2014 most common modern meaning; (2) KFB in some older patterns; (3) backward-loop cast on in some British patterns; (4) any generic increase. Always consult the pattern glossary.",
+        "If the pattern uses both 'M1' and 'KFB' separately, M1 almost certainly means the bar-lift variant.",
+        "If the pattern has separate M1L and M1R entries but also uses plain 'M1', it usually means 'use either, direction doesn't matter here.'"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle under the horizontal strand between stitches",
+        "Knit into this strand (through front or back loop depending on desired lean)",
+        "One new stitch created"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1l",
+        "m1r"
+      ],
+      "ws_equivalent": "m1p"
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "ambiguous",
+      "shaping"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1p",
+    "canonical_name": "Make One Purlwise",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "A make-one increase worked purlwise. Lifts the bar between stitches and purls into it. Used when the increase must be made on the purl side of the fabric (either on a WS row or within a purl section on RS). Creates a nearly invisible increase on the purl ground.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1P",
+        "M1p",
+        "m1p",
+        "m1pw",
+        "M1 pw",
+        "make one purl",
+        "make one purlwise",
+        "M1 purlwise",
+        "m1-p",
+        "m1-pw",
+        "make1p"
+      ],
+      "alternate_names": [
+        "make one purlwise",
+        "purl make one",
+        "make one purl stitch",
+        "purlwise bar increase"
+      ],
+      "written_forms": [
+        "lift the bar between stitches and purl into it",
+        "make 1 purlwise",
+        "pick up the bar between stitches and purl into it through the back loop"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "make one purlwise",
+          "make one - purl"
+        ],
+        "drops": [
+          "M1P"
+        ],
+        "interweave": [
+          "M1-p",
+          "make 1 purlwise"
+        ],
+        "cyc": [
+          "M1p",
+          "M1P"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1p' (make one purlwise). 'M1P' (uppercase) is common in patterns. Unlike M1L/M1R, the direction is often not specified with M1P \u2014 it typically means a generic purlwise lifted bar increase. Some patterns specify M1LP or M1RP for the purlwise directional form."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle under the horizontal strand between stitches from front to back",
+        "Purl this strand through the back loop to twist it closed"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1l",
+        "m1r"
+      ],
+      "ws_equivalent": "m1"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "invisible",
+      "purl_ground"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "increase_unspecified",
+    "canonical_name": "Increase (Unspecified)",
+    "category": "increase",
+    "subcategory": "single_unspecified",
+    "semantic_description": "A generic increase symbol whose exact method is not specified. This represents a legend-level increase instruction rather than a named operation such as M1, KFB, LLI, or a backward-loop cast-on increase. It should be used when the source clearly indicates only 'increase' and leaves the technique to the legend or pattern notes.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc",
+        "increase",
+        "I",
+        "incr",
+        "inc."
+      ],
+      "alternate_names": [
+        "generic increase",
+        "unspecified increase",
+        "any increase",
+        "unspecified increase method",
+        "increase (method in legend)",
+        "1-to-2 increase"
+      ],
+      "written_forms": [
+        "work an increase as specified in the legend",
+        "work an increase; see pattern legend for method",
+        "increase 1 stitch by the method described in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "decorates increase",
+          "decorates increases",
+          "increase (method by legend)"
+        ],
+        "patons_vintage": [
+          "inc",
+          "increase"
+        ],
+        "sirdar_vintage": [
+          "inc",
+          "inc. in next st."
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'inc' as a general term. 'inc1' is ambiguous (could be kfb). Only use this operation when the pattern explicitly leaves the method to the knitter's preference.",
+        "The abbreviation 'inc' alone is extremely ambiguous. In most pre-2000 patterns it almost certainly means KFB; in modern patterns it is rarely used without a method specification. Route 'inc' through this generic bucket and rely on context disambiguation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Follow the pattern or legend for the specific increase method"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1",
+        "increase_left",
+        "increase_right",
+        "kfb"
+      ],
+      "ws_equivalent": "increase_or_slip"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "ambiguous",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1pl",
+    "canonical_name": "Make One Left Purlwise",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "The standard single left-leaning purl increase, commonly abbreviated M1LP (Make One Left Purlwise). It is worked by lifting the strand between stitches from front to back and purling it through the back loop so the new stitch twists closed. This is the wrong-side equivalent of M1L and produces a left-leaning increase when viewed from the right side.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1LP",
+        "m1lp",
+        "M1lp",
+        "m1l-p",
+        "m1pl",
+        "M1PL",
+        "m1p-l",
+        "M1-LP",
+        "M1LPW",
+        "m1lpu"
+      ],
+      "alternate_names": [
+        "make one left purlwise",
+        "make one purlwise left",
+        "make one purl left",
+        "left-leaning purl increase",
+        "purl increase left",
+        "purl increase - left leaning",
+        "purlwise left-leaning increase",
+        "left purlwise make one",
+        "twisted purl make one left",
+        "left-leaning purl increase (twisted)"
+      ],
+      "written_forms": [
+        "make 1 left purlwise",
+        "lift bar from front to back, purl through back loop",
+        "make one left purl increase",
+        "work a left-leaning purl increase as specified in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "purl increase - left leaning",
+          "purlwise left-leaning increase"
+        ],
+        "tin_can_knits": [
+          "M1LP",
+          "M1L purl"
+        ],
+        "drops": [
+          "M1L purlwise"
+        ],
+        "german": [
+          "M1LP",
+          "linke Masche aufnehmen purlseitig"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1lp' (make one left purlwise). Both 'M1LP' and 'M1lp' are in active use. The order of letters (M1LP vs M1PL) varies by publisher \u2014 include both forms.",
+        "Both letter orderings (m1pl / m1lp) are in active publisher use. This operation is the single canonical target for all orderings."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle from front to back under the strand between stitches",
+        "Purl through the back loop"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "m1l",
+      "mirror": "m1pr"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "left_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "m1pr",
+    "canonical_name": "Make One Right Purlwise",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "The standard single right-leaning purl increase, commonly abbreviated M1RP (Make One Right Purlwise). It is worked by lifting the strand between stitches from back to front and purling it through the front loop so the new stitch twists closed. This is the wrong-side equivalent of M1R and produces a right-leaning increase when viewed from the right side.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1RP",
+        "m1rp",
+        "M1rp",
+        "m1r-p",
+        "m1pr",
+        "M1PR",
+        "m1p-r",
+        "M1-RP",
+        "M1RPW",
+        "m1rpu"
+      ],
+      "alternate_names": [
+        "make one right purlwise",
+        "make one purlwise right",
+        "make one purl right",
+        "right-leaning purl increase",
+        "purl increase right",
+        "purl increase - right leaning",
+        "purlwise right-leaning increase",
+        "right purlwise make one",
+        "right-leaning purl increase (twisted)"
+      ],
+      "written_forms": [
+        "make 1 right purlwise",
+        "lift bar from back to front, purl through front loop",
+        "make one right purl increase",
+        "work a right-leaning purl increase as specified in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "purl increase - right leaning",
+          "purlwise right-leaning increase"
+        ],
+        "tin_can_knits": [
+          "M1RP",
+          "M1R purl"
+        ],
+        "german": [
+          "M1RP",
+          "rechte Masche aufnehmen purlseitig"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'M1rp' (make one right purlwise). Mirror of M1LP.",
+        "Both letter orderings (m1pr / m1rp) are in active publisher use \u2014 CYC uses 'M1rp' while many English-language indie designers write 'M1RP'. This operation is the single canonical target for all orderings."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert left needle from back to front under the strand between stitches",
+        "Purl through the front loop"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "m1r",
+      "mirror": "m1pl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "right_leaning",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "lli",
+    "canonical_name": "Left Lifted Increase",
+    "category": "increase",
+    "subcategory": "lifted_stitch",
+    "semantic_description": "A nearly invisible increase that creates a new stitch by lifting the left leg of the stitch below the next stitch on the left needle and knitting into it. Leans left. Unlike M1 which lifts the bar between stitches, LLI lifts a leg from the stitch in the row below. Produces an even more invisible result than M1 in some fabrics.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "LLI",
+        "lli",
+        "LL",
+        "ll-inc",
+        "LLinc",
+        "LI-L",
+        "LI",
+        "Ll",
+        "llk",
+        "KLL",
+        "kll"
+      ],
+      "alternate_names": [
+        "left lifted increase",
+        "left-slanting lifted increase",
+        "left lifted knit increase",
+        "lifted increase left",
+        "LLI knitwise",
+        "pick up and knit left leg below"
+      ],
+      "written_forms": [
+        "insert left needle into the left leg of the stitch below the next stitch on left needle, knit this lifted loop",
+        "lift the left side of the stitch in the row below and knit into it",
+        "knit the left leg of the stitch one row below the next stitch",
+        "insert needle into the left leg of the stitch directly below the next stitch on left needle and knit it",
+        "left lifted knit: pick up left leg of stitch below and knit"
+      ],
+      "source_specific": {
+        "knitpicks": [
+          "LLI",
+          "Left Lifted Increase"
+        ],
+        "tin_can_knits": [
+          "LLI"
+        ],
+        "brooklyn_tweed": [
+          "LLI",
+          "left-lifted increase"
+        ],
+        "quince_and_co": [
+          "LLI"
+        ],
+        "interweave": [
+          "LLI",
+          "left lifted increase"
+        ],
+        "joji_locatelli": [
+          "LLI",
+          "LL"
+        ]
+      },
+      "ambiguity_notes": [
+        "Left lifted increase \u2014 a Purl Soho / Brooklyn Tweed favorite. Not in CYC master list. 'LLI' is the most common form. 'LL' is used by some designers (Joji Locatelli family). Distinguish from M1L: LLI lifts from 2 rows below the last stitch, M1L lifts from the horizontal bar between stitches."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert the left needle tip from front to back into the left leg of the stitch directly below the next stitch on the left needle (one row down)",
+        "Knit this lifted loop",
+        "Then knit the next stitch as normal"
+      ]
+    },
+    "relationships": {
+      "mirror": "rli",
+      "similar": [
+        "m1l"
+      ],
+      "ws_equivalent": "lli_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "left_leaning",
+      "invisible",
+      "lifted"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "rli",
+    "canonical_name": "Right Lifted Increase",
+    "category": "increase",
+    "subcategory": "lifted_stitch",
+    "semantic_description": "A nearly invisible increase that creates a new stitch by lifting the right leg of the stitch below the stitch just worked and knitting into it. Leans right. The mirror of LLI.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "RLI",
+        "rli",
+        "RL",
+        "rl-inc",
+        "RLinc",
+        "LI-R",
+        "RI",
+        "Rl",
+        "rlk",
+        "KRL",
+        "krl"
+      ],
+      "alternate_names": [
+        "right lifted increase",
+        "right-slanting lifted increase",
+        "right lifted knit increase",
+        "lifted increase right",
+        "RLI knitwise",
+        "pick up and knit right leg below"
+      ],
+      "written_forms": [
+        "insert right needle into the right leg of the stitch below the stitch just worked, knit this lifted loop",
+        "lift the right side of the stitch below the one just completed and knit into it",
+        "right lifted knit: pick up right leg of stitch just worked and knit",
+        "insert needle from front to back into the right leg of the stitch below the last completed stitch and knit it"
+      ],
+      "source_specific": {
+        "knitpicks": [
+          "RLI",
+          "Right Lifted Increase"
+        ],
+        "tin_can_knits": [
+          "RLI"
+        ],
+        "brooklyn_tweed": [
+          "RLI",
+          "right-lifted increase"
+        ],
+        "quince_and_co": [
+          "RLI"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the right needle tip from front to back into the right leg of the stitch directly below the stitch just worked (one row down, on the right needle side)",
+        "Place this loop on the left needle",
+        "Knit the lifted loop"
+      ]
+    },
+    "relationships": {
+      "mirror": "lli",
+      "similar": [
+        "m1r"
+      ],
+      "ws_equivalent": "rli_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "right_leaning",
+      "invisible",
+      "lifted"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kpk",
+    "canonical_name": "Knit Purl Knit (Central Double Increase)",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "A centered double increase that creates three stitches from one by working knit-purl-knit all into the same stitch. The center purl stitch creates a subtle vertical line. The increase counterpart to the central double decrease (CDD). Used for symmetrical shaping in shawls and lace.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "kpk",
+        "KPK",
+        "(k,p,k)",
+        "(k1,p1,k1)",
+        "k1p1k1",
+        "k-p-k",
+        "kpk-inc",
+        "inc3"
+      ],
+      "alternate_names": [
+        "knit purl knit increase",
+        "central double increase",
+        "centered double increase",
+        "knit purl knit in same stitch",
+        "triple increase kpk",
+        "CDI via kpk"
+      ],
+      "written_forms": [
+        "knit 1, purl 1, knit 1 all into the same stitch",
+        "(k1, p1, k1) into next stitch",
+        "work knit-purl-knit into the next stitch",
+        "(k1, p1, k1) into the next stitch",
+        "work (knit 1, purl 1, knit 1) all into the same stitch without dropping it until all 3 have been worked"
+      ],
+      "source_specific": {
+        "vogue_knitting": [
+          "k1, p1, k1 in next st"
+        ],
+        "drops": [
+          "(k1, p1, k1) in next st"
+        ],
+        "rowan": [
+          "(k1, p1, k1) into next st"
+        ],
+        "norah_gaughan": [
+          "k-p-k"
+        ]
+      },
+      "ambiguity_notes": [
+        "This is a centered double increase (1-to-3). Often called 'CDI' in commentary but the abbreviation in legend is the instruction form. Purl Soho and Interweave use 'kpk' notation. Not in CYC."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit into the next stitch but do not slide it off",
+        "Purl into the same stitch, still on the left needle",
+        "Knit into the same stitch once more",
+        "Now slide the original stitch off \u2014 three new stitches from one"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "inc_1_to_3"
+      ],
+      "ws_equivalent": "centered_purl_increase"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "centered",
+      "double_increase",
+      "shawl",
+      "lace"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_3",
+    "canonical_name": "Increase 1 to 3",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "A generic 1-to-3 increase that creates three stitches from one without committing to a single exact method. Patterns may realize this as knit-yarn over-knit, knit-purl-knit, through-the-back-loop variants, or other legend-defined expansions.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-3",
+        "1-to-3",
+        "triple inc",
+        "(k,yo,k)",
+        "1-3",
+        "triple-inc"
+      ],
+      "alternate_names": [
+        "increase 1 to 3",
+        "triple increase",
+        "make 3 from 1",
+        "make three from one",
+        "1 into 3",
+        "three from one"
+      ],
+      "written_forms": [
+        "increase from 1 stitch to 3 stitches",
+        "work a 1-to-3 increase as specified in the legend or pattern",
+        "work 3 stitches into the same stitch"
+      ],
+      "source_specific": {
+        "drops": [
+          "k1, yo, k1 into next st"
+        ],
+        "sirdar": [
+          "(k1, p1, k1) into next st"
+        ],
+        "patons": [
+          "k into front and back and front of next st"
+        ]
+      },
+      "ambiguity_notes": [
+        "Multiple methods produce a 1-to-3 increase: kpk, k1-yo-k1, (k1p1k1). This generic operation covers all methods. The abbreviation in a pattern legend will usually specify the exact method \u2014 treat 'inc-1-to-3' as a fallback."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the specific 1-to-3 increase method specified by the pattern",
+        "Do not assume a single default method without legend context"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kpk",
+        "k1_yo_k1",
+        "p1_yo_p1",
+        "centered_increase",
+        "centered_purl_increase"
+      ],
+      "ws_equivalent": "inc_1_to_3_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k1_yo_k1",
+    "canonical_name": "Knit 1, Yarn Over, Knit 1",
+    "category": "increase",
+    "subcategory": "multi_stitch_exact",
+    "semantic_description": "An exact centered 1-to-3 increase worked as knit 1, yarn over, knit 1 into the same stitch. It creates two knit stitches separated by a yarn-over eyelet and is more specific than a generic 1-to-3 increase or a generic centered increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "(k1,yo,k1)",
+        "k1yok1",
+        "kyok",
+        "kyk",
+        "(k1 yo k1)"
+      ],
+      "alternate_names": [
+        "knit 1 yarn over knit 1",
+        "k1 yo k1",
+        "knit-yarn over-knit increase",
+        "knit yarn over knit",
+        "triple increase with eyelet"
+      ],
+      "written_forms": [
+        "work knit 1, yarn over, knit 1 into the same stitch",
+        "(k1, yo, k1) into next stitch",
+        "knit 1, yarn over, knit 1 all into the same stitch",
+        "(k1, yo, k1) into the next stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "k1, yarn over, k1"
+        ],
+        "drops": [
+          "k1, yo, k1 in next st",
+          "(k1, yo, k1) in same st"
+        ],
+        "interweave": [
+          "k1, yo, k1 into next st"
+        ],
+        "cascade_yarns": [
+          "(k1, yo, k1) in next st"
+        ],
+        "berroco": [
+          "[k1, yo, k1] in next st"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Knit into the next stitch but do not slide it off the left needle",
+        "Make a yarn over",
+        "Knit into the same stitch again",
+        "Slide the original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "variant_of": "centered_increase",
+      "similar": [
+        "inc_1_to_3",
+        "kpk",
+        "centered_increase",
+        "p1_yo_p1"
+      ],
+      "ws_equivalent": "p1_yo_p1"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "centered",
+      "double_increase",
+      "eyelet",
+      "exact_method"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p1_yo_p1",
+    "canonical_name": "Purl 1, Yarn Over, Purl 1",
+    "category": "increase",
+    "subcategory": "multi_stitch_exact_purl",
+    "semantic_description": "An exact centered purl-ground 1-to-3 increase worked as purl 1, yarn over, purl 1 into the same stitch. It creates two purl stitches separated by a yarn-over increase and is more specific than a generic centered purl increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "(p1,yo,p1)",
+        "p1yop1",
+        "pyop",
+        "(p1 yo p1)"
+      ],
+      "alternate_names": [
+        "purl 1 yarn over purl 1",
+        "p1 yo p1",
+        "purl-yarn over-purl increase",
+        "purl yarn over purl",
+        "triple purl increase with eyelet"
+      ],
+      "written_forms": [
+        "work purl 1, yarn over, purl 1 into the same stitch",
+        "(p1, yo, p1) into next stitch",
+        "purl 1, yarn over, purl 1 all into the same stitch",
+        "(p1, yo, p1) into the next stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "purl 1, yarn over, purl 1",
+          "p1, yarn over, p1"
+        ],
+        "drops": [
+          "p1, yo, p1 in next st"
+        ],
+        "berroco": [
+          "[p1, yo, p1] in next st"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Purl into the next stitch but do not slide it off the left needle",
+        "Make a yarn over using the purl-side yarn path required by the pattern",
+        "Purl into the same stitch again",
+        "Slide the original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "variant_of": "centered_purl_increase",
+      "similar": [
+        "inc_1_to_3",
+        "centered_purl_increase",
+        "k1_yo_k1"
+      ],
+      "ws_equivalent": "k1_yo_k1"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "centered",
+      "double_increase",
+      "purl_ground",
+      "exact_method"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_4",
+    "canonical_name": "Increase 1 to 4",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates four stitches from one. Typically worked as (k1, p1, k1, p1) or (k1, yo, k1, yo) into the same stitch. Used in fan/shell patterns and some bobble setups.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 4,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-4",
+        "1-to-4",
+        "(k1p1)x2",
+        "k1p1k1p1",
+        "4 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 4",
+        "quadruple increase",
+        "make 4 from 1"
+      ],
+      "written_forms": [
+        "work (k1, p1, k1, p1) into the same stitch",
+        "increase from 1 stitch to 4 stitches",
+        "work (k1, p1) twice all into the same stitch",
+        "(k1, p1, k1, p1) into next stitch"
+      ],
+      "source_specific": {
+        "drops": [
+          "(k1, p1, k1, p1) into next st"
+        ]
+      },
+      "ambiguity_notes": [
+        "No standard publisher abbreviation. Internal convenience forms only."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work alternating knit and purl (or knit and YO) into the same stitch 4 times",
+        "Slide original stitch off"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_4_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "shell"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_5",
+    "canonical_name": "Increase 1 to 5",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates five stitches from one. Commonly worked as (k1, yo, k1, yo, k1) into the same stitch. Used in bobble setup rows, fan/shell lace patterns, and dramatic increases. Often the first step of a bobble \u2014 the five stitches are then turned and decreased back to one over several short rows.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 5,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-5",
+        "1-to-5",
+        "(k1,yo) twice, k1",
+        "k1yok1yok1",
+        "5 from 1",
+        "(k1yo)x2k1",
+        "5-st inc"
+      ],
+      "alternate_names": [
+        "increase 1 to 5",
+        "quintuple increase",
+        "make 5 from 1"
+      ],
+      "written_forms": [
+        "work (k1, yo, k1, yo, k1) into the same stitch",
+        "knit 1, [yarn over, knit 1] twice into the same stitch",
+        "increase from 1 stitch to 5 stitches",
+        "(k1, yo) twice, k1 into the same stitch"
+      ],
+      "source_specific": {
+        "rowan": [
+          "k into front back front back and front"
+        ],
+        "debbie_bliss": [
+          "(k1, yo) twice, k1 all in next st"
+        ]
+      },
+      "ambiguity_notes": [
+        "'MB' (make bobble) is the most common chart abbreviation for a 1-to-5 expansion, because the classic 5-stitch bobble begins by making 5 from 1. However 'MB' strictly means make bobble (which includes subsequent rows and the finishing collapse), not just the expansion. Treat 'MB' as likely mapping to the bobble operation, not to this bare expansion.",
+        "'mb' (make bobble) is sometimes the same as inc_1_to_5 for the setup row, but not always \u2014 always check the pattern's bobble definition."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit into next stitch, do not remove",
+        "Yarn over",
+        "Knit into same stitch",
+        "Yarn over",
+        "Knit into same stitch",
+        "Slide original stitch off \u2014 5 new stitches"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_5_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "bobble_setup",
+      "shell",
+      "fan"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_6",
+    "canonical_name": "Increase 1 to 6",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates 6 stitches from one. Typically realized in the legend as a sequence of (k1, yo) repeats or alternating knit/purl into the same stitch \u2014 the exact technique is legend-defined. Used in fan/shell, feather-and-fan, and dramatic shell-pattern increases. The Stitchmastery 'Increase to 6 stitches' symbol family resolves to this operation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 6,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-6",
+        "1-to-6",
+        "inc6",
+        "6 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 6",
+        "increase to 6 stitches",
+        "make 6 from 1",
+        "6-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 6 stitches as specified in the legend",
+        "increase to 6 stitches in the next stitch",
+        "increase 1 to 6 stitches"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase to 6 stitches"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the legend-specified 1-to-6 expansion into the next stitch",
+        "Slide original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "inc_1_to_6_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "shell",
+      "fan"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_7",
+    "canonical_name": "Increase 1 to 7",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates 7 stitches from one. Typically realized in the legend as a sequence of (k1, yo) repeats or alternating knit/purl into the same stitch \u2014 the exact technique is legend-defined. Used in fan/shell, feather-and-fan, and dramatic shell-pattern increases. The Stitchmastery 'Increase to 7 stitches' symbol family resolves to this operation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 7,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-7",
+        "1-to-7",
+        "inc7",
+        "7 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 7",
+        "increase to 7 stitches",
+        "make 7 from 1",
+        "7-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 7 stitches as specified in the legend",
+        "increase to 7 stitches in the next stitch",
+        "increase 1 to 7 stitches"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase to 7 stitches"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the legend-specified 1-to-7 expansion into the next stitch",
+        "Slide original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "inc_1_to_7_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "shell",
+      "fan"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_8",
+    "canonical_name": "Increase 1 to 8",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates 8 stitches from one. Typically realized in the legend as a sequence of (k1, yo) repeats or alternating knit/purl into the same stitch \u2014 the exact technique is legend-defined. Used in fan/shell, feather-and-fan, and dramatic shell-pattern increases. The Stitchmastery 'Increase to 8 stitches' symbol family resolves to this operation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 8,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-8",
+        "1-to-8",
+        "inc8",
+        "8 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 8",
+        "increase to 8 stitches",
+        "make 8 from 1",
+        "8-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 8 stitches as specified in the legend",
+        "increase to 8 stitches in the next stitch",
+        "increase 1 to 8 stitches"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase to 8 stitches"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the legend-specified 1-to-8 expansion into the next stitch",
+        "Slide original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "inc_1_to_8_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "shell",
+      "fan"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_9",
+    "canonical_name": "Increase 1 to 9",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Creates 9 stitches from one. Typically realized in the legend as a sequence of (k1, yo) repeats or alternating knit/purl into the same stitch \u2014 the exact technique is legend-defined. Used in fan/shell, feather-and-fan, and dramatic shell-pattern increases. The Stitchmastery 'Increase to 9 stitches' symbol family resolves to this operation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 9,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-1-to-9",
+        "1-to-9",
+        "inc9",
+        "9 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 9",
+        "increase to 9 stitches",
+        "make 9 from 1",
+        "9-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 9 stitches as specified in the legend",
+        "increase to 9 stitches in the next stitch",
+        "increase 1 to 9 stitches"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase to 9 stitches"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the legend-specified 1-to-9 expansion into the next stitch",
+        "Slide original stitch off the left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "inc_1_to_9_purl"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "multi_increase",
+      "shell",
+      "fan"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "backward_loop_co",
+    "canonical_name": "Backward Loop Cast On (as increase)",
+    "category": "increase",
+    "subcategory": "cast_on_increase",
+    "semantic_description": "Creates a new stitch mid-row by casting on using the backward loop method. Twists the working yarn into a loop and places it on the right needle. The simplest possible increase \u2014 no stitch is consumed. Used for adding stitches at the end of a row or mid-row when other increases are impractical. Produces a loose stitch that tends to gap.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "backward loop",
+        "e-wrap",
+        "e-cast-on",
+        "loop inc",
+        "blo-co",
+        "e-loop",
+        "thumb loop",
+        "bl",
+        "bloop",
+        "co1",
+        "ew-co",
+        "m1-bl"
+      ],
+      "alternate_names": [
+        "backward loop cast on",
+        "simple cast on increase",
+        "e-wrap cast on",
+        "thumb cast on",
+        "backward loop increase",
+        "e-wrap increase",
+        "loop cast-on",
+        "simple cast-on increase"
+      ],
+      "written_forms": [
+        "cast on 1 stitch using backward loop method",
+        "make a backward loop and place on right needle",
+        "using the backward loop method, cast on 1 stitch",
+        "make a backward loop with the working yarn and place on right needle tip",
+        "e-wrap one stitch onto right needle"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "M1"
+        ],
+        "vogue_knitting": [
+          "cast on 1"
+        ],
+        "rowan": [
+          "cast on 1 st"
+        ],
+        "knitpicks": [
+          "CO 1",
+          "cast on 1 using backward loop method"
+        ]
+      },
+      "ambiguity_notes": [
+        "When used as an increase mid-row, this is often written simply as 'CO 1' or 'cable CO 1'. The 'backward loop' as a cast-on method and as a mid-row increase are mechanically identical; context (cast-on row vs. body row) distinguishes them.",
+        "In British vintage patterns 'M1' sometimes means the backward-loop cast-on increase. Do not conflate with lifted-bar make-one.",
+        "'cast on 1' mid-row instruction in Vogue Knitting always means the backward loop method unless otherwise specified."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Wrap working yarn around left thumb (or index finger) to form a loop",
+        "Insert right needle into the loop from below",
+        "Slide loop onto right needle and tighten"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "increase",
+      "basic",
+      "cast_on",
+      "mid_row"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "pass_left",
+    "canonical_name": "Pass Left",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "A variation of purl front and back that creates two stitches from one, with the increase leaning in the opposite direction from KFB. The mirror-image bar increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "pass-left",
+        "pl-inc",
+        "pass-l",
+        "pl",
+        "p-left"
+      ],
+      "alternate_names": [
+        "pass left increase",
+        "left-leaning knit bar increase (JIS)",
+        "JIS knitwise left bar increase"
+      ],
+      "written_forms": [
+        "pass left increase",
+        "knit into the stitch in the row below and pass the stitch on the left needle over"
+      ],
+      "source_specific": {
+        "jis": [
+          "\u5de6\u5897\u3057\u76ee"
+        ]
+      },
+      "ambiguity_notes": [
+        "JIS (Japanese Industrial Standard) chart operation \u2014 a left-leaning bar increase worked from the back. 'pl' could collide with purl left in casual notation. Not a CYC term; only in Japanese chart convention contexts.",
+        "Outside Japanese patterns, this technique is rarely encountered under this name. Always verify against the pattern's JIS legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work into front and back of stitch with reversed orientation"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "pfb"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "left_leaning",
+      "bar_increase"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "increase_left",
+    "canonical_name": "Left-Leaning Increase (Unspecified)",
+    "category": "increase",
+    "subcategory": "single_left_generic",
+    "semantic_description": "A generic left-leaning increase symbol. Unlike an exact named method such as M1L or LLI, this entry represents a chart or legend item that specifies only the left slant of the added stitch. It is appropriate for sources that distinguish a generic left increase from specific make-one methods.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-left",
+        "left-inc",
+        "inc-l",
+        "incl",
+        "inc-lft"
+      ],
+      "alternate_names": [
+        "left-leaning increase",
+        "left-slanting increase",
+        "left increase",
+        "left shaping increase",
+        "single left increase",
+        "slant left increase"
+      ],
+      "written_forms": [
+        "work a left-leaning increase as specified in the legend",
+        "work a left-slanting increase as directed in the pattern legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase - left leaning",
+          "knitwise left-leaning increase"
+        ],
+        "marnen": [
+          "increase left"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic left-leaning increase placeholder. Should resolve to m1l, lli, or kfb per legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning increase method specified by the pattern or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "increase_right",
+      "similar": [
+        "m1l",
+        "lli"
+      ],
+      "ws_equivalent": "lli_purl"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "left_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "increase_right",
+    "canonical_name": "Right-Leaning Increase (Unspecified)",
+    "category": "increase",
+    "subcategory": "single_right_generic",
+    "semantic_description": "A generic right-leaning increase symbol. Unlike an exact named method such as M1R or RLI, this entry captures sources that specify the lean direction but not the exact increase mechanics. It is the mirror-image counterpart to a generic left-leaning increase.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-right",
+        "right-inc",
+        "inc-r",
+        "inc-rgt"
+      ],
+      "alternate_names": [
+        "right-leaning increase",
+        "right-slanting increase",
+        "right increase",
+        "right shaping increase",
+        "single right increase",
+        "slant right increase"
+      ],
+      "written_forms": [
+        "work a right-leaning increase as specified in the legend",
+        "work a right-slanting increase as directed in the pattern legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase - right leaning",
+          "knitwise right-leaning increase"
+        ],
+        "marnen": [
+          "increase right"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic right-leaning increase placeholder."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the right-leaning increase method specified by the pattern or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "increase_left",
+      "similar": [
+        "m1r",
+        "rli"
+      ],
+      "ws_equivalent": "rli_purl"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "right_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "increase_left_counted",
+    "canonical_name": "Left-Leaning Counted Increase",
+    "category": "increase",
+    "subcategory": "counted_left_generic",
+    "semantic_description": "A left-leaning increase symbol annotated with a numeral or count mark. In StitchMastery's counted increase family, the numeric decoration indicates a multi-stitch or counted increase variant, but the exact resulting stitch count must be taken from the symbol variant or legend. This family is distinct from a plain left-leaning increase and from an exact method such as M1L.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-lN",
+        "IncLN",
+        "inc-left-N"
+      ],
+      "alternate_names": [
+        "counted left increase",
+        "numbered left increase",
+        "left-leaning counted increase",
+        "left increase with count"
+      ],
+      "written_forms": [
+        "work the counted left-leaning increase specified by the symbol and legend",
+        "work left-leaning increase the number of times specified by the numeral in the chart symbol"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase left-leaning + increase decorator"
+        ]
+      },
+      "ambiguity_notes": [
+        "The 'N' in the abbreviation is a placeholder for a number. This is a Knitr-internal convention for parameterized operations. No standard pattern abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Read the numeral or count attached to the symbol",
+        "Work the left-leaning counted increase defined in the legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "increase_right_counted",
+      "variant_of": "increase_left",
+      "similar": [
+        "increase_left",
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "left_leaning",
+      "counted",
+      "parameterized",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "increase_right_counted",
+    "canonical_name": "Right-Leaning Counted Increase",
+    "category": "increase",
+    "subcategory": "counted_right_generic",
+    "semantic_description": "A right-leaning increase symbol annotated with a numeral or count mark. It represents the right-leaning branch of StitchMastery's counted increase family and preserves the fact that the symbol is more specific than a plain right-leaning increase, even when the exact stitch count must still be taken from the variant or legend.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-rN",
+        "IncRN",
+        "inc-right-N"
+      ],
+      "alternate_names": [
+        "counted right increase",
+        "numbered right increase",
+        "right-leaning counted increase",
+        "right increase with count"
+      ],
+      "written_forms": [
+        "work the counted right-leaning increase specified by the symbol and legend",
+        "work right-leaning increase the number of times specified by the numeral in the chart symbol"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase right-leaning + increase decorator"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same as increase_left_counted. Knitr-internal."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Read the numeral or count attached to the symbol",
+        "Work the right-leaning counted increase defined in the legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "increase_left_counted",
+      "variant_of": "increase_right",
+      "similar": [
+        "increase_right",
+        "inc_1_to_3",
+        "inc_1_to_4",
+        "inc_1_to_5"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "right_leaning",
+      "counted",
+      "parameterized",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "centered_increase",
+    "canonical_name": "Centered Increase",
+    "category": "increase",
+    "subcategory": "double_center_generic",
+    "semantic_description": "A generic centered 1-to-3 increase. The symbol specifies that one stitch expands to three in a centered arrangement, but it does not force a single method such as KPK or k1-yo-k1. This makes it broader than a named central-double-increase technique while still more precise than a generic 1-to-3 increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "CDI",
+        "cdi",
+        "center-inc",
+        "CInc",
+        "ctr-inc"
+      ],
+      "alternate_names": [
+        "centred increase",
+        "centered increase",
+        "centered double increase",
+        "central double increase",
+        "CDI increase",
+        "1-to-3 centered"
+      ],
+      "written_forms": [
+        "work a centered increase as specified in the legend",
+        "work a centered increase as specified by legend; common methods: kpk, k1-yo-k1"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "centred increase"
+        ],
+        "vogue_knitting": [
+          "CDI",
+          "central double increase"
+        ],
+        "drops": [
+          "work 3 sts into next st",
+          "inc 2 st in next st"
+        ],
+        "ravelry_patterns": [
+          "cdi"
+        ]
+      },
+      "ambiguity_notes": [
+        "'CDI' (central double increase / centered double increase) is used by Interweave and some Ravelry designers. Not in CYC. Sometimes written 'CDI' in pattern body with the legend explaining the specific method (kpk, or k1-yo-k1)."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the centered 1-to-3 increase method specified by the pattern",
+        "Common realizations include knit-purl-knit or knit-yarn over-knit variants"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kpk",
+        "inc_1_to_3",
+        "k1_yo_k1",
+        "centered_purl_increase",
+        "p1_yo_p1"
+      ],
+      "ws_equivalent": "centered_purl_increase"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "centered",
+      "double_increase",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "centered_purl_increase",
+    "canonical_name": "Centered Purl Increase",
+    "category": "increase",
+    "subcategory": "double_center_purl_generic",
+    "semantic_description": "A purl-ground or purlwise centered 1-to-3 increase. StitchMastery distinguishes this from a generic centered increase, so it should not be collapsed into KPK. It is the centered purl counterpart to a generic centered increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "centered purl inc",
+        "pcdi",
+        "PCDI",
+        "CPDI",
+        "cpi",
+        "CPInc",
+        "center-purl-inc",
+        "ctr-purl-inc"
+      ],
+      "alternate_names": [
+        "centred purl increase",
+        "centered purl increase",
+        "central double purl increase",
+        "centered purl double increase"
+      ],
+      "written_forms": [
+        "work a centered purl increase as specified in the legend",
+        "work a centered purl increase as specified by legend; common method: p1-yo-p1"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "centred increase - purl",
+          "centred purl increase"
+        ]
+      },
+      "ambiguity_notes": [
+        "The purl-side version of CDI. Not in CYC. Pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the centered purl-ground increase method specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "centered_increase",
+        "inc_1_to_3",
+        "p1_yo_p1",
+        "k1_yo_k1"
+      ],
+      "ws_equivalent": "centered_increase"
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "centered",
+      "double_increase",
+      "purl_ground",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "increase_tbl",
+    "canonical_name": "Increase Through Back Loop (Generic)",
+    "category": "increase",
+    "subcategory": "single_tbl_generic",
+    "semantic_description": "A generic increase worked through the back loop or crossed orientation. This captures chart or legend entries that specify a twisted/back-loop increase without fixing one exact method such as KFB through the back loop or a twisted lifted increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc-tbl",
+        "inc tbl",
+        "ktbl-inc",
+        "tbl-inc",
+        "twisted inc",
+        "increase-tbl"
+      ],
+      "alternate_names": [
+        "increase through back loop",
+        "twisted increase",
+        "back-loop increase",
+        "crossed increase",
+        "back loop increase"
+      ],
+      "written_forms": [
+        "work the increase through the back loop as specified in the legend",
+        "work an increase into the back loop of the stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "increase through back loop"
+        ],
+        "german": [
+          "verschr\u00e4nkte Zunahme"
+        ],
+        "drops": [
+          "k1 tbl, k1 (in same stitch)"
+        ]
+      },
+      "ambiguity_notes": [
+        "Generic twisted increase. Could be kfb-tbl or a M1-tbl variant. Pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the specified increase through the back loop or crossed orientation"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kfb",
+        "m1l",
+        "m1r"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "increase",
+      "generic",
+      "worked_tbl",
+      "twisted",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "increase_or_slip",
+    "canonical_name": "Slip or Increase",
+    "category": "increase",
+    "subcategory": "legend_ambiguous",
+    "semantic_description": "A source-specific chart symbol whose meaning is pattern-defined as either a slip or an increase. It should not be conflated with M1, because the symbol explicitly encodes ambiguity that must be resolved from the legend.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "slip or increase",
+        "increase or slip"
+      ],
+      "written_forms": [
+        "work as slip or increase according to the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "slip or increase"
+        ]
+      },
+      "ambiguity_notes": [
+        "This is an inherently ambiguous operation \u2014 the pattern uses a single symbol for two behaviors depending on position in shaping. No standard abbreviation. Cannot assign without knowing pattern context. Legend matching should flag this as requiring user confirmation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Consult the pattern legend to determine whether this symbol is worked as a slip or as an increase"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "increase_left",
+        "increase_right",
+        "slip_purlwise"
+      ],
+      "ws_equivalent": "increase_or_slip_purlwise"
+    },
+    "tags": [
+      "increase",
+      "ambiguous",
+      "legend_driven",
+      "custom_legend"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "increase_or_slip_purlwise",
+    "canonical_name": "Slip or Increase Purlwise",
+    "category": "increase",
+    "subcategory": "legend_ambiguous",
+    "semantic_description": "A purlwise or purl-ground variant of the source-specific 'slip or increase' symbol. It remains intentionally ambiguous until the legend resolves whether the stitch is slipped or increased, so it should not be merged with M1P or any exact purl increase.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "slip or increase purlwise",
+        "increase or slip purlwise"
+      ],
+      "written_forms": [
+        "work as a purlwise slip or purlwise increase according to the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "slip or increase purlwise"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same situation as increase_or_slip but purlwise. No standard abbreviation. Requires pattern-specific interpretation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Consult the pattern legend to determine whether this symbol is slipped purlwise or worked as a purlwise increase"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "increase_or_slip",
+        "lli_purl",
+        "rli_purl"
+      ],
+      "ws_equivalent": "increase_or_slip"
+    },
+    "tags": [
+      "increase",
+      "ambiguous",
+      "purl_ground",
+      "legend_driven",
+      "custom_legend"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "m1_tfl",
+    "canonical_name": "Make One (Front Loop \u2014 Open)",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "Creates a new stitch by lifting the horizontal bar between two stitches and knitting it through the FRONT loop. Unlike M1L and M1R which knit through the back loop to close the stitch, this variant leaves a small deliberate hole or eyelet at the base. Used intentionally in some lace and textured patterns where a slight opening is desired. Also called 'open make-one'.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1F",
+        "m1f",
+        "m1-tfl",
+        "m1-f"
+      ],
+      "alternate_names": [
+        "make one front loop",
+        "open make one",
+        "make one knitwise through front",
+        "untwisted make one"
+      ],
+      "written_forms": [
+        "lift the bar between stitches with left needle, knit through the front loop (leaving a small eyelet)",
+        "make one stitch by picking up the bar and knitting it through the front loop without twisting"
+      ],
+      "source_specific": {
+        "barbara_walker": [
+          "m1 (open variant)",
+          "open increase"
+        ],
+        "stitchmastery": [
+          "make one knitwise through front loop"
+        ],
+        "german": [
+          "offene Zunahme"
+        ]
+      },
+      "ambiguity_notes": [
+        "Make one through front loop \u2014 produces an open (untwisted) increase, unlike standard M1L/M1R which work through the back loop. Used by some designers who want a more visible eyelet. 'M1F' is a reasonable abbreviation but uncommon; some patterns just write 'M1' and rely on the front-loop instruction in the legend text.",
+        "Most modern patterns intend the twisted (tbl) variant when they write M1L or M1R. This is the less common open form.",
+        "When a pattern says only 'M1' in a lace context without L/R specification, this open variant may be intended \u2014 check the legend."
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1l",
+        "m1r",
+        "m1"
+      ],
+      "contrast": [
+        "m1l",
+        "m1r"
+      ],
+      "ws_equivalent": "m1p"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "invisible",
+      "open",
+      "lace"
+    ],
+    "execution": {
+      "rs": [
+        "lift the bar between stitches with left needle, knit through the front loop (leaving a small eyelet)",
+        "make one stitch by picking up the bar and knitting it through the front loop without twisting"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kbf",
+    "canonical_name": "Knit Back and Front",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "A bar increase worked by knitting into the back loop first, then the front loop of the same stitch. This is the reverse of KFB. It produces two stitches from one but with a twisted first stitch and a different visual profile than KFB. Less common than KFB but appears in CYC-sourced patterns and some Vogue Knitting publications.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "kbf",
+        "kb&f",
+        "k1bf",
+        "KBF"
+      ],
+      "alternate_names": [
+        "knit back and front",
+        "knit back then front",
+        "reverse bar increase",
+        "knitwise back-front increase"
+      ],
+      "written_forms": [
+        "knit into the back loop of the next stitch, then without removing it, knit into the front loop of the same stitch",
+        "k1 back and front of same stitch"
+      ],
+      "source_specific": {
+        "cyc": [
+          "K1b&f",
+          "k1bf"
+        ],
+        "vogue_knitting": [
+          "k1b&f"
+        ]
+      },
+      "ambiguity_notes": [
+        "'Knit back then front' \u2014 the reverse of kfb, resulting in a different bar placement. Used in Bavarian/German twisted stitch patterns and some modern designers for aesthetic reasons. Relatively uncommon. 'kb&f' distinguishes from 'kfb'. 'kbf' alone could be misread as 'kfb' by pattern OCR."
+      ]
+    },
+    "relationships": {
+      "mirror_technique": "kfb",
+      "similar": [
+        "kfb",
+        "pfb"
+      ],
+      "ws_equivalent": "pbf"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "bar_increase",
+      "twisted",
+      "cyc"
+    ],
+    "execution": {
+      "rs": [
+        "knit into the back loop of the next stitch, then without removing it, knit into the front loop of the same stitch",
+        "k1 back and front of same stitch"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "pbf",
+    "canonical_name": "Purl Back and Front",
+    "category": "increase",
+    "subcategory": "bar_increase",
+    "semantic_description": "A purl bar increase worked by purling into the back loop first, then the front loop of the same stitch. The purl equivalent of KBF. Rare but appears in CYC-sourced and Vogue Knitting patterns as a WS complement to KBF.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "pbf",
+        "pb&f",
+        "p1bf",
+        "PBF"
+      ],
+      "alternate_names": [
+        "purl back and front",
+        "purl back then front"
+      ],
+      "written_forms": [
+        "purl into the back loop of the next stitch, then without removing it, purl into the front loop of the same stitch"
+      ],
+      "source_specific": {
+        "cyc": [
+          "P1b&f"
+        ],
+        "vogue_knitting": [
+          "p1b&f"
+        ]
+      },
+      "ambiguity_notes": [
+        "Purl equivalent of kbf. 'PBF' could collide with 'place bead' + 'front' instruction shorthands in some beaded knitting patterns."
+      ]
+    },
+    "relationships": {
+      "mirror_technique": "pfb",
+      "similar": [
+        "pfb",
+        "kbf"
+      ],
+      "ws_equivalent": "kbf"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "bar_increase",
+      "twisted",
+      "cyc",
+      "wrong_side"
+    ],
+    "execution": {
+      "rs": [
+        "purl into the back loop of the next stitch, then without removing it, purl into the front loop of the same stitch"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "german_inc_twisted",
+    "canonical_name": "German Twisted Bar Increase",
+    "category": "increase",
+    "subcategory": "lifted_bar",
+    "semantic_description": "A German-tradition increase that lifts the bar between stitches and knits through the back loop without specifying a lean direction. Used in German publications (Lana Grossa, Schachenmayr, Woolly Hugs) and older continental European patterns where M1L/M1R directionality is not distinguished. Distinct from M1L/M1R: those are direction-specific; this is direction-neutral but always twisted.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "M1tbl",
+        "M1-tbl",
+        "m1-twisted",
+        "verschr-Zun"
+      ],
+      "alternate_names": [
+        "make one twisted",
+        "twisted bar increase",
+        "German make one",
+        "aufgenommene verschr\u00e4nkte Masche",
+        "Zunahme durch Aufnehmen"
+      ],
+      "written_forms": [
+        "pick up the bar between stitches with the left needle and knit through the back loop",
+        "Masche aufnehmen und verschr\u00e4nkt abstricken"
+      ],
+      "source_specific": {
+        "german": [
+          "M1 verschr\u00e4nkt",
+          "Zunahme verschr\u00e4nkt",
+          "aufnehmen und verschr\u00e4nkt stricken"
+        ],
+        "lana_grossa": [
+          "aufnehmen verschr\u00e4nkt"
+        ],
+        "schachenmayr": [
+          "Zun. verschr."
+        ]
+      },
+      "ambiguity_notes": [
+        "Make one through back loop \u2014 produces a twisted stitch. Used in German/Bavarian twisted stitch work. 'M1tbl' is the most common English-language form. Distinct from M1L in that it twists the loop."
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "m1l",
+        "m1r",
+        "m1"
+      ],
+      "variant_of": "m1",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "increase",
+      "intermediate",
+      "invisible",
+      "twisted",
+      "german",
+      "continental"
+    ],
+    "execution": {
+      "rs": [
+        "pick up the bar between stitches with the left needle and knit through the back loop",
+        "Masche aufnehmen und verschr\u00e4nkt abstricken"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "lli_purl",
+    "canonical_name": "Left Lifted Increase Purlwise",
+    "category": "increase",
+    "subcategory": "lifted_stitch",
+    "semantic_description": "The wrong-side or purl-ground equivalent of LLI. Creates a new stitch by lifting the left leg of the stitch one row below the next stitch on the left needle and purling into it. Used on WS rows to continue a lifted-increase shaping line established by LLI on RS rows. Less common than LLI and rarely has a dedicated chart symbol \u2014 appears primarily in written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "LLI-p",
+        "LLIP",
+        "lli-p",
+        "LLIp",
+        "ll-inc-p",
+        "LLI purl",
+        "LPi",
+        "p-inc-left"
+      ],
+      "alternate_names": [
+        "left lifted increase purlwise",
+        "left lifted purl increase",
+        "LLI WS",
+        "left lifted WS increase",
+        "left-leaning purl increase",
+        "left-lifted purl increase",
+        "lifted purl increase left"
+      ],
+      "written_forms": [
+        "insert left needle into the left leg of the stitch below the next stitch on left needle and purl into it",
+        "purl the left leg of the stitch one row below the next stitch"
+      ],
+      "source_specific": {
+        "brooklyn_tweed": [
+          "LLIP",
+          "LLI purl"
+        ],
+        "quince_and_co": [
+          "LLI-purl"
+        ]
+      },
+      "ambiguity_notes": [
+        "Purlwise version of LLI. Used on wrong-side rows. Not in CYC. Used by Purl Soho and similar designers."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "lli",
+      "mirror": "rli_purl",
+      "similar": [
+        "m1pl",
+        "lli",
+        "lli_purl"
+      ]
+    },
+    "tags": [
+      "increase",
+      "advanced",
+      "left_leaning",
+      "wrong_side",
+      "lifted"
+    ],
+    "execution": {
+      "rs": [
+        "insert left needle into the left leg of the stitch below the next stitch on left needle and purl into it",
+        "purl the left leg of the stitch one row below the next stitch"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "rli_purl",
+    "canonical_name": "Right Lifted Increase Purlwise",
+    "category": "increase",
+    "subcategory": "lifted_stitch",
+    "semantic_description": "The wrong-side or purl-ground equivalent of RLI. Creates a new stitch by lifting the right leg of the stitch one row below the stitch just worked and purling into it. Used on WS rows to continue a lifted-increase shaping line established by RLI on RS rows.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "RLI-p",
+        "RLIP",
+        "rli-p",
+        "RLIp",
+        "rl-inc-p",
+        "RLI purl",
+        "RPi",
+        "p-inc-right"
+      ],
+      "alternate_names": [
+        "right lifted increase purlwise",
+        "right lifted purl increase",
+        "RLI WS",
+        "right lifted WS increase",
+        "right-leaning purl increase",
+        "right-lifted purl increase",
+        "lifted purl increase right"
+      ],
+      "written_forms": [
+        "insert right needle into the right leg of the stitch below the stitch just worked and purl into it",
+        "purl the right leg of the stitch one row below the last completed stitch"
+      ],
+      "source_specific": {
+        "brooklyn_tweed": [
+          "RLIP",
+          "RLI purl"
+        ],
+        "quince_and_co": [
+          "RLI-purl"
+        ]
+      }
+    },
+    "relationships": {
+      "ws_equivalent": "rli",
+      "mirror": "lli_purl",
+      "similar": [
+        "m1pr",
+        "rli",
+        "rli_purl"
+      ]
+    },
+    "tags": [
+      "increase",
+      "advanced",
+      "right_leaning",
+      "wrong_side",
+      "lifted"
+    ],
+    "execution": {
+      "rs": [
+        "insert right needle into the right leg of the stitch below the stitch just worked and purl into it",
+        "purl the right leg of the stitch one row below the last completed stitch"
+      ]
+    },
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_3_purl",
+    "canonical_name": "Purl Increase 1 to 3",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 3 stitches, worked from the WS. The purl counterpart of inc_1_to_3; when a 1-to-3 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 3 purl",
+        "p-inc-3"
+      ],
+      "alternate_names": [
+        "purl increase to 3"
+      ],
+      "written_forms": [
+        "Work a 1-to-3 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-3 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_3"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_4_purl",
+    "canonical_name": "Purl Increase 1 to 4",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 4 stitches, worked from the WS. The purl counterpart of inc_1_to_4; when a 1-to-4 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 4,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 4 purl",
+        "p-inc-4"
+      ],
+      "alternate_names": [
+        "purl increase to 4"
+      ],
+      "written_forms": [
+        "Work a 1-to-4 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-4 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_4"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_5_purl",
+    "canonical_name": "Purl Increase 1 to 5",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 5 stitches, worked from the WS. The purl counterpart of inc_1_to_5; when a 1-to-5 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 5,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 5 purl",
+        "p-inc-5"
+      ],
+      "alternate_names": [
+        "purl increase to 5"
+      ],
+      "written_forms": [
+        "Work a 1-to-5 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-5 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_5"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_6_purl",
+    "canonical_name": "Purl Increase 1 to 6",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 6 stitches, worked from the WS. The purl counterpart of inc_1_to_6; when a 1-to-6 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 6,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 6 purl",
+        "p-inc-6"
+      ],
+      "alternate_names": [
+        "purl increase to 6"
+      ],
+      "written_forms": [
+        "Work a 1-to-6 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-6 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_6"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_7_purl",
+    "canonical_name": "Purl Increase 1 to 7",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 7 stitches, worked from the WS. The purl counterpart of inc_1_to_7; when a 1-to-7 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 7,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 7 purl",
+        "p-inc-7"
+      ],
+      "alternate_names": [
+        "purl increase to 7"
+      ],
+      "written_forms": [
+        "Work a 1-to-7 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-7 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_7"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_8_purl",
+    "canonical_name": "Purl Increase 1 to 8",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 8 stitches, worked from the WS. The purl counterpart of inc_1_to_8; when a 1-to-8 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 8,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 8 purl",
+        "p-inc-8"
+      ],
+      "alternate_names": [
+        "purl increase to 8"
+      ],
+      "written_forms": [
+        "Work a 1-to-8 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-8 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_8"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_9_purl",
+    "canonical_name": "Purl Increase 1 to 9",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Increase one stitch into 9 stitches, worked from the WS. The purl counterpart of inc_1_to_9; when a 1-to-9 increase symbol appears on a WS row, this is the action worked.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 9,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 9 purl",
+        "p-inc-9"
+      ],
+      "alternate_names": [
+        "purl increase to 9"
+      ],
+      "written_forms": [
+        "Work a 1-to-9 purl increase as specified in the legend."
+      ],
+      "ambiguity_notes": [
+        "WS counterpart op. Generic; specific technique (yo / m1 / kfb variants) is legend-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-9 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_9"
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "inc_1_to_2",
+    "canonical_name": "Increase 1 to 2",
+    "category": "increase",
+    "subcategory": "multi_stitch",
+    "semantic_description": "Generic 1-to-2 increase: one stitch becomes two via a legend-defined method (kfb, m1 + knit, yo + knit, lifted, etc.). Shown on SM-style charts as a wide 2-cell arc connecting two stitches to one. The specific technique is given in the pattern legend.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 2",
+        "inc2"
+      ],
+      "alternate_names": [
+        "increase to 2 stitches",
+        "1-to-2 increase"
+      ],
+      "written_forms": [
+        "increase 1 stitch to 2 stitches using the method specified in the legend"
+      ],
+      "ambiguity_notes": [
+        "Generic 1\u21922 increase. Specific realizations include kfb, m1+knit, yo+knit, lifted-then-knit. The chart symbol (2-cell wide arc in SM) is the generic visual; the legend specifies which technique.",
+        "Distinct from kfb \u2014 kfb is a specific knit-front-and-back technique. Use this op when the symbol is the generic 2-cell arc and the legend doesn't specify kfb."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-2 increase using the method specified in the pattern legend."
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kfb",
+        "pfb",
+        "m1",
+        "yarn_over"
+      ],
+      "ws_equivalent": "inc_1_to_2_purl"
+    },
+    "tags": [
+      "increase",
+      "multi_stitch",
+      "generic",
+      "legend_driven"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "inc_1_to_2_purl",
+    "canonical_name": "Purl Increase 1 to 2",
+    "category": "increase",
+    "subcategory": "multi_stitch_purl",
+    "semantic_description": "Generic 1-to-2 purl increase \u2014 the WS counterpart of inc_1_to_2. The specific technique is legend-defined (pfb, m1p + purl, yo + purl, etc.).",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "inc 1 to 2 purl",
+        "p-inc-2"
+      ],
+      "alternate_names": [
+        "purl increase to 2"
+      ],
+      "written_forms": [
+        "Work the 1-to-2 purl increase as specified in the legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the 1-to-2 purl increase per pattern legend."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "inc_1_to_2",
+      "similar": [
+        "pfb"
+      ]
+    },
+    "tags": [
+      "increase",
+      "purl",
+      "multi_stitch",
+      "wrong_side"
+    ],
+    "difficulty": "intermediate"
+  }
+]

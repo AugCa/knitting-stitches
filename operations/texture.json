@@ -1,0 +1,1219 @@
+[
+  {
+    "id": "bobble",
+    "canonical_name": "Bobble",
+    "category": "texture",
+    "subcategory": "bobble",
+    "semantic_description": "A three-dimensional textural element created by increasing multiple stitches from one, working several short rows over just those stitches, then decreasing back to one stitch. The result is a raised bump or ball on the surface of the fabric. At the chart level, a bobble consumes 1 stitch and produces 1 stitch \u2014 the expansion and collapse happen within the operation itself. Bobbles are exclusively worked on RS rows; the WS row at that position is just a plain purl.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "MB",
+        "mb",
+        "MB3",
+        "MB5",
+        "MB7",
+        "make bobble",
+        "bobble",
+        "B",
+        "B3",
+        "B5",
+        "bob"
+      ],
+      "alternate_names": [
+        "make bobble",
+        "bobble stitch",
+        "popcorn stitch"
+      ],
+      "written_forms": [
+        "make bobble: (k1, p1, k1, p1, k1) into next stitch [5 sts], turn, p5, turn, k5, turn, p5, turn, k5tog",
+        "work a 5-stitch bobble",
+        "MB: increase to 5 sts, work 4 rows, decrease back to 1"
+      ],
+      "source_specific": {
+        "barbara_walker": [
+          "Bobble",
+          "Popcorn"
+        ],
+        "british_vintage": [
+          "knot stitch",
+          "berry stitch"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC does not have 'bobble' in the master list but 'MB' (make bobble) is the universal chart abbreviation. The number suffix (MB3, MB5, MB7) indicates how many stitches the bobble is worked from/to. 'B' alone is heavily ambiguous: bead, bobble, or just a size marker \u2014 only usable when the legend clearly states 'B = bobble'. Purl Soho uses 'MB' for a 5-stitch bobble. Rowan often defines their own bobble abbreviation per pattern.",
+        "Bobble size varies by pattern \u2014 3-stitch, 5-stitch, and 7-stitch bobbles are all common. The abbreviation 'MB' (make bobble) doesn't specify size. Always check the pattern's specific bobble instructions.",
+        "A 'popcorn' stitch is similar but the increase stitches are not turned \u2014 they are worked, then the first stitch is pulled through the last. Different construction, similar appearance.",
+        "'B' and 'MB' are also used for beads in some patterns. Disambiguate via the pattern legend \u2014 bobbles typically have a clear bump symbol."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "(k1, p1, k1, p1, k1) into the next stitch \u2014 5 stitches from 1",
+        "Turn work. Purl 5.",
+        "Turn work. Knit 5.",
+        "Turn work. Purl 5.",
+        "Turn work. Knit 5 together (or sl4, k1, pass 4 over) \u2014 back to 1 stitch",
+        "Continue working the main row"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "popcorn",
+        "nupp"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "three_dimensional",
+      "aran",
+      "decorative"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "popcorn",
+    "canonical_name": "Popcorn Stitch",
+    "category": "texture",
+    "subcategory": "bobble",
+    "semantic_description": "A textural element similar to a bobble but worked without turning. Increase into one stitch (typically 5 stitches), then pass all the extra stitches over the last one to collapse back to 1. Faster to work than a bobble because there are no short rows. Produces a slightly flatter, rounder bump compared to a bobble.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "PC",
+        "Pop",
+        "PC5",
+        "popcorn"
+      ],
+      "alternate_names": [
+        "popcorn stitch",
+        "puff stitch"
+      ],
+      "written_forms": [
+        "knit 5 into the next stitch, then pass the first 4 stitches over the last stitch one at a time",
+        "make popcorn: (k1, p1, k1, p1, k1) into next st, pass 4 over",
+        "make popcorn"
+      ],
+      "ambiguity_notes": [
+        "'PC' for popcorn is distinct from 'PC5' (5-stitch popcorn). 'Popcorn' and 'bobble' are sometimes used interchangeably in patterns but technically differ: a popcorn is completed on the same row (stitches are not returned to the left needle), while a bobble completes over multiple mini-rows."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "(k1, p1, k1, p1, k1) into the next stitch \u2014 5 stitches",
+        "Pass the 4th stitch over the 5th (on right needle)",
+        "Pass the 3rd stitch over",
+        "Pass the 2nd stitch over",
+        "Pass the 1st stitch over \u2014 back to 1 stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "bobble",
+        "nupp"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "three_dimensional",
+      "decorative"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "nupp",
+    "canonical_name": "Nupp",
+    "category": "texture",
+    "subcategory": "nupp",
+    "semantic_description": "A Baltic/Estonian lace technique that creates a small rounded bead on the fabric surface. Unlike a bobble, a nupp spans two rows: on the RS, multiple loops (typically 5-7) are pulled through a single stitch without removing them fully, creating a cluster of loops. On the following WS row, all loops are purled together as one stitch, collapsing the nupp. The result is a tiny, tight bobble. Traditional Estonian lace uses nupps extensively.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "row_span": 2
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "nupp",
+        "NUPP",
+        "N",
+        "Estonian nupp",
+        "N5",
+        "N7",
+        "nu"
+      ],
+      "alternate_names": [
+        "nupp stitch",
+        "Estonian nupp",
+        "bead stitch",
+        "Estonian bead"
+      ],
+      "written_forms": [
+        "nupp: (k1, yo, k1, yo, k1) into next stitch on RS; on following WS row, purl all 5 loops together",
+        "work nupp: make 5 (or 7) loops from 1 stitch, purl together on return row"
+      ],
+      "source_specific": {
+        "estonian": [
+          "nupp",
+          "nuppud (plural)"
+        ],
+        "nancy_bush": [
+          "nupp"
+        ],
+        "haapsalu": [
+          "nupp"
+        ]
+      },
+      "ambiguity_notes": [
+        "Estonian nupp is a tight gathered cluster of (typically) 5 or 7 stitches, knitted together on the return row. 'N' as a stand-alone abbreviation is extremely ambiguous (could be 'no', 'needle', 'nupp', or a size). In Estonian lace patterns by designers like Siiri Reimo or Eevi Maschinen, 'N' or 'N5' is standard. In non-Estonian contexts, write 'nupp' in full or 'N5'/'N7'.",
+        "Nupp size varies: 5-loop and 7-loop nupps are most common. A 7-loop nupp is more pronounced but harder to purl together on the WS.",
+        "The WS p5tog (or p7tog) is the hardest part \u2014 keeping all loops loose on the RS row makes the WS collapse easier.",
+        "Open, filled, and triangular chart glyphs can all denote the same nupp technique. In symbol libraries these are often visual variants rather than different knitting operations."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "RS row: Into the next stitch, work (k1, yo, k1, yo, k1) \u2014 5 loops from 1 stitch. Keep loops LOOSE.",
+        "WS row (next row): Purl all 5 loops together as p5tog \u2014 collapses back to 1 stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "bobble",
+        "popcorn"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "advanced",
+      "estonian",
+      "lace",
+      "two_row",
+      "bead"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "wrap_and_turn",
+    "canonical_name": "Wrap and Turn",
+    "category": "texture",
+    "subcategory": "short_row",
+    "semantic_description": "A short-row technique that prevents holes at the turning point. Before turning the work mid-row, the next stitch is wrapped: slip the stitch, bring yarn to other side, return the stitch, then turn. On a later row, the wrap is picked up and worked together with its stitch to hide the gap. Essential for shaping (bust darts, heel turns, shoulder shaping) without bind-offs.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "w&t",
+        "W&T",
+        "w and t",
+        "wrap and turn",
+        "wrap & turn",
+        "WT",
+        "w+t",
+        "wt",
+        "w & t"
+      ],
+      "alternate_names": [
+        "wrap and turn",
+        "short row wrap",
+        "traditional short row"
+      ],
+      "written_forms": [
+        "wrap and turn: slip next stitch purlwise, bring yarn to other side, return stitch to left needle, turn work",
+        "w&t: sl1, move yarn, sl st back, turn",
+        "w&t: bring yarn to front, sl next st, bring yarn to back, sl st back, turn work",
+        "wrap and turn: slip next stitch, move yarn to opposite side, slip stitch back, turn"
+      ],
+      "ambiguity_notes": [
+        "Duplicate of w_and_t (structural) \u2014 this appears in texture.json. Same abbreviations apply. The texture category placement may reflect use as a shaping tool within a stitch-pattern row rather than a structural row-end turn.",
+        "'SR' and 'turn' are also used generically for any short-row method (German, Japanese, shadow). W&T is one specific short-row technique."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "On a knit row: Slip next stitch purlwise to right needle",
+        "Bring yarn to front (between needles)",
+        "Slip stitch back to left needle",
+        "Turn work \u2014 you are now on the WS",
+        "Later: when working past the wrap, pick up the wrap with the stitch and work together"
+      ],
+      "ws": [
+        "On a purl row: Slip next stitch purlwise to right needle",
+        "Bring yarn to back",
+        "Slip stitch back to left needle",
+        "Turn work \u2014 you are now on the RS"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "german_short_row"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "short_row",
+      "shaping",
+      "intermediate",
+      "heel",
+      "bust_dart"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "wrap_and_turn_left",
+    "canonical_name": "Wrap and Turn Left",
+    "category": "texture",
+    "subcategory": "short_row",
+    "semantic_description": "A left-facing chart-direction variant of wrap-and-turn short-row shaping. The underlying knitting technique is the standard wrap-and-turn method, but the symbol specifically indicates the turning point oriented toward the left side of the chart or fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "w&t left",
+        "W&T-L",
+        "SR-L",
+        "short row left"
+      ],
+      "alternate_names": [
+        "wrap and turn left",
+        "left short row",
+        "left-facing wrap and turn"
+      ],
+      "written_forms": [
+        "wrap and turn left",
+        "left-facing short-row wrap and turn"
+      ],
+      "ambiguity_notes": [
+        "Directional short row. The 'left' qualifier indicates the direction of the turn/shaping. Some pattern systems use 'w&t RS' and 'w&t WS' rather than left/right."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work a standard wrap and turn at this point",
+        "Interpret the symbol as the left-facing chart-direction form of wrap and turn"
+      ]
+    },
+    "relationships": {
+      "mirror": "wrap_and_turn_right",
+      "variant_of": "wrap_and_turn",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "short_row",
+      "shaping",
+      "intermediate",
+      "directional",
+      "left"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "wrap_and_turn_right",
+    "canonical_name": "Wrap and Turn Right",
+    "category": "texture",
+    "subcategory": "short_row",
+    "semantic_description": "A right-facing chart-direction variant of wrap-and-turn short-row shaping. The underlying knitting technique is the standard wrap-and-turn method, but the symbol specifically indicates the turning point oriented toward the right side of the chart or fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "w&t right",
+        "W&T-R",
+        "SR-R",
+        "short row right"
+      ],
+      "alternate_names": [
+        "wrap and turn right",
+        "right short row",
+        "right-facing wrap and turn"
+      ],
+      "written_forms": [
+        "wrap and turn right",
+        "right-facing short-row wrap and turn"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work a standard wrap and turn at this point",
+        "Interpret the symbol as the right-facing chart-direction form of wrap and turn"
+      ]
+    },
+    "relationships": {
+      "mirror": "wrap_and_turn_left",
+      "variant_of": "wrap_and_turn",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "short_row",
+      "shaping",
+      "intermediate",
+      "directional",
+      "right"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "german_short_row",
+    "canonical_name": "German Short Row",
+    "category": "texture",
+    "subcategory": "short_row",
+    "semantic_description": "An alternative short-row technique that uses a 'double stitch' instead of a wrap. After turning, the first stitch is pulled up tight so both legs are visible on the needle (creating a double stitch). When later worked, the double stitch is knit or purled through both legs. Produces a neater result than wrap-and-turn with less visible holes. Increasingly popular as the standard short-row method.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "GSR",
+        "DS",
+        "double-stitch",
+        "DM",
+        "GSR turn"
+      ],
+      "alternate_names": [
+        "German short row",
+        "double stitch short row",
+        "Doppelmasche"
+      ],
+      "written_forms": [
+        "turn work, slip first stitch purlwise with yarn in front, pull yarn firmly over needle to create a double stitch",
+        "German short row: after turning, pull first stitch tight so both legs show"
+      ],
+      "source_specific": {
+        "german": [
+          "Doppelmasche",
+          "DM"
+        ]
+      },
+      "ambiguity_notes": [
+        "'DS' (double stitch) is the most common abbreviation for the German short row technique, named for the characteristic double loop created when turning. 'DM' comes from the German 'Doppelmasche'. 'GSR' is used by some English-language designers. 'DS' can collide with 'drop stitch' \u2014 context is key.",
+        "'DS' = 'double stitch' in German short-row context; don't confuse with 'drop stitch'."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Turn work at the desired point",
+        "With yarn in front, slip the first stitch purlwise",
+        "Pull the working yarn firmly over the needle toward the back \u2014 the stitch legs will pull up, making a 'double stitch' that looks like two stitches",
+        "Continue working the row",
+        "When you reach the double stitch on a later row, work both legs together as one stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "wrap_and_turn"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "short_row",
+      "shaping",
+      "intermediate",
+      "german_technique"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k1_below",
+    "canonical_name": "Knit 1 Below",
+    "category": "texture",
+    "subcategory": "stitch_below",
+    "semantic_description": "Knits into the stitch one row below the next stitch on the needle, rather than the stitch itself. The current stitch drops off and unravels one row, while the new stitch is formed from the row below. Creates a textured, elongated stitch. Used in fisherman's rib (half-brioche), waffle stitch, and some textured patterns. A simpler alternative to brioche knitting that produces a similar double-fabric effect.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k1B",
+        "K1B",
+        "k1 below",
+        "knit 1 below",
+        "K1b",
+        "kb1",
+        "k1b",
+        "k1-below",
+        "K below",
+        "k-1-below"
+      ],
+      "alternate_names": [
+        "knit one below",
+        "knit into row below",
+        "knit into stitch below",
+        "fisherman's knit",
+        "elongated knit stitch",
+        "dip stitch knit"
+      ],
+      "written_forms": [
+        "insert needle into the stitch directly below the next stitch on the left needle, knit it, and let the upper stitch drop",
+        "knit into the center of the stitch one row below"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "knit into stitch below"
+        ],
+        "cyc": [
+          "k1B",
+          "K1B"
+        ]
+      },
+      "ambiguity_notes": [
+        "CYC lists 'k1B' (knit stitch in row below). In chart form this appears as a downward-pointing arrow or a special symbol. 'k1b' is extremely common. CRITICAL COLLISION: 'k1b' / 'K1B' is also used in brioche knitting by some designers to mean 'brioche knit' (as a substitute for 'brk') \u2014 particularly in older patterns pre-Marchant standardization, and by designers who don't use the brk/brp system. Always check legend. When 'k1b' appears in a brioche pattern context, it maps to brk.",
+        "'k1b' can be confused with 'k1tbl' (knit 1 through back loop). Context matters \u2014 'b' can mean 'below' or 'back' depending on the pattern."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the center of the stitch directly below the next stitch on the left needle (one row down)",
+        "Wrap yarn and knit through this lower stitch",
+        "Let the upper stitch (on the left needle) drop off \u2014 it unravels and is absorbed"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brk",
+        "p1_below"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "fisherman_rib",
+      "brioche_adjacent"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "p1_below",
+    "canonical_name": "Purl 1 Below",
+    "category": "texture",
+    "subcategory": "stitch_below",
+    "semantic_description": "Purls into the stitch one row below the next stitch on the needle. The purl-side equivalent of k1-below. Used in fisherman's rib and textured patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p1B",
+        "P1B",
+        "p1 below",
+        "purl 1 below",
+        "P1b",
+        "pb1",
+        "p1b",
+        "p1-below",
+        "p-1-below"
+      ],
+      "alternate_names": [
+        "purl one below",
+        "purl into row below",
+        "purl into stitch below",
+        "elongated purl stitch",
+        "dip stitch purl"
+      ],
+      "written_forms": [
+        "insert needle into the stitch one row below purlwise, purl it, drop the upper stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "purl into stitch below"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same caveat as k1b: in brioche patterns, 'p1b' can mean brioche purl (brp). In non-brioche patterns, it means purl into the stitch in the row below (elongated purl). Verify with legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle into the stitch one row below the next stitch purlwise",
+        "Purl through the lower stitch",
+        "Drop the upper stitch off left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brp",
+        "k1_below"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "fisherman_rib"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k1_below_twist",
+    "canonical_name": "Knit 1 Below Twisted",
+    "category": "texture",
+    "subcategory": "stitch_below",
+    "semantic_description": "A twisted dip-stitch variant of knit 1 below. The new stitch is formed from the stitch in the row below but worked in a twisted orientation, producing a tighter and more defined elongated stitch than an ordinary k1-below. Japanese chart systems and Marnen's JIS-derived symbol set treat twisted dip stitch as a distinct operation from a plain dip stitch.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k1btw",
+        "K1BTW",
+        "k1btbl",
+        "k1-below-twist"
+      ],
+      "alternate_names": [
+        "knit 1 below twisted",
+        "twisted dip stitch",
+        "dip twist",
+        "k1b twist"
+      ],
+      "written_forms": [
+        "insert the needle into the stitch below and knit it in a twisted orientation",
+        "work the stitch below through the back loop or crossed orientation, then let the upper stitch drop"
+      ],
+      "source_specific": {
+        "japanese_english": [
+          "twisted dip stitch"
+        ],
+        "marnen": [
+          "diptwist"
+        ]
+      },
+      "ambiguity_notes": [
+        "A relatively rare texture stitch \u2014 knit into the row below and twist the resulting stitch. Used in some Scandinavian/Nordic stitch dictionaries. 'k1btbl' is descriptive. No CYC entry.",
+        "This is distinct from ordinary k1-below. The symbol means the dipped stitch is twisted, not merely elongated.",
+        "Some pattern glossaries describe the exact needle path as 'through the back loop' while others describe it as 'crossed' or 'twisted' \u2014 the key distinction is the twisted orientation of the dipped stitch."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert the right needle into the stitch one row below the next stitch on the left needle",
+        "Work that lower stitch in the twisted or back-loop orientation specified by the pattern",
+        "Allow the upper stitch to drop off the left needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "k1_below",
+        "p1_below"
+      ],
+      "variant_of": "k1_below",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "fisherman_rib",
+      "brioche_adjacent",
+      "twisted",
+      "dip_stitch"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "drop_stitch",
+    "canonical_name": "Drop Stitch",
+    "category": "texture",
+    "subcategory": "drop_stitch",
+    "semantic_description": "Intentionally drops a stitch off the needle and allows it to ladder down (unravel) one or more rows. Creates an elongated, open ladder effect in the fabric. Usually preceded by a yarn-over or double wrap on a previous row so the ladder has a defined starting point. Used in drop-stitch patterns for dramatic open textures.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "drop st",
+        "drop",
+        "drop-stitch"
+      ],
+      "alternate_names": [
+        "drop stitch",
+        "dropped stitch",
+        "intentional drop"
+      ],
+      "written_forms": [
+        "drop the next stitch off the needle and allow it to ladder down",
+        "drop stitch: let the next stitch fall off the needle",
+        "drop the next stitch off the needle and let it ladder down"
+      ],
+      "ambiguity_notes": [
+        "'DS' collides with German short row ('double stitch'). In drop-stitch lace and intentional ladder patterns, 'drop st' is unambiguous. In a chart cell, the symbol is often a cross or empty cell with a dropped bar. 'drop' alone should not collide in a chart legend context.",
+        "DS also collides with German short row (ds/DM). Disambiguate by context.",
+        "'DS' can also mean 'double stitch' (German short row). Legend-dependent."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slip the next stitch off the left needle without working it",
+        "Allow it to unravel/ladder down to the desired point"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "k1_wrap2"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "drop_stitch",
+      "decorative",
+      "open_fabric"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bead",
+    "canonical_name": "Bead Stitch",
+    "category": "texture",
+    "subcategory": "embellishment",
+    "semantic_description": "Places a pre-strung bead at a specific stitch position. Beads are strung on the yarn before knitting begins. At the designated position, a bead is slid up to sit in front of (or around) the stitch. Multiple beading techniques exist: slip-stitch beading (most common), hook beading, and carry-along beading. The stitch count does not change.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "bead",
+        "B",
+        "place bead",
+        "pb",
+        "PB",
+        "SB",
+        "sb",
+        "bd",
+        "HB",
+        "hb",
+        "hook bead",
+        "bead st"
+      ],
+      "alternate_names": [
+        "bead stitch",
+        "place bead",
+        "beaded knitting",
+        "hook bead"
+      ],
+      "written_forms": [
+        "slide bead up to sit in front of the next stitch, then slip the stitch purlwise",
+        "place bead: using crochet hook, place bead over the stitch"
+      ],
+      "source_specific": {
+        "vogue": [
+          "PB",
+          "place bead"
+        ]
+      },
+      "ambiguity_notes": [
+        "'B' is deeply ambiguous: bobble, bead, or merely a letter label. In beaded knitting, 'PB' (place bead) is cleaner. 'SB' (slide bead) is used when working with pre-strung beads. Always verify with legend. If both beads and bobbles appear in the same pattern, avoid bare 'B' as an abbreviation for either.",
+        "'B' and 'PB' can also mean bobble or purl-through-back-loop in other pattern conventions. Disambiguate via the legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slide a pre-strung bead up the working yarn to sit next to the needles",
+        "Slip the next stitch purlwise with yarn in front",
+        "The bead sits in front of the slipped stitch"
+      ],
+      "tools": [
+        "pre-strung beads",
+        "optional: small crochet hook for hook method"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "bead_knit",
+        "bead_purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "embellishment",
+      "beading",
+      "decorative"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bead_knit",
+    "canonical_name": "Bead Knit",
+    "category": "texture",
+    "subcategory": "embellishment",
+    "semantic_description": "Places a bead and works the associated stitch as a knit stitch. This is more specific than a generic bead symbol and should be kept separate from bead purl in dictionaries and lookup systems that care about the worked stitch type.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BK",
+        "bk",
+        "bead knit",
+        "beading - knit",
+        "k+bead",
+        "pbk",
+        "PBK"
+      ],
+      "alternate_names": [
+        "knit bead",
+        "place bead and knit"
+      ],
+      "written_forms": [
+        "slide the bead into place and knit the next stitch",
+        "place bead, knit"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. In beaded knitting, the method of placing the bead (hook method, slip method) varies by technique. 'BK' is a reasonable abbreviation not in common publisher use."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slide a pre-strung bead up the working yarn to the stitch position",
+        "Knit the beaded stitch as specified by the pattern"
+      ],
+      "tools": [
+        "pre-strung beads",
+        "optional: small crochet hook for hook method"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "bead_purl"
+      ],
+      "variant_of": "bead",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "embellishment",
+      "beading",
+      "decorative",
+      "knit"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "bead_purl",
+    "canonical_name": "Bead Purl",
+    "category": "texture",
+    "subcategory": "embellishment",
+    "semantic_description": "Places a bead and works the associated stitch as a purl stitch. This is distinct from bead knit when a chart legend or symbol library encodes the stitch type explicitly.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BP",
+        "bp",
+        "bead purl",
+        "beading - purl",
+        "p+bead",
+        "pbp",
+        "PBP"
+      ],
+      "alternate_names": [
+        "purl bead",
+        "place bead and purl"
+      ],
+      "written_forms": [
+        "slide the bead into place and purl the next stitch",
+        "place bead, purl"
+      ],
+      "ambiguity_notes": [
+        "Same situation as bead_knit. 'BP' is reasonable. Pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Slide a pre-strung bead up the working yarn to the stitch position",
+        "Purl the beaded stitch as specified by the pattern"
+      ],
+      "tools": [
+        "pre-strung beads",
+        "optional: small crochet hook for hook method"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "bead_knit"
+      ],
+      "variant_of": "bead",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "texture",
+      "intermediate",
+      "embellishment",
+      "beading",
+      "decorative",
+      "purl"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "catch_strands",
+    "canonical_name": "Catch Strands",
+    "category": "texture",
+    "subcategory": "colorwork_handling",
+    "semantic_description": "Colorwork technique to trap a long carried strand (float) by catching it behind a working stitch. The working stitch is still completed normally; only the float is trapped. Used in stranded colorwork to prevent long floats from snagging.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "catch",
+        "CF",
+        "catch float",
+        "trap float"
+      ],
+      "alternate_names": [
+        "catch strands",
+        "catch the float",
+        "trap the strand",
+        "weave in float",
+        "catch carried yarn"
+      ],
+      "written_forms": [
+        "catch the floating strand behind the working stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "catch strands"
+        ]
+      },
+      "ambiguity_notes": [
+        "In stranded colorwork, catching/trapping floats is a technique instruction, not a stitch operation per se. It rarely appears as a chart symbol but may appear in legends of long-float colorwork patterns. 'CF' for catch float is reasonable but uncommon."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Bring the carried strand under the working yarn before completing the next stitch, trapping the float against the back of the work"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "colorwork",
+      "stranded",
+      "float",
+      "fair_isle"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "twined_knit",
+    "canonical_name": "Twined Knit",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A knit stitch worked in the Scandinavian twined knitting tradition (tv\u00e5\u00e4ndsstickning), using two strands of yarn alternately and twisting them around each other between stitches. Produces a denser, more structured fabric than regular knitting.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tvk",
+        "tk",
+        "TK"
+      ],
+      "alternate_names": [
+        "twined knit",
+        "two-end knit",
+        "tv\u00e5\u00e4ndsstickning knit"
+      ],
+      "written_forms": [
+        "work a knit stitch using the back strand, alternating with the front strand"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "Twined - front loop curved",
+          "Twined - front loop straight"
+        ]
+      },
+      "ambiguity_notes": [
+        "Tv\u00e5\u00e4ndsstickning (Swedish twined knitting) uses two strands alternated. 'tvk' comes from Swedish 'tv\u00e5\u00e4ndsstickning knit'. Not in CYC. Only appears in twined knitting pattern contexts (Swedish, Nordic). Very niche."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit the stitch using the strand currently held behind the other working strand",
+        "Twist the two strands around each other"
+      ]
+    },
+    "relationships": {
+      "mirror": "twined_purl",
+      "similar": [
+        "twined_braid",
+        "twined_technique"
+      ],
+      "ws_equivalent": "twined_purl"
+    },
+    "tags": [
+      "texture",
+      "twined",
+      "scandinavian",
+      "traditional",
+      "advanced"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "twined_purl",
+    "canonical_name": "Twined Purl",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A purl stitch worked in the Scandinavian twined knitting tradition. WS equivalent of twined_knit.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tvp",
+        "tp",
+        "TP"
+      ],
+      "alternate_names": [
+        "twined purl",
+        "two-end purl",
+        "tv\u00e5\u00e4ndsstickning purl"
+      ],
+      "written_forms": [
+        "work a purl stitch using the back strand, alternating with the front strand"
+      ],
+      "source_specific": {},
+      "ambiguity_notes": [
+        "Purl equivalent of twined knit. Same niche context."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl the stitch using the strand currently held behind",
+        "Twist the two strands around each other"
+      ]
+    },
+    "relationships": {
+      "mirror": "twined_knit",
+      "similar": [
+        "twined_braid",
+        "twined_technique"
+      ],
+      "ws_equivalent": "twined_knit"
+    },
+    "tags": [
+      "texture",
+      "twined",
+      "scandinavian",
+      "traditional",
+      "advanced"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "twined_braid",
+    "canonical_name": "Twined Braid",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A decorative round in twined knitting where both yarns cross systematically to form a surface chain or braid effect. Related to Latvian braids; common in traditional Scandinavian colorwork. Produces a raised horizontal decorative band.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "TV braid",
+        "Latvian braid",
+        "twined braid"
+      ],
+      "alternate_names": [
+        "twined braid",
+        "Latvian braid",
+        "twisted braid",
+        "two-color braid",
+        "rolakan braid"
+      ],
+      "written_forms": [
+        "work both strands across, crossing them between every stitch to form a braid"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "Twined - braid curved",
+          "Twined - braid straight"
+        ]
+      },
+      "ambiguity_notes": [
+        "No standard English abbreviation. The Latvian braid and twined braid are worked by alternating yarn strands in a specific pattern. Pattern-defined in all sources. 'TV braid' references tv\u00e5\u00e4ndsstickning."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Bring both yarns to the front",
+        "Work each stitch alternately, crossing the yarns between stitches in the same direction across the round"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "twined_knit",
+        "twined_purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "texture",
+      "twined",
+      "braid",
+      "scandinavian",
+      "latvian",
+      "traditional",
+      "advanced"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "twined_knit_tbl",
+    "canonical_name": "Twined Knit Through Back Loop",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A twined (tv\u00e5\u00e4ndstickning) knit stitch worked through the back loop, using two strands of yarn alternated between stitches with the carrying strand twisted in a consistent direction between each stitch. Produces a dense, weatherproof fabric typical of Scandinavian tv\u00e5\u00e4ndstickning (two-end knitting).",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tk tbl",
+        "Tk tbl"
+      ],
+      "alternate_names": [
+        "twined knit tbl",
+        "twined k tbl",
+        "tv\u00e5\u00e4ndsstickning knit tbl"
+      ],
+      "written_forms": [
+        "knit 1 through back loop using twined method"
+      ],
+      "ambiguity_notes": [
+        "Not in CYC. Used primarily in Scandinavian / Swedish twined knitting patterns."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Alternate the two strands of yarn, knitting 1 through the back loop with the current active strand",
+        "Twist the two strands consistently between each stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "twined_knit",
+        "knit_tbl"
+      ],
+      "mirror": null,
+      "ws_equivalent": "twined_purl_tbl"
+    },
+    "tags": [
+      "texture",
+      "advanced",
+      "twined",
+      "scandinavian",
+      "regional",
+      "tbl"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "twined_purl_tbl",
+    "canonical_name": "Twined Purl Through Back Loop",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A twined (tv\u00e5\u00e4ndstickning) purl stitch worked through the back loop, using two strands of yarn. The mirror of twined_knit_tbl for WS-facing or textured patterning within twined knitting.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tp tbl",
+        "Tp tbl"
+      ],
+      "alternate_names": [
+        "twined purl tbl",
+        "twined p tbl"
+      ],
+      "written_forms": [
+        "purl 1 through back loop using twined method"
+      ],
+      "ambiguity_notes": [
+        "Not in CYC. Scandinavian twined knitting only."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Alternate the two strands; purl 1 through the back loop with the active strand",
+        "Twist the strands between each stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "twined_purl",
+        "purl_tbl"
+      ],
+      "mirror": null,
+      "ws_equivalent": "twined_knit_tbl"
+    },
+    "tags": [
+      "texture",
+      "advanced",
+      "twined",
+      "scandinavian",
+      "regional",
+      "tbl"
+    ],
+    "difficulty": "advanced"
+  }
+]

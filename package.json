@@ -1,0 +1,63 @@
+{
+  "name": "@knitr/knitting-operations",
+  "version": "0.1.0",
+  "description": "Machine-readable semantic vocabulary of knitting operations: stitch identity, abbreviations, relationships, and translations.",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./translations/loader": {
+      "import": "./dist/translations/loader.js",
+      "types": "./dist/translations/loader.d.ts"
+    }
+  },
+  "files": [
+    "dist/",
+    "operations/",
+    "translations/",
+    "schema.ts",
+    "registry.ts",
+    "cable-generator.ts",
+    "cable-center-generator.ts",
+    "cable-composite-generator.ts",
+    "cable-sequence-generator.ts",
+    "index.ts",
+    "README.md",
+    "LICENSE",
+    "CONTRIBUTING.md",
+    "CURATOR.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "validate": "tsx scripts/validate.ts",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "knitting",
+    "patterns",
+    "stitches",
+    "vocabulary",
+    "ontology",
+    "charts",
+    "knitwear",
+    "cable",
+    "lace",
+    "brioche"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knitr/knitting-operations"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}

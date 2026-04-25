@@ -1,0 +1,250 @@
+[
+  {
+    "id": "cable_composite",
+    "canonical_name": "Decorated/Composite Cable",
+    "category": "composite",
+    "subcategory": "decorated_cable",
+    "semantic_description": "A fallback entry for a decorated cable whose exact composite semantics could not be normalized to a concrete base-cable-plus-decorator operation. Use this only for unresolved or legend-dependent composite cable symbols after attempting exact parsing.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "decorated cable",
+        "composite cable",
+        "cable block"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Work the composite cable exactly as specified in the pattern legend; this fallback should be replaced by an exact composite operation whenever the base cable and embedded decorator can be identified"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "composite",
+      "cable",
+      "decorated",
+      "custom_legend"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_generic",
+    "canonical_name": "Cable (Unclassified)",
+    "category": "cable",
+    "subcategory": "unclassified",
+    "semantic_description": "A cable crossing whose exact parameters (group sizes, direction) could not be determined from the symbol metadata alone. Requires manual classification or legend context.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "generic cable"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Work cable as specified in legend"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "cable",
+      "unclassified"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cable_center_generic",
+    "canonical_name": "Centered / Reverse Cable (Unspecified)",
+    "category": "cable",
+    "subcategory": "unclassified_center",
+    "semantic_description": "A cable symbol indicating a centered or reverse cable family, but without enough information to identify the exact stitch counts or directional center variant. In some symbol systems this is labeled reverse or inverse cable rather than center cable. It differs from a plain left or right cable because the crossing is centered around the middle of the motif rather than simply leaning to one side.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "center",
+      "cable_crossing_style": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "reverse cable",
+        "center cable",
+        "centred cable",
+        "inverse cable"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Work centered or reverse cable as specified in the legend"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "cable",
+      "centered",
+      "reverse",
+      "unclassified"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "chart_symbol_component",
+    "canonical_name": "Chart Symbol Component",
+    "category": "structural",
+    "subcategory": "symbol_component",
+    "semantic_description": "A chart glyph fragment used to build a wider or decorated symbol, such as a left end cap, right end cap, or middle extender. It is part of symbol construction rather than a standalone knitting operation and should not be embedded as if it were a stitch technique.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "symbol component",
+        "chart fragment",
+        "symbol extender",
+        "symbol end cap"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Not a standalone stitch: use only as part of a composed chart symbol"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "structural",
+      "chart",
+      "component",
+      "non_operation"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "estonian_technique",
+    "canonical_name": "Estonian Knitting Technique (Unspecified)",
+    "category": "texture",
+    "subcategory": "estonian_unspecified",
+    "semantic_description": "A fallback entry for an explicitly Estonian knitting technique that cannot yet be resolved to a specific operation such as an Estonian gathered stitch or a nupp. This should not be used for known counted Estonian gather symbols.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "Estonian technique",
+        "Estonian stitch",
+        "Baltic knitting technique"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Work as specified in Estonian stitch pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "nupp",
+        "estonian_gathered_stitch"
+      ]
+    },
+    "tags": [
+      "texture",
+      "estonian",
+      "advanced",
+      "baltic",
+      "lace",
+      "unclassified"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "unclassified_symbol",
+    "canonical_name": "Unclassified Symbol",
+    "category": "structural",
+    "subcategory": "unknown",
+    "semantic_description": "A symbol glyph that could not be automatically classified. May be an unnamed variant, a decorative element, or a symbol from a specialized tradition. Requires manual review and classification.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "unknown symbol",
+        "unclassified"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "See pattern legend"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "unclassified",
+      "review_needed"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "twined_technique",
+    "canonical_name": "Twined Knitting Technique",
+    "category": "texture",
+    "subcategory": "twined",
+    "semantic_description": "A technique from the Scandinavian twined knitting tradition (tvåändsstickning). Uses two strands of yarn alternately, twisting them around each other between stitches to create a denser, more structured fabric. Includes twined knit, twined purl, and twined braids.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "twined",
+        "Tw",
+        "TS",
+        "tvåänd",
+        "two-end"
+      ],
+      "alternate_names": [
+        "twined knitting",
+        "tvåändsstickning",
+        "two-end knitting"
+      ],
+      "written_forms": []
+    },
+    "execution": {
+      "rs": [
+        "Work using twined knitting technique with two strands"
+      ]
+    },
+    "relationships": {},
+    "tags": [
+      "texture",
+      "twined",
+      "advanced",
+      "scandinavian",
+      "traditional"
+    ],
+    "difficulty": "advanced"
+  }
+]

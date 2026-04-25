@@ -1,0 +1,1695 @@
+[
+  {
+    "id": "cable_with_purl_center",
+    "canonical_name": "Cable with Purl Center",
+    "category": "composite",
+    "subcategory": "decorated_cable",
+    "semantic_description": "A cable crossing where some of the stitches in the cable are purled instead of knit, creating a mixed-texture cable. For example, a 4-stitch cable where the 2 center stitches are purled while the outer stitches are knit. Not the same as a purl cross (which has knit stitches traveling over purl background) \u2014 here, the purl stitches are WITHIN the cable itself. Common in complex Aran panels where cables have interior texture.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 4,
+      "lean": "none",
+      "cross_direction": "right",
+      "cable_groups": [
+        2,
+        2
+      ],
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "C4B-p2",
+        "cable w/ p center",
+        "C4B with p2 center"
+      ],
+      "alternate_names": [
+        "cable with purl center",
+        "textured cable cross",
+        "cable with embedded purl",
+        "mixed cable"
+      ],
+      "written_forms": [
+        "sl2 to CN hold back, k1, p1 from left needle, k1, p1 from CN",
+        "work cable crossing with purl stitches in center positions"
+      ],
+      "ambiguity_notes": [
+        "No standard abbreviation. This is a highly pattern-specific composite. 'C4B-p2 center' describes it but will appear only in the individual pattern legend. Recommend treating as pattern-defined only.",
+        "This is never standardized \u2014 every pattern defines its own version. The legend/glossary is the only reliable source for the exact stitch sequence. The general concept is: cable cross + some stitches purled."
+      ],
+      "source_specific": {}
+    },
+    "execution": {
+      "rs": [
+        "Slip designated stitches to cable needle, hold in position",
+        "Work the remaining stitches, purling where indicated by the pattern legend",
+        "Work the held stitches from cable needle, purling where indicated"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "cable_2_2_rc",
+        "purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "cable",
+      "decorated",
+      "aran",
+      "custom_legend"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_with_decrease",
+    "canonical_name": "Cable Crossing with Embedded Decrease",
+    "category": "composite",
+    "subcategory": "decorated_cable",
+    "semantic_description": "A cable crossing that includes a decrease within the cable itself, reducing the total stitch count. For example, a cable that crosses 3 over 3 but includes a k2tog within one of the groups, reducing from 6 to 5 stitches. Used when cables need to narrow (e.g., at the top of an Aran panel where cables converge). These are always pattern-specific and defined in the legend.",
+    "stitch_manipulation": {
+      "stitches_in": 6,
+      "stitches_out": 5,
+      "lean": "right",
+      "cross_direction": "right",
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "cable with decrease",
+        "narrowing cable cross",
+        "shaped cable",
+        "cable decrease"
+      ],
+      "written_forms": [
+        "sl3 to CN hold back, k2tog, k1 from left needle, k3 from CN",
+        "work cable crossing with a decrease embedded in one group"
+      ],
+      "ambiguity_notes": [
+        "No standard abbreviation exists for a generic cable-with-decrease. These operations are always pattern-defined with a unique legend entry. Cannot assign a general abbreviation without risk of collision.",
+        "No standard abbreviation exists. These are always defined per-pattern in the stitch glossary. The concept is: cable cross + decrease within one group."
+      ],
+      "source_specific": {}
+    },
+    "execution": {
+      "rs": [
+        "Work the cable crossing as specified",
+        "Include the decrease (k2tog, ssk, etc.) within one of the cable groups as the legend specifies"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "cable_3_3_rc",
+        "k2tog"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "cable",
+      "decrease",
+      "custom_legend"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "cable_with_increase",
+    "canonical_name": "Cable Crossing with Embedded Increase",
+    "category": "composite",
+    "subcategory": "decorated_cable",
+    "semantic_description": "A cable crossing that includes an increase, adding stitches within the cable. For example, a cable that crosses 2 over 2 but includes a yarn over or M1 within one group. Used when cables need to widen (e.g., at the base of a branching cable panel). Always pattern-specific.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 5,
+      "lean": "none",
+      "cross_direction": "left",
+      "requires_cable_needle": true
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "cable with increase",
+        "widening cable cross",
+        "branching cable",
+        "cable increase"
+      ],
+      "written_forms": [
+        "work cable crossing with an increase embedded in one group"
+      ],
+      "source_specific": {},
+      "ambiguity_notes": [
+        "Same situation as cable_with_decrease. Always pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the cable crossing as specified",
+        "Include the increase (yo, m1, etc.) within one cable group per legend"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "cable_2_2_lc",
+        "yarn_over"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "cable",
+      "increase",
+      "custom_legend"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "yarn_over_decrease_pair",
+    "canonical_name": "Yarn Over + Decrease Pair",
+    "category": "composite",
+    "subcategory": "lace_balanced_pair",
+    "semantic_description": "A lace composite in which a yarn over and a decrease are paired together as one conceptual chart operation, preserving overall stitch count while creating an eyelet and a compensating decrease. The exact decrease method and lean, such as k2tog, ssk, or a centered decrease, are legend-defined unless the pattern specifies them separately.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [],
+      "alternate_names": [
+        "yarn over decrease",
+        "paired yarn over and decrease",
+        "lace yarn over decrease pair"
+      ],
+      "written_forms": [
+        "work the yarn over and accompanying decrease as one lace unit",
+        "work yarn over plus decrease as specified in the legend"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "yarn over decrease"
+        ]
+      },
+      "ambiguity_notes": [
+        "This is a meta-operation (the pairing of a yo with a decrease for stitch-count balance). Not abbreviated in patterns \u2014 appears as two separate chart symbols. No standard single-abbreviation form.",
+        "This is not a single universal stitch method. It names the semantic lace unit of eyelet plus balancing decrease, while the exact decrease direction remains pattern-specific."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the yarn over that creates the eyelet",
+        "Work the corresponding decrease specified by the pattern so the pair preserves stitch count"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "yarn_over",
+        "decrease_unspecified"
+      ],
+      "similar": [
+        "yarn_over",
+        "decrease_unspecified",
+        "cdd"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "composite",
+      "lace",
+      "balanced_shaping",
+      "eyelet",
+      "decrease",
+      "legend_driven"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "twisted_rib_unit",
+    "canonical_name": "Twisted Rib Unit",
+    "category": "composite",
+    "subcategory": "pattern_unit",
+    "semantic_description": "A combination of ktbl and purl worked as a repeating unit to create twisted ribbing. Each knit column is worked through the back loop, creating a tighter, more defined rib with twisted knit stitches. The pattern unit is typically (k1tbl, p1) or (k2tbl, p2). Not a single operation but a frequently referenced composite pattern that appears in instructions as 'work in twisted rib' or 'twisted rib pattern'.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k1tbl-p1",
+        "ktbl rib",
+        "twisted rib",
+        "tbl rib",
+        "k1tbl p1"
+      ],
+      "alternate_names": [
+        "twisted rib",
+        "twisted ribbing",
+        "bavarian twisted rib",
+        "twisted stitch rib",
+        "bavarian rib"
+      ],
+      "written_forms": [
+        "work in twisted rib: *k1 tbl, p1; repeat from *",
+        "twisted rib pattern: knit through back loop on all knit stitches"
+      ],
+      "source_specific": {
+        "marchant": [
+          "twisted rib for brioche"
+        ],
+        "german_english": [
+          "verschr\u00e4nkte Rippe (twisted rib)"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "*Knit 1 through back loop, purl 1; repeat from * across"
+      ],
+      "ws": [
+        "*Knit 1 (the purl columns), purl 1 through back loop (the knit columns); repeat from *"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "knit_tbl",
+        "purl"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "basic",
+      "ribbing",
+      "twisted",
+      "pattern_unit"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "star_stitch",
+    "canonical_name": "Star Stitch",
+    "category": "composite",
+    "subcategory": "pattern_unit",
+    "semantic_description": "A decorative composite operation that creates a star or daisy-like motif. Typically worked by purling 3 together, then working (yarn over, purl the same 3 together again) without dropping them off, creating a gathered cluster that radiates outward. Different from a bobble \u2014 the star stitch creates a flat, radiating pattern rather than a raised bump. Often charted as a single symbol but represents multiple micro-operations.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 3,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "star st",
+        "* st",
+        "daisy st"
+      ],
+      "alternate_names": [
+        "star stitch",
+        "daisy stitch",
+        "marguerite stitch"
+      ],
+      "written_forms": [
+        "star stitch: p3tog but leave on needle, yo, purl same 3 together again, slide off",
+        "make star: (p3tog, yo, p3tog) into same 3 stitches"
+      ],
+      "ambiguity_notes": [
+        "'* st' is ambiguous in written patterns (asterisk is also a repeat marker). In legend context it's usable; in written instructions it would be confusing. Prefer 'star st'."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Purl 3 together, but do NOT slide stitches off left needle",
+        "Yarn over",
+        "Purl the same 3 stitches together again",
+        "Now slide all 3 original stitches off left needle \u2014 3 new stitches created (the p3tog, yo, p3tog)"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "p3tog",
+        "yarn_over"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "intermediate",
+      "texture",
+      "decorative",
+      "pattern_unit"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "trinity_stitch",
+    "canonical_name": "Trinity Stitch",
+    "category": "composite",
+    "subcategory": "pattern_unit",
+    "semantic_description": "Also called the blackberry stitch or bramble stitch. A textured composite where groups of stitches alternate between increasing and decreasing: (k1, p1, k1) into one stitch (increase 1\u21923), then purl 3 together (decrease 3\u21921). Worked in offset rows to create a bumpy, berry-like allover texture. Each row alternates between the increase and decrease phases.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "trinity st",
+        "bramble",
+        "blackberry",
+        "raspberry st"
+      ],
+      "alternate_names": [
+        "trinity stitch",
+        "blackberry stitch",
+        "bramble stitch",
+        "raspberry stitch"
+      ],
+      "written_forms": [
+        "Row 1: *(k1, p1, k1) into next st, p3tog; rep from *",
+        "Row 3: *p3tog, (k1, p1, k1) into next st; rep from * (offset)"
+      ],
+      "source_specific": {
+        "british": [
+          "bramble stitch",
+          "raspberry stitch"
+        ],
+        "irish": [
+          "trinity stitch",
+          "blackberry stitch"
+        ]
+      },
+      "ambiguity_notes": [
+        "'Bramble', 'blackberry', and 'raspberry' are regional names for the same (or very similar) operation. Some patterns treat them as distinct \u2014 blackberry is (k1,p1,k1) in same st + p3tog on next row, bramble is a specific Scottish/Irish variant. Use with care.",
+        "Trinity, blackberry, bramble, and raspberry stitch are used interchangeably by different sources, though purists argue they differ in the offset pattern. For practical parsing, treat them as the same family."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Increase phase: (k1, p1, k1) into the next stitch \u2014 3 stitches from 1",
+        "Decrease phase: p3tog \u2014 1 stitch from 3",
+        "Alternate across the row, offset every other repeat row"
+      ]
+    },
+    "relationships": {
+      "components": [
+        "kpk",
+        "p3tog"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "intermediate",
+      "texture",
+      "allover_pattern",
+      "aran"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "gathered_stitch",
+    "canonical_name": "Gathered Stitch",
+    "category": "composite",
+    "subcategory": "gathered",
+    "semantic_description": "A gathered or smocked stitch family in which live stitches are drawn together into a decorative pinch or bundle. The gathering may be created by wrapping slipped stitches, by working a gather front and back, or by another pattern-specific gathering method. This is broader than a specific Estonian gathered stitch and distinct from a cluster stitch formed by grouped partial stitches joined together at the top.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "gather",
+        "gather st",
+        "smock st",
+        "GS"
+      ],
+      "alternate_names": [
+        "gathered stitch",
+        "smocked stitch",
+        "smocking gather"
+      ],
+      "written_forms": [
+        "slip designated stitches, wrap yarn around them, return them to the needle, and work as established",
+        "gather designated stitches together as specified in the pattern"
+      ],
+      "ambiguity_notes": [
+        "Gathered stitches form a broad family. Some are wrapped or smocked gathers, while others are counted regional variants such as Estonian gathers."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the designated stitches using the gather method given in the pattern or legend",
+        "Keep the stitches structurally live unless the pattern explicitly converts the gather into a decrease"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cluster_stitch",
+        "estonian_gathered_stitch"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "intermediate",
+      "texture",
+      "gathering",
+      "smocking"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "cluster_stitch",
+    "canonical_name": "Cluster Stitch",
+    "category": "composite",
+    "subcategory": "cluster",
+    "semantic_description": "A cluster stitch family where multiple stitches or partial stitches are grouped into one clustered unit. Depending on the pattern, a cluster may be built from several stitches worked into one place and closed together, or from another grouped texture recipe defined in the legend. It is related to gathered stitches but is not the same as a wrapped or smocked gather.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Cl",
+        "CL",
+        "cluster",
+        "cl st",
+        "cluster st",
+        "Cl2",
+        "Cl3",
+        "Cl4",
+        "Cl5",
+        "CS"
+      ],
+      "alternate_names": [
+        "cluster stitch"
+      ],
+      "written_forms": [
+        "work the cluster stitch as specified in the pattern legend",
+        "form a clustered unit from the designated stitches"
+      ],
+      "ambiguity_notes": [
+        "Cluster stitch recipes vary by designer and symbol system. Multi-cell cluster glyphs are often just display-width variants of the same semantic operation, not distinct stitch types."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the cluster using the pattern's specified grouped-stitch method",
+        "Treat wider chart symbols as visual variants unless the legend defines separate stitch behavior"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "gathered_stitch",
+        "bobble",
+        "star_stitch"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "intermediate",
+      "texture",
+      "cluster",
+      "pattern_specific"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "estonian_gathered_stitch",
+    "canonical_name": "Estonian Gathered Stitch",
+    "category": "composite",
+    "subcategory": "estonian_gathered",
+    "semantic_description": "A counted Estonian or Haapsalu-style gathered stitch used in Baltic lace knitting. The stitches are gathered together and then re-expanded from the gathered point to create a small textured button or gathered star. This family is more specific than a generic gathered or smocked stitch and distinct from an Estonian nupp.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "estonian gather",
+        "EGS",
+        "estonian gathered"
+      ],
+      "alternate_names": [
+        "Estonian gathered stitch",
+        "Estonian gather",
+        "Haapsalu gather",
+        "Estonian lace gather"
+      ],
+      "written_forms": [
+        "work an Estonian gather as specified, often by gathering stitches together and re-knitting from the gathered stitch",
+        "X-in-X Estonian gather",
+        "X-into-Y Estonian gather"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "Estonian gathered (v1)",
+          "Estonian gathered (v2)"
+        ]
+      },
+      "ambiguity_notes": [
+        "Estonian gathered stitches have no standardized abbreviation in any major English-language publisher. 'EGS' is a reasonable app-internal shorthand. Individual pattern designers invent their own. Recommend treating pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Gather the designated stitches together using the pattern's Estonian gather recipe",
+        "Re-expand the gathered stitch into the counted form required by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "gathered_stitch",
+        "nupp"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "baltic",
+      "lace"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_2",
+    "canonical_name": "Estonian Gathered Stitch (2-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 2. In chart systems such as StitchMastery, this marks the two-stitch form of the Estonian gather family and should be kept distinct from the 3-, 4-, or 5-stitch forms for semantic lookup even when the legend is still needed for the exact recipe.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS2",
+        "GS2"
+      ],
+      "alternate_names": [
+        "Estonian gathered 2",
+        "2-stitch Estonian gather",
+        "Estonian gathered stitch 2"
+      ],
+      "written_forms": [
+        "2-stitch Estonian gather",
+        "Estonian gathered symbol labeled 2"
+      ],
+      "ambiguity_notes": [
+        "No standard cross-publisher abbreviation. The number suffix (2) indicates stitch count. Knitr-internal convention 'EGS-N' is reasonable."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 2-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_2"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_3",
+    "canonical_name": "Estonian Gathered Stitch (3-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 3. It represents the three-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS3",
+        "GS3"
+      ],
+      "alternate_names": [
+        "Estonian gathered 3",
+        "3-stitch Estonian gather",
+        "Estonian gathered stitch 3"
+      ],
+      "written_forms": [
+        "3-stitch Estonian gather",
+        "Estonian gathered symbol labeled 3"
+      ],
+      "ambiguity_notes": [
+        "Same as estonian_gathered_2 \u2014 pattern-defined in all published sources."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 3-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_3"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_4",
+    "canonical_name": "Estonian Gathered Stitch (4-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 4. It represents the four-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS4",
+        "GS4"
+      ],
+      "alternate_names": [
+        "Estonian gathered 4",
+        "4-stitch Estonian gather",
+        "Estonian gathered stitch 4"
+      ],
+      "written_forms": [
+        "4-stitch Estonian gather",
+        "Estonian gathered symbol labeled 4"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 4-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_4"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_5",
+    "canonical_name": "Estonian Gathered Stitch (5-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 5. It represents the five-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS5",
+        "GS5"
+      ],
+      "alternate_names": [
+        "Estonian gathered 5",
+        "5-stitch Estonian gather",
+        "Estonian gathered stitch 5"
+      ],
+      "written_forms": [
+        "5-stitch Estonian gather",
+        "Estonian gathered symbol labeled 5"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 5-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_5"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_6",
+    "canonical_name": "Estonian Gathered Stitch (6-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 6. It represents the six-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS6",
+        "GS6"
+      ],
+      "alternate_names": [
+        "Estonian gathered 6",
+        "6-stitch Estonian gather",
+        "Estonian gathered stitch 6"
+      ],
+      "written_forms": [
+        "6-stitch Estonian gather",
+        "Estonian gathered symbol labeled 6"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 6-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_6"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_7",
+    "canonical_name": "Estonian Gathered Stitch (7-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 7. It represents the seven-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS7",
+        "GS7"
+      ],
+      "alternate_names": [
+        "Estonian gathered 7",
+        "7-stitch Estonian gather",
+        "Estonian gathered stitch 7"
+      ],
+      "written_forms": [
+        "7-stitch Estonian gather",
+        "Estonian gathered symbol labeled 7"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 7-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_7"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_8",
+    "canonical_name": "Estonian Gathered Stitch (8-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 8. It represents the eight-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS8",
+        "GS8"
+      ],
+      "alternate_names": [
+        "Estonian gathered 8",
+        "8-stitch Estonian gather",
+        "Estonian gathered stitch 8"
+      ],
+      "written_forms": [
+        "8-stitch Estonian gather",
+        "Estonian gathered symbol labeled 8"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 8-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_8"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_9",
+    "canonical_name": "Estonian Gathered Stitch (9-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 9. It represents the nine-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS9",
+        "GS9"
+      ],
+      "alternate_names": [
+        "Estonian gathered 9",
+        "9-stitch Estonian gather",
+        "Estonian gathered stitch 9"
+      ],
+      "written_forms": [
+        "9-stitch Estonian gather",
+        "Estonian gathered symbol labeled 9"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 9-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_9"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_10",
+    "canonical_name": "Estonian Gathered Stitch (10-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 10. It represents the ten-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS10",
+        "GS10"
+      ],
+      "alternate_names": [
+        "Estonian gathered 10",
+        "10-stitch Estonian gather",
+        "Estonian gathered stitch 10"
+      ],
+      "written_forms": [
+        "10-stitch Estonian gather",
+        "Estonian gathered symbol labeled 10"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 10-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_10"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_11",
+    "canonical_name": "Estonian Gathered Stitch (11-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 11. It represents the eleven-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS11",
+        "GS11"
+      ],
+      "alternate_names": [
+        "Estonian gathered 11",
+        "11-stitch Estonian gather",
+        "Estonian gathered stitch 11"
+      ],
+      "written_forms": [
+        "11-stitch Estonian gather",
+        "Estonian gathered symbol labeled 11"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 11-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_11"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_12",
+    "canonical_name": "Estonian Gathered Stitch (12-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 12. It represents the twelve-stitch form of the Estonian gather family and should remain distinct from the other counted forms during semantic lookup.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS12",
+        "GS12"
+      ],
+      "alternate_names": [
+        "Estonian gathered 12",
+        "12-stitch Estonian gather",
+        "Estonian gathered stitch 12"
+      ],
+      "written_forms": [
+        "12-stitch Estonian gather",
+        "Estonian gathered symbol labeled 12"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No standard abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 12-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_12"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_13",
+    "canonical_name": "Estonian Gathered Stitch (13-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 13. Consumes 13 live stitches and gathers them into a single narrow cluster on the next row. Used in Estonian lace borders and Haapsalu shawls.",
+    "stitch_manipulation": {
+      "stitches_in": 13,
+      "stitches_out": 13,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS13",
+        "GS13"
+      ],
+      "alternate_names": [
+        "Estonian gathered 13",
+        "13-stitch Estonian gather",
+        "Estonian gathered stitch 13"
+      ],
+      "written_forms": [
+        "13-stitch Estonian gather",
+        "Estonian gathered symbol labeled 13"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No CYC standard."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 13-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_13"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_14",
+    "canonical_name": "Estonian Gathered Stitch (14-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 14. Consumes 14 live stitches and gathers them into a single narrow cluster on the next row. Used in Estonian lace borders and Haapsalu shawls.",
+    "stitch_manipulation": {
+      "stitches_in": 14,
+      "stitches_out": 14,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS14",
+        "GS14"
+      ],
+      "alternate_names": [
+        "Estonian gathered 14",
+        "14-stitch Estonian gather",
+        "Estonian gathered stitch 14"
+      ],
+      "written_forms": [
+        "14-stitch Estonian gather",
+        "Estonian gathered symbol labeled 14"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No CYC standard."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 14-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_14"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_15",
+    "canonical_name": "Estonian Gathered Stitch (15-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 15. Consumes 15 live stitches and gathers them into a single narrow cluster on the next row. Used in Estonian lace borders and Haapsalu shawls.",
+    "stitch_manipulation": {
+      "stitches_in": 15,
+      "stitches_out": 15,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS15",
+        "GS15"
+      ],
+      "alternate_names": [
+        "Estonian gathered 15",
+        "15-stitch Estonian gather",
+        "Estonian gathered stitch 15"
+      ],
+      "written_forms": [
+        "15-stitch Estonian gather",
+        "Estonian gathered symbol labeled 15"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No CYC standard."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 15-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_15"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "estonian_gathered_16",
+    "canonical_name": "Estonian Gathered Stitch (16-Stitch Form)",
+    "category": "composite",
+    "subcategory": "estonian_gathered_counted",
+    "semantic_description": "A counted Estonian gathered stitch variant labeled 16. Consumes 16 live stitches and gathers them into a single narrow cluster on the next row. Used in Estonian lace borders and Haapsalu shawls.",
+    "stitch_manipulation": {
+      "stitches_in": 16,
+      "stitches_out": 16,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "EGS16",
+        "GS16"
+      ],
+      "alternate_names": [
+        "Estonian gathered 16",
+        "16-stitch Estonian gather",
+        "Estonian gathered stitch 16"
+      ],
+      "written_forms": [
+        "16-stitch Estonian gather",
+        "Estonian gathered symbol labeled 16"
+      ],
+      "ambiguity_notes": [
+        "Pattern-defined. No CYC standard."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the counted 16-stitch form of the Estonian gathered stitch as specified in the pattern legend"
+      ]
+    },
+    "relationships": {
+      "variant_of": "estonian_gathered_stitch",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "advanced",
+      "texture",
+      "gathering",
+      "estonian",
+      "counted_variant",
+      "count_16"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "decorated_decrease",
+    "canonical_name": "Decorated Decrease (Unspecified)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Decrease (Unspecified) \u2014 a chart annotation where a base decrease is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying decrease; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Dec",
+        "DEC",
+        "dec-n",
+        "Decn",
+        "numbered dec",
+        "decrease (numbered)",
+        "decrease-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a decrease whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying decrease from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that decrease as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "decrease_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_decrease_left",
+    "canonical_name": "Decorated Decrease (Left-Leaning)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Decrease (Left-Leaning) \u2014 a chart annotation where a base decrease is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying decrease; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "DecL",
+        "DECL",
+        "dec-L",
+        "left numbered dec",
+        "decL",
+        "dec left",
+        "DEC-L",
+        "left dec (numbered)",
+        "ssk (numbered)",
+        "ssk-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a decrease whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying decrease from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that decrease as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "decrease_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_decrease_right",
+    "canonical_name": "Decorated Decrease (Right-Leaning)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Decrease (Right-Leaning) \u2014 a chart annotation where a base decrease is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying decrease; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "DecR",
+        "DECR",
+        "dec-R",
+        "right numbered dec",
+        "decR",
+        "dec right",
+        "DEC-R",
+        "right dec (numbered)",
+        "k2tog (numbered)",
+        "k2tog-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a decrease whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying decrease from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that decrease as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "decrease_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "decrease"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_increase",
+    "canonical_name": "Decorated Increase (Unspecified)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Increase (Unspecified) \u2014 a chart annotation where a base increase is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying increase; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Inc",
+        "INC",
+        "inc-n",
+        "Incn",
+        "numbered inc",
+        "increase (numbered)",
+        "increase-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a increase whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying increase from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that increase as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "increase_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "increase"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_increase_left",
+    "canonical_name": "Decorated Increase (Left-Leaning)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Increase (Left-Leaning) \u2014 a chart annotation where a base increase is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying increase; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "IncL",
+        "INCL",
+        "inc-L",
+        "left numbered inc",
+        "incL",
+        "inc left",
+        "INC-L",
+        "left inc (numbered)",
+        "lli (numbered)",
+        "lli-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a increase whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying increase from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that increase as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "increase_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "increase"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_increase_right",
+    "canonical_name": "Decorated Increase (Right-Leaning)",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Increase (Right-Leaning) \u2014 a chart annotation where a base increase is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying increase; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 2,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "IncR",
+        "INCR",
+        "inc-R",
+        "right numbered inc",
+        "incR",
+        "inc right",
+        "INC-R",
+        "right inc (numbered)",
+        "rli (numbered)",
+        "rli-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a increase whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying increase from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that increase as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": "increase_unspecified",
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "increase"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "decorated_yarn_over",
+    "canonical_name": "Decorated Yarn Over",
+    "category": "composite",
+    "subcategory": "decorated_overlay",
+    "semantic_description": "Decorated Yarn Over \u2014 a chart annotation where a base yarn over is overlaid with a decorator (number, bead marker, or other glyph) that carries pattern-specific meaning defined in the legend. The knitting action is the underlying yarn over; the overlay conveys extra information (e.g., cross-reference number, bead placement, style indicator). Appears as a single symbol in Stitchmastery charts where numbered decreases/increases are used to disambiguate repeats or match written instructions.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "YO-n",
+        "yo-n",
+        "numbered YO",
+        "Nyo",
+        "annotated YO",
+        "YO (numbered)"
+      ],
+      "alternate_names": [
+        "decorated yarn over",
+        "numbered yarn over",
+        "annotated yarn over"
+      ],
+      "written_forms": [
+        "work a yarn over as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ],
+      "ambiguity_notes": [
+        "No CYC standard. The overlay (number 1-9, bead, or style marker) is a chart annotation, not a distinct knitting action. The actual manipulation is always a yarn over whose specific form (k2tog, ssk, cdd, etc.) is defined in the pattern legend per-decoration."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Identify the underlying yarn over from the pattern legend (the overlay number or marker references a specific stitch)",
+        "Work that yarn over as specified"
+      ]
+    },
+    "relationships": {
+      "variant_of": null,
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "composite",
+      "decorated",
+      "overlay",
+      "chart_annotation",
+      "yarn_over"
+    ],
+    "difficulty": "intermediate"
+  }
+]

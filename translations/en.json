@@ -1,0 +1,4798 @@
+{
+  "language": "en",
+  "language_name": "English",
+  "language_name_english": "English",
+  "maintainers": [],
+  "operations": {
+    "knit": {
+      "canonical_name": "Knit",
+      "abbreviations": [
+        "k",
+        "K",
+        "k1",
+        "K1",
+        "kn",
+        "knit 1",
+        "K knit"
+      ],
+      "alternate_names": [
+        "knit stitch",
+        "plain stitch",
+        "plain knit"
+      ],
+      "written_forms": [
+        "knit the next stitch",
+        "knit one",
+        "knit 1"
+      ]
+    },
+    "purl": {
+      "canonical_name": "Purl",
+      "abbreviations": [
+        "p",
+        "P",
+        "p1",
+        "P1",
+        "pn",
+        "purl 1",
+        "pw",
+        "P purl",
+        "purl"
+      ],
+      "alternate_names": [
+        "purl stitch",
+        "reverse stitch"
+      ],
+      "written_forms": [
+        "purl the next stitch",
+        "purl one",
+        "purl 1"
+      ]
+    },
+    "knit_tbl": {
+      "canonical_name": "Knit Through Back Loop",
+      "abbreviations": [
+        "ktbl",
+        "k-tbl",
+        "k1tbl",
+        "k1-tbl",
+        "k tbl",
+        "tw",
+        "KB",
+        "k-b"
+      ],
+      "alternate_names": [
+        "knit through back loop",
+        "twisted knit",
+        "knit back loop",
+        "knit through back of loop",
+        "crossed knit stitch"
+      ],
+      "written_forms": [
+        "knit the next stitch through the back loop",
+        "knit one through back loop",
+        "knit into the back of the next stitch"
+      ]
+    },
+    "purl_tbl": {
+      "canonical_name": "Purl Through Back Loop",
+      "abbreviations": [
+        "ptbl",
+        "p-tbl",
+        "p1tbl",
+        "p1-tbl",
+        "p tbl",
+        "tw p",
+        "PB",
+        "p-b"
+      ],
+      "alternate_names": [
+        "purl through back loop",
+        "twisted purl",
+        "purl back loop",
+        "purl through back of loop",
+        "crossed purl stitch"
+      ],
+      "written_forms": [
+        "purl the next stitch through the back loop",
+        "purl one through back loop",
+        "purl into the back of the next stitch"
+      ]
+    },
+    "yarn_over": {
+      "canonical_name": "Yarn Over",
+      "abbreviations": [
+        "yo",
+        "YO",
+        "yon",
+        "yrn",
+        "yarn over",
+        "y/o",
+        "y.o.",
+        "yfwd",
+        "yf",
+        "yfon",
+        "yo1",
+        "o"
+      ],
+      "alternate_names": [
+        "yarn over",
+        "yarn forward",
+        "yarn over needle",
+        "wool forward",
+        "wool over needle",
+        "wool round needle",
+        "yarn round needle",
+        "yfwd",
+        "yf"
+      ],
+      "written_forms": [
+        "yarn over",
+        "bring yarn to front, then over needle",
+        "wrap yarn over the right needle"
+      ]
+    },
+    "double_yarn_over": {
+      "canonical_name": "Double Yarn Over",
+      "abbreviations": [
+        "yo2",
+        "yo x2",
+        "yo twice",
+        "dyo",
+        "(yo) twice",
+        "(yo) 2 times",
+        "2 yo",
+        "double yo"
+      ],
+      "alternate_names": [
+        "double yarn over",
+        "yarn over twice",
+        "double wrap",
+        "wrap twice"
+      ],
+      "written_forms": [
+        "yarn over twice",
+        "wrap yarn around needle twice",
+        "double yarn over"
+      ]
+    },
+    "yarn_over_twisted": {
+      "canonical_name": "Twisted Yarn Over",
+      "abbreviations": [
+        "yo-tbl",
+        "yo-twist",
+        "twisted yo",
+        "tyo"
+      ],
+      "alternate_names": [
+        "twisted yarn over",
+        "closed yarn over"
+      ],
+      "written_forms": [
+        "yarn over, then on next row work through back loop",
+        "yarn over twisted"
+      ]
+    },
+    "k1_wrap2": {
+      "canonical_name": "Knit 1 Wrapping Yarn Twice",
+      "abbreviations": [
+        "k1w2",
+        "k-wrap2",
+        "k1 wt",
+        "k-elong",
+        "k1 w2",
+        "elongated k",
+        "k1(w2)",
+        "k1 wrapping yarn twice"
+      ],
+      "alternate_names": [
+        "knit wrapping twice",
+        "elongated knit",
+        "knit with double wrap"
+      ],
+      "written_forms": [
+        "knit the next stitch, wrapping yarn around needle twice",
+        "knit 1 wrapping yarn twice around needle"
+      ]
+    },
+    "garter_stitch": {
+      "canonical_name": "Garter Stitch",
+      "abbreviations": [
+        "g st",
+        "garter",
+        "gst",
+        "G",
+        "gs"
+      ],
+      "alternate_names": [
+        "garter stitch",
+        "garter",
+        "ridge stitch"
+      ],
+      "written_forms": [
+        "knit every row",
+        "work in garter stitch"
+      ]
+    },
+    "backward_yarn_over": {
+      "canonical_name": "Backward Yarn Over",
+      "abbreviations": [
+        "byo",
+        "BYO"
+      ],
+      "alternate_names": [
+        "backward yarn over",
+        "back yarn over",
+        "reverse yarn over"
+      ],
+      "written_forms": [
+        "wrap yarn over the right needle from back to front"
+      ]
+    },
+    "standard_bo": {
+      "canonical_name": "Standard Bind Off",
+      "abbreviations": [
+        "BO",
+        "bo",
+        "bind off",
+        "cast off",
+        "standard bind off",
+        "BO in pattern",
+        "BO in rib"
+      ],
+      "alternate_names": [
+        "standard bind off",
+        "basic bind off",
+        "chain bind off",
+        "knit bind off",
+        "bind off in pattern",
+        "bind off in rib"
+      ],
+      "written_forms": [
+        "bind off: knit 2, *pass first stitch over second, knit 1; repeat from *",
+        "cast off all stitches",
+        "BO knitwise",
+        "BO in pattern: bind off while maintaining the stitch pattern (knit the knits, purl the purls)",
+        "bind off in rib: bind off while working k1, p1 as established"
+      ]
+    },
+    "purl_bo": {
+      "canonical_name": "Purl Bind Off",
+      "abbreviations": [
+        "BO pwise",
+        "BO purlwise",
+        "purl BO",
+        "purl cast off",
+        "P BO",
+        "CO pwise"
+      ],
+      "alternate_names": [
+        "purl bind off",
+        "purlwise bind off",
+        "purl cast off"
+      ],
+      "written_forms": [
+        "bind off purlwise",
+        "purl 2, pass first over second; repeat"
+      ]
+    },
+    "stretchy_bo": {
+      "canonical_name": "Stretchy Bind Off",
+      "abbreviations": [
+        "stretchy BO",
+        "JSSBO",
+        "elastic BO",
+        "YO BO",
+        "Russian BO",
+        "flexible BO",
+        "yo before each st BO"
+      ],
+      "alternate_names": [
+        "stretchy bind off",
+        "Jeny's surprisingly stretchy bind off",
+        "elastic bind off",
+        "flexible bind off",
+        "yarn over bind off",
+        "Russian bind off"
+      ],
+      "written_forms": [
+        "Jeny's surprisingly stretchy BO: *yo (reverse), k1, pass yo over, pass prev st over; rep from *",
+        "stretchy bind off: add a yarn over before each stitch during bind off",
+        "yarn over bind off: yo before each stitch, then bind off together"
+      ]
+    },
+    "three_needle_bo": {
+      "canonical_name": "Three-Needle Bind Off",
+      "abbreviations": [
+        "3-needle BO",
+        "3NBO",
+        "3-needle bind off",
+        "3 needle BO",
+        "join BO",
+        "three-needle BO"
+      ],
+      "alternate_names": [
+        "three-needle bind off",
+        "three needle join",
+        "seam bind off",
+        "3 needle bind off",
+        "join with three-needle bind off"
+      ],
+      "written_forms": [
+        "hold both pieces with RS together, *knit 1 from front needle together with 1 from back needle, repeat, pass first st over second; continue across*",
+        "three-needle bind off: k2tog (one from each needle), BO across"
+      ]
+    },
+    "kitchener": {
+      "canonical_name": "Kitchener Stitch",
+      "abbreviations": [
+        "kitchener",
+        "graft",
+        "grafting",
+        "kt",
+        "gft"
+      ],
+      "alternate_names": [
+        "Kitchener stitch",
+        "stockinette grafting",
+        "invisible graft",
+        "weaving live stitches",
+        "weave",
+        "weaving"
+      ],
+      "written_forms": [
+        "graft stitches together using Kitchener stitch",
+        "thread tapestry needle: *front needle pwise leave on, front needle kwise take off, back needle kwise leave on, back needle pwise take off; repeat*",
+        "graft stitches together"
+      ]
+    },
+    "tubular_bo": {
+      "canonical_name": "Tubular Bind Off",
+      "abbreviations": [
+        "tubular BO",
+        "Italian BO",
+        "invisible BO"
+      ],
+      "alternate_names": [
+        "tubular bind off",
+        "Italian bind off",
+        "invisible ribbed bind off"
+      ],
+      "written_forms": [
+        "work tubular bind off: separate knit and purl stitches, graft together",
+        "tubular BO: work setup rows, then Kitchener the separated rib stitches"
+      ]
+    },
+    "sewn_bo": {
+      "canonical_name": "Sewn Bind Off",
+      "abbreviations": [
+        "sewn BO",
+        "EZ sewn BO",
+        "sewn bind off"
+      ],
+      "alternate_names": [
+        "sewn bind off",
+        "EZ's sewn bind off",
+        "Elizabeth Zimmermann sewn bind off",
+        "tapestry needle bind off"
+      ],
+      "written_forms": [
+        "thread tapestry needle: *pass needle pwise through first 2 sts, pass kwise through first st and drop off needle; repeat*",
+        "sewn bind off: with tapestry needle, go into 2 sts purlwise, then back through 1 st knitwise and remove"
+      ]
+    },
+    "picot_bo": {
+      "canonical_name": "Picot Bind Off",
+      "abbreviations": [
+        "picot BO",
+        "picot CO",
+        "picot edge BO",
+        "picot bind off"
+      ],
+      "alternate_names": [
+        "picot bind off",
+        "picot cast off",
+        "scalloped bind off",
+        "pointed bind off"
+      ],
+      "written_forms": [
+        "picot BO: *cable CO 2 sts, BO 4 sts; repeat from *",
+        "bind off with picots: cast on and immediately bind off to create loops"
+      ]
+    },
+    "suspended_bo": {
+      "canonical_name": "Suspended Bind Off",
+      "abbreviations": [
+        "suspended BO",
+        "suspended bind off"
+      ],
+      "alternate_names": [
+        "suspended bind off",
+        "lacy bind off"
+      ],
+      "written_forms": [
+        "suspended BO: k2, pass first over second but leave on needle, k1, pass again",
+        "bind off keeping the passed stitch on left needle until the next stitch is worked"
+      ]
+    },
+    "icord_bo": {
+      "canonical_name": "I-Cord Bind Off",
+      "abbreviations": [
+        "i-cord BO",
+        "i-cord bind off",
+        "icord BO",
+        "applied i-cord BO"
+      ],
+      "alternate_names": [
+        "I-cord bind off",
+        "applied i-cord bind off",
+        "i-cord cast off",
+        "knitted cord bind off"
+      ],
+      "written_forms": [
+        "applied i-cord BO: CO 3 sts, *k2, k2tog tbl (last cord st + first body st), sl 3 back to LN; rep from *",
+        "i-cord bind off: k2, join cord to body with ssk, slide 3 back"
+      ]
+    },
+    "brk": {
+      "canonical_name": "Brioche Knit",
+      "abbreviations": [
+        "brk",
+        "BRK",
+        "brk1",
+        "brioche knit",
+        "BRK1",
+        "bark",
+        "BR-K"
+      ],
+      "alternate_names": [
+        "brioche knit",
+        "bark stitch",
+        "brioche k"
+      ],
+      "written_forms": [
+        "knit the stitch together with its paired yarn over",
+        "brk: knit the next stitch and its accompanying yo together as one"
+      ]
+    },
+    "brp": {
+      "canonical_name": "Brioche Purl",
+      "abbreviations": [
+        "brp",
+        "BRP",
+        "brp1",
+        "brioche purl",
+        "BRP1",
+        "burp",
+        "BR-P"
+      ],
+      "alternate_names": [
+        "brioche purl",
+        "burp stitch",
+        "brioche p"
+      ],
+      "written_forms": [
+        "purl the stitch together with its paired yarn over",
+        "brp: purl the next stitch and its yo together"
+      ]
+    },
+    "sl1yo": {
+      "canonical_name": "Slip 1 Yarn Over",
+      "abbreviations": [
+        "sl1yo",
+        "SL1YO",
+        "yf sl1yo",
+        "yf-sl1yo",
+        "sl1yof",
+        "sl1 yo",
+        "sl 1 yo",
+        "yf, sl1yo"
+      ],
+      "alternate_names": [
+        "slip 1 yarn over",
+        "brioche setup",
+        "brioche pair setup"
+      ],
+      "written_forms": [
+        "bring yarn to the front, slip 1 purlwise, then bring the yarn over the needle",
+        "yf sl1yo",
+        "with yarn in front, slip 1 purlwise, bring yarn over right needle",
+        "bring yarn forward, slip 1 purlwise, take yarn over needle to back",
+        "sl1 with accompanying yo"
+      ]
+    },
+    "br_dec_left": {
+      "canonical_name": "Brioche Left-Leaning Decrease",
+      "abbreviations": [
+        "brLsl dec",
+        "brLdec",
+        "br-L-dec"
+      ],
+      "alternate_names": [
+        "brioche left-leaning decrease",
+        "left-slanting brioche decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning brioche decrease as specified in the pattern"
+      ]
+    },
+    "br_dec_right": {
+      "canonical_name": "Brioche Right-Leaning Decrease",
+      "abbreviations": [
+        "brRsl dec",
+        "brRdec",
+        "br-R-dec"
+      ],
+      "alternate_names": [
+        "brioche right-leaning decrease",
+        "right-slanting brioche decrease"
+      ],
+      "written_forms": [
+        "work a right-leaning brioche decrease as specified in the pattern"
+      ]
+    },
+    "brssk": {
+      "canonical_name": "BRSSK",
+      "abbreviations": [
+        "brssk",
+        "BRSSK",
+        "brkssk",
+        "BRKSSK",
+        "brk-ssk",
+        "brioche ssk"
+      ],
+      "alternate_names": [
+        "brioche slip slip knit",
+        "brioche left-slanting knit decrease"
+      ],
+      "written_forms": [
+        "slip stitches as directed and brioche knit the slipped stitches together for a left-slanting decrease"
+      ]
+    },
+    "brk2tog": {
+      "canonical_name": "BRK2TOG",
+      "abbreviations": [
+        "brk2tog",
+        "BRK2TOG",
+        "br-k2tog",
+        "brioche k2tog"
+      ],
+      "alternate_names": [
+        "brioche knit 2 together",
+        "brioche right-slanting knit decrease"
+      ],
+      "written_forms": [
+        "brioche knit two brioche units together"
+      ]
+    },
+    "brsssk": {
+      "canonical_name": "BRSSSK",
+      "abbreviations": [
+        "brsssk",
+        "BRSSSK",
+        "brksssk",
+        "BRKSSSK"
+      ],
+      "alternate_names": [
+        "brioche slip slip slip knit",
+        "left-leaning brioche triple decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning 4-to-1 brioche decrease"
+      ]
+    },
+    "brk3tog": {
+      "canonical_name": "BRK3TOG",
+      "abbreviations": [
+        "brk3tog",
+        "BRK3TOG"
+      ],
+      "alternate_names": [
+        "brioche knit 3 together",
+        "right-leaning brioche triple decrease"
+      ],
+      "written_forms": [
+        "brioche knit three brioche units together"
+      ]
+    },
+    "brssp": {
+      "canonical_name": "BRSSP",
+      "abbreviations": [
+        "brssp",
+        "BRSSP",
+        "brkssp",
+        "BRKSSP",
+        "brioche ssp",
+        "br-ssp"
+      ],
+      "alternate_names": [
+        "brioche slip slip purl",
+        "left-leaning brioche purl decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning purl-side brioche decrease"
+      ]
+    },
+    "brp2tog": {
+      "canonical_name": "BRP2TOG",
+      "abbreviations": [
+        "brp2tog",
+        "BRP2TOG",
+        "br-p2tog",
+        "brioche p2tog"
+      ],
+      "alternate_names": [
+        "brioche purl 2 together",
+        "right-leaning brioche purl decrease"
+      ],
+      "written_forms": [
+        "brioche purl two brioche units together"
+      ]
+    },
+    "brsssp": {
+      "canonical_name": "BRSSSP",
+      "abbreviations": [
+        "brsssp",
+        "BRSSSP",
+        "brksssp",
+        "BRKSSSP"
+      ],
+      "alternate_names": [
+        "brioche slip slip slip purl",
+        "left-leaning brioche purl triple decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning 4-to-1 purl-side brioche decrease"
+      ]
+    },
+    "brp3tog": {
+      "canonical_name": "BRP3TOG",
+      "abbreviations": [
+        "brp3tog",
+        "BRP3TOG"
+      ],
+      "alternate_names": [
+        "brioche purl 3 together",
+        "right-leaning brioche purl triple decrease"
+      ],
+      "written_forms": [
+        "brioche purl three brioche units together"
+      ]
+    },
+    "brcdd": {
+      "canonical_name": "Brioche Centered Double Decrease",
+      "abbreviations": [
+        "brcdd",
+        "BRCDD",
+        "br-cdd",
+        "brioche cdd"
+      ],
+      "alternate_names": [
+        "brioche centred double decrease",
+        "brioche centered double decrease",
+        "brioche centred 3 to 1"
+      ],
+      "written_forms": [
+        "work the centered brioche double decrease"
+      ]
+    },
+    "brcddp": {
+      "canonical_name": "Brioche Centered Double Purl Decrease",
+      "abbreviations": [
+        "brcddp",
+        "BRCDDP",
+        "brcdp",
+        "BRCDP",
+        "br-cddp"
+      ],
+      "alternate_names": [
+        "brioche centred double purl decrease",
+        "brioche centered double purl decrease",
+        "brioche centred purl double dec"
+      ],
+      "written_forms": [
+        "work the centered brioche double purl decrease"
+      ]
+    },
+    "brkyobrk": {
+      "canonical_name": "BRKYOBRK",
+      "abbreviations": [
+        "brkyobrk",
+        "BRKYOBRK",
+        "brk-yo-brk",
+        "brk, yo, brk",
+        "3-st brioche inc"
+      ],
+      "alternate_names": [
+        "brioche knit yarn over brioche knit",
+        "brioche 1-to-3 increase"
+      ],
+      "written_forms": [
+        "work brioche knit, yarn over, brioche knit into one stitch"
+      ]
+    },
+    "brk_brp_brk": {
+      "canonical_name": "BRK/BRP/BRK",
+      "abbreviations": [
+        "brk/brp/brk",
+        "BRK/BRP/BRK",
+        "brkbrpbrk",
+        "brk, brp, brk",
+        "3-st br inc"
+      ],
+      "alternate_names": [
+        "brioche knit brioche purl brioche knit",
+        "brioche 3-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche knit, brioche purl, brioche knit into one stitch"
+      ]
+    },
+    "br4st_inc": {
+      "canonical_name": "BR4ST INC",
+      "abbreviations": [
+        "br4st inc",
+        "BR4ST INC",
+        "4st br inc",
+        "brkyobrkyobrk",
+        "brk, yo, brk, yo, brk",
+        "5-st br inc",
+        "4ST BR INC",
+        "BRKYOBRKYOBRK",
+        "5-st brioche inc",
+        "brioche 5-st inc"
+      ],
+      "alternate_names": [
+        "brioche 4-stitch increase",
+        "brioche 1-to-5 increase",
+        "brioche knit yarn over brioche knit yarn over brioche knit"
+      ],
+      "written_forms": [
+        "work brioche knit, yarn over, brioche knit, yarn over, brioche knit into one stitch"
+      ]
+    },
+    "brk_brp_brk_brp_brk": {
+      "canonical_name": "BRK/BRP/BRK/BRP/BRK",
+      "abbreviations": [
+        "brk/brp/brk/brp/brk",
+        "BRK/BRP/BRK/BRP/BRK",
+        "brkbrpbrkbrpbrk",
+        "brk, brp, brk, brp, brk"
+      ],
+      "alternate_names": [
+        "brioche knit brioche purl brioche knit brioche purl brioche knit",
+        "brioche 5-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche knit, brioche purl, brioche knit, brioche purl, brioche knit into one stitch"
+      ]
+    },
+    "brk_tbl": {
+      "canonical_name": "BRK Through Back Loop",
+      "abbreviations": [
+        "brk tbl",
+        "BRK tbl",
+        "brktbl",
+        "brioche knit tbl"
+      ],
+      "alternate_names": [
+        "brioche knit through back loop",
+        "twisted brioche knit"
+      ],
+      "written_forms": [
+        "work the brioche knit through the back loop"
+      ]
+    },
+    "brp_tbl": {
+      "canonical_name": "BRP Through Back Loop",
+      "abbreviations": [
+        "brp tbl",
+        "BRP tbl",
+        "brptbl",
+        "brioche purl tbl"
+      ],
+      "alternate_names": [
+        "brioche purl through back loop",
+        "twisted brioche purl"
+      ],
+      "written_forms": [
+        "work the brioche purl through the back loop"
+      ]
+    },
+    "brpyobrp": {
+      "canonical_name": "BRPYOBRP",
+      "abbreviations": [
+        "brpyobrp",
+        "BRPYOBRP",
+        "brp-yo-brp"
+      ],
+      "alternate_names": [
+        "brioche purl yarn over brioche purl",
+        "brioche 1-to-3 purl increase"
+      ],
+      "written_forms": [
+        "work brioche purl, yarn over, brioche purl into one stitch"
+      ]
+    },
+    "brp_brk_brp": {
+      "canonical_name": "BRP/BRK/BRP",
+      "abbreviations": [
+        "brp/brk/brp",
+        "BRP/BRK/BRP",
+        "brpbrkbrp"
+      ],
+      "alternate_names": [
+        "brioche purl brioche knit brioche purl",
+        "brioche purl-side 3-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche purl, brioche knit, brioche purl into one stitch"
+      ]
+    },
+    "twist_right": {
+      "canonical_name": "Twist Right",
+      "abbreviations": [
+        "RT",
+        "rt",
+        "T2R",
+        "t2r",
+        "TwR",
+        "twR",
+        "C2R",
+        "CR",
+        "right twist",
+        "2-st RT"
+      ],
+      "alternate_names": [
+        "twist right",
+        "right twist",
+        "2-stitch right twist",
+        "cross 2 right"
+      ],
+      "written_forms": [
+        "skip the first stitch, knit the second stitch, then knit the skipped stitch, slide both off",
+        "knit 2 stitches out of order, right over left",
+        "right twist: k2nd st on needle, then k1st st, sl both off together"
+      ]
+    },
+    "twist_left": {
+      "canonical_name": "Twist Left",
+      "abbreviations": [
+        "LT",
+        "lt",
+        "T2L",
+        "t2l",
+        "TwL",
+        "twL",
+        "C2L",
+        "CL",
+        "left twist",
+        "2-st LT"
+      ],
+      "alternate_names": [
+        "twist left",
+        "left twist",
+        "2-stitch left twist",
+        "cross 2 left"
+      ],
+      "written_forms": [
+        "slip first stitch behind, knit second stitch through back loop, then knit first stitch, slide both off",
+        "knit 2 stitches out of order, left over right"
+      ]
+    },
+    "twist_right_purl": {
+      "canonical_name": "Twist Right Purl",
+      "abbreviations": [
+        "TwRp",
+        "RPT",
+        "T2B",
+        "T2Bp",
+        "RTP",
+        "RtP",
+        "t2r-p"
+      ],
+      "alternate_names": [
+        "twist right purl",
+        "right purl twist",
+        "right purl cross",
+        "right traveling stitch"
+      ],
+      "written_forms": [
+        "slip 1 to cable needle and hold in back, knit 1, purl 1 from cable needle",
+        "right purl cross: 1 knit stitch travels right over 1 purl stitch"
+      ]
+    },
+    "twist_left_purl": {
+      "canonical_name": "Twist Left Purl",
+      "abbreviations": [
+        "TwLp",
+        "LPT",
+        "T2F",
+        "T2Fp",
+        "LTP",
+        "LtP",
+        "t2l-p"
+      ],
+      "alternate_names": [
+        "twist left purl",
+        "left purl twist",
+        "left purl cross",
+        "left traveling stitch"
+      ],
+      "written_forms": [
+        "slip 1 to cable needle and hold in front, purl 1, knit 1 from cable needle",
+        "left purl cross: 1 knit stitch travels left over 1 purl stitch"
+      ]
+    },
+    "cable_1_1_rc": {
+      "canonical_name": "1/1 Right Cross Cable",
+      "abbreviations": [
+        "1/1 RC",
+        "C2B",
+        "cable-1-1-rc",
+        "2-st RC"
+      ],
+      "alternate_names": [
+        "1/1 right cable",
+        "2-stitch right cable",
+        "2-st right cable",
+        "right cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at back, knit 1 from left needle, knit 1 from cable needle",
+        "1/1 right cross cable: sl1 to CN hold back, k1, k1 from CN"
+      ]
+    },
+    "cable_1_1_lc": {
+      "canonical_name": "1/1 Left Cross Cable",
+      "abbreviations": [
+        "1/1 LC",
+        "C2F",
+        "cable-1-1-lc",
+        "2-st LC"
+      ],
+      "alternate_names": [
+        "1/1 left cable",
+        "2-stitch left cable",
+        "2-st left cable",
+        "left cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at front, knit 1 from left needle, knit 1 from cable needle",
+        "1/1 left cross cable: sl1 to CN hold front, k1, k1 from CN"
+      ]
+    },
+    "cable_1_1_rpc": {
+      "canonical_name": "1/1 Right Purl Cross Cable",
+      "abbreviations": [
+        "1/1 RPC",
+        "cable-1-1-rpc",
+        "2-st RPC",
+        "T2B"
+      ],
+      "alternate_names": [
+        "1/1 right purl cable",
+        "2-stitch right purl cable",
+        "2-st right purl cable",
+        "right purl cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at back, knit 1 from left needle, purl 1 from cable needle",
+        "1/1 right purl cross cable: sl1 to CN hold back, k1, p1 from CN"
+      ]
+    },
+    "cable_1_1_lpc": {
+      "canonical_name": "1/1 Left Purl Cross Cable",
+      "abbreviations": [
+        "1/1 LPC",
+        "cable-1-1-lpc",
+        "2-st LPC",
+        "T2F"
+      ],
+      "alternate_names": [
+        "1/1 left purl cable",
+        "2-stitch left purl cable",
+        "2-st left purl cable",
+        "left purl cross cable"
+      ],
+      "written_forms": [
+        "slip 1 stitch to cable needle and hold at front, purl 1 from left needle, knit 1 from cable needle",
+        "1/1 left purl cross cable: sl1 to CN hold front, p1, k1 from CN"
+      ]
+    },
+    "cable_2_2_rc": {
+      "canonical_name": "2/2 Right Cross Cable",
+      "abbreviations": [
+        "2/2 RC",
+        "C4B",
+        "C4R",
+        "4-st RC",
+        "cable-2-2-rc"
+      ],
+      "alternate_names": [
+        "cable 4 back",
+        "2 over 2 right cross",
+        "4-stitch right cable",
+        "right cable cross"
+      ],
+      "written_forms": [
+        "slip 2 stitches to cable needle and hold at back, knit 2 from left needle, knit 2 from cable needle",
+        "cable 4 back: sl2 to CN hold back, k2, k2 from CN"
+      ]
+    },
+    "cable_2_2_lc": {
+      "canonical_name": "2/2 Left Cross Cable",
+      "abbreviations": [
+        "2/2 LC",
+        "C4F",
+        "C4L",
+        "4-st LC",
+        "cable-2-2-lc"
+      ],
+      "alternate_names": [
+        "cable 4 front",
+        "2 over 2 left cross",
+        "4-stitch left cable",
+        "left cable cross"
+      ],
+      "written_forms": [
+        "slip 2 stitches to cable needle and hold at front, knit 2 from left needle, knit 2 from cable needle",
+        "cable 4 front: sl2 to CN hold front, k2, k2 from CN"
+      ]
+    },
+    "cable_2_2_rpc": {
+      "canonical_name": "2/2 Right Purl Cross Cable",
+      "abbreviations": [
+        "2/2 RPC",
+        "T4B",
+        "4-st RPC",
+        "cable-2-2-rpc"
+      ],
+      "alternate_names": [
+        "2 over 2 right purl cross",
+        "traveling cable right",
+        "right purl cable cross"
+      ],
+      "written_forms": [
+        "slip 2 to cable needle and hold at back, knit 2, purl 2 from cable needle",
+        "right purl cross: sl2 to CN hold back, k2, p2 from CN"
+      ]
+    },
+    "cable_2_2_lpc": {
+      "canonical_name": "2/2 Left Purl Cross Cable",
+      "abbreviations": [
+        "2/2 LPC",
+        "T4F",
+        "4-st LPC",
+        "cable-2-2-lpc"
+      ],
+      "alternate_names": [
+        "2 over 2 left purl cross",
+        "traveling cable left",
+        "left purl cable cross"
+      ],
+      "written_forms": [
+        "slip 2 to cable needle and hold at front, purl 2, knit 2 from cable needle",
+        "left purl cross: sl2 to CN hold front, p2, k2 from CN"
+      ]
+    },
+    "cable_3_3_rc": {
+      "canonical_name": "3/3 Right Cross Cable",
+      "abbreviations": [
+        "3/3 RC",
+        "C6B",
+        "C6R",
+        "6-st RC",
+        "cable-3-3-rc"
+      ],
+      "alternate_names": [
+        "cable 6 back",
+        "3 over 3 right cross",
+        "6-stitch right cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold back, k3, k3 from CN"
+      ]
+    },
+    "cable_3_3_lc": {
+      "canonical_name": "3/3 Left Cross Cable",
+      "abbreviations": [
+        "3/3 LC",
+        "C6F",
+        "C6L",
+        "6-st LC",
+        "cable-3-3-lc"
+      ],
+      "alternate_names": [
+        "cable 6 front",
+        "3 over 3 left cross",
+        "6-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold front, k3, k3 from CN"
+      ]
+    },
+    "cable_4_4_rc": {
+      "canonical_name": "4/4 Right Cross Cable",
+      "abbreviations": [
+        "4/4 RC",
+        "C8B",
+        "C8R",
+        "8-st RC",
+        "cable-4-4-rc"
+      ],
+      "alternate_names": [
+        "cable 8 back",
+        "4 over 4 right cross",
+        "8-stitch right cable"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold back, k4, k4 from CN"
+      ]
+    },
+    "cable_4_4_lc": {
+      "canonical_name": "4/4 Left Cross Cable",
+      "abbreviations": [
+        "4/4 LC",
+        "C8F",
+        "C8L",
+        "8-st LC",
+        "cable-4-4-lc"
+      ],
+      "alternate_names": [
+        "cable 8 front",
+        "4 over 4 left cross",
+        "8-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold front, k4, k4 from CN"
+      ]
+    },
+    "cable_2_1_rc": {
+      "canonical_name": "2/1 Right Cross Cable",
+      "abbreviations": [
+        "2/1 RC",
+        "C3B",
+        "3-st RC",
+        "cable-2-1-rc"
+      ],
+      "alternate_names": [
+        "cable 3 back",
+        "2 over 1 right cross"
+      ],
+      "written_forms": [
+        "slip 1 to CN hold back, k2, k1 from CN"
+      ]
+    },
+    "cable_2_1_lc": {
+      "canonical_name": "2/1 Left Cross Cable",
+      "abbreviations": [
+        "2/1 LC",
+        "C3F",
+        "3-st LC",
+        "cable-2-1-lc"
+      ],
+      "alternate_names": [
+        "cable 3 front",
+        "2 over 1 left cross",
+        "3-stitch left cable"
+      ],
+      "written_forms": [
+        "slip 2 to CN hold front, k1, k2 from CN"
+      ]
+    },
+    "cable_3_1_3_rpc": {
+      "canonical_name": "3/1/3 Right Purl Cross Cable",
+      "abbreviations": [
+        "3/1/3 RPC",
+        "7-st RPC",
+        "cable-3-1-3-rpc"
+      ],
+      "alternate_names": [
+        "three-one-three right purl cross",
+        "wide right purl cable with center purl"
+      ],
+      "written_forms": [
+        "slip 4 to CN hold back, k3, slip center st from CN back to left needle and purl it, k3 from CN"
+      ]
+    },
+    "cable_3_1_3_lpc": {
+      "canonical_name": "3/1/3 Left Purl Cross Cable",
+      "abbreviations": [
+        "3/1/3 LPC",
+        "7-st LPC",
+        "cable-3-1-3-lpc"
+      ],
+      "alternate_names": [
+        "three-one-three left purl cross"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold front, slip next st to 2nd CN hold back, k3, p1 from back CN, k3 from front CN"
+      ]
+    },
+    "cable_2_1_2_rpc": {
+      "canonical_name": "2/1/2 Right Purl Cross Cable",
+      "abbreviations": [
+        "2/1/2 RPC",
+        "5-st RPC",
+        "cable-2-1-2-rpc"
+      ],
+      "alternate_names": [
+        "two-one-two right purl cross",
+        "5-stitch right purl cable"
+      ],
+      "written_forms": [
+        "slip 3 to CN hold back, k2, slip center st from CN to left needle and purl it, k2 from CN"
+      ]
+    },
+    "cable_2_1_2_lpc": {
+      "canonical_name": "2/1/2 Left Purl Cross Cable",
+      "abbreviations": [
+        "2/1/2 LPC",
+        "5-st LPC",
+        "cable-2-1-2-lpc"
+      ],
+      "alternate_names": [
+        "two-one-two left purl cross",
+        "5-stitch left purl cable"
+      ],
+      "written_forms": [
+        "slip 2 to CN hold front, slip 1 to 2nd CN hold back, k2, p1 from back CN, k2 from front CN"
+      ]
+    },
+    "long_tail_co": {
+      "canonical_name": "Long-Tail Cast On",
+      "abbreviations": [
+        "CO",
+        "co",
+        "cast on",
+        "LTCO",
+        "long-tail CO",
+        "LT CO",
+        "thumb CO",
+        "two-finger CO"
+      ],
+      "alternate_names": [
+        "long-tail cast on",
+        "continental cast on",
+        "two-strand cast on",
+        "slingshot cast on",
+        "thumb cast on",
+        "two-finger cast on",
+        "slingshot cast on method"
+      ],
+      "written_forms": [
+        "cast on using the long-tail method",
+        "CO: make a slip knot, hold yarn in slingshot position, wrap and pull through",
+        "cast on using the slingshot method",
+        "thumb cast on: make slingshot with yarn, cast on"
+      ]
+    },
+    "cable_co": {
+      "canonical_name": "Cable Cast On",
+      "abbreviations": [
+        "cable CO",
+        "cable cast on",
+        "cable CO X sts"
+      ],
+      "alternate_names": [
+        "cable cast on",
+        "two-needle cast on",
+        "cable cast on (mid-row)"
+      ],
+      "written_forms": [
+        "insert needle between the last 2 stitches on left needle, wrap yarn, pull through, place new stitch on left needle",
+        "cable cast on: knit between stitches and transfer",
+        "cable CO X sts: insert needle between last 2 sts, CO additional stitches using cable method"
+      ]
+    },
+    "knitted_co": {
+      "canonical_name": "Knitted Cast On",
+      "abbreviations": [
+        "knitted CO",
+        "knit CO",
+        "kCO"
+      ],
+      "alternate_names": [
+        "knitted cast on",
+        "knit-on cast on"
+      ],
+      "written_forms": [
+        "knit into the last stitch on left needle, place new stitch back on left needle",
+        "knitted cast on: knit each stitch and transfer back"
+      ]
+    },
+    "provisional_co": {
+      "canonical_name": "Provisional Cast On",
+      "abbreviations": [
+        "provisional CO",
+        "prov CO",
+        "waste yarn CO",
+        "open CO",
+        "crochet prov CO"
+      ],
+      "alternate_names": [
+        "provisional cast on",
+        "temporary cast on",
+        "invisible cast on",
+        "open cast on",
+        "crochet provisional cast on",
+        "crochet chain provisional"
+      ],
+      "written_forms": [
+        "using waste yarn, crochet a chain, then pick up stitches through the back bumps",
+        "provisional cast on: cast on with waste yarn, to be removed later",
+        "crochet chain provisional CO: chain with waste yarn, pick up through back bumps with project yarn",
+        "open CO: cast on with waste yarn crochet chain to leave live stitches"
+      ]
+    },
+    "tubular_co": {
+      "canonical_name": "Tubular Cast On",
+      "abbreviations": [
+        "tubular CO",
+        "Italian CO",
+        "invisible CO"
+      ],
+      "alternate_names": [
+        "tubular cast on",
+        "Italian cast on",
+        "invisible ribbed cast on",
+        "Channel Island CO",
+        "double-start CO",
+        "invisible ribbed CO"
+      ],
+      "written_forms": [
+        "work tubular cast on for 1x1 ribbing",
+        "Italian cast on: provisional CO, work stockinette setup rows, then separate into ribbing"
+      ]
+    },
+    "german_twisted_co": {
+      "canonical_name": "German Twisted Cast On",
+      "abbreviations": [
+        "german twisted CO",
+        "old Norwegian CO",
+        "TW CO",
+        "twisted CO",
+        "GTCO"
+      ],
+      "alternate_names": [
+        "German twisted cast on",
+        "old Norwegian cast on",
+        "twisted long-tail cast on",
+        "Bavarian cast on"
+      ],
+      "written_forms": [
+        "cast on using German twisted method: long-tail position, insert needle through the back of the thumb loop",
+        "old Norwegian CO: slingshot position, enter thumb loop from below and behind"
+      ]
+    },
+    "judys_magic_co": {
+      "canonical_name": "Judy's Magic Cast On",
+      "abbreviations": [
+        "Judy's magic CO",
+        "JMCO",
+        "magic CO",
+        "judy's magic cast on"
+      ],
+      "alternate_names": [
+        "Judy's magic cast on",
+        "Judy Becker magic cast on",
+        "magic cast on"
+      ],
+      "written_forms": [
+        "using Judy's Magic Cast On, CO X sts to each needle",
+        "JMCO: alternate stitches onto two needle tips using both strands"
+      ]
+    },
+    "turkish_co": {
+      "canonical_name": "Turkish Cast On",
+      "abbreviations": [
+        "Turkish CO",
+        "Eastern CO",
+        "Turkish cast on"
+      ],
+      "alternate_names": [
+        "Turkish cast on",
+        "Eastern cast on"
+      ],
+      "written_forms": [
+        "wrap yarn around both needles X times, then knit through loops on each needle",
+        "Turkish CO: figure-eight wrap across two needles"
+      ]
+    },
+    "figure8_co": {
+      "canonical_name": "Figure-8 Cast On",
+      "abbreviations": [
+        "figure-8 CO",
+        "fig 8 CO",
+        "figure 8 CO",
+        "fig-8 CO",
+        "figure 8 cast on"
+      ],
+      "alternate_names": [
+        "figure-8 cast on",
+        "figure eight cast on"
+      ],
+      "written_forms": [
+        "wrap yarn in a figure-8 between two needle tips to cast on toe stitches",
+        "figure-8 CO: alternate wraps around each needle in a figure-8 path"
+      ]
+    },
+    "cable_with_purl_center": {
+      "canonical_name": "Cable with Purl Center",
+      "abbreviations": [
+        "C4B-p2",
+        "cable w/ p center",
+        "C4B with p2 center"
+      ],
+      "alternate_names": [
+        "cable with purl center",
+        "textured cable cross",
+        "cable with embedded purl",
+        "mixed cable"
+      ],
+      "written_forms": [
+        "sl2 to CN hold back, k1, p1 from left needle, k1, p1 from CN",
+        "work cable crossing with purl stitches in center positions"
+      ]
+    },
+    "cable_with_decrease": {
+      "canonical_name": "Cable Crossing with Embedded Decrease",
+      "abbreviations": [],
+      "alternate_names": [
+        "cable with decrease",
+        "narrowing cable cross",
+        "shaped cable",
+        "cable decrease"
+      ],
+      "written_forms": [
+        "sl3 to CN hold back, k2tog, k1 from left needle, k3 from CN",
+        "work cable crossing with a decrease embedded in one group"
+      ]
+    },
+    "cable_with_increase": {
+      "canonical_name": "Cable Crossing with Embedded Increase",
+      "abbreviations": [],
+      "alternate_names": [
+        "cable with increase",
+        "widening cable cross",
+        "branching cable",
+        "cable increase"
+      ],
+      "written_forms": [
+        "work cable crossing with an increase embedded in one group"
+      ]
+    },
+    "yarn_over_decrease_pair": {
+      "canonical_name": "Yarn Over + Decrease Pair",
+      "abbreviations": [],
+      "alternate_names": [
+        "yarn over decrease",
+        "paired yarn over and decrease",
+        "lace yarn over decrease pair"
+      ],
+      "written_forms": [
+        "work the yarn over and accompanying decrease as one lace unit",
+        "work yarn over plus decrease as specified in the legend"
+      ]
+    },
+    "twisted_rib_unit": {
+      "canonical_name": "Twisted Rib Unit",
+      "abbreviations": [
+        "k1tbl-p1",
+        "ktbl rib",
+        "twisted rib",
+        "tbl rib",
+        "k1tbl p1"
+      ],
+      "alternate_names": [
+        "twisted rib",
+        "twisted ribbing",
+        "bavarian twisted rib",
+        "twisted stitch rib",
+        "bavarian rib"
+      ],
+      "written_forms": [
+        "work in twisted rib: *k1 tbl, p1; repeat from *",
+        "twisted rib pattern: knit through back loop on all knit stitches"
+      ]
+    },
+    "star_stitch": {
+      "canonical_name": "Star Stitch",
+      "abbreviations": [
+        "star st",
+        "* st",
+        "daisy st"
+      ],
+      "alternate_names": [
+        "star stitch",
+        "daisy stitch",
+        "marguerite stitch"
+      ],
+      "written_forms": [
+        "star stitch: p3tog but leave on needle, yo, purl same 3 together again, slide off",
+        "make star: (p3tog, yo, p3tog) into same 3 stitches"
+      ]
+    },
+    "trinity_stitch": {
+      "canonical_name": "Trinity Stitch",
+      "abbreviations": [
+        "trinity st",
+        "bramble",
+        "blackberry",
+        "raspberry st"
+      ],
+      "alternate_names": [
+        "trinity stitch",
+        "blackberry stitch",
+        "bramble stitch",
+        "raspberry stitch"
+      ],
+      "written_forms": [
+        "Row 1: *(k1, p1, k1) into next st, p3tog; rep from *",
+        "Row 3: *p3tog, (k1, p1, k1) into next st; rep from * (offset)"
+      ]
+    },
+    "gathered_stitch": {
+      "canonical_name": "Gathered Stitch",
+      "abbreviations": [
+        "gather",
+        "gather st",
+        "smock st",
+        "GS"
+      ],
+      "alternate_names": [
+        "gathered stitch",
+        "smocked stitch",
+        "smocking gather"
+      ],
+      "written_forms": [
+        "slip designated stitches, wrap yarn around them, return them to the needle, and work as established",
+        "gather designated stitches together as specified in the pattern"
+      ]
+    },
+    "cluster_stitch": {
+      "canonical_name": "Cluster Stitch",
+      "abbreviations": [
+        "Cl",
+        "CL",
+        "cluster",
+        "cl st",
+        "cluster st",
+        "Cl2",
+        "Cl3",
+        "Cl4",
+        "Cl5",
+        "CS"
+      ],
+      "alternate_names": [
+        "cluster stitch"
+      ],
+      "written_forms": [
+        "work the cluster stitch as specified in the pattern legend",
+        "form a clustered unit from the designated stitches"
+      ]
+    },
+    "estonian_gathered_stitch": {
+      "canonical_name": "Estonian Gathered Stitch",
+      "abbreviations": [
+        "estonian gather",
+        "EGS",
+        "estonian gathered"
+      ],
+      "alternate_names": [
+        "Estonian gathered stitch",
+        "Estonian gather",
+        "Haapsalu gather",
+        "Estonian lace gather"
+      ],
+      "written_forms": [
+        "work an Estonian gather as specified, often by gathering stitches together and re-knitting from the gathered stitch",
+        "X-in-X Estonian gather",
+        "X-into-Y Estonian gather"
+      ]
+    },
+    "estonian_gathered_2": {
+      "canonical_name": "Estonian Gathered Stitch (2-Stitch Form)",
+      "abbreviations": [
+        "EGS2",
+        "GS2"
+      ],
+      "alternate_names": [
+        "Estonian gathered 2",
+        "2-stitch Estonian gather",
+        "Estonian gathered stitch 2"
+      ],
+      "written_forms": [
+        "2-stitch Estonian gather",
+        "Estonian gathered symbol labeled 2"
+      ]
+    },
+    "estonian_gathered_3": {
+      "canonical_name": "Estonian Gathered Stitch (3-Stitch Form)",
+      "abbreviations": [
+        "EGS3",
+        "GS3"
+      ],
+      "alternate_names": [
+        "Estonian gathered 3",
+        "3-stitch Estonian gather",
+        "Estonian gathered stitch 3"
+      ],
+      "written_forms": [
+        "3-stitch Estonian gather",
+        "Estonian gathered symbol labeled 3"
+      ]
+    },
+    "estonian_gathered_4": {
+      "canonical_name": "Estonian Gathered Stitch (4-Stitch Form)",
+      "abbreviations": [
+        "EGS4",
+        "GS4"
+      ],
+      "alternate_names": [
+        "Estonian gathered 4",
+        "4-stitch Estonian gather",
+        "Estonian gathered stitch 4"
+      ],
+      "written_forms": [
+        "4-stitch Estonian gather",
+        "Estonian gathered symbol labeled 4"
+      ]
+    },
+    "estonian_gathered_5": {
+      "canonical_name": "Estonian Gathered Stitch (5-Stitch Form)",
+      "abbreviations": [
+        "EGS5",
+        "GS5"
+      ],
+      "alternate_names": [
+        "Estonian gathered 5",
+        "5-stitch Estonian gather",
+        "Estonian gathered stitch 5"
+      ],
+      "written_forms": [
+        "5-stitch Estonian gather",
+        "Estonian gathered symbol labeled 5"
+      ]
+    },
+    "estonian_gathered_6": {
+      "canonical_name": "Estonian Gathered Stitch (6-Stitch Form)",
+      "abbreviations": [
+        "EGS6",
+        "GS6"
+      ],
+      "alternate_names": [
+        "Estonian gathered 6",
+        "6-stitch Estonian gather",
+        "Estonian gathered stitch 6"
+      ],
+      "written_forms": [
+        "6-stitch Estonian gather",
+        "Estonian gathered symbol labeled 6"
+      ]
+    },
+    "estonian_gathered_7": {
+      "canonical_name": "Estonian Gathered Stitch (7-Stitch Form)",
+      "abbreviations": [
+        "EGS7",
+        "GS7"
+      ],
+      "alternate_names": [
+        "Estonian gathered 7",
+        "7-stitch Estonian gather",
+        "Estonian gathered stitch 7"
+      ],
+      "written_forms": [
+        "7-stitch Estonian gather",
+        "Estonian gathered symbol labeled 7"
+      ]
+    },
+    "estonian_gathered_8": {
+      "canonical_name": "Estonian Gathered Stitch (8-Stitch Form)",
+      "abbreviations": [
+        "EGS8",
+        "GS8"
+      ],
+      "alternate_names": [
+        "Estonian gathered 8",
+        "8-stitch Estonian gather",
+        "Estonian gathered stitch 8"
+      ],
+      "written_forms": [
+        "8-stitch Estonian gather",
+        "Estonian gathered symbol labeled 8"
+      ]
+    },
+    "estonian_gathered_9": {
+      "canonical_name": "Estonian Gathered Stitch (9-Stitch Form)",
+      "abbreviations": [
+        "EGS9",
+        "GS9"
+      ],
+      "alternate_names": [
+        "Estonian gathered 9",
+        "9-stitch Estonian gather",
+        "Estonian gathered stitch 9"
+      ],
+      "written_forms": [
+        "9-stitch Estonian gather",
+        "Estonian gathered symbol labeled 9"
+      ]
+    },
+    "estonian_gathered_10": {
+      "canonical_name": "Estonian Gathered Stitch (10-Stitch Form)",
+      "abbreviations": [
+        "EGS10",
+        "GS10"
+      ],
+      "alternate_names": [
+        "Estonian gathered 10",
+        "10-stitch Estonian gather",
+        "Estonian gathered stitch 10"
+      ],
+      "written_forms": [
+        "10-stitch Estonian gather",
+        "Estonian gathered symbol labeled 10"
+      ]
+    },
+    "estonian_gathered_11": {
+      "canonical_name": "Estonian Gathered Stitch (11-Stitch Form)",
+      "abbreviations": [
+        "EGS11",
+        "GS11"
+      ],
+      "alternate_names": [
+        "Estonian gathered 11",
+        "11-stitch Estonian gather",
+        "Estonian gathered stitch 11"
+      ],
+      "written_forms": [
+        "11-stitch Estonian gather",
+        "Estonian gathered symbol labeled 11"
+      ]
+    },
+    "estonian_gathered_12": {
+      "canonical_name": "Estonian Gathered Stitch (12-Stitch Form)",
+      "abbreviations": [
+        "EGS12",
+        "GS12"
+      ],
+      "alternate_names": [
+        "Estonian gathered 12",
+        "12-stitch Estonian gather",
+        "Estonian gathered stitch 12"
+      ],
+      "written_forms": [
+        "12-stitch Estonian gather",
+        "Estonian gathered symbol labeled 12"
+      ]
+    },
+    "estonian_gathered_13": {
+      "canonical_name": "Estonian Gathered Stitch (13-Stitch Form)",
+      "abbreviations": [
+        "EGS13",
+        "GS13"
+      ],
+      "alternate_names": [
+        "Estonian gathered 13",
+        "13-stitch Estonian gather",
+        "Estonian gathered stitch 13"
+      ],
+      "written_forms": [
+        "13-stitch Estonian gather",
+        "Estonian gathered symbol labeled 13"
+      ]
+    },
+    "estonian_gathered_14": {
+      "canonical_name": "Estonian Gathered Stitch (14-Stitch Form)",
+      "abbreviations": [
+        "EGS14",
+        "GS14"
+      ],
+      "alternate_names": [
+        "Estonian gathered 14",
+        "14-stitch Estonian gather",
+        "Estonian gathered stitch 14"
+      ],
+      "written_forms": [
+        "14-stitch Estonian gather",
+        "Estonian gathered symbol labeled 14"
+      ]
+    },
+    "estonian_gathered_15": {
+      "canonical_name": "Estonian Gathered Stitch (15-Stitch Form)",
+      "abbreviations": [
+        "EGS15",
+        "GS15"
+      ],
+      "alternate_names": [
+        "Estonian gathered 15",
+        "15-stitch Estonian gather",
+        "Estonian gathered stitch 15"
+      ],
+      "written_forms": [
+        "15-stitch Estonian gather",
+        "Estonian gathered symbol labeled 15"
+      ]
+    },
+    "estonian_gathered_16": {
+      "canonical_name": "Estonian Gathered Stitch (16-Stitch Form)",
+      "abbreviations": [
+        "EGS16",
+        "GS16"
+      ],
+      "alternate_names": [
+        "Estonian gathered 16",
+        "16-stitch Estonian gather",
+        "Estonian gathered stitch 16"
+      ],
+      "written_forms": [
+        "16-stitch Estonian gather",
+        "Estonian gathered symbol labeled 16"
+      ]
+    },
+    "decorated_decrease": {
+      "canonical_name": "Decorated Decrease (Unspecified)",
+      "abbreviations": [
+        "Dec",
+        "DEC",
+        "dec-n",
+        "Decn",
+        "numbered dec",
+        "decrease (numbered)",
+        "decrease-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_decrease_left": {
+      "canonical_name": "Decorated Decrease (Left-Leaning)",
+      "abbreviations": [
+        "DecL",
+        "DECL",
+        "dec-L",
+        "left numbered dec",
+        "decL",
+        "dec left",
+        "DEC-L",
+        "left dec (numbered)",
+        "ssk (numbered)",
+        "ssk-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_decrease_right": {
+      "canonical_name": "Decorated Decrease (Right-Leaning)",
+      "abbreviations": [
+        "DecR",
+        "DECR",
+        "dec-R",
+        "right numbered dec",
+        "decR",
+        "dec right",
+        "DEC-R",
+        "right dec (numbered)",
+        "k2tog (numbered)",
+        "k2tog-n"
+      ],
+      "alternate_names": [
+        "decorated decrease",
+        "numbered decrease",
+        "annotated decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_increase": {
+      "canonical_name": "Decorated Increase (Unspecified)",
+      "abbreviations": [
+        "Inc",
+        "INC",
+        "inc-n",
+        "Incn",
+        "numbered inc",
+        "increase (numbered)",
+        "increase-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_increase_left": {
+      "canonical_name": "Decorated Increase (Left-Leaning)",
+      "abbreviations": [
+        "IncL",
+        "INCL",
+        "inc-L",
+        "left numbered inc",
+        "incL",
+        "inc left",
+        "INC-L",
+        "left inc (numbered)",
+        "lli (numbered)",
+        "lli-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_increase_right": {
+      "canonical_name": "Decorated Increase (Right-Leaning)",
+      "abbreviations": [
+        "IncR",
+        "INCR",
+        "inc-R",
+        "right numbered inc",
+        "incR",
+        "inc right",
+        "INC-R",
+        "right inc (numbered)",
+        "rli (numbered)",
+        "rli-n"
+      ],
+      "alternate_names": [
+        "decorated increase",
+        "numbered increase",
+        "annotated increase"
+      ],
+      "written_forms": [
+        "work a increase as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "decorated_yarn_over": {
+      "canonical_name": "Decorated Yarn Over",
+      "abbreviations": [
+        "YO-n",
+        "yo-n",
+        "numbered YO",
+        "Nyo",
+        "annotated YO",
+        "YO (numbered)"
+      ],
+      "alternate_names": [
+        "decorated yarn over",
+        "numbered yarn over",
+        "annotated yarn over"
+      ],
+      "written_forms": [
+        "work a yarn over as specified in the legend; the overlay number or marker is a chart cross-reference"
+      ]
+    },
+    "k2tog": {
+      "canonical_name": "Knit Two Together",
+      "abbreviations": [
+        "k2tog",
+        "k2t",
+        "k2 tog",
+        "k2tog.",
+        "K-2-tog",
+        "knit 2 tog"
+      ],
+      "alternate_names": [
+        "knit two together",
+        "knit 2 together",
+        "right-leaning decrease"
+      ],
+      "written_forms": [
+        "knit the next two stitches together",
+        "insert needle through next 2 stitches together knitwise, wrap yarn, pull through both",
+        "knit 2 together"
+      ]
+    },
+    "ssk": {
+      "canonical_name": "Slip Slip Knit",
+      "abbreviations": [
+        "ssk",
+        "s2k",
+        "ssk tbl",
+        "ssktbl",
+        "ssk-tbl"
+      ],
+      "alternate_names": [
+        "slip slip knit",
+        "left-leaning decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches individually knitwise, then knit them together through the back loops",
+        "slip, slip, knit slipped stitches together",
+        "slip 1 knitwise, slip 1 knitwise, insert left needle into front of both slipped stitches and knit together",
+        "slip 1 knitwise, slip 1 knitwise, insert left needle tip into fronts of both slipped stitches from left to right and knit together through back loops"
+      ]
+    },
+    "skp": {
+      "canonical_name": "Slip Knit Pass Slipped Stitch Over",
+      "abbreviations": [
+        "SKP",
+        "skpo",
+        "sl1-k1-psso",
+        "s1-k1-psso",
+        "sl1k1psso",
+        "sl 1, k1, psso",
+        "s1k1p1",
+        "skpo2"
+      ],
+      "alternate_names": [
+        "slip knit pass",
+        "slip one knit one pass slipped stitch over",
+        "pass slipped stitch over",
+        "slip one knit one pass over"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, knit 1, pass slipped stitch over",
+        "sl 1, k1, pass slipped stitch over the knit stitch",
+        "slip, knit, pass slipped stitch over",
+        "slip 1 stitch knitwise to right needle, knit the next stitch, pass the slipped stitch over the knit stitch and off the needle"
+      ]
+    },
+    "k2tog_tbl": {
+      "canonical_name": "Knit Two Together Through Back Loop",
+      "abbreviations": [
+        "k2tog-tbl",
+        "k2togtbl",
+        "k2tog tbl",
+        "k2tbl",
+        "k2t-tbl",
+        "k-2-tog-tbl"
+      ],
+      "alternate_names": [
+        "knit two together through back loop",
+        "twisted k2tog",
+        "knit two together through back loops",
+        "twisted left-leaning decrease",
+        "German twisted decrease"
+      ],
+      "written_forms": [
+        "knit 2 stitches together through their back loops",
+        "k2tog through back loop",
+        "insert right needle knitwise through the back loops of the next 2 stitches simultaneously and knit together"
+      ]
+    },
+    "p2tog": {
+      "canonical_name": "Purl Two Together",
+      "abbreviations": [
+        "p2tog",
+        "p2t",
+        "p2 tog",
+        "purl 2 tog"
+      ],
+      "alternate_names": [
+        "purl two together",
+        "purl 2 together",
+        "right-leaning purl decrease"
+      ],
+      "written_forms": [
+        "purl the next two stitches together",
+        "insert needle purlwise through next 2 stitches and purl together"
+      ]
+    },
+    "ssp": {
+      "canonical_name": "Slip Slip Purl",
+      "abbreviations": [
+        "ssp",
+        "slip slip purl",
+        "s2p"
+      ],
+      "alternate_names": [
+        "slip slip purl",
+        "purl left-leaning decrease",
+        "left-leaning purl decrease",
+        "slip-slip-purl"
+      ],
+      "written_forms": [
+        "slip 2 stitches individually knitwise, slip them back to left needle, purl together through back loops",
+        "slip, slip, purl slipped stitches together"
+      ]
+    },
+    "p2tog_tbl": {
+      "canonical_name": "Purl Two Together Through Back Loop",
+      "abbreviations": [
+        "p2tog-tbl",
+        "p2togtbl",
+        "p2tog tbl",
+        "p2tbl",
+        "p2t-tbl"
+      ],
+      "alternate_names": [
+        "purl two together through back loop",
+        "twisted purl decrease",
+        "left-leaning purl tbl"
+      ],
+      "written_forms": [
+        "purl 2 stitches together through their back loops",
+        "insert needle purlwise through the back loops of the next 2 stitches simultaneously and purl together"
+      ]
+    },
+    "cdd": {
+      "canonical_name": "Central Double Decrease",
+      "abbreviations": [
+        "CDD",
+        "S2KP2",
+        "sl2-k1-p2sso",
+        "centered double dec",
+        "central double decrease",
+        "sl2tog-k1-psso",
+        "cdd2"
+      ],
+      "alternate_names": [
+        "central double decrease",
+        "slip 2 knit 1 pass 2 slipped stitches over",
+        "centered double decrease",
+        "vertical double decrease",
+        "slip 2, k1, p2sso",
+        "centered three-stitch decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together knitwise, knit 1, pass the 2 slipped stitches over the knit stitch",
+        "sl2tog kwise, k1, pass both slipped stitches over",
+        "slip 2 as if to k2tog, k1, pass slipped stitches over"
+      ]
+    },
+    "cdd_tbl": {
+      "canonical_name": "Central Double Decrease (TBL)",
+      "abbreviations": [
+        "cdd-tbl",
+        "cdd_tbl",
+        "sl2tog-tbl-k1-p2sso",
+        "sl2 tbl k1 p2sso",
+        "s2tog tbl k1 psso",
+        "sl2tog tbl, k1, p2sso",
+        "cdd tbl",
+        "CDD TBL",
+        "CDD-tbl",
+        "CDD-TBL"
+      ],
+      "alternate_names": [
+        "central double decrease through back loop",
+        "centered double decrease tbl",
+        "twisted central double decrease",
+        "twisted CDD",
+        "faux-cable centered double decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together through the back loop, knit 1, pass the 2 slipped stitches over the knit stitch",
+        "sl2tog tbl, k1, p2sso"
+      ]
+    },
+    "sk2p": {
+      "canonical_name": "Slip 1 Knit 2 Together Pass Slipped Stitch Over",
+      "abbreviations": [
+        "SK2P",
+        "sl1-k2tog-psso",
+        "sl1k2togpsso",
+        "s1k2p",
+        "s1-k2p"
+      ],
+      "alternate_names": [
+        "slip knit 2 together pass slipped stitch over",
+        "left-leaning double decrease",
+        "left double decrease",
+        "slip 1 k2tog psso"
+      ],
+      "written_forms": [
+        "slip 1, knit 2 together, pass slipped stitch over the k2tog",
+        "slip 1 knitwise, k2tog, pass slipped stitch over"
+      ]
+    },
+    "k3tog": {
+      "canonical_name": "Knit Three Together",
+      "abbreviations": [
+        "k3tog",
+        "k3t",
+        "k3 tog",
+        "knit 3 tog"
+      ],
+      "alternate_names": [
+        "knit three together",
+        "knit 3 together",
+        "right-leaning double decrease",
+        "right double decrease"
+      ],
+      "written_forms": [
+        "knit the next three stitches together",
+        "insert needle through 3 stitches knitwise and knit together"
+      ]
+    },
+    "sssk": {
+      "canonical_name": "Slip Slip Slip Knit",
+      "abbreviations": [
+        "sssk",
+        "slip slip slip knit",
+        "sl3k",
+        "s3k"
+      ],
+      "alternate_names": [
+        "slip slip slip knit",
+        "triple left decrease",
+        "left double decrease",
+        "triple slip knit decrease",
+        "triple left-leaning decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, then knit all 3 together through the back loops",
+        "slip, slip, slip, knit slipped stitches together",
+        "slip 1 knitwise, slip 1 knitwise, slip 1 knitwise, insert left needle from left to right through fronts of all 3 slipped stitches and knit together"
+      ]
+    },
+    "p3tog": {
+      "canonical_name": "Purl Three Together",
+      "abbreviations": [
+        "p3tog",
+        "p3t"
+      ],
+      "alternate_names": [
+        "purl three together",
+        "purl 3 together"
+      ],
+      "written_forms": [
+        "purl the next three stitches together"
+      ]
+    },
+    "p3tog_tbl": {
+      "canonical_name": "Purl Three Together Through Back Loop",
+      "abbreviations": [
+        "p3tog-tbl",
+        "p3togtbl",
+        "p3tog tbl",
+        "p3tbl",
+        "p3t-tbl"
+      ],
+      "alternate_names": [
+        "purl three together through back loop",
+        "purl 3 together through back loops",
+        "twisted purl double decrease",
+        "right-leaning purl tbl double decrease"
+      ],
+      "written_forms": [
+        "purl 3 stitches together through their back loops",
+        "insert needle through the back loops of the next 3 stitches simultaneously, purlwise, and purl together",
+        "p3tog tbl: with yarn in front, insert right needle through back loops of next 3 sts from left to right and purl all 3 together"
+      ]
+    },
+    "sssp": {
+      "canonical_name": "Slip Slip Slip Purl",
+      "abbreviations": [
+        "sssp"
+      ],
+      "alternate_names": [
+        "slip slip slip purl",
+        "triple slip purl",
+        "left purl double decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, return to left needle, purl together through back loops",
+        "slip 3 stitches individually knitwise, return all 3 to left needle purlwise, purl all 3 together through their back loops"
+      ]
+    },
+    "pcdd": {
+      "canonical_name": "Purl Central Double Decrease",
+      "abbreviations": [
+        "pcdd",
+        "SSPP2",
+        "purl CDD",
+        "centered purl double decrease",
+        "SP2P",
+        "p-cdd",
+        "scdd",
+        "p-s2kp",
+        "purl-s2kp"
+      ],
+      "alternate_names": [
+        "purl central double decrease",
+        "wrong-side centered decrease"
+      ],
+      "written_forms": [
+        "slip 2 stitches together purlwise, purl 1, pass slipped stitches over",
+        "slip 2 stitches together purlwise to right needle, purl 1, pass both slipped stitches over the purled stitch"
+      ]
+    },
+    "dec_4_to_1_right": {
+      "canonical_name": "Decrease 4 to 1 (Right-Leaning)",
+      "abbreviations": [
+        "dec 4-to-1-R",
+        "dec4-1R",
+        "right 4-to-1 dec",
+        "5-st right dec",
+        "dec_4_to_1_right",
+        "dec4r",
+        "4-to-1-r",
+        "k4tog"
+      ],
+      "alternate_names": [
+        "knit four together",
+        "4-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 4 stitches together",
+        "insert needle through next 4 stitches knitwise and knit together"
+      ]
+    },
+    "dec_4_to_1_left": {
+      "canonical_name": "Decrease 4 to 1 (Left-Leaning)",
+      "abbreviations": [
+        "dec 4-to-1-L",
+        "dec4-1L",
+        "left 4-to-1 dec",
+        "5-st left dec",
+        "dec4l",
+        "4-to-1-l",
+        "sl3-k1-p3sso"
+      ],
+      "alternate_names": [
+        "4-stitch left decrease",
+        "left-leaning quadruple decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches individually knitwise, knit 1, pass all 3 slipped stitches over",
+        "sssk-k variant: work sssk then k2tog, or equivalent publisher-defined technique"
+      ]
+    },
+    "dec_4_to_1_center": {
+      "canonical_name": "Decrease 4 to 1 (Centered)",
+      "abbreviations": [
+        "dec4c",
+        "4-to-1-c",
+        "4-st cdd"
+      ],
+      "alternate_names": [
+        "centered quadruple decrease",
+        "4-stitch centered decrease"
+      ],
+      "written_forms": [
+        "slip 3 stitches together, knit 1, pass slipped stitches over — centered variant"
+      ]
+    },
+    "dec_5_to_1_right": {
+      "canonical_name": "Decrease 5 to 1 (Right-Leaning)",
+      "abbreviations": [
+        "dec_5_to_1_right",
+        "dec5r",
+        "5-to-1-r",
+        "k5tog"
+      ],
+      "alternate_names": [
+        "knit five together",
+        "5-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 5 stitches together"
+      ]
+    },
+    "dec_5_to_1_left": {
+      "canonical_name": "Decrease 5 to 1 (Left-Leaning)",
+      "abbreviations": [
+        "dec5l",
+        "5-to-1-l"
+      ],
+      "alternate_names": [
+        "5-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 4 stitches individually knitwise, knit 1, pass all 4 slipped stitches over",
+        "sssk2 variant: work sssk then k2tog twice, or equivalent publisher-defined technique"
+      ]
+    },
+    "dec_6_to_1_right": {
+      "canonical_name": "Decrease 6 to 1 (Right-Leaning)",
+      "abbreviations": [
+        "dec_6_to_1_right",
+        "dec6r",
+        "6-to-1-r",
+        "k6tog"
+      ],
+      "alternate_names": [
+        "knit six together",
+        "6-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 6 stitches together"
+      ]
+    },
+    "dec_6_to_1_left": {
+      "canonical_name": "Decrease 6 to 1 (Left-Leaning)",
+      "abbreviations": [
+        "dec6l",
+        "6-to-1-l"
+      ],
+      "alternate_names": [
+        "6-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 5 stitches individually knitwise, knit 1, pass all 5 slipped stitches over"
+      ]
+    },
+    "dec_7_to_1_right": {
+      "canonical_name": "Decrease 7 to 1 (Right-Leaning)",
+      "abbreviations": [
+        "dec_7_to_1_right",
+        "dec7r",
+        "7-to-1-r",
+        "k7tog"
+      ],
+      "alternate_names": [
+        "knit seven together",
+        "7-stitch right decrease"
+      ],
+      "written_forms": [
+        "knit 7 stitches together"
+      ]
+    },
+    "dec_7_to_1_left": {
+      "canonical_name": "Decrease 7 to 1 (Left-Leaning)",
+      "abbreviations": [
+        "dec7l",
+        "7-to-1-l"
+      ],
+      "alternate_names": [
+        "7-stitch left decrease"
+      ],
+      "written_forms": [
+        "slip 6 stitches individually knitwise, knit 1, pass all 6 slipped stitches over"
+      ]
+    },
+    "decrease_left": {
+      "canonical_name": "Left-Leaning Decrease (Unspecified)",
+      "abbreviations": [
+        "dec-left",
+        "left-dec",
+        "dec-l",
+        "slant-left"
+      ],
+      "alternate_names": [
+        "left-leaning decrease",
+        "left-slanting decrease",
+        "slant left"
+      ],
+      "written_forms": [
+        "work a left-leaning decrease as specified in the legend",
+        "decrease two stitches to one with a left slant"
+      ]
+    },
+    "decrease_right": {
+      "canonical_name": "Right-Leaning Decrease (Unspecified)",
+      "abbreviations": [
+        "dec-right",
+        "right-dec",
+        "dec-r",
+        "slant-right"
+      ],
+      "alternate_names": [
+        "right-leaning decrease",
+        "right-slanting decrease",
+        "slant right"
+      ],
+      "written_forms": [
+        "work a right-leaning decrease as specified in the legend",
+        "decrease two stitches to one with a right slant"
+      ]
+    },
+    "decrease_unspecified": {
+      "canonical_name": "Decrease (Unspecified)",
+      "abbreviations": [
+        "dec",
+        "decrease",
+        "dc"
+      ],
+      "alternate_names": [
+        "generic decrease",
+        "unspecified decrease"
+      ],
+      "written_forms": [
+        "work a decrease as specified in the legend"
+      ]
+    },
+    "purl_decrease": {
+      "canonical_name": "Purl Decrease (Unspecified)",
+      "abbreviations": [
+        "purl-dec",
+        "p-dec",
+        "p dec",
+        "pd"
+      ],
+      "alternate_names": [
+        "purl decrease",
+        "decrease on purl ground"
+      ],
+      "written_forms": [
+        "work a purl decrease as specified in the legend"
+      ]
+    },
+    "decrease_tbl": {
+      "canonical_name": "Decrease Through Back Loop (Generic)",
+      "abbreviations": [
+        "dec-tbl",
+        "decrease-tbl"
+      ],
+      "alternate_names": [
+        "decrease through back loop",
+        "twisted decrease",
+        "back-loop decrease"
+      ],
+      "written_forms": [
+        "work the decrease through the back loop as specified in the legend"
+      ]
+    },
+    "dec_3_to_1_right": {
+      "canonical_name": "Decrease 3 to 1 (Right-Leaning)",
+      "abbreviations": [
+        "dec3r",
+        "3-to-1-r"
+      ],
+      "alternate_names": [
+        "decrease 3 to 1 right",
+        "3-to-1 right decrease",
+        "right-leaning 3-to-1 decrease"
+      ],
+      "written_forms": [
+        "work a three-to-one decrease with a right lean as specified in the legend"
+      ]
+    },
+    "dec_3_to_1_left": {
+      "canonical_name": "Decrease 3 to 1 (Left-Leaning)",
+      "abbreviations": [
+        "dec3l",
+        "3-to-1-l"
+      ],
+      "alternate_names": [
+        "decrease 3 to 1 left",
+        "3-to-1 left decrease",
+        "left-leaning 3-to-1 decrease"
+      ],
+      "written_forms": [
+        "work a three-to-one decrease with a left lean as specified in the legend"
+      ]
+    },
+    "bunny_ears_outward": {
+      "canonical_name": "Bunny Ears Outward",
+      "abbreviations": [
+        "BEO",
+        "bee-o",
+        "bunny ears outward",
+        "bunny ears back",
+        "BEB"
+      ],
+      "alternate_names": [
+        "bunny ears outward",
+        "double decrease outward",
+        "outward double decrease",
+        "k2tog-k-ssk compound"
+      ],
+      "written_forms": [
+        "compound decrease where two outer stitches decrease toward the outside; method varies by designer, consult legend"
+      ]
+    },
+    "bunny_ears_inward": {
+      "canonical_name": "Bunny Ears Inward",
+      "abbreviations": [
+        "BEI",
+        "bee-i",
+        "bunny ears inward"
+      ],
+      "alternate_names": [
+        "bunny ears inward",
+        "double decrease inward",
+        "inward double decrease",
+        "ssk-k-k2tog compound"
+      ],
+      "written_forms": [
+        "compound decrease where two outer stitches decrease toward the inside; method varies, consult legend"
+      ]
+    },
+    "k3tog_tbl": {
+      "canonical_name": "Knit Three Together Through Back Loop",
+      "abbreviations": [
+        "k3tog-tbl",
+        "k3togtbl",
+        "k3tog tbl"
+      ],
+      "alternate_names": [
+        "knit three together through back loop",
+        "twisted k3tog"
+      ],
+      "written_forms": [
+        "insert needle knitwise through back loops of next 3 stitches simultaneously and knit together"
+      ]
+    },
+    "dec_5_to_1_center": {
+      "canonical_name": "Decrease 5 to 1 (Centered)",
+      "abbreviations": [
+        "dec5c",
+        "5-to-1-c",
+        "5-st cdd"
+      ],
+      "alternate_names": [
+        "centered quintuple decrease",
+        "5-stitch centered decrease",
+        "5-to-1 center"
+      ],
+      "written_forms": [
+        "slip 4 stitches together knitwise, knit 1, pass all 4 slipped stitches over"
+      ]
+    },
+    "dec_6_to_1_center": {
+      "canonical_name": "Decrease 6 to 1 (Centered)",
+      "abbreviations": [
+        "dec6c",
+        "6-to-1-c"
+      ],
+      "alternate_names": [
+        "centered 6-stitch decrease",
+        "6-to-1 center"
+      ],
+      "written_forms": [
+        "work 6 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ]
+    },
+    "dec_7_to_1_center": {
+      "canonical_name": "Decrease 7 to 1 (Centered)",
+      "abbreviations": [
+        "dec7c",
+        "7-to-1-c"
+      ],
+      "alternate_names": [
+        "centered 7-stitch decrease",
+        "7-to-1 center"
+      ],
+      "written_forms": [
+        "work 7 stitches together into 1 with a centered lean as specified in the pattern legend"
+      ]
+    },
+    "muhu_double_decrease": {
+      "canonical_name": "Muhu Double Decrease",
+      "abbreviations": [
+        "Muhu DD",
+        "Muhu-DD",
+        "MuhuDD",
+        "Estonian DD"
+      ],
+      "alternate_names": [
+        "Muhu double decrease",
+        "Estonian double decrease",
+        "Muhu decrease",
+        "Muhu centered decrease"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, work flanking stitches together (often tbl), pass slipped stitch over"
+      ]
+    },
+    "delayed_slip_decrease": {
+      "canonical_name": "Delayed Slip Decrease",
+      "abbreviations": [
+        "DSD",
+        "delayed slip",
+        "deferred slip"
+      ],
+      "alternate_names": [
+        "delayed slip decrease",
+        "deferred slip decrease",
+        "Estonian delayed decrease"
+      ],
+      "written_forms": [
+        "slip a stitch on this row; complete the decrease on the following row"
+      ]
+    },
+    "ksp": {
+      "canonical_name": "Knit, Slip, Pass",
+      "abbreviations": [
+        "ksp"
+      ],
+      "alternate_names": [
+        "knit-slip-pass",
+        "k1, sl, pass over"
+      ],
+      "written_forms": [
+        "knit 1, slip stitch back to left needle, pass next stitch over, return stitch to right needle"
+      ]
+    },
+    "p4tog": {
+      "canonical_name": "Purl 4 Together",
+      "abbreviations": [
+        "p4tog",
+        "purl 4 tog"
+      ],
+      "alternate_names": [
+        "purl 4 together",
+        "p4 together",
+        "right-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 4 stitches together as one"
+      ]
+    },
+    "p5tog": {
+      "canonical_name": "Purl 5 Together",
+      "abbreviations": [
+        "p5tog",
+        "purl 5 tog"
+      ],
+      "alternate_names": [
+        "purl 5 together",
+        "p5 together",
+        "right-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 5 stitches together as one"
+      ]
+    },
+    "p6tog": {
+      "canonical_name": "Purl 6 Together",
+      "abbreviations": [
+        "p6tog",
+        "purl 6 tog"
+      ],
+      "alternate_names": [
+        "purl 6 together",
+        "p6 together",
+        "right-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 6 stitches together as one"
+      ]
+    },
+    "p7tog": {
+      "canonical_name": "Purl 7 Together",
+      "abbreviations": [
+        "p7tog",
+        "purl 7 tog"
+      ],
+      "alternate_names": [
+        "purl 7 together",
+        "p7 together",
+        "right-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "purl 7 stitches together as one"
+      ]
+    },
+    "dec_4_to_1_left_purl": {
+      "canonical_name": "Left-Leaning 4-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec4p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 4-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_4_to_1_center_purl": {
+      "canonical_name": "Centered 4-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec4p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 4-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 4-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_5_to_1_left_purl": {
+      "canonical_name": "Left-Leaning 5-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec5p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 5-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_5_to_1_center_purl": {
+      "canonical_name": "Centered 5-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec5p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 5-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 5-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_6_to_1_left_purl": {
+      "canonical_name": "Left-Leaning 6-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec6p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 6-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_6_to_1_center_purl": {
+      "canonical_name": "Centered 6-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec6p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 6-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 6-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_7_to_1_left_purl": {
+      "canonical_name": "Left-Leaning 7-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec7p_l"
+      ],
+      "alternate_names": [
+        "left-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a left-leaning 7-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "dec_7_to_1_center_purl": {
+      "canonical_name": "Centered 7-to-1 Purl Decrease",
+      "abbreviations": [
+        "dec7p_c"
+      ],
+      "alternate_names": [
+        "center-leaning purl 7-to-1 decrease"
+      ],
+      "written_forms": [
+        "Work a center-leaning 7-to-1 purl decrease as specified in the legend."
+      ]
+    },
+    "sp2kp": {
+      "canonical_name": "Slip, P2tog, Pass Slipped Stitch Over",
+      "abbreviations": [
+        "sp2kp",
+        "sl1 p2tog psso",
+        "sp2p"
+      ],
+      "alternate_names": [
+        "slip purl 2 together pass over",
+        "purl sk2p"
+      ],
+      "written_forms": [
+        "sl1 purlwise, p2tog, psso"
+      ]
+    },
+    "s2kp": {
+      "canonical_name": "Slip, Slip, Knit, Pass",
+      "abbreviations": [
+        "s2kp (slip slip knit pass)",
+        "sl1-sl1-k1-p2sso",
+        "ss-k1-p2sso",
+        "slip slip knit pass"
+      ],
+      "alternate_names": [
+        "slip slip knit pass",
+        "literal s2kp",
+        "left-leaning slip-pass decrease"
+      ],
+      "written_forms": [
+        "slip 1 knitwise, slip 1 knitwise, knit 1, pass both slipped stitches over the knit stitch"
+      ]
+    },
+    "selvedge": {
+      "canonical_name": "Selvedge Stitch",
+      "abbreviations": [
+        "selv",
+        "selvedge",
+        "selvage",
+        "edge st",
+        "chain selvage"
+      ],
+      "alternate_names": [
+        "selvedge stitch",
+        "selvage stitch",
+        "edge stitch",
+        "border stitch",
+        "chain selvedge",
+        "garter selvedge",
+        "slip-stitch selvedge"
+      ],
+      "written_forms": [
+        "slip the first stitch of the row purlwise with yarn in back",
+        "selvedge: sl 1 pwise wyib at beginning of row",
+        "work edge stitch as established",
+        "chain selvedge: sl 1 kwise with yarn in front at beg of row",
+        "garter selvedge: knit first and last stitch of every row"
+      ]
+    },
+    "icord_edge": {
+      "canonical_name": "I-Cord Edge",
+      "abbreviations": [
+        "i-cord edge",
+        "i-cord selvedge",
+        "applied i-cord",
+        "attached i-cord"
+      ],
+      "alternate_names": [
+        "i-cord selvedge",
+        "applied i-cord edging",
+        "knitted cord edge",
+        "attached i-cord",
+        "i-cord border",
+        "3-st i-cord edge"
+      ],
+      "written_forms": [
+        "k2, ssk (joining last cord st with first body st), slide 3 sts back to left needle",
+        "applied i-cord: knit 3 cord stitches, attach to body by working together with edge",
+        "applied i-cord selvedge: k2, ssk (cord + body st), slide 3 back"
+      ]
+    },
+    "kfb": {
+      "canonical_name": "Knit Front and Back",
+      "abbreviations": [
+        "kfb",
+        "KFB",
+        "k1f&b",
+        "k1fb",
+        "knit front and back",
+        "k-front-back",
+        "kf&b",
+        "kf/b",
+        "kfab",
+        "inc1"
+      ],
+      "alternate_names": [
+        "knit front and back",
+        "bar increase",
+        "knit into front and back",
+        "bar increase knitwise",
+        "knit in front and back",
+        "knitwise bar increase"
+      ],
+      "written_forms": [
+        "knit into the front of the next stitch, then without removing it from the left needle, knit into the back of the same stitch",
+        "knit front and back of next stitch",
+        "knit 1 front and back",
+        "knit into the front and back of the next stitch"
+      ]
+    },
+    "kfbf": {
+      "canonical_name": "Knit Front Back Front",
+      "abbreviations": [
+        "kfbf",
+        "KFBF",
+        "k1fbf",
+        "k-fbf",
+        "kf/b/f"
+      ],
+      "alternate_names": [
+        "knit front back front",
+        "knit into front back front",
+        "double bar increase",
+        "triple knit increase",
+        "knit 1 front back front"
+      ],
+      "written_forms": [
+        "knit into the front of the next stitch but do not drop it, knit into the back of the same stitch but do not drop it, knit into the front of the same stitch again, then drop the stitch from the left needle",
+        "kfbf: [k1f, k1b, k1f] into the same stitch — 3 stitches made from 1",
+        "knit front, knit back, knit front of same stitch before sliding off needle"
+      ]
+    },
+    "pfb": {
+      "canonical_name": "Purl Front and Back",
+      "abbreviations": [
+        "pfb",
+        "PFB",
+        "p1f&b",
+        "p1fb",
+        "purl front and back",
+        "p-front-back",
+        "pf&b",
+        "pf/b"
+      ],
+      "alternate_names": [
+        "purl front and back",
+        "purl bar increase",
+        "purl into front and back",
+        "purl front back"
+      ],
+      "written_forms": [
+        "purl into the front of the next stitch, then without removing it, purl into the back of the same stitch",
+        "purl front and back of next stitch",
+        "purl into the front and back of the next stitch"
+      ]
+    },
+    "m1l": {
+      "canonical_name": "Make One Left",
+      "abbreviations": [
+        "M1L",
+        "m1l",
+        "make one left",
+        "make 1 left",
+        "m1L",
+        "m1-l",
+        "ML",
+        "m1lk"
+      ],
+      "alternate_names": [
+        "make one left",
+        "make 1 left-slanting",
+        "left-leaning make one",
+        "knitwise left-leaning increase",
+        "single left-leaning knit increase",
+        "left bar increase",
+        "lifted make-one left",
+        "lifted increase left",
+        "left-slanting make one knitwise"
+      ],
+      "written_forms": [
+        "lift the bar between stitches from front to back with left needle, knit through the back loop",
+        "make 1 left: insert left needle under the strand between stitches from front to back, knit through back loop",
+        "make one left-slanting increase",
+        "with left needle tip, pick up the strand between stitches from front to back and knit through the back loop"
+      ]
+    },
+    "m1r": {
+      "canonical_name": "Make One Right",
+      "abbreviations": [
+        "M1R",
+        "m1r",
+        "make one right",
+        "make 1 right",
+        "m1R",
+        "m1-r",
+        "MR",
+        "m1rk"
+      ],
+      "alternate_names": [
+        "make one right",
+        "make 1 right-slanting",
+        "right-leaning make one",
+        "knitwise right-leaning increase",
+        "single right-leaning knit increase",
+        "right bar increase",
+        "lifted make-one right",
+        "right-slanting make one knitwise"
+      ],
+      "written_forms": [
+        "lift the bar between stitches from back to front with left needle, knit through the front loop",
+        "make 1 right: insert left needle under the strand between stitches from back to front, knit through front loop",
+        "make one right-slanting increase",
+        "with left needle tip, pick up the strand between stitches from back to front and knit through the front loop"
+      ]
+    },
+    "m1": {
+      "canonical_name": "Make One",
+      "abbreviations": [
+        "M1",
+        "m1",
+        "M1K",
+        "m1k",
+        "make one",
+        "make 1",
+        "make one knit",
+        "m-1"
+      ],
+      "alternate_names": [
+        "make one",
+        "make 1",
+        "make one stitch",
+        "make one knitwise",
+        "make-one increase (unspecified direction)",
+        "make one bar increase"
+      ],
+      "written_forms": [
+        "make one increase",
+        "pick up the bar between stitches and knit into it",
+        "insert left needle under the bar between stitches and knit into it"
+      ]
+    },
+    "m1p": {
+      "canonical_name": "Make One Purlwise",
+      "abbreviations": [
+        "M1P",
+        "M1p",
+        "m1p",
+        "m1pw",
+        "M1 pw",
+        "make one purl",
+        "make one purlwise",
+        "M1 purlwise",
+        "m1-p",
+        "m1-pw",
+        "make1p"
+      ],
+      "alternate_names": [
+        "make one purlwise",
+        "purl make one",
+        "make one purl stitch",
+        "purlwise bar increase"
+      ],
+      "written_forms": [
+        "lift the bar between stitches and purl into it",
+        "make 1 purlwise",
+        "pick up the bar between stitches and purl into it through the back loop"
+      ]
+    },
+    "increase_unspecified": {
+      "canonical_name": "Increase (Unspecified)",
+      "abbreviations": [
+        "inc",
+        "increase",
+        "I",
+        "incr",
+        "inc."
+      ],
+      "alternate_names": [
+        "generic increase",
+        "unspecified increase",
+        "any increase",
+        "unspecified increase method",
+        "increase (method in legend)",
+        "1-to-2 increase"
+      ],
+      "written_forms": [
+        "work an increase as specified in the legend",
+        "work an increase; see pattern legend for method",
+        "increase 1 stitch by the method described in the legend"
+      ]
+    },
+    "m1pl": {
+      "canonical_name": "Make One Left Purlwise",
+      "abbreviations": [
+        "M1LP",
+        "m1lp",
+        "M1lp",
+        "m1l-p",
+        "m1pl",
+        "M1PL",
+        "m1p-l",
+        "M1-LP",
+        "M1LPW",
+        "m1lpu"
+      ],
+      "alternate_names": [
+        "make one left purlwise",
+        "make one purlwise left",
+        "make one purl left",
+        "left-leaning purl increase",
+        "purl increase left",
+        "purl increase - left leaning",
+        "purlwise left-leaning increase",
+        "left purlwise make one",
+        "twisted purl make one left",
+        "left-leaning purl increase (twisted)"
+      ],
+      "written_forms": [
+        "make 1 left purlwise",
+        "lift bar from front to back, purl through back loop",
+        "make one left purl increase",
+        "work a left-leaning purl increase as specified in the legend"
+      ]
+    },
+    "m1pr": {
+      "canonical_name": "Make One Right Purlwise",
+      "abbreviations": [
+        "M1RP",
+        "m1rp",
+        "M1rp",
+        "m1r-p",
+        "m1pr",
+        "M1PR",
+        "m1p-r",
+        "M1-RP",
+        "M1RPW",
+        "m1rpu"
+      ],
+      "alternate_names": [
+        "make one right purlwise",
+        "make one purlwise right",
+        "make one purl right",
+        "right-leaning purl increase",
+        "purl increase right",
+        "purl increase - right leaning",
+        "purlwise right-leaning increase",
+        "right purlwise make one",
+        "right-leaning purl increase (twisted)"
+      ],
+      "written_forms": [
+        "make 1 right purlwise",
+        "lift bar from back to front, purl through front loop",
+        "make one right purl increase",
+        "work a right-leaning purl increase as specified in the legend"
+      ]
+    },
+    "lli": {
+      "canonical_name": "Left Lifted Increase",
+      "abbreviations": [
+        "LLI",
+        "lli",
+        "LL",
+        "ll-inc",
+        "LLinc",
+        "LI-L",
+        "LI",
+        "Ll",
+        "llk",
+        "KLL",
+        "kll"
+      ],
+      "alternate_names": [
+        "left lifted increase",
+        "left-slanting lifted increase",
+        "left lifted knit increase",
+        "lifted increase left",
+        "LLI knitwise",
+        "pick up and knit left leg below"
+      ],
+      "written_forms": [
+        "insert left needle into the left leg of the stitch below the next stitch on left needle, knit this lifted loop",
+        "lift the left side of the stitch in the row below and knit into it",
+        "knit the left leg of the stitch one row below the next stitch",
+        "insert needle into the left leg of the stitch directly below the next stitch on left needle and knit it",
+        "left lifted knit: pick up left leg of stitch below and knit"
+      ]
+    },
+    "rli": {
+      "canonical_name": "Right Lifted Increase",
+      "abbreviations": [
+        "RLI",
+        "rli",
+        "RL",
+        "rl-inc",
+        "RLinc",
+        "LI-R",
+        "RI",
+        "Rl",
+        "rlk",
+        "KRL",
+        "krl"
+      ],
+      "alternate_names": [
+        "right lifted increase",
+        "right-slanting lifted increase",
+        "right lifted knit increase",
+        "lifted increase right",
+        "RLI knitwise",
+        "pick up and knit right leg below"
+      ],
+      "written_forms": [
+        "insert right needle into the right leg of the stitch below the stitch just worked, knit this lifted loop",
+        "lift the right side of the stitch below the one just completed and knit into it",
+        "right lifted knit: pick up right leg of stitch just worked and knit",
+        "insert needle from front to back into the right leg of the stitch below the last completed stitch and knit it"
+      ]
+    },
+    "kpk": {
+      "canonical_name": "Knit Purl Knit (Central Double Increase)",
+      "abbreviations": [
+        "kpk",
+        "KPK",
+        "(k,p,k)",
+        "(k1,p1,k1)",
+        "k1p1k1",
+        "k-p-k",
+        "kpk-inc",
+        "inc3"
+      ],
+      "alternate_names": [
+        "knit purl knit increase",
+        "central double increase",
+        "centered double increase",
+        "knit purl knit in same stitch",
+        "triple increase kpk",
+        "CDI via kpk"
+      ],
+      "written_forms": [
+        "knit 1, purl 1, knit 1 all into the same stitch",
+        "(k1, p1, k1) into next stitch",
+        "work knit-purl-knit into the next stitch",
+        "(k1, p1, k1) into the next stitch",
+        "work (knit 1, purl 1, knit 1) all into the same stitch without dropping it until all 3 have been worked"
+      ]
+    },
+    "inc_1_to_3": {
+      "canonical_name": "Increase 1 to 3",
+      "abbreviations": [
+        "inc-1-to-3",
+        "1-to-3",
+        "triple inc",
+        "(k,yo,k)",
+        "1-3",
+        "triple-inc"
+      ],
+      "alternate_names": [
+        "increase 1 to 3",
+        "triple increase",
+        "make 3 from 1",
+        "make three from one",
+        "1 into 3",
+        "three from one"
+      ],
+      "written_forms": [
+        "increase from 1 stitch to 3 stitches",
+        "work a 1-to-3 increase as specified in the legend or pattern",
+        "work 3 stitches into the same stitch"
+      ]
+    },
+    "k1_yo_k1": {
+      "canonical_name": "Knit 1, Yarn Over, Knit 1",
+      "abbreviations": [
+        "(k1,yo,k1)",
+        "k1yok1",
+        "kyok",
+        "kyk",
+        "(k1 yo k1)"
+      ],
+      "alternate_names": [
+        "knit 1 yarn over knit 1",
+        "k1 yo k1",
+        "knit-yarn over-knit increase",
+        "knit yarn over knit",
+        "triple increase with eyelet"
+      ],
+      "written_forms": [
+        "work knit 1, yarn over, knit 1 into the same stitch",
+        "(k1, yo, k1) into next stitch",
+        "knit 1, yarn over, knit 1 all into the same stitch",
+        "(k1, yo, k1) into the next stitch"
+      ]
+    },
+    "p1_yo_p1": {
+      "canonical_name": "Purl 1, Yarn Over, Purl 1",
+      "abbreviations": [
+        "(p1,yo,p1)",
+        "p1yop1",
+        "pyop",
+        "(p1 yo p1)"
+      ],
+      "alternate_names": [
+        "purl 1 yarn over purl 1",
+        "p1 yo p1",
+        "purl-yarn over-purl increase",
+        "purl yarn over purl",
+        "triple purl increase with eyelet"
+      ],
+      "written_forms": [
+        "work purl 1, yarn over, purl 1 into the same stitch",
+        "(p1, yo, p1) into next stitch",
+        "purl 1, yarn over, purl 1 all into the same stitch",
+        "(p1, yo, p1) into the next stitch"
+      ]
+    },
+    "inc_1_to_4": {
+      "canonical_name": "Increase 1 to 4",
+      "abbreviations": [
+        "inc-1-to-4",
+        "1-to-4",
+        "(k1p1)x2",
+        "k1p1k1p1",
+        "4 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 4",
+        "quadruple increase",
+        "make 4 from 1"
+      ],
+      "written_forms": [
+        "work (k1, p1, k1, p1) into the same stitch",
+        "increase from 1 stitch to 4 stitches",
+        "work (k1, p1) twice all into the same stitch",
+        "(k1, p1, k1, p1) into next stitch"
+      ]
+    },
+    "inc_1_to_5": {
+      "canonical_name": "Increase 1 to 5",
+      "abbreviations": [
+        "inc-1-to-5",
+        "1-to-5",
+        "(k1,yo) twice, k1",
+        "k1yok1yok1",
+        "5 from 1",
+        "(k1yo)x2k1",
+        "5-st inc"
+      ],
+      "alternate_names": [
+        "increase 1 to 5",
+        "quintuple increase",
+        "make 5 from 1"
+      ],
+      "written_forms": [
+        "work (k1, yo, k1, yo, k1) into the same stitch",
+        "knit 1, [yarn over, knit 1] twice into the same stitch",
+        "increase from 1 stitch to 5 stitches",
+        "(k1, yo) twice, k1 into the same stitch"
+      ]
+    },
+    "inc_1_to_6": {
+      "canonical_name": "Increase 1 to 6",
+      "abbreviations": [
+        "inc-1-to-6",
+        "1-to-6",
+        "inc6",
+        "6 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 6",
+        "increase to 6 stitches",
+        "make 6 from 1",
+        "6-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 6 stitches as specified in the legend",
+        "increase to 6 stitches in the next stitch",
+        "increase 1 to 6 stitches"
+      ]
+    },
+    "inc_1_to_7": {
+      "canonical_name": "Increase 1 to 7",
+      "abbreviations": [
+        "inc-1-to-7",
+        "1-to-7",
+        "inc7",
+        "7 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 7",
+        "increase to 7 stitches",
+        "make 7 from 1",
+        "7-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 7 stitches as specified in the legend",
+        "increase to 7 stitches in the next stitch",
+        "increase 1 to 7 stitches"
+      ]
+    },
+    "inc_1_to_8": {
+      "canonical_name": "Increase 1 to 8",
+      "abbreviations": [
+        "inc-1-to-8",
+        "1-to-8",
+        "inc8",
+        "8 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 8",
+        "increase to 8 stitches",
+        "make 8 from 1",
+        "8-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 8 stitches as specified in the legend",
+        "increase to 8 stitches in the next stitch",
+        "increase 1 to 8 stitches"
+      ]
+    },
+    "inc_1_to_9": {
+      "canonical_name": "Increase 1 to 9",
+      "abbreviations": [
+        "inc-1-to-9",
+        "1-to-9",
+        "inc9",
+        "9 from 1"
+      ],
+      "alternate_names": [
+        "increase 1 to 9",
+        "increase to 9 stitches",
+        "make 9 from 1",
+        "9-stitch increase"
+      ],
+      "written_forms": [
+        "work an increase from 1 stitch to 9 stitches as specified in the legend",
+        "increase to 9 stitches in the next stitch",
+        "increase 1 to 9 stitches"
+      ]
+    },
+    "backward_loop_co": {
+      "canonical_name": "Backward Loop Cast On (as increase)",
+      "abbreviations": [
+        "backward loop",
+        "e-wrap",
+        "e-cast-on",
+        "loop inc",
+        "blo-co",
+        "e-loop",
+        "thumb loop",
+        "bl",
+        "bloop",
+        "co1",
+        "ew-co",
+        "m1-bl"
+      ],
+      "alternate_names": [
+        "backward loop cast on",
+        "simple cast on increase",
+        "e-wrap cast on",
+        "thumb cast on",
+        "backward loop increase",
+        "e-wrap increase",
+        "loop cast-on",
+        "simple cast-on increase"
+      ],
+      "written_forms": [
+        "cast on 1 stitch using backward loop method",
+        "make a backward loop and place on right needle",
+        "using the backward loop method, cast on 1 stitch",
+        "make a backward loop with the working yarn and place on right needle tip",
+        "e-wrap one stitch onto right needle"
+      ]
+    },
+    "pass_left": {
+      "canonical_name": "Pass Left",
+      "abbreviations": [
+        "pass-left",
+        "pl-inc",
+        "pass-l",
+        "pl",
+        "p-left"
+      ],
+      "alternate_names": [
+        "pass left increase",
+        "left-leaning knit bar increase (JIS)",
+        "JIS knitwise left bar increase"
+      ],
+      "written_forms": [
+        "pass left increase",
+        "knit into the stitch in the row below and pass the stitch on the left needle over"
+      ]
+    },
+    "increase_left": {
+      "canonical_name": "Left-Leaning Increase (Unspecified)",
+      "abbreviations": [
+        "inc-left",
+        "left-inc",
+        "inc-l",
+        "incl",
+        "inc-lft"
+      ],
+      "alternate_names": [
+        "left-leaning increase",
+        "left-slanting increase",
+        "left increase",
+        "left shaping increase",
+        "single left increase",
+        "slant left increase"
+      ],
+      "written_forms": [
+        "work a left-leaning increase as specified in the legend",
+        "work a left-slanting increase as directed in the pattern legend"
+      ]
+    },
+    "increase_right": {
+      "canonical_name": "Right-Leaning Increase (Unspecified)",
+      "abbreviations": [
+        "inc-right",
+        "right-inc",
+        "inc-r",
+        "inc-rgt"
+      ],
+      "alternate_names": [
+        "right-leaning increase",
+        "right-slanting increase",
+        "right increase",
+        "right shaping increase",
+        "single right increase",
+        "slant right increase"
+      ],
+      "written_forms": [
+        "work a right-leaning increase as specified in the legend",
+        "work a right-slanting increase as directed in the pattern legend"
+      ]
+    },
+    "increase_left_counted": {
+      "canonical_name": "Left-Leaning Counted Increase",
+      "abbreviations": [
+        "inc-lN",
+        "IncLN",
+        "inc-left-N"
+      ],
+      "alternate_names": [
+        "counted left increase",
+        "numbered left increase",
+        "left-leaning counted increase",
+        "left increase with count"
+      ],
+      "written_forms": [
+        "work the counted left-leaning increase specified by the symbol and legend",
+        "work left-leaning increase the number of times specified by the numeral in the chart symbol"
+      ]
+    },
+    "increase_right_counted": {
+      "canonical_name": "Right-Leaning Counted Increase",
+      "abbreviations": [
+        "inc-rN",
+        "IncRN",
+        "inc-right-N"
+      ],
+      "alternate_names": [
+        "counted right increase",
+        "numbered right increase",
+        "right-leaning counted increase",
+        "right increase with count"
+      ],
+      "written_forms": [
+        "work the counted right-leaning increase specified by the symbol and legend",
+        "work right-leaning increase the number of times specified by the numeral in the chart symbol"
+      ]
+    },
+    "centered_increase": {
+      "canonical_name": "Centered Increase",
+      "abbreviations": [
+        "CDI",
+        "cdi",
+        "center-inc",
+        "CInc",
+        "ctr-inc"
+      ],
+      "alternate_names": [
+        "centred increase",
+        "centered increase",
+        "centered double increase",
+        "central double increase",
+        "CDI increase",
+        "1-to-3 centered"
+      ],
+      "written_forms": [
+        "work a centered increase as specified in the legend",
+        "work a centered increase as specified by legend; common methods: kpk, k1-yo-k1"
+      ]
+    },
+    "centered_purl_increase": {
+      "canonical_name": "Centered Purl Increase",
+      "abbreviations": [
+        "centered purl inc",
+        "pcdi",
+        "PCDI",
+        "CPDI",
+        "cpi",
+        "CPInc",
+        "center-purl-inc",
+        "ctr-purl-inc"
+      ],
+      "alternate_names": [
+        "centred purl increase",
+        "centered purl increase",
+        "central double purl increase",
+        "centered purl double increase"
+      ],
+      "written_forms": [
+        "work a centered purl increase as specified in the legend",
+        "work a centered purl increase as specified by legend; common method: p1-yo-p1"
+      ]
+    },
+    "increase_tbl": {
+      "canonical_name": "Increase Through Back Loop (Generic)",
+      "abbreviations": [
+        "inc-tbl",
+        "inc tbl",
+        "ktbl-inc",
+        "tbl-inc",
+        "twisted inc",
+        "increase-tbl"
+      ],
+      "alternate_names": [
+        "increase through back loop",
+        "twisted increase",
+        "back-loop increase",
+        "crossed increase",
+        "back loop increase"
+      ],
+      "written_forms": [
+        "work the increase through the back loop as specified in the legend",
+        "work an increase into the back loop of the stitch"
+      ]
+    },
+    "increase_or_slip": {
+      "canonical_name": "Slip or Increase",
+      "abbreviations": [],
+      "alternate_names": [
+        "slip or increase",
+        "increase or slip"
+      ],
+      "written_forms": [
+        "work as slip or increase according to the legend"
+      ]
+    },
+    "increase_or_slip_purlwise": {
+      "canonical_name": "Slip or Increase Purlwise",
+      "abbreviations": [],
+      "alternate_names": [
+        "slip or increase purlwise",
+        "increase or slip purlwise"
+      ],
+      "written_forms": [
+        "work as a purlwise slip or purlwise increase according to the legend"
+      ]
+    },
+    "m1_tfl": {
+      "canonical_name": "Make One (Front Loop — Open)",
+      "abbreviations": [
+        "M1F",
+        "m1f",
+        "m1-tfl",
+        "m1-f"
+      ],
+      "alternate_names": [
+        "make one front loop",
+        "open make one",
+        "make one knitwise through front",
+        "untwisted make one"
+      ],
+      "written_forms": [
+        "lift the bar between stitches with left needle, knit through the front loop (leaving a small eyelet)",
+        "make one stitch by picking up the bar and knitting it through the front loop without twisting"
+      ]
+    },
+    "kbf": {
+      "canonical_name": "Knit Back and Front",
+      "abbreviations": [
+        "kbf",
+        "kb&f",
+        "k1bf",
+        "KBF"
+      ],
+      "alternate_names": [
+        "knit back and front",
+        "knit back then front",
+        "reverse bar increase",
+        "knitwise back-front increase"
+      ],
+      "written_forms": [
+        "knit into the back loop of the next stitch, then without removing it, knit into the front loop of the same stitch",
+        "k1 back and front of same stitch"
+      ]
+    },
+    "pbf": {
+      "canonical_name": "Purl Back and Front",
+      "abbreviations": [
+        "pbf",
+        "pb&f",
+        "p1bf",
+        "PBF"
+      ],
+      "alternate_names": [
+        "purl back and front",
+        "purl back then front"
+      ],
+      "written_forms": [
+        "purl into the back loop of the next stitch, then without removing it, purl into the front loop of the same stitch"
+      ]
+    },
+    "german_inc_twisted": {
+      "canonical_name": "German Twisted Bar Increase",
+      "abbreviations": [
+        "M1tbl",
+        "M1-tbl",
+        "m1-twisted",
+        "verschr-Zun"
+      ],
+      "alternate_names": [
+        "make one twisted",
+        "twisted bar increase",
+        "German make one",
+        "aufgenommene verschränkte Masche",
+        "Zunahme durch Aufnehmen"
+      ],
+      "written_forms": [
+        "pick up the bar between stitches with the left needle and knit through the back loop",
+        "Masche aufnehmen und verschränkt abstricken"
+      ]
+    },
+    "lli_purl": {
+      "canonical_name": "Left Lifted Increase Purlwise",
+      "abbreviations": [
+        "LLI-p",
+        "LLIP",
+        "lli-p",
+        "LLIp",
+        "ll-inc-p",
+        "LLI purl",
+        "LPi",
+        "p-inc-left"
+      ],
+      "alternate_names": [
+        "left lifted increase purlwise",
+        "left lifted purl increase",
+        "LLI WS",
+        "left lifted WS increase",
+        "left-leaning purl increase",
+        "left-lifted purl increase",
+        "lifted purl increase left"
+      ],
+      "written_forms": [
+        "insert left needle into the left leg of the stitch below the next stitch on left needle and purl into it",
+        "purl the left leg of the stitch one row below the next stitch"
+      ]
+    },
+    "rli_purl": {
+      "canonical_name": "Right Lifted Increase Purlwise",
+      "abbreviations": [
+        "RLI-p",
+        "RLIP",
+        "rli-p",
+        "RLIp",
+        "rl-inc-p",
+        "RLI purl",
+        "RPi",
+        "p-inc-right"
+      ],
+      "alternate_names": [
+        "right lifted increase purlwise",
+        "right lifted purl increase",
+        "RLI WS",
+        "right lifted WS increase",
+        "right-leaning purl increase",
+        "right-lifted purl increase",
+        "lifted purl increase right"
+      ],
+      "written_forms": [
+        "insert right needle into the right leg of the stitch below the stitch just worked and purl into it",
+        "purl the right leg of the stitch one row below the last completed stitch"
+      ]
+    },
+    "inc_1_to_3_purl": {
+      "canonical_name": "Purl Increase 1 to 3",
+      "abbreviations": [
+        "inc 1 to 3 purl",
+        "p-inc-3"
+      ],
+      "alternate_names": [
+        "purl increase to 3"
+      ],
+      "written_forms": [
+        "Work a 1-to-3 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_4_purl": {
+      "canonical_name": "Purl Increase 1 to 4",
+      "abbreviations": [
+        "inc 1 to 4 purl",
+        "p-inc-4"
+      ],
+      "alternate_names": [
+        "purl increase to 4"
+      ],
+      "written_forms": [
+        "Work a 1-to-4 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_5_purl": {
+      "canonical_name": "Purl Increase 1 to 5",
+      "abbreviations": [
+        "inc 1 to 5 purl",
+        "p-inc-5"
+      ],
+      "alternate_names": [
+        "purl increase to 5"
+      ],
+      "written_forms": [
+        "Work a 1-to-5 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_6_purl": {
+      "canonical_name": "Purl Increase 1 to 6",
+      "abbreviations": [
+        "inc 1 to 6 purl",
+        "p-inc-6"
+      ],
+      "alternate_names": [
+        "purl increase to 6"
+      ],
+      "written_forms": [
+        "Work a 1-to-6 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_7_purl": {
+      "canonical_name": "Purl Increase 1 to 7",
+      "abbreviations": [
+        "inc 1 to 7 purl",
+        "p-inc-7"
+      ],
+      "alternate_names": [
+        "purl increase to 7"
+      ],
+      "written_forms": [
+        "Work a 1-to-7 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_8_purl": {
+      "canonical_name": "Purl Increase 1 to 8",
+      "abbreviations": [
+        "inc 1 to 8 purl",
+        "p-inc-8"
+      ],
+      "alternate_names": [
+        "purl increase to 8"
+      ],
+      "written_forms": [
+        "Work a 1-to-8 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_9_purl": {
+      "canonical_name": "Purl Increase 1 to 9",
+      "abbreviations": [
+        "inc 1 to 9 purl",
+        "p-inc-9"
+      ],
+      "alternate_names": [
+        "purl increase to 9"
+      ],
+      "written_forms": [
+        "Work a 1-to-9 purl increase as specified in the legend."
+      ]
+    },
+    "inc_1_to_2": {
+      "canonical_name": "Increase 1 to 2",
+      "abbreviations": [
+        "inc 1 to 2",
+        "inc2"
+      ],
+      "alternate_names": [
+        "increase to 2 stitches",
+        "1-to-2 increase"
+      ],
+      "written_forms": [
+        "increase 1 stitch to 2 stitches using the method specified in the legend"
+      ]
+    },
+    "inc_1_to_2_purl": {
+      "canonical_name": "Purl Increase 1 to 2",
+      "abbreviations": [
+        "inc 1 to 2 purl",
+        "p-inc-2"
+      ],
+      "alternate_names": [
+        "purl increase to 2"
+      ],
+      "written_forms": [
+        "Work the 1-to-2 purl increase as specified in the legend."
+      ]
+    },
+    "cable_composite": {
+      "canonical_name": "Decorated/Composite Cable",
+      "abbreviations": [],
+      "alternate_names": [
+        "decorated cable",
+        "composite cable",
+        "cable block"
+      ],
+      "written_forms": []
+    },
+    "cable_generic": {
+      "canonical_name": "Cable (Unclassified)",
+      "abbreviations": [],
+      "alternate_names": [
+        "generic cable"
+      ],
+      "written_forms": []
+    },
+    "cable_center_generic": {
+      "canonical_name": "Centered / Reverse Cable (Unspecified)",
+      "abbreviations": [],
+      "alternate_names": [
+        "reverse cable",
+        "center cable",
+        "centred cable",
+        "inverse cable"
+      ],
+      "written_forms": []
+    },
+    "chart_symbol_component": {
+      "canonical_name": "Chart Symbol Component",
+      "abbreviations": [],
+      "alternate_names": [
+        "symbol component",
+        "chart fragment",
+        "symbol extender",
+        "symbol end cap"
+      ],
+      "written_forms": []
+    },
+    "estonian_technique": {
+      "canonical_name": "Estonian Knitting Technique (Unspecified)",
+      "abbreviations": [],
+      "alternate_names": [
+        "Estonian technique",
+        "Estonian stitch",
+        "Baltic knitting technique"
+      ],
+      "written_forms": []
+    },
+    "unclassified_symbol": {
+      "canonical_name": "Unclassified Symbol",
+      "abbreviations": [],
+      "alternate_names": [
+        "unknown symbol",
+        "unclassified"
+      ],
+      "written_forms": []
+    },
+    "twined_technique": {
+      "canonical_name": "Twined Knitting Technique",
+      "abbreviations": [
+        "twined",
+        "Tw",
+        "TS",
+        "tvåänd",
+        "two-end"
+      ],
+      "alternate_names": [
+        "twined knitting",
+        "tvåändsstickning",
+        "two-end knitting"
+      ],
+      "written_forms": []
+    },
+    "slip_purlwise": {
+      "canonical_name": "Slip Purlwise",
+      "abbreviations": [
+        "sl1p",
+        "sl1 pw",
+        "sl1 pwise",
+        "sl1 purlwise",
+        "sl pw",
+        "sl1",
+        "sl 1",
+        "sl",
+        "sl p-wise",
+        "sp",
+        "SP",
+        "sl1 p",
+        "slp",
+        "SLP",
+        "s1p",
+        "sl1-p",
+        "Sl1 pwise",
+        "sl1 purl"
+      ],
+      "alternate_names": [
+        "slip one purlwise",
+        "slip purlwise",
+        "slip stitch purlwise"
+      ],
+      "written_forms": [
+        "slip the next stitch purlwise",
+        "slip 1 as if to purl",
+        "slip one purlwise to right needle",
+        "slip the next stitch without working it",
+        "slip as if to purl"
+      ]
+    },
+    "slip_knitwise": {
+      "canonical_name": "Slip Knitwise",
+      "abbreviations": [
+        "sl1k",
+        "sl1 kw",
+        "sl1 kwise",
+        "sl1 knitwise",
+        "sl1-kw",
+        "sl kw",
+        "sl k-wise",
+        "s1k",
+        "sl1 as to knit",
+        "sk",
+        "SK",
+        "sl1 k",
+        "slk",
+        "SLK",
+        "sl1-k",
+        "Sl1 kwise",
+        "sl1 knit"
+      ],
+      "alternate_names": [
+        "slip one knitwise",
+        "slip knitwise",
+        "slip stitch knitwise"
+      ],
+      "written_forms": [
+        "slip the next stitch knitwise",
+        "slip 1 as if to knit",
+        "slip one knitwise to right needle",
+        "slip as if to knit",
+        "insert needle knitwise and slip"
+      ]
+    },
+    "sl1_wyib": {
+      "canonical_name": "Slip 1 With Yarn In Back",
+      "abbreviations": [
+        "sl1wyib",
+        "sl1-wyib",
+        "sl wyib",
+        "sl1 wyb",
+        "sl1yb",
+        "wyb",
+        "sl wyb",
+        "sl 1 wyib",
+        "sl1 w/yb",
+        "slwyib"
+      ],
+      "alternate_names": [
+        "slip with yarn in back",
+        "slip one yarn back"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in back",
+        "with yarn at back of work, slip the next stitch",
+        "sl 1 keeping yarn at back",
+        "keeping yarn at back of work, slip stitch purlwise",
+        "sl1 with yarn held behind work"
+      ]
+    },
+    "sl1_wyif": {
+      "canonical_name": "Slip 1 With Yarn In Front",
+      "abbreviations": [
+        "sl1wyif",
+        "sl1-wyif",
+        "sl wyif",
+        "sl1 wyf",
+        "sl1yf",
+        "wyf",
+        "sl wyf",
+        "sl 1 wyif",
+        "sl1 w/yf",
+        "slwyif"
+      ],
+      "alternate_names": [
+        "slip with yarn in front",
+        "slip one yarn front"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in front",
+        "with yarn at front of work, slip the next stitch",
+        "sl 1 keeping yarn in front",
+        "keeping yarn at front of work, slip stitch purlwise",
+        "sl1 with yarn held in front"
+      ]
+    },
+    "sl1_wyib_2row": {
+      "canonical_name": "Slip 1 With Yarn In Back (2 Rows)",
+      "abbreviations": [
+        "sl1wyib-2row",
+        "sl1 wyib (2 rows)",
+        "s2 wyib",
+        "long slip wyib",
+        "sl1(2) wyib",
+        "elongated sl wyib"
+      ],
+      "alternate_names": [
+        "elongated slip wyib",
+        "two-row slip with yarn in back"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in back on this row and the next",
+        "slip stitch over two rows keeping yarn in back",
+        "slip this stitch again on the following row, keeping yarn in back",
+        "slip the stitch stretching it over 2 rows with yarn in back"
+      ]
+    },
+    "sl1_wyif_2row": {
+      "canonical_name": "Slip 1 With Yarn In Front (2 Rows)",
+      "abbreviations": [
+        "sl1wyif-2row",
+        "sl1 wyif (2 rows)",
+        "s2 wyif",
+        "long slip wyif",
+        "sl1(2) wyif",
+        "elongated sl wyif"
+      ],
+      "alternate_names": [
+        "elongated slip wyif",
+        "two-row slip with yarn in front"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in front on this row and the next",
+        "slip stitch over two rows keeping yarn in front",
+        "slip this stitch again on the following row, keeping yarn in front",
+        "slip the stitch stretching it over 2 rows with yarn in front"
+      ]
+    },
+    "no_stitch": {
+      "canonical_name": "No Stitch",
+      "abbreviations": [
+        "no stitch",
+        "nostitch",
+        "-",
+        "N/A",
+        "place holder",
+        "no st",
+        "no-st",
+        "NS",
+        "n/s"
+      ],
+      "alternate_names": [
+        "no stitch",
+        "blank cell",
+        "placeholder",
+        "non-existent stitch",
+        "gray cell",
+        "shaded cell",
+        "empty position",
+        "chart filler"
+      ],
+      "written_forms": [
+        "no stitch — skip this position in the chart",
+        "this cell does not represent a stitch"
+      ]
+    },
+    "place_marker": {
+      "canonical_name": "Place Marker",
+      "abbreviations": [
+        "pm",
+        "PM",
+        "place marker",
+        "m",
+        "mark"
+      ],
+      "alternate_names": [
+        "place marker",
+        "set marker"
+      ],
+      "written_forms": [
+        "place a stitch marker on the needle",
+        "pm: place marker between stitches"
+      ]
+    },
+    "slip_marker": {
+      "canonical_name": "Slip Marker",
+      "abbreviations": [
+        "sm",
+        "SM",
+        "slip marker",
+        "sl m",
+        "slm"
+      ],
+      "alternate_names": [
+        "slip marker"
+      ],
+      "written_forms": [
+        "slip the marker from left needle to right needle",
+        "sm: transfer marker"
+      ]
+    },
+    "move_marker": {
+      "canonical_name": "Move Marker",
+      "abbreviations": [
+        "move marker",
+        "mm"
+      ],
+      "alternate_names": [
+        "reposition marker",
+        "shift marker"
+      ],
+      "written_forms": [
+        "move the marker to a new position on the needle",
+        "reposition the existing stitch marker"
+      ]
+    },
+    "move_marker_left": {
+      "canonical_name": "Move Marker Left",
+      "abbreviations": [
+        "move marker left",
+        "mml"
+      ],
+      "alternate_names": [
+        "shift marker left",
+        "reposition marker left"
+      ],
+      "written_forms": [
+        "move marker left",
+        "reposition the marker toward the left side"
+      ]
+    },
+    "move_marker_right": {
+      "canonical_name": "Move Marker Right",
+      "abbreviations": [
+        "move marker right",
+        "mmr"
+      ],
+      "alternate_names": [
+        "shift marker right",
+        "reposition marker right"
+      ],
+      "written_forms": [
+        "move marker right",
+        "reposition the marker toward the right side"
+      ]
+    },
+    "remove_marker": {
+      "canonical_name": "Remove Marker",
+      "abbreviations": [
+        "rm",
+        "RM",
+        "remove marker"
+      ],
+      "alternate_names": [
+        "remove marker"
+      ],
+      "written_forms": [
+        "remove the marker from the needle"
+      ]
+    },
+    "stitch_remainder": {
+      "canonical_name": "Stitch Remainder",
+      "abbreviations": [
+        "hold",
+        "sl to holder",
+        "WY",
+        "place on holder",
+        "st rem",
+        "place on WY"
+      ],
+      "alternate_names": [
+        "stitch remainder",
+        "hold stitches",
+        "place on stitch holder",
+        "place on waste yarn",
+        "stitch holder"
+      ],
+      "written_forms": [
+        "place remaining stitches on a stitch holder or waste yarn",
+        "hold these stitches for later"
+      ]
+    },
+    "short_row": {
+      "canonical_name": "Short Row (Generic)",
+      "abbreviations": [
+        "SR",
+        "sr"
+      ],
+      "alternate_names": [
+        "short row",
+        "short row turn",
+        "short-row marker"
+      ],
+      "written_forms": [
+        "turn the work and continue in the opposite direction without working across the rest of the row"
+      ]
+    },
+    "japanese_short_row": {
+      "canonical_name": "Japanese Short Row",
+      "abbreviations": [
+        "JSR",
+        "J-SR"
+      ],
+      "alternate_names": [
+        "Japanese short row",
+        "Japanese turn",
+        "pin-marker short row"
+      ],
+      "written_forms": [
+        "turn the work, place a removable marker around the working yarn at the turn point"
+      ]
+    },
+    "yarn_over_short_row": {
+      "canonical_name": "Yarn Over Short Row",
+      "abbreviations": [
+        "yo SR",
+        "YO SR",
+        "yarn over short row",
+        "yo short row"
+      ],
+      "alternate_names": [
+        "yarn over short row",
+        "yo short row method"
+      ],
+      "written_forms": [
+        "work to turning point, yo, turn, yo, work to next turning point",
+        "yarn over short row: place yo at turning point to be closed on return pass"
+      ]
+    },
+    "bobble": {
+      "canonical_name": "Bobble",
+      "abbreviations": [
+        "MB",
+        "mb",
+        "MB3",
+        "MB5",
+        "MB7",
+        "make bobble",
+        "bobble",
+        "B",
+        "B3",
+        "B5",
+        "bob"
+      ],
+      "alternate_names": [
+        "make bobble",
+        "bobble stitch",
+        "popcorn stitch"
+      ],
+      "written_forms": [
+        "make bobble: (k1, p1, k1, p1, k1) into next stitch [5 sts], turn, p5, turn, k5, turn, p5, turn, k5tog",
+        "work a 5-stitch bobble",
+        "MB: increase to 5 sts, work 4 rows, decrease back to 1"
+      ]
+    },
+    "popcorn": {
+      "canonical_name": "Popcorn Stitch",
+      "abbreviations": [
+        "PC",
+        "Pop",
+        "PC5",
+        "popcorn"
+      ],
+      "alternate_names": [
+        "popcorn stitch",
+        "puff stitch"
+      ],
+      "written_forms": [
+        "knit 5 into the next stitch, then pass the first 4 stitches over the last stitch one at a time",
+        "make popcorn: (k1, p1, k1, p1, k1) into next st, pass 4 over",
+        "make popcorn"
+      ]
+    },
+    "nupp": {
+      "canonical_name": "Nupp",
+      "abbreviations": [
+        "nupp",
+        "NUPP",
+        "N",
+        "Estonian nupp",
+        "N5",
+        "N7",
+        "nu"
+      ],
+      "alternate_names": [
+        "nupp stitch",
+        "Estonian nupp",
+        "bead stitch",
+        "Estonian bead"
+      ],
+      "written_forms": [
+        "nupp: (k1, yo, k1, yo, k1) into next stitch on RS; on following WS row, purl all 5 loops together",
+        "work nupp: make 5 (or 7) loops from 1 stitch, purl together on return row"
+      ]
+    },
+    "wrap_and_turn": {
+      "canonical_name": "Wrap and Turn",
+      "abbreviations": [
+        "w&t",
+        "W&T",
+        "w and t",
+        "wrap and turn",
+        "wrap & turn",
+        "WT",
+        "w+t",
+        "wt",
+        "w & t"
+      ],
+      "alternate_names": [
+        "wrap and turn",
+        "short row wrap",
+        "traditional short row"
+      ],
+      "written_forms": [
+        "wrap and turn: slip next stitch purlwise, bring yarn to other side, return stitch to left needle, turn work",
+        "w&t: sl1, move yarn, sl st back, turn",
+        "w&t: bring yarn to front, sl next st, bring yarn to back, sl st back, turn work",
+        "wrap and turn: slip next stitch, move yarn to opposite side, slip stitch back, turn"
+      ]
+    },
+    "wrap_and_turn_left": {
+      "canonical_name": "Wrap and Turn Left",
+      "abbreviations": [
+        "w&t left",
+        "W&T-L",
+        "SR-L",
+        "short row left"
+      ],
+      "alternate_names": [
+        "wrap and turn left",
+        "left short row",
+        "left-facing wrap and turn"
+      ],
+      "written_forms": [
+        "wrap and turn left",
+        "left-facing short-row wrap and turn"
+      ]
+    },
+    "wrap_and_turn_right": {
+      "canonical_name": "Wrap and Turn Right",
+      "abbreviations": [
+        "w&t right",
+        "W&T-R",
+        "SR-R",
+        "short row right"
+      ],
+      "alternate_names": [
+        "wrap and turn right",
+        "right short row",
+        "right-facing wrap and turn"
+      ],
+      "written_forms": [
+        "wrap and turn right",
+        "right-facing short-row wrap and turn"
+      ]
+    },
+    "german_short_row": {
+      "canonical_name": "German Short Row",
+      "abbreviations": [
+        "GSR",
+        "DS",
+        "double-stitch",
+        "DM",
+        "GSR turn"
+      ],
+      "alternate_names": [
+        "German short row",
+        "double stitch short row",
+        "Doppelmasche"
+      ],
+      "written_forms": [
+        "turn work, slip first stitch purlwise with yarn in front, pull yarn firmly over needle to create a double stitch",
+        "German short row: after turning, pull first stitch tight so both legs show"
+      ]
+    },
+    "k1_below": {
+      "canonical_name": "Knit 1 Below",
+      "abbreviations": [
+        "k1B",
+        "K1B",
+        "k1 below",
+        "knit 1 below",
+        "K1b",
+        "kb1",
+        "k1b",
+        "k1-below",
+        "K below",
+        "k-1-below"
+      ],
+      "alternate_names": [
+        "knit one below",
+        "knit into row below",
+        "knit into stitch below",
+        "fisherman's knit",
+        "elongated knit stitch",
+        "dip stitch knit"
+      ],
+      "written_forms": [
+        "insert needle into the stitch directly below the next stitch on the left needle, knit it, and let the upper stitch drop",
+        "knit into the center of the stitch one row below"
+      ]
+    },
+    "p1_below": {
+      "canonical_name": "Purl 1 Below",
+      "abbreviations": [
+        "p1B",
+        "P1B",
+        "p1 below",
+        "purl 1 below",
+        "P1b",
+        "pb1",
+        "p1b",
+        "p1-below",
+        "p-1-below"
+      ],
+      "alternate_names": [
+        "purl one below",
+        "purl into row below",
+        "purl into stitch below",
+        "elongated purl stitch",
+        "dip stitch purl"
+      ],
+      "written_forms": [
+        "insert needle into the stitch one row below purlwise, purl it, drop the upper stitch"
+      ]
+    },
+    "k1_below_twist": {
+      "canonical_name": "Knit 1 Below Twisted",
+      "abbreviations": [
+        "k1btw",
+        "K1BTW",
+        "k1btbl",
+        "k1-below-twist"
+      ],
+      "alternate_names": [
+        "knit 1 below twisted",
+        "twisted dip stitch",
+        "dip twist",
+        "k1b twist"
+      ],
+      "written_forms": [
+        "insert the needle into the stitch below and knit it in a twisted orientation",
+        "work the stitch below through the back loop or crossed orientation, then let the upper stitch drop"
+      ]
+    },
+    "drop_stitch": {
+      "canonical_name": "Drop Stitch",
+      "abbreviations": [
+        "drop st",
+        "drop",
+        "drop-stitch"
+      ],
+      "alternate_names": [
+        "drop stitch",
+        "dropped stitch",
+        "intentional drop"
+      ],
+      "written_forms": [
+        "drop the next stitch off the needle and allow it to ladder down",
+        "drop stitch: let the next stitch fall off the needle",
+        "drop the next stitch off the needle and let it ladder down"
+      ]
+    },
+    "bead": {
+      "canonical_name": "Bead Stitch",
+      "abbreviations": [
+        "bead",
+        "B",
+        "place bead",
+        "pb",
+        "PB",
+        "SB",
+        "sb",
+        "bd",
+        "HB",
+        "hb",
+        "hook bead",
+        "bead st"
+      ],
+      "alternate_names": [
+        "bead stitch",
+        "place bead",
+        "beaded knitting",
+        "hook bead"
+      ],
+      "written_forms": [
+        "slide bead up to sit in front of the next stitch, then slip the stitch purlwise",
+        "place bead: using crochet hook, place bead over the stitch"
+      ]
+    },
+    "bead_knit": {
+      "canonical_name": "Bead Knit",
+      "abbreviations": [
+        "BK",
+        "bk",
+        "bead knit",
+        "beading - knit",
+        "k+bead",
+        "pbk",
+        "PBK"
+      ],
+      "alternate_names": [
+        "knit bead",
+        "place bead and knit"
+      ],
+      "written_forms": [
+        "slide the bead into place and knit the next stitch",
+        "place bead, knit"
+      ]
+    },
+    "bead_purl": {
+      "canonical_name": "Bead Purl",
+      "abbreviations": [
+        "BP",
+        "bp",
+        "bead purl",
+        "beading - purl",
+        "p+bead",
+        "pbp",
+        "PBP"
+      ],
+      "alternate_names": [
+        "purl bead",
+        "place bead and purl"
+      ],
+      "written_forms": [
+        "slide the bead into place and purl the next stitch",
+        "place bead, purl"
+      ]
+    },
+    "catch_strands": {
+      "canonical_name": "Catch Strands",
+      "abbreviations": [
+        "catch",
+        "CF",
+        "catch float",
+        "trap float"
+      ],
+      "alternate_names": [
+        "catch strands",
+        "catch the float",
+        "trap the strand",
+        "weave in float",
+        "catch carried yarn"
+      ],
+      "written_forms": [
+        "catch the floating strand behind the working stitch"
+      ]
+    },
+    "twined_knit": {
+      "canonical_name": "Twined Knit",
+      "abbreviations": [
+        "tvk",
+        "tk",
+        "TK"
+      ],
+      "alternate_names": [
+        "twined knit",
+        "two-end knit",
+        "tvåändsstickning knit"
+      ],
+      "written_forms": [
+        "work a knit stitch using the back strand, alternating with the front strand"
+      ]
+    },
+    "twined_purl": {
+      "canonical_name": "Twined Purl",
+      "abbreviations": [
+        "tvp",
+        "tp",
+        "TP"
+      ],
+      "alternate_names": [
+        "twined purl",
+        "two-end purl",
+        "tvåändsstickning purl"
+      ],
+      "written_forms": [
+        "work a purl stitch using the back strand, alternating with the front strand"
+      ]
+    },
+    "twined_braid": {
+      "canonical_name": "Twined Braid",
+      "abbreviations": [
+        "TV braid",
+        "Latvian braid",
+        "twined braid"
+      ],
+      "alternate_names": [
+        "twined braid",
+        "Latvian braid",
+        "twisted braid",
+        "two-color braid",
+        "rolakan braid"
+      ],
+      "written_forms": [
+        "work both strands across, crossing them between every stitch to form a braid"
+      ]
+    },
+    "twined_knit_tbl": {
+      "canonical_name": "Twined Knit Through Back Loop",
+      "abbreviations": [
+        "tk tbl",
+        "Tk tbl"
+      ],
+      "alternate_names": [
+        "twined knit tbl",
+        "twined k tbl",
+        "tvåändsstickning knit tbl"
+      ],
+      "written_forms": [
+        "knit 1 through back loop using twined method"
+      ]
+    },
+    "twined_purl_tbl": {
+      "canonical_name": "Twined Purl Through Back Loop",
+      "abbreviations": [
+        "tp tbl",
+        "Tp tbl"
+      ],
+      "alternate_names": [
+        "twined purl tbl",
+        "twined p tbl"
+      ],
+      "written_forms": [
+        "purl 1 through back loop using twined method"
+      ]
+    }
+  }
+}

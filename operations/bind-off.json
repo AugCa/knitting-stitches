@@ -1,0 +1,603 @@
+[
+  {
+    "id": "standard_bo",
+    "canonical_name": "Standard Bind Off",
+    "category": "bind_off",
+    "subcategory": "standard",
+    "semantic_description": "The most common bind-off method. Knit two stitches, then pass the first over the second to secure it. Repeat across the row. Creates a chain-like edge along the top of the work. Can be tight if not careful \u2014 using a larger needle helps maintain elasticity. Also called 'casting off' in British terminology.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BO",
+        "bo",
+        "bind off",
+        "cast off",
+        "standard bind off",
+        "BO in pattern",
+        "BO in rib"
+      ],
+      "alternate_names": [
+        "standard bind off",
+        "basic bind off",
+        "chain bind off",
+        "knit bind off",
+        "bind off in pattern",
+        "bind off in rib"
+      ],
+      "written_forms": [
+        "bind off: knit 2, *pass first stitch over second, knit 1; repeat from *",
+        "cast off all stitches",
+        "BO knitwise",
+        "BO in pattern: bind off while maintaining the stitch pattern (knit the knits, purl the purls)",
+        "bind off in rib: bind off while working k1, p1 as established"
+      ],
+      "source_specific": {
+        "british": [
+          "cast off"
+        ]
+      },
+      "ambiguity_notes": [
+        "'CO' as bind off is a Canadian convention (CYC notes this explicitly: bind off = US, cast off = Canada). In a US-primary app, 'BO' should be preferred. 'CO' normally means cast on in the US, so this collision is significant \u2014 flag any 'CO' that appears in a bind-off context.",
+        "In British patterns, 'cast off' is used instead of 'bind off'. Confusingly, 'CO' can mean cast off in mid-pattern shaping instructions. Context: at the beginning of a project CO = cast on; in shaping rows, CO usually = cast off.",
+        "Some patterns say 'BO in pattern' meaning bind off while maintaining the stitch pattern (knit the knits, purl the purls during bind off)."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit the first stitch",
+        "Knit the second stitch",
+        "Insert left needle into the first stitch on right needle, lift it over the second stitch and off the needle",
+        "Knit the next stitch, pass the previous stitch over it",
+        "Repeat until one stitch remains, cut yarn and pull through"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "stretchy_bo",
+        "three_needle_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "basic",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "purl_bo",
+    "canonical_name": "Purl Bind Off",
+    "category": "bind_off",
+    "subcategory": "standard",
+    "semantic_description": "Bind off worked purlwise. Same chain technique as the standard bind off but each stitch is purled instead of knit. Used when binding off on a WS row or within a purl section to maintain the stitch pattern.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "BO pwise",
+        "BO purlwise",
+        "purl BO",
+        "purl cast off",
+        "P BO",
+        "CO pwise"
+      ],
+      "alternate_names": [
+        "purl bind off",
+        "purlwise bind off",
+        "purl cast off"
+      ],
+      "written_forms": [
+        "bind off purlwise",
+        "purl 2, pass first over second; repeat"
+      ],
+      "source_specific": {
+        "british": [
+          "purl cast off"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Purl the first stitch",
+        "Purl the second stitch",
+        "Pass the first stitch over the second",
+        "Continue purling and passing over across the row"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "standard_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "basic",
+      "wrong_side"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "stretchy_bo",
+    "canonical_name": "Stretchy Bind Off",
+    "category": "bind_off",
+    "subcategory": "elastic",
+    "semantic_description": "A bind-off method that produces an elastic edge, essential for necklines, cuffs, and any edge that needs to stretch. Multiple techniques exist (Jeny's surprisingly stretchy BO is the most popular). Generally works by adding a yarn over before each bind-off stitch, then passing both the yo and the previous stitch over. The extra yarn in each chain link provides stretch.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "stretchy BO",
+        "JSSBO",
+        "elastic BO",
+        "YO BO",
+        "Russian BO",
+        "flexible BO",
+        "yo before each st BO"
+      ],
+      "alternate_names": [
+        "stretchy bind off",
+        "Jeny's surprisingly stretchy bind off",
+        "elastic bind off",
+        "flexible bind off",
+        "yarn over bind off",
+        "Russian bind off"
+      ],
+      "written_forms": [
+        "Jeny's surprisingly stretchy BO: *yo (reverse), k1, pass yo over, pass prev st over; rep from *",
+        "stretchy bind off: add a yarn over before each stitch during bind off",
+        "yarn over bind off: yo before each stitch, then bind off together"
+      ],
+      "source_specific": {
+        "westknits": [
+          "stretchy bind off"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a reverse yarn over (wrap yarn opposite direction from normal yo)",
+        "Knit the next stitch",
+        "Pass the yo over the knit stitch (2 stitches on right needle)",
+        "Pass the first stitch over the second (bound off 1)",
+        "Repeat: reverse yo, knit 1, pass yo over, pass prev over"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "standard_bo",
+        "tubular_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "intermediate",
+      "elastic",
+      "neckline",
+      "cuff"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "three_needle_bo",
+    "canonical_name": "Three-Needle Bind Off",
+    "category": "bind_off",
+    "subcategory": "joining",
+    "semantic_description": "A bind-off method that simultaneously joins two sets of live stitches while binding off. Two needles hold the live stitches to be joined (held parallel, right sides together), and a third needle works through both layers. Each stitch from the front needle is knit together with the corresponding stitch from the back needle, then bound off normally. Creates a seam and binds off in one step. Essential for shoulder seams and any join between two live edges.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "3-needle BO",
+        "3NBO",
+        "3-needle bind off",
+        "3 needle BO",
+        "join BO",
+        "three-needle BO"
+      ],
+      "alternate_names": [
+        "three-needle bind off",
+        "three needle join",
+        "seam bind off",
+        "3 needle bind off",
+        "join with three-needle bind off"
+      ],
+      "written_forms": [
+        "hold both pieces with RS together, *knit 1 from front needle together with 1 from back needle, repeat, pass first st over second; continue across*",
+        "three-needle bind off: k2tog (one from each needle), BO across"
+      ],
+      "source_specific": {
+        "cocoknits": [
+          "3-needle bind off"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Hold both needles parallel with right sides of fabric facing each other",
+        "Using a third needle, insert through the first stitch on BOTH needles (front and back)",
+        "Knit these 2 stitches together as one",
+        "Repeat for the next pair of stitches",
+        "Pass the first stitch over the second (bind off 1)",
+        "Continue across"
+      ],
+      "tools": [
+        "three needles"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "kitchener"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "intermediate",
+      "seaming",
+      "joining",
+      "shoulder"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "kitchener",
+    "canonical_name": "Kitchener Stitch",
+    "category": "bind_off",
+    "subcategory": "grafting",
+    "semantic_description": "A grafting technique (not a true bind-off) that invisibly joins two sets of live stitches using a tapestry needle and yarn. The yarn is threaded through the live stitches in a pattern that mimics a row of knitting, making the join completely invisible. Essential for sock toes, seamless shoulders, and any join where a visible seam is unacceptable. The mantra is 'knit off, purl on; purl off, knit on' for stockinette grafting.",
+    "stitch_manipulation": {
+      "stitches_in": 2,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "kitchener",
+        "graft",
+        "grafting",
+        "kt",
+        "gft"
+      ],
+      "alternate_names": [
+        "Kitchener stitch",
+        "stockinette grafting",
+        "invisible graft",
+        "weaving live stitches",
+        "weave",
+        "weaving"
+      ],
+      "written_forms": [
+        "graft stitches together using Kitchener stitch",
+        "thread tapestry needle: *front needle pwise leave on, front needle kwise take off, back needle kwise leave on, back needle pwise take off; repeat*",
+        "graft stitches together"
+      ],
+      "source_specific": {
+        "ez": [
+          "weave",
+          "weaving together"
+        ],
+        "sock_architecture": [
+          "Kitchener stitch"
+        ]
+      },
+      "ambiguity_notes": [
+        "'kt' can collide with 'knit twisted' in some pattern systems. 'graft' is widely understood in context."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Hold both needles parallel, both pointing right, with wrong sides facing each other",
+        "Thread yarn tail onto tapestry needle",
+        "Setup: go through first front stitch purlwise (leave on), first back stitch knitwise (leave on)",
+        "Repeat: front stitch knitwise (drop off), next front stitch purlwise (leave on), back stitch purlwise (drop off), next back stitch knitwise (leave on)",
+        "Continue until all stitches are grafted"
+      ],
+      "tools": [
+        "tapestry needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "three_needle_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "advanced",
+      "grafting",
+      "invisible_join",
+      "sock_toe"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "tubular_bo",
+    "canonical_name": "Tubular Bind Off",
+    "category": "bind_off",
+    "subcategory": "ribbing",
+    "semantic_description": "The bind-off counterpart to the tubular cast-on. Produces a rounded, folded edge at the top of ribbing that mirrors the tubular cast-on edge. Works by separating knit and purl stitches onto two needles, then grafting them together using Kitchener stitch. Creates the most polished ribbing edge but requires careful setup.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tubular BO",
+        "Italian BO",
+        "invisible BO"
+      ],
+      "alternate_names": [
+        "tubular bind off",
+        "Italian bind off",
+        "invisible ribbed bind off"
+      ],
+      "written_forms": [
+        "work tubular bind off: separate knit and purl stitches, graft together",
+        "tubular BO: work setup rows, then Kitchener the separated rib stitches"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work 2-3 setup rows: *k1, sl1 wyif; repeat*",
+        "Separate knit stitches onto one needle and purl stitches onto another",
+        "Graft the two sets together using Kitchener stitch"
+      ],
+      "tools": [
+        "tapestry needle",
+        "extra needle or waste yarn"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "stretchy_bo",
+        "kitchener"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "bind_off",
+      "advanced",
+      "ribbing",
+      "polished_finish"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "sewn_bo",
+    "canonical_name": "Sewn Bind Off",
+    "category": "bind_off",
+    "subcategory": "sewn",
+    "semantic_description": "Elizabeth Zimmermann's sewn bind-off. Uses a tapestry needle threaded with yarn to bind off stitches by passing through them in a specific purl-then-knit sequence. Does not use the knitting needles after the last row is worked. Produces the stretchiest possible bound-off edge. Essential for sock cuffs and any edge that must fit over a heel or hand.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sewn BO",
+        "EZ sewn BO",
+        "sewn bind off"
+      ],
+      "alternate_names": [
+        "sewn bind off",
+        "EZ's sewn bind off",
+        "Elizabeth Zimmermann sewn bind off",
+        "tapestry needle bind off"
+      ],
+      "written_forms": [
+        "thread tapestry needle: *pass needle pwise through first 2 sts, pass kwise through first st and drop off needle; repeat*",
+        "sewn bind off: with tapestry needle, go into 2 sts purlwise, then back through 1 st knitwise and remove"
+      ],
+      "source_specific": {
+        "ez": [
+          "sewn bind off"
+        ],
+        "schoolhouse_press": [
+          "EZ's sewn bind off"
+        ]
+      }
+    },
+    "tags": [
+      "bind_off",
+      "advanced",
+      "elastic",
+      "sock",
+      "cuff",
+      "tapestry_needle"
+    ],
+    "difficulty": "advanced",
+    "relationships": {
+      "similar": [
+        "stretchy_bo",
+        "kitchener"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "thread tapestry needle: *pass needle pwise through first 2 sts, pass kwise through first st and drop off needle; repeat*",
+        "sewn bind off: with tapestry needle, go into 2 sts purlwise, then back through 1 st knitwise and remove"
+      ]
+    }
+  },
+  {
+    "id": "picot_bo",
+    "canonical_name": "Picot Bind Off",
+    "category": "bind_off",
+    "subcategory": "decorative",
+    "semantic_description": "A decorative bind-off that creates small loops or points along the bound-off edge. Typically worked by casting on 2-3 extra stitches using the cable or knitted cast-on method, then immediately binding those off before proceeding to the next stitch. Creates a scalloped or pointed edging. Common in lace, baby, and shawl patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "picot BO",
+        "picot CO",
+        "picot edge BO",
+        "picot bind off"
+      ],
+      "alternate_names": [
+        "picot bind off",
+        "picot cast off",
+        "scalloped bind off",
+        "pointed bind off"
+      ],
+      "written_forms": [
+        "picot BO: *cable CO 2 sts, BO 4 sts; repeat from *",
+        "bind off with picots: cast on and immediately bind off to create loops"
+      ],
+      "source_specific": {
+        "british": [
+          "picot cast off"
+        ]
+      }
+    },
+    "tags": [
+      "bind_off",
+      "intermediate",
+      "decorative",
+      "lace",
+      "edging"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "standard_bo",
+        "stretchy_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "picot BO: *cable CO 2 sts, BO 4 sts; repeat from *",
+        "bind off with picots: cast on and immediately bind off to create loops"
+      ]
+    }
+  },
+  {
+    "id": "suspended_bo",
+    "canonical_name": "Suspended Bind Off",
+    "category": "bind_off",
+    "subcategory": "elastic",
+    "semantic_description": "A stretchy bind-off technique where you pass the first stitch over the second (as in a standard bind-off) but leave the passed stitch on the left needle while knitting the next stitch. The 'suspension' creates a slightly looser chain, producing more elasticity than a standard bind-off.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "suspended BO",
+        "suspended bind off"
+      ],
+      "alternate_names": [
+        "suspended bind off",
+        "lacy bind off"
+      ],
+      "written_forms": [
+        "suspended BO: k2, pass first over second but leave on needle, k1, pass again",
+        "bind off keeping the passed stitch on left needle until the next stitch is worked"
+      ]
+    },
+    "tags": [
+      "bind_off",
+      "intermediate",
+      "elastic"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "stretchy_bo",
+        "standard_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "suspended BO: k2, pass first over second but leave on needle, k1, pass again",
+        "bind off keeping the passed stitch on left needle until the next stitch is worked"
+      ]
+    }
+  },
+  {
+    "id": "icord_bo",
+    "canonical_name": "I-Cord Bind Off",
+    "category": "bind_off",
+    "subcategory": "icord",
+    "semantic_description": "An applied I-cord bind-off that produces a rounded, tube-like bound-off edge by working a small i-cord simultaneously with the bind-off. Typically: cast on 3 sts for the cord, then each row: k2, k2tog (last cord stitch with first body stitch), slip 3 back to left needle. Continue across. The finished edge has a rounded cord along its top.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 0,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "i-cord BO",
+        "i-cord bind off",
+        "icord BO",
+        "applied i-cord BO"
+      ],
+      "alternate_names": [
+        "I-cord bind off",
+        "applied i-cord bind off",
+        "i-cord cast off",
+        "knitted cord bind off"
+      ],
+      "written_forms": [
+        "applied i-cord BO: CO 3 sts, *k2, k2tog tbl (last cord st + first body st), sl 3 back to LN; rep from *",
+        "i-cord bind off: k2, join cord to body with ssk, slide 3 back"
+      ],
+      "source_specific": {
+        "westknits": [
+          "applied i-cord bind off"
+        ],
+        "cocoknits": [
+          "i-cord bind off"
+        ]
+      }
+    },
+    "tags": [
+      "bind_off",
+      "intermediate",
+      "icord",
+      "decorative",
+      "finishing",
+      "shawl"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "icord_edge",
+        "standard_bo"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "applied i-cord BO: CO 3 sts, *k2, k2tog tbl (last cord st + first body st), sl 3 back to LN; rep from *",
+        "i-cord bind off: k2, join cord to body with ssk, slide 3 back"
+      ]
+    }
+  }
+]

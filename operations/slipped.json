@@ -1,0 +1,367 @@
+[
+  {
+    "id": "slip_purlwise",
+    "canonical_name": "Slip Purlwise",
+    "category": "slip",
+    "subcategory": "basic_slip",
+    "semantic_description": "Transfers a stitch from the left needle to the right needle without working it, inserted purlwise (right to left). The stitch maintains its original orientation and is not twisted. This is the default slip direction in most modern Western patterns when no direction is specified.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1p",
+        "sl1 pw",
+        "sl1 pwise",
+        "sl1 purlwise",
+        "sl pw",
+        "sl1",
+        "sl 1",
+        "sl",
+        "sl p-wise",
+        "sp",
+        "SP",
+        "sl1 p",
+        "slp",
+        "SLP",
+        "s1p",
+        "sl1-p",
+        "Sl1 pwise",
+        "sl1 purl"
+      ],
+      "alternate_names": [
+        "slip one purlwise",
+        "slip purlwise",
+        "slip stitch purlwise"
+      ],
+      "written_forms": [
+        "slip the next stitch purlwise",
+        "slip 1 as if to purl",
+        "slip one purlwise to right needle",
+        "slip the next stitch without working it",
+        "slip as if to purl"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'sl1p' as slip 1 purlwise. The bare 'sl' or 'sl 1' without qualification is conventionally purlwise (this is the CYC default \u2014 unless knitwise is specified, slip purlwise). 'sl1' is extremely common. Distinguish from sl1k (knitwise).",
+        "Many patterns write just 'sl 1' without specifying direction. In most modern Western patterns, bare 'sl 1' defaults to purlwise UNLESS it precedes a decrease (sl1-k1-psso), where it is knitwise by convention.",
+        "In some British patterns, bare 'sl' defaults to knitwise. Always check the pattern's abbreviation key.",
+        "The abbreviation 'sp' appears in some patterns as shorthand for 'slip purlwise' but is non-standard and can collide with 'ssp' (slip slip purl) or be ambiguous. The CYC standard is 'sl1p'. Both are included here so users can find this op via search."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the next stitch from right to left (as if to purl)",
+        "Slide the stitch from left needle to right needle without working it"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "slip_knitwise"
+      ],
+      "mirror": "slip_knitwise",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "slip",
+      "basic",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "slip_knitwise",
+    "canonical_name": "Slip Knitwise",
+    "category": "slip",
+    "subcategory": "basic_slip",
+    "semantic_description": "Transfers a stitch from the left needle to the right needle without working it, inserted knitwise (left to right). This twists the stitch \u2014 the leading leg changes sides. Used primarily as the first step of decrease operations like SSK, where the twist is corrected when the stitches are knit together.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1k",
+        "sl1 kw",
+        "sl1 kwise",
+        "sl1 knitwise",
+        "sl1-kw",
+        "sl kw",
+        "sl k-wise",
+        "s1k",
+        "sl1 as to knit",
+        "sk",
+        "SK",
+        "sl1 k",
+        "slk",
+        "SLK",
+        "sl1-k",
+        "Sl1 kwise",
+        "sl1 knit"
+      ],
+      "alternate_names": [
+        "slip one knitwise",
+        "slip knitwise",
+        "slip stitch knitwise"
+      ],
+      "written_forms": [
+        "slip the next stitch knitwise",
+        "slip 1 as if to knit",
+        "slip one knitwise to right needle",
+        "slip as if to knit",
+        "insert needle knitwise and slip"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'sl1k'. Must be explicitly marked knitwise; bare 'sl' defaults to purlwise per CYC. Used in decrease setups (ssk, skp) and mosaic colorwork.",
+        "The abbreviation 'sk' appears in some patterns as shorthand for 'slip knitwise' but is non-standard and collides with 'SKP' (slip-knit-pass over, a decrease). The CYC standard is 'sl1k'. Both are included here for search discoverability."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the next stitch from left to right (as if to knit)",
+        "Slide the stitch from left needle to right needle without working it"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "slip_purlwise"
+      ],
+      "mirror": "slip_purlwise",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "slip",
+      "basic",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "sl1_wyib",
+    "canonical_name": "Slip 1 With Yarn In Back",
+    "category": "slip",
+    "subcategory": "positioned_slip",
+    "semantic_description": "Slips one stitch with the working yarn held at the back of the work (away from the knitter on RS). The yarn strand floats behind the slipped stitch. Used in colorwork, mosaic knitting, and textured stitch patterns. The float is invisible on the right side.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1wyib",
+        "sl1-wyib",
+        "sl wyib",
+        "sl1 wyb",
+        "sl1yb",
+        "wyb",
+        "sl wyb",
+        "sl 1 wyib",
+        "sl1 w/yb",
+        "slwyib"
+      ],
+      "alternate_names": [
+        "slip with yarn in back",
+        "slip one yarn back"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in back",
+        "with yarn at back of work, slip the next stitch",
+        "sl 1 keeping yarn at back",
+        "keeping yarn at back of work, slip stitch purlwise",
+        "sl1 with yarn held behind work"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'wyib'. In mosaic knitting, 'sl1 wyib' is an RS instruction (yarn behind = normal back position on RS). Combined slip+yarn-position abbreviations are very common in mosaic and slipped-stitch colorwork patterns.",
+        "'wyib' on RS means yarn is away from you. On WS, 'wyib' still means yarn is at the back relative to YOU (toward the RS of the fabric). This positional flip is the #1 source of errors in slip-stitch patterns."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Ensure working yarn is at the back of work (away from you)",
+        "Slip the next stitch purlwise (unless pattern specifies knitwise)",
+        "Yarn remains at back \u2014 a float forms behind the slipped stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "sl1_wyif",
+      "ws_equivalent": "sl1_wyif"
+    },
+    "tags": [
+      "slip",
+      "basic",
+      "mosaic",
+      "colorwork",
+      "texture"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "sl1_wyif",
+    "canonical_name": "Slip 1 With Yarn In Front",
+    "category": "slip",
+    "subcategory": "positioned_slip",
+    "semantic_description": "Slips one stitch with the working yarn held at the front of the work (toward the knitter on RS). The yarn strand floats in front of the slipped stitch, creating a visible horizontal bar. Used in textured patterns, heel flap construction, and decorative slipped-stitch fabrics.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1wyif",
+        "sl1-wyif",
+        "sl wyif",
+        "sl1 wyf",
+        "sl1yf",
+        "wyf",
+        "sl wyf",
+        "sl 1 wyif",
+        "sl1 w/yf",
+        "slwyif"
+      ],
+      "alternate_names": [
+        "slip with yarn in front",
+        "slip one yarn front"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in front",
+        "with yarn at front of work, slip the next stitch",
+        "sl 1 keeping yarn in front",
+        "keeping yarn at front of work, slip stitch purlwise",
+        "sl1 with yarn held in front"
+      ],
+      "ambiguity_notes": [
+        "CYC lists 'wyif'. In mosaic knitting, 'sl1 wyif' on an RS row brings yarn to front to create a float visible on the RS. Very common in slipped-stitch colorwork."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Bring working yarn to front of work (toward you)",
+        "Slip the next stitch purlwise",
+        "Yarn remains at front \u2014 a float forms in front of the slipped stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "sl1_wyib",
+      "ws_equivalent": "sl1_wyib"
+    },
+    "tags": [
+      "slip",
+      "basic",
+      "texture",
+      "heel"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "sl1_wyib_2row",
+    "canonical_name": "Slip 1 With Yarn In Back (2 Rows)",
+    "category": "slip",
+    "subcategory": "elongated_slip",
+    "semantic_description": "An elongated slip stitch that spans two rows in the chart grid. The stitch is slipped (not worked) on two consecutive rows, creating a longer float and a more pronounced elongated stitch effect. Common in mosaic and slip-stitch colorwork where a contrasting-color stitch needs to stretch over two rows of the background color.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "row_span": 2
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1wyib-2row",
+        "sl1 wyib (2 rows)",
+        "s2 wyib",
+        "long slip wyib",
+        "sl1(2) wyib",
+        "elongated sl wyib"
+      ],
+      "alternate_names": [
+        "elongated slip wyib",
+        "two-row slip with yarn in back"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in back on this row and the next",
+        "slip stitch over two rows keeping yarn in back",
+        "slip this stitch again on the following row, keeping yarn in back",
+        "slip the stitch stretching it over 2 rows with yarn in back"
+      ],
+      "ambiguity_notes": [
+        "A 2-row elongated slip is used in shadow knitting, brioche-adjacent, and some colorwork techniques. No standard CYC abbreviation \u2014 pattern-defined. The distinction from regular sl1wyib is that the stitch was slipped on the prior row and is slipped again without working."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "On the first row: slip 1 with yarn in back",
+        "On the following row: slip the same stitch again with yarn in back"
+      ]
+    },
+    "relationships": {
+      "variant_of": "sl1_wyib",
+      "mirror": "sl1_wyif_2row",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "slip",
+      "mosaic",
+      "elongated",
+      "intermediate"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sl1_wyif_2row",
+    "canonical_name": "Slip 1 With Yarn In Front (2 Rows)",
+    "category": "slip",
+    "subcategory": "elongated_slip",
+    "semantic_description": "An elongated slip stitch spanning two chart rows with yarn held in front. The stitch is slipped on two consecutive rows, creating a visible elongated float on the right side of the fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "row_span": 2
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1wyif-2row",
+        "sl1 wyif (2 rows)",
+        "s2 wyif",
+        "long slip wyif",
+        "sl1(2) wyif",
+        "elongated sl wyif"
+      ],
+      "alternate_names": [
+        "elongated slip wyif",
+        "two-row slip with yarn in front"
+      ],
+      "written_forms": [
+        "slip 1 with yarn in front on this row and the next",
+        "slip stitch over two rows keeping yarn in front",
+        "slip this stitch again on the following row, keeping yarn in front",
+        "slip the stitch stretching it over 2 rows with yarn in front"
+      ],
+      "ambiguity_notes": [
+        "Same as sl1_wyib_2row but with yarn in front. Pattern-defined."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "On the first row: slip 1 with yarn in front",
+        "On the following row: slip the same stitch again with yarn in front"
+      ]
+    },
+    "relationships": {
+      "variant_of": "sl1_wyif",
+      "mirror": "sl1_wyib_2row",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "slip",
+      "texture",
+      "elongated",
+      "intermediate"
+    ],
+    "difficulty": "intermediate"
+  }
+]

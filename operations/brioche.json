@@ -1,0 +1,1365 @@
+[
+  {
+    "id": "brk",
+    "canonical_name": "Brioche Knit",
+    "category": "brioche",
+    "subcategory": "basic_brioche",
+    "semantic_description": "The fundamental brioche knit stitch. The stitch is worked together with its paired yarn over from the previous row, producing the characteristic lofty column of brioche fabric. In stitch dictionaries and chart glossaries, BRK is distinct from knit-below techniques even though the fabric can look similar.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk",
+        "BRK",
+        "brk1",
+        "brioche knit",
+        "BRK1",
+        "bark",
+        "BR-K"
+      ],
+      "alternate_names": [
+        "brioche knit",
+        "bark stitch",
+        "brioche k"
+      ],
+      "written_forms": [
+        "knit the stitch together with its paired yarn over",
+        "brk: knit the next stitch and its accompanying yo together as one"
+      ],
+      "source_specific": {
+        "nancy_marchant": [
+          "brk (bark)",
+          "brk-LC",
+          "brk (light)",
+          "LCbrk",
+          "brk-DC",
+          "brk (dark)",
+          "DCbrk"
+        ],
+        "stitchmastery": [
+          "brioche - brk"
+        ],
+        "two_color_brioche": [
+          "LC brk",
+          "DC brk",
+          "brk (MC)",
+          "brk (CC)"
+        ]
+      },
+      "ambiguity_notes": [
+        "'bark' is an older informal abbreviation (bark = brioche knit). Nancy Marchant's standard is lowercase 'brk'. 'BRK1' is sometimes seen but 'brk' is preferred per Marchant's Knitting Fresh Brioche.",
+        "'k1b' in brioche contexts may mean brioche knit, but in ordinary stitch patterns it usually means knit 1 below. Context matters."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle through the next stitch and its paired yarn over together knitwise",
+        "Knit them together as one brioche stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brp",
+      "similar": [
+        "k1_below",
+        "brk_tbl"
+      ],
+      "ws_equivalent": "brp"
+    },
+    "tags": [
+      "brioche",
+      "intermediate",
+      "double_fabric",
+      "reversible"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "brp",
+    "canonical_name": "Brioche Purl",
+    "category": "brioche",
+    "subcategory": "basic_brioche",
+    "semantic_description": "The fundamental brioche purl stitch. The stitch and its paired yarn over are purled together as one unit, forming the purl-side counterpart to brioche knit. Standard brioche glossaries distinguish BRP from ordinary purl-below techniques.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brp",
+        "BRP",
+        "brp1",
+        "brioche purl",
+        "BRP1",
+        "burp",
+        "BR-P"
+      ],
+      "alternate_names": [
+        "brioche purl",
+        "burp stitch",
+        "brioche p"
+      ],
+      "written_forms": [
+        "purl the stitch together with its paired yarn over",
+        "brp: purl the next stitch and its yo together"
+      ],
+      "source_specific": {
+        "nancy_marchant": [
+          "brp (burp)",
+          "brp-LC",
+          "brp (light)",
+          "LCbrp",
+          "brp-DC",
+          "brp (dark)",
+          "DCbrp"
+        ],
+        "stitchmastery": [
+          "brioche - brp"
+        ],
+        "two_color_brioche": [
+          "LC brp",
+          "DC brp",
+          "brp (MC)",
+          "brp (CC)"
+        ]
+      },
+      "ambiguity_notes": [
+        "'burp' is the informal name but not used as a chart abbreviation. Per Nancy Marchant, 'brp' is standard."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle purlwise through the next stitch and its paired yarn over together",
+        "Purl them together as one brioche stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brk",
+      "similar": [
+        "p1_below",
+        "brp_tbl"
+      ],
+      "ws_equivalent": "brk"
+    },
+    "tags": [
+      "brioche",
+      "intermediate",
+      "double_fabric",
+      "reversible"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "sl1yo",
+    "canonical_name": "Slip 1 Yarn Over",
+    "category": "brioche",
+    "subcategory": "basic_brioche",
+    "semantic_description": "The setup move that creates a brioche pair: the next stitch is slipped and the working yarn is taken over it, pairing the slipped stitch with a yarn over for the next row. StitchMastery and brioche references also describe sl1yof variants as source-specific renderings of this setup family.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "sl1yo",
+        "SL1YO",
+        "yf sl1yo",
+        "yf-sl1yo",
+        "sl1yof",
+        "sl1 yo",
+        "sl 1 yo",
+        "yf, sl1yo"
+      ],
+      "alternate_names": [
+        "slip 1 yarn over",
+        "brioche setup",
+        "brioche pair setup"
+      ],
+      "written_forms": [
+        "bring yarn to the front, slip 1 purlwise, then bring the yarn over the needle",
+        "yf sl1yo",
+        "with yarn in front, slip 1 purlwise, bring yarn over right needle",
+        "bring yarn forward, slip 1 purlwise, take yarn over needle to back",
+        "sl1 with accompanying yo"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - yf sl1yo",
+          "brioche - sl1yof fits with brp/brk"
+        ],
+        "nancy_marchant": [
+          "sl1yof",
+          "sl1yof (brioche setup)",
+          "setup stitch"
+        ],
+        "two_color_brioche": [
+          "LC sl1yo",
+          "sl1yo-LC",
+          "sl1yof-LC",
+          "DC sl1yo",
+          "sl1yo-DC"
+        ]
+      },
+      "ambiguity_notes": [
+        "sl1yo models brioche positions (1 in, 1 out) not raw stitch+yo loops. The raw loop count after the move is 2 (1 slip + 1 yo on needle), but in brioche accounting the pair counts as one unit."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Bring the yarn to the front",
+        "Slip the next stitch purlwise",
+        "Take the yarn over the needle so it lies paired with the slipped stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "sl1_wyif"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "brioche",
+      "intermediate",
+      "setup",
+      "double_fabric"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "br_dec_left",
+    "canonical_name": "Brioche Left-Leaning Decrease",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A generic left-leaning brioche decrease family. It represents the class of left-slanting brioche decreases without forcing one exact abbreviation. Exact members include BRSSK/BRKSSK on the knit side and BRSSP/BRKSSP on the purl side.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brLsl dec",
+        "brLdec",
+        "br-L-dec"
+      ],
+      "alternate_names": [
+        "brioche left-leaning decrease",
+        "left-slanting brioche decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning brioche decrease as specified in the pattern"
+      ],
+      "source_specific": {
+        "nancy_marchant": [
+          "brLsl dec"
+        ]
+      },
+      "ambiguity_notes": [
+        "This is the generic left-slanting brioche decrease. In practice most patterns use 'brssk' or 'brsssk' specifically. The 'brLsl dec' abbreviation is used by some SM-based patterns but is not universal.",
+        "Family abbreviation used by Nancy Marchant. The knit-side form is brssk/brkssk; the purl-side form is brssp/brkssp. Resolve to the specific operation when pattern context indicates which face is being worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the specific left-leaning brioche decrease named in the pattern or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "br_dec_right",
+      "similar": [
+        "brssk",
+        "brssp"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "left_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "br_dec_right",
+    "canonical_name": "Brioche Right-Leaning Decrease",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A generic right-leaning brioche decrease family. It covers right-slanting brioche decreases without collapsing them into one exact abbreviation. Exact members include BRK2TOG on the knit side and BRP2TOG on the purl side.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brRsl dec",
+        "brRdec",
+        "br-R-dec"
+      ],
+      "alternate_names": [
+        "brioche right-leaning decrease",
+        "right-slanting brioche decrease"
+      ],
+      "written_forms": [
+        "work a right-leaning brioche decrease as specified in the pattern"
+      ],
+      "source_specific": {
+        "nancy_marchant": [
+          "brRsl dec"
+        ]
+      },
+      "ambiguity_notes": [
+        "Same situation as br_dec_left. In practice most patterns use 'brk2tog'. Generic form.",
+        "Family abbreviation used by Nancy Marchant. The knit-side form is brk2tog; the purl-side form is brp2tog. Resolve to the specific operation when pattern context indicates which face is being worked."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work the specific right-leaning brioche decrease named in the pattern or legend"
+      ]
+    },
+    "relationships": {
+      "mirror": "br_dec_left",
+      "similar": [
+        "brk2tog",
+        "brp2tog"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "right_leaning",
+      "legend_driven"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brssk",
+    "canonical_name": "BRSSK",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A left-leaning single brioche decrease worked on the knit side. Many modern brioche references abbreviate this as BRSSK, while StitchMastery labels the same operation BRKSSK. It is the knit-side left counterpart to BRK2TOG.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brssk",
+        "BRSSK",
+        "brkssk",
+        "BRKSSK",
+        "brk-ssk",
+        "brioche ssk"
+      ],
+      "alternate_names": [
+        "brioche slip slip knit",
+        "brioche left-slanting knit decrease"
+      ],
+      "written_forms": [
+        "slip stitches as directed and brioche knit the slipped stitches together for a left-slanting decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brkssk"
+        ],
+        "nancy_marchant": [
+          "brLsl dec"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Slip the leading brioche stitch or pair as directed by the pattern",
+        "Work the remaining brioche stitches together to create a left-leaning decrease",
+        "Complete the BRSSK / BRKSSK decrease following the pattern's brioche convention"
+      ]
+    },
+    "relationships": {
+      "mirror": "brk2tog",
+      "variant_of": "br_dec_left",
+      "similar": [
+        "brssp"
+      ],
+      "ws_equivalent": "brssp"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "left_leaning",
+      "knit_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brk2tog",
+    "canonical_name": "BRK2TOG",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A right-leaning single brioche decrease worked on the knit side by brioche-knitting two brioche units together. This is the right-slanting knit-side counterpart to BRSSK / BRKSSK.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk2tog",
+        "BRK2TOG",
+        "br-k2tog",
+        "brioche k2tog"
+      ],
+      "alternate_names": [
+        "brioche knit 2 together",
+        "brioche right-slanting knit decrease"
+      ],
+      "written_forms": [
+        "brioche knit two brioche units together"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brk2tog"
+        ],
+        "nancy_marchant": [
+          "brRsl dec"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle through the next two brioche units together knitwise",
+        "Brioche knit them together as one stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brssk",
+      "variant_of": "br_dec_right",
+      "similar": [
+        "brp2tog"
+      ],
+      "ws_equivalent": "brp2tog"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "right_leaning",
+      "knit_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brsssk",
+    "canonical_name": "BRSSSK",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A left-leaning brioche 4-to-1 decrease worked on the knit side. StitchMastery names this BRKSSSK, while brioche references often shorten it to BRSSSK. It is the left-leaning counterpart to BRK3TOG.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brsssk",
+        "BRSSSK",
+        "brksssk",
+        "BRKSSSK"
+      ],
+      "alternate_names": [
+        "brioche slip slip slip knit",
+        "left-leaning brioche triple decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning 4-to-1 brioche decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brksssk"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 4-to-1 brioche decrease method specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "mirror": "brk3tog",
+      "similar": [
+        "brsssp"
+      ],
+      "ws_equivalent": "brsssp"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "left_leaning",
+      "triple_decrease",
+      "knit_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brk3tog",
+    "canonical_name": "BRK3TOG",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A right-leaning brioche 4-to-1 decrease worked on the knit side by brioche-knitting three brioche units together. It is the stronger right-slanting counterpart to BRSSSK.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk3tog",
+        "BRK3TOG"
+      ],
+      "alternate_names": [
+        "brioche knit 3 together",
+        "right-leaning brioche triple decrease"
+      ],
+      "written_forms": [
+        "brioche knit three brioche units together"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brk3tog"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle through the required brioche units together knitwise",
+        "Brioche knit them together as one stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brsssk",
+      "similar": [
+        "brp3tog"
+      ],
+      "ws_equivalent": "brp3tog"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "right_leaning",
+      "triple_decrease",
+      "knit_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brssp",
+    "canonical_name": "BRSSP",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A left-leaning single brioche decrease worked on the purl side. StitchMastery labels this BRKSSP, while many brioche references shorten it to BRSSP. It is the purl-side left counterpart to BRP2TOG.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brssp",
+        "BRSSP",
+        "brkssp",
+        "BRKSSP",
+        "brioche ssp",
+        "br-ssp"
+      ],
+      "alternate_names": [
+        "brioche slip slip purl",
+        "left-leaning brioche purl decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning purl-side brioche decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brkssp"
+        ],
+        "nancy_marchant": [
+          "brLsl dec"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning purl-side brioche decrease specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "mirror": "brp2tog",
+      "similar": [
+        "brssk"
+      ],
+      "variant_of": "br_dec_left",
+      "ws_equivalent": "brssk"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "left_leaning",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brp2tog",
+    "canonical_name": "BRP2TOG",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A right-leaning single brioche decrease worked on the purl side by purling two brioche units together. It is the purl-side right counterpart to BRSSP / BRKSSP.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brp2tog",
+        "BRP2TOG",
+        "br-p2tog",
+        "brioche p2tog"
+      ],
+      "alternate_names": [
+        "brioche purl 2 together",
+        "right-leaning brioche purl decrease"
+      ],
+      "written_forms": [
+        "brioche purl two brioche units together"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brp2tog"
+        ],
+        "nancy_marchant": [
+          "brRsl dec"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle purlwise through the next two brioche units together",
+        "Purl them together as one brioche stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brssp",
+      "variant_of": "br_dec_right",
+      "similar": [
+        "brk2tog"
+      ],
+      "ws_equivalent": "brk2tog"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "right_leaning",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brsssp",
+    "canonical_name": "BRSSSP",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A left-leaning brioche 4-to-1 decrease worked on the purl side. StitchMastery labels the same family BRKSSSP. It is the purl-side left counterpart to BRP3TOG.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "left"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brsssp",
+        "BRSSSP",
+        "brksssp",
+        "BRKSSSP"
+      ],
+      "alternate_names": [
+        "brioche slip slip slip purl",
+        "left-leaning brioche purl triple decrease"
+      ],
+      "written_forms": [
+        "work a left-leaning 4-to-1 purl-side brioche decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brksssp"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the left-leaning 4-to-1 purl-side brioche decrease specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "mirror": "brp3tog",
+      "similar": [
+        "brsssk"
+      ],
+      "ws_equivalent": "brsssk"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "left_leaning",
+      "triple_decrease",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brp3tog",
+    "canonical_name": "BRP3TOG",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A right-leaning brioche 4-to-1 decrease worked on the purl side by purling three brioche units together. It is the purl-side right counterpart to BRSSSP / BRKSSSP.",
+    "stitch_manipulation": {
+      "stitches_in": 4,
+      "stitches_out": 1,
+      "lean": "right"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brp3tog",
+        "BRP3TOG"
+      ],
+      "alternate_names": [
+        "brioche purl 3 together",
+        "right-leaning brioche purl triple decrease"
+      ],
+      "written_forms": [
+        "brioche purl three brioche units together"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brp3tog"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle purlwise through the required brioche units together",
+        "Purl them together as one stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brsssp",
+      "similar": [
+        "brk3tog"
+      ],
+      "ws_equivalent": "brk3tog"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "right_leaning",
+      "triple_decrease",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brcdd",
+    "canonical_name": "Brioche Centered Double Decrease",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "A centered brioche double decrease that reduces three brioche positions to one while keeping the decrease visually centered. StitchMastery lists this as a distinct brioche centred double decrease.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brcdd",
+        "BRCDD",
+        "br-cdd",
+        "brioche cdd"
+      ],
+      "alternate_names": [
+        "brioche centred double decrease",
+        "brioche centered double decrease",
+        "brioche centred 3 to 1"
+      ],
+      "written_forms": [
+        "work the centered brioche double decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - centred double decrease"
+        ],
+        "nancy_marchant": [
+          "brCDD"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the centered brioche double decrease method specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cdd",
+        "brcddp"
+      ],
+      "ws_equivalent": "brcddp"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "centered",
+      "double_decrease"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brcddp",
+    "canonical_name": "Brioche Centered Double Purl Decrease",
+    "category": "brioche",
+    "subcategory": "brioche_decrease",
+    "semantic_description": "The purl-side centered brioche double decrease. StitchMastery distinguishes it from the knit-side brioche centered double decrease, so it should not be merged into a plain centered decrease entry.",
+    "stitch_manipulation": {
+      "stitches_in": 3,
+      "stitches_out": 1,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brcddp",
+        "BRCDDP",
+        "brcdp",
+        "BRCDP",
+        "br-cddp"
+      ],
+      "alternate_names": [
+        "brioche centred double purl decrease",
+        "brioche centered double purl decrease",
+        "brioche centred purl double dec"
+      ],
+      "written_forms": [
+        "work the centered brioche double purl decrease"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - centred double purl dec"
+        ],
+        "nancy_marchant": [
+          "brCDDP"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work the purl-side centered brioche decrease method specified by the pattern"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brcdd",
+        "pcdd"
+      ],
+      "ws_equivalent": "brcdd"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "decrease",
+      "centered",
+      "double_decrease",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brkyobrk",
+    "canonical_name": "BRKYOBRK",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-3 brioche increase worked as brioche knit, yarn over, brioche knit into one position. StitchMastery lists BRKYOBRK as a distinct brioche increase symbol and brioche references use it as a standard 3-stitch increase abbreviation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brkyobrk",
+        "BRKYOBRK",
+        "brk-yo-brk",
+        "brk, yo, brk",
+        "3-st brioche inc"
+      ],
+      "alternate_names": [
+        "brioche knit yarn over brioche knit",
+        "brioche 1-to-3 increase"
+      ],
+      "written_forms": [
+        "work brioche knit, yarn over, brioche knit into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brkyobrk"
+        ],
+        "nancy_marchant": [
+          "brkyobrk",
+          "brk, yo, brk"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche knit into the stitch",
+        "Yarn over",
+        "Work another brioche knit into the same stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brk_brp_brk",
+        "centered_increase"
+      ],
+      "ws_equivalent": "brpyobrp"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "double_increase"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brk_brp_brk",
+    "canonical_name": "BRK/BRP/BRK",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-3 brioche increase worked as brioche knit, brioche purl, brioche knit into one stitch. StitchMastery lists this separately from BRKYOBRK, so it should not be collapsed into a generic brioche increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk/brp/brk",
+        "BRK/BRP/BRK",
+        "brkbrpbrk",
+        "brk, brp, brk",
+        "3-st br inc"
+      ],
+      "alternate_names": [
+        "brioche knit brioche purl brioche knit",
+        "brioche 3-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche knit, brioche purl, brioche knit into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brkbrpbrk into one st"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche knit into the stitch",
+        "Work a brioche purl into the same stitch",
+        "Work a second brioche knit into the same stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brkyobrk",
+        "centered_increase",
+        "centered_purl_increase"
+      ],
+      "ws_equivalent": "brp_brk_brp"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "double_increase"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "br4st_inc",
+    "canonical_name": "BR4ST INC",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-5 brioche increase worked as brioche knit, yarn over, brioche knit, yarn over, brioche knit into one stitch. Brioche references also describe this as BRKYO BRKYO BRK or a 4-stitch brioche increase.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 5,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "br4st inc",
+        "BR4ST INC",
+        "4st br inc",
+        "brkyobrkyobrk",
+        "brk, yo, brk, yo, brk",
+        "5-st br inc",
+        "4ST BR INC",
+        "BRKYOBRKYOBRK",
+        "5-st brioche inc",
+        "brioche 5-st inc"
+      ],
+      "alternate_names": [
+        "brioche 4-stitch increase",
+        "brioche 1-to-5 increase",
+        "brioche knit yarn over brioche knit yarn over brioche knit"
+      ],
+      "written_forms": [
+        "work brioche knit, yarn over, brioche knit, yarn over, brioche knit into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brk, yo, brk, yo, brk"
+        ],
+        "stitchfiddle": [
+          "br4st inc"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche knit into the stitch without dropping it",
+        "Yarn over",
+        "Work another brioche knit into the same stitch",
+        "Yarn over again",
+        "Work a third brioche knit into the same stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brkyobrk",
+        "brk_brp_brk_brp_brk"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "multi_increase"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brk_brp_brk_brp_brk",
+    "canonical_name": "BRK/BRP/BRK/BRP/BRK",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-5 brioche increase worked as brioche knit, brioche purl, brioche knit, brioche purl, brioche knit into one stitch. StitchMastery lists this separately from the yarn-over-centered 1-to-5 brioche increase, so it should remain a distinct exact operation.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 5,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk/brp/brk/brp/brk",
+        "BRK/BRP/BRK/BRP/BRK",
+        "brkbrpbrkbrpbrk",
+        "brk, brp, brk, brp, brk"
+      ],
+      "alternate_names": [
+        "brioche knit brioche purl brioche knit brioche purl brioche knit",
+        "brioche 5-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche knit, brioche purl, brioche knit, brioche purl, brioche knit into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brk, brp, brk, brp, brk"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche knit into the stitch",
+        "Work a brioche purl into the same stitch",
+        "Work another brioche knit into the same stitch",
+        "Work another brioche purl into the same stitch",
+        "Work a final brioche knit into the same stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "brk_brp_brk",
+        "br4st_inc",
+        "centered_purl_increase"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "multi_increase"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brk_tbl",
+    "canonical_name": "BRK Through Back Loop",
+    "category": "brioche",
+    "subcategory": "basic_brioche",
+    "semantic_description": "A brioche knit worked through the back loop or in a twisted orientation. StitchMastery distinguishes BRK tbl from an ordinary BRK, so it should be modeled as a separate brioche variant rather than grouped under plain brioche knit.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brk tbl",
+        "BRK tbl",
+        "brktbl",
+        "brioche knit tbl"
+      ],
+      "alternate_names": [
+        "brioche knit through back loop",
+        "twisted brioche knit"
+      ],
+      "written_forms": [
+        "work the brioche knit through the back loop"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brk tbl"
+        ],
+        "nancy_marchant": [
+          "brk tbl"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle through the brioche stitch and its paired yarn over in the back-loop orientation",
+        "Knit them together through the back loop"
+      ]
+    },
+    "relationships": {
+      "variant_of": "brk",
+      "similar": [
+        "brp_tbl",
+        "knit_tbl"
+      ],
+      "ws_equivalent": "brp_tbl"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "worked_tbl",
+      "twisted"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brp_tbl",
+    "canonical_name": "BRP Through Back Loop",
+    "category": "brioche",
+    "subcategory": "basic_brioche",
+    "semantic_description": "A brioche purl worked through the back loop or in a twisted orientation. StitchMastery distinguishes BRP tbl from ordinary BRP, making it a separate brioche variant.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brp tbl",
+        "BRP tbl",
+        "brptbl",
+        "brioche purl tbl"
+      ],
+      "alternate_names": [
+        "brioche purl through back loop",
+        "twisted brioche purl"
+      ],
+      "written_forms": [
+        "work the brioche purl through the back loop"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brp tbl"
+        ],
+        "nancy_marchant": [
+          "brp tbl"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Insert the needle through the brioche stitch and its paired yarn over in the back-loop orientation",
+        "Purl them together through the back loop"
+      ]
+    },
+    "relationships": {
+      "variant_of": "brp",
+      "similar": [
+        "brk_tbl",
+        "purl_tbl"
+      ],
+      "ws_equivalent": "brk_tbl"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "worked_tbl",
+      "twisted"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brpyobrp",
+    "canonical_name": "BRPYOBRP",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-3 brioche increase worked on the purl side as brioche purl, yarn over, brioche purl into one stitch. The purl-side mirror of BRKYOBRK. Used in reversible brioche patterns to create symmetric increases on both faces of the fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brpyobrp",
+        "BRPYOBRP",
+        "brp-yo-brp"
+      ],
+      "alternate_names": [
+        "brioche purl yarn over brioche purl",
+        "brioche 1-to-3 purl increase"
+      ],
+      "written_forms": [
+        "work brioche purl, yarn over, brioche purl into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brp, yo, brp"
+        ],
+        "nancy_marchant": [
+          "brpyobrp"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche purl into the stitch without dropping it",
+        "Yarn over",
+        "Work another brioche purl into the same stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brkyobrk",
+      "similar": [
+        "brp_brk_brp",
+        "brkyobrk"
+      ],
+      "ws_equivalent": "brkyobrk"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "double_increase",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "brp_brk_brp",
+    "canonical_name": "BRP/BRK/BRP",
+    "category": "brioche",
+    "subcategory": "brioche_increase",
+    "semantic_description": "A centered 1-to-3 brioche increase worked on the purl side as brioche purl, brioche knit, brioche purl into one stitch. The purl-side mirror of BRK/BRP/BRK. Used in reversible brioche for symmetric increase pairs across both faces.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 3,
+      "lean": "center"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "brp/brk/brp",
+        "BRP/BRK/BRP",
+        "brpbrkbrp"
+      ],
+      "alternate_names": [
+        "brioche purl brioche knit brioche purl",
+        "brioche purl-side 3-stitch increase"
+      ],
+      "written_forms": [
+        "work brioche purl, brioche knit, brioche purl into one stitch"
+      ],
+      "source_specific": {
+        "stitchmastery": [
+          "brioche - brp, brk, brp"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Work a brioche purl into the stitch",
+        "Work a brioche knit into the same stitch",
+        "Work a second brioche purl into the same stitch"
+      ]
+    },
+    "relationships": {
+      "mirror": "brk_brp_brk",
+      "similar": [
+        "brpyobrp",
+        "brkyobrk"
+      ],
+      "ws_equivalent": "brk_brp_brk"
+    },
+    "tags": [
+      "brioche",
+      "advanced",
+      "increase",
+      "centered",
+      "double_increase",
+      "purl_side"
+    ],
+    "difficulty": "advanced"
+  }
+]

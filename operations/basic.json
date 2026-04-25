@@ -1,0 +1,672 @@
+[
+  {
+    "id": "knit",
+    "canonical_name": "Knit",
+    "category": "basic",
+    "subcategory": "foundation",
+    "semantic_description": "The fundamental knitting stitch. Inserts the needle through the front of a loop from left to right and pulls new yarn through. Produces a smooth V-shaped stitch on the right side and a bump on the wrong side. The building block of stockinette fabric.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k",
+        "K",
+        "k1",
+        "K1",
+        "kn",
+        "knit 1",
+        "K knit"
+      ],
+      "alternate_names": [
+        "knit stitch",
+        "plain stitch",
+        "plain knit"
+      ],
+      "written_forms": [
+        "knit the next stitch",
+        "knit one",
+        "knit 1"
+      ],
+      "source_specific": {
+        "british": [
+          "plain"
+        ],
+        "german_english": [
+          "knit stitch (rechte Masche)"
+        ],
+        "colorwork_convention": [
+          "empty cell = knit"
+        ]
+      },
+      "ambiguity_notes": [
+        "In some stitch dictionaries and older British patterns, 'K' means 'work in stockinette' (knit on RS, purl on WS), not strictly 'knit'. Context determines whether K means the specific action or the pattern stitch."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into front of next stitch on left needle, from left to right",
+        "Wrap working yarn counterclockwise around right needle",
+        "Pull new loop through the stitch",
+        "Slide old stitch off left needle"
+      ],
+      "ws": [
+        "Produces a purl bump on the RS. The physical action is the same as on RS."
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "purl",
+      "similar": [
+        "knit_tbl"
+      ]
+    },
+    "tags": [
+      "foundation",
+      "basic",
+      "stockinette",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "purl",
+    "canonical_name": "Purl",
+    "category": "basic",
+    "subcategory": "foundation",
+    "semantic_description": "The reverse of a knit stitch. Inserts the needle through the front of the loop from right to left and pulls yarn through from back to front. Produces a bump on the facing side and a smooth V on the reverse. Combined with knit to create ribbing, seed stitch, and textured patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "p",
+        "P",
+        "p1",
+        "P1",
+        "pn",
+        "purl 1",
+        "pw",
+        "P purl",
+        "purl"
+      ],
+      "alternate_names": [
+        "purl stitch",
+        "reverse stitch"
+      ],
+      "written_forms": [
+        "purl the next stitch",
+        "purl one",
+        "purl 1"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "seam stitch"
+        ],
+        "german_english": [
+          "purl stitch (linke Masche)"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle into front of next stitch from right to left",
+        "Wrap working yarn counterclockwise around right needle",
+        "Pull new loop through the stitch toward the back",
+        "Slide old stitch off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "knit",
+      "similar": [
+        "purl_tbl"
+      ]
+    },
+    "tags": [
+      "foundation",
+      "basic",
+      "stockinette",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "knit_tbl",
+    "canonical_name": "Knit Through Back Loop",
+    "category": "basic",
+    "subcategory": "twisted",
+    "semantic_description": "A knit stitch worked through the back loop instead of the front, which twists the stitch. The resulting stitch sits twisted on the needle with legs crossed, creating a tighter, more defined stitch with a slightly different texture. Used decoratively in twisted rib and as a structural element in some lace patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "ktbl",
+        "k-tbl",
+        "k1tbl",
+        "k1-tbl",
+        "k tbl",
+        "tw",
+        "KB",
+        "k-b"
+      ],
+      "alternate_names": [
+        "knit through back loop",
+        "twisted knit",
+        "knit back loop",
+        "knit through back of loop",
+        "crossed knit stitch"
+      ],
+      "written_forms": [
+        "knit the next stitch through the back loop",
+        "knit one through back loop",
+        "knit into the back of the next stitch"
+      ],
+      "source_specific": {
+        "japanese_english": [
+          "twisted knit stitch"
+        ],
+        "german_english": [
+          "knit twisted (rechts verschr\u00e4nkt)"
+        ],
+        "german": [
+          "rechts verschr\u00e4nkt"
+        ]
+      },
+      "ambiguity_notes": [
+        "'tw' is used by some publishers (especially UK/German) to mean twisted knit, but can collide with 'twist' in cable contexts. 'KB' used by some older US patterns for knit through back loop.",
+        "'tbl' alone is ambiguous \u2014 some patterns use it for both ktbl and ptbl. Always check context to determine whether it modifies a knit or purl.",
+        "In combination-style knitting (Eastern European, some self-taught), stitches sit on the needle differently. What constitutes 'back loop' depends on the knitter's mount style."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into the back leg of the next stitch (behind the left needle, from right to left)",
+        "Wrap working yarn counterclockwise around right needle",
+        "Pull new loop through",
+        "Slide old stitch off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "purl_tbl",
+      "similar": [
+        "knit"
+      ],
+      "variant_of": "knit"
+    },
+    "tags": [
+      "foundation",
+      "basic",
+      "twisted",
+      "texture"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "purl_tbl",
+    "canonical_name": "Purl Through Back Loop",
+    "category": "basic",
+    "subcategory": "twisted",
+    "semantic_description": "A purl stitch worked through the back loop, producing a twisted stitch on the reverse. The WS equivalent of knit-tbl. Creates the same twisted stitch appearance as ktbl when viewed from the right side.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "ptbl",
+        "p-tbl",
+        "p1tbl",
+        "p1-tbl",
+        "p tbl",
+        "tw p",
+        "PB",
+        "p-b"
+      ],
+      "alternate_names": [
+        "purl through back loop",
+        "twisted purl",
+        "purl back loop",
+        "purl through back of loop",
+        "crossed purl stitch"
+      ],
+      "written_forms": [
+        "purl the next stitch through the back loop",
+        "purl one through back loop",
+        "purl into the back of the next stitch"
+      ],
+      "source_specific": {
+        "german_english": [
+          "purl twisted (links verschr\u00e4nkt)"
+        ]
+      },
+      "ambiguity_notes": [
+        "'PB' can mean purl back loop or place bead depending on publisher. Always verify with legend."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "With yarn in front, insert right needle into the back leg of the next stitch from left to right (behind the work)",
+        "Wrap working yarn counterclockwise around right needle",
+        "Pull new loop through toward the back",
+        "Slide old stitch off left needle"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "knit_tbl",
+      "similar": [
+        "purl"
+      ],
+      "variant_of": "purl"
+    },
+    "tags": [
+      "foundation",
+      "basic",
+      "twisted",
+      "texture"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "yarn_over",
+    "canonical_name": "Yarn Over",
+    "category": "yarn_over",
+    "subcategory": "single",
+    "semantic_description": "Creates a new stitch by wrapping the yarn over the needle without consuming an existing stitch. Produces a decorative eyelet hole in the fabric. The most common increase in lace knitting, almost always paired with a corresponding decrease to maintain stitch count. The hole is the feature, not a defect.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "yo",
+        "YO",
+        "yon",
+        "yrn",
+        "yarn over",
+        "y/o",
+        "y.o.",
+        "yfwd",
+        "yf",
+        "yfon",
+        "yo1",
+        "o"
+      ],
+      "alternate_names": [
+        "yarn over",
+        "yarn forward",
+        "yarn over needle",
+        "wool forward",
+        "wool over needle",
+        "wool round needle",
+        "yarn round needle",
+        "yfwd",
+        "yf"
+      ],
+      "written_forms": [
+        "yarn over",
+        "bring yarn to front, then over needle",
+        "wrap yarn over the right needle"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "wf",
+          "wfwd",
+          "wool forward",
+          "yfwd",
+          "yon",
+          "yrn"
+        ],
+        "drops": [
+          "YO"
+        ],
+        "norwegian": [
+          "omslag",
+          "o"
+        ],
+        "swedish": [
+          "omslag"
+        ],
+        "german": [
+          "U",
+          "Umschlag"
+        ],
+        "cyc": [
+          "yo",
+          "yon",
+          "yrn"
+        ]
+      },
+      "ambiguity_notes": [
+        "'yfwd' and 'yf' are UK/Australian terms for yarn forward (equivalent to US yarn over between two knit stitches). 'yon' (yarn over needle) and 'yrn' (yarn round needle) are UK variants covering different stitch contexts. 'o' is used in some continental/chart-only traditions. 'm' is rare and can collide with marker instructions.",
+        "'yon' (yarn over needle) and 'yrn' (yarn round needle) are British terms that technically describe different yarn movements depending on what precedes them (knit vs purl), but all produce a yarn over.",
+        "'yf' and 'yfwd' (yarn forward) in British patterns sometimes means just bring yarn to front (for a slip stitch) rather than a full yarn over. Context is critical \u2014 if it precedes a knit stitch, it is a yarn over; if it precedes a slip, it is a yarn position change.",
+        "In patterns between two purl stitches, 'yrn' wraps the yarn completely around the needle to return to purl position. The result is still one new stitch."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Bring working yarn to front of work (between needles)",
+        "Lay yarn over the right needle from front to back",
+        "Continue to next stitch \u2014 the wrap sits on the needle as a new stitch"
+      ],
+      "ws": [
+        "Bring working yarn to back of work",
+        "Wrap yarn over right needle from back to front",
+        "Continue to next stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "yarn_over_twisted"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "lace",
+      "increase",
+      "eyelet",
+      "basic",
+      "universal"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "double_yarn_over",
+    "canonical_name": "Double Yarn Over",
+    "category": "yarn_over",
+    "subcategory": "double",
+    "semantic_description": "Wraps the yarn around the needle twice, creating two new stitches and a larger decorative hole. On the following row, the two wraps are typically worked as knit-one-purl-one (or purl-one-knit-one) to secure both loops. Creates a larger eyelet than a single yarn over. Common in lace and drop-stitch patterns.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 2,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "yo2",
+        "yo x2",
+        "yo twice",
+        "dyo",
+        "(yo) twice",
+        "(yo) 2 times",
+        "2 yo",
+        "double yo"
+      ],
+      "alternate_names": [
+        "double yarn over",
+        "yarn over twice",
+        "double wrap",
+        "wrap twice"
+      ],
+      "written_forms": [
+        "yarn over twice",
+        "wrap yarn around needle twice",
+        "double yarn over"
+      ],
+      "ambiguity_notes": [
+        "Some patterns chart a double yarn over as a single cell and expect the knitter to know it produces 2 stitches. Others show it as 2 cells. Check stitch count to determine which convention the pattern uses."
+      ],
+      "source_specific": {
+        "cyc": [
+          "yo2",
+          "yo x2",
+          "yo twice"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Wrap yarn over right needle once (front to back)",
+        "Wrap yarn over right needle a second time (front to back)",
+        "Two loops now sit on the right needle"
+      ]
+    },
+    "relationships": {
+      "variant_of": "yarn_over",
+      "ws_equivalent": null
+    },
+    "tags": [
+      "lace",
+      "increase",
+      "eyelet",
+      "intermediate",
+      "drop_stitch"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "yarn_over_twisted",
+    "canonical_name": "Twisted Yarn Over",
+    "category": "yarn_over",
+    "subcategory": "twisted",
+    "semantic_description": "A yarn over that is deliberately worked twisted on the following row (through the back loop) to close the eyelet hole. Produces a new stitch like a standard yarn over but with a tighter, less visible hole. Used when the increase is structural rather than decorative.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none",
+      "worked_tbl": true
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "yo-tbl",
+        "yo-twist",
+        "twisted yo",
+        "tyo"
+      ],
+      "alternate_names": [
+        "twisted yarn over",
+        "closed yarn over"
+      ],
+      "written_forms": [
+        "yarn over, then on next row work through back loop",
+        "yarn over twisted"
+      ],
+      "ambiguity_notes": [
+        "No universally standard abbreviation. 'yo-tbl' is the most descriptive and unambiguous. Some Haapsalu/Estonian lace charts use a specific symbol with no standard text abbreviation."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Work a standard yarn over",
+        "On the following row, work this stitch through the back loop to twist it closed"
+      ]
+    },
+    "relationships": {
+      "variant_of": "yarn_over",
+      "similar": [
+        "yarn_over"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "lace",
+      "increase",
+      "twisted",
+      "intermediate"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "k1_wrap2",
+    "canonical_name": "Knit 1 Wrapping Yarn Twice",
+    "category": "basic",
+    "subcategory": "elongated",
+    "semantic_description": "Knits one stitch while wrapping the yarn around the needle twice instead of once. On the following row, the extra wrap is dropped, creating an elongated stitch. The stitch count does not change \u2014 the extra wrap is temporary. Used for drop-stitch patterns and elongated stitch textures.",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "k1w2",
+        "k-wrap2",
+        "k1 wt",
+        "k-elong",
+        "k1 w2",
+        "elongated k",
+        "k1(w2)",
+        "k1 wrapping yarn twice"
+      ],
+      "alternate_names": [
+        "knit wrapping twice",
+        "elongated knit",
+        "knit with double wrap"
+      ],
+      "written_forms": [
+        "knit the next stitch, wrapping yarn around needle twice",
+        "knit 1 wrapping yarn twice around needle"
+      ],
+      "ambiguity_notes": [
+        "'k1 wt' (knit 1 wrapping twice) can be confused with 'knit 1 with twist' in some older patterns. No CYC standard \u2014 use descriptive form in legends."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Insert right needle into next stitch knitwise",
+        "Wrap yarn around right needle twice (instead of once)",
+        "Pull both wraps through the stitch",
+        "Slide old stitch off \u2014 two loops on right needle for this stitch",
+        "On the following row, drop the extra wrap to elongate the stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "knit"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "texture",
+      "drop_stitch",
+      "elongated",
+      "intermediate"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "garter_stitch",
+    "canonical_name": "Garter Stitch",
+    "category": "basic",
+    "subcategory": "pattern_stitch",
+    "semantic_description": "A pattern stitch, not a single operation \u2014 knit every row in flat knitting, or alternate knit and purl rounds in circular knitting. Produces a reversible fabric with horizontal ridges. Included here because charts sometimes use a single symbol to represent 'work in garter stitch' at a given position, meaning knit on RS and knit on WS (unlike stockinette where RS=knit, WS=purl).",
+    "stitch_manipulation": {
+      "stitches_in": 1,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "g st",
+        "garter",
+        "gst",
+        "G",
+        "gs"
+      ],
+      "alternate_names": [
+        "garter stitch",
+        "garter",
+        "ridge stitch"
+      ],
+      "written_forms": [
+        "knit every row",
+        "work in garter stitch"
+      ],
+      "source_specific": {
+        "british": [
+          "plain knitting"
+        ],
+        "german": [
+          "kraus rechts"
+        ]
+      },
+      "ambiguity_notes": [
+        "'g st' is the CYC-style abbreviation. In chart cells garter is typically shown as a dash or knit symbol on RS with a note; rarely abbreviated in chart legends per se."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Knit the stitch"
+      ],
+      "ws": [
+        "Knit the stitch (same action as RS \u2014 this is what makes it garter)"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "knit"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "foundation",
+      "basic",
+      "reversible",
+      "pattern_stitch"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "backward_yarn_over",
+    "canonical_name": "Backward Yarn Over",
+    "category": "basic",
+    "subcategory": "yarn_over_variant",
+    "semantic_description": "A yarn-over wrapped in the opposite direction from the standard yo. Passes the yarn over the right needle from back to front (rather than front to back), producing a twisted eyelet when knit on the next row. CYC-standard abbreviation 'byo'. Used to create a closed/tight eyelet or to balance stitch mounts after certain decreases.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "byo",
+        "BYO"
+      ],
+      "alternate_names": [
+        "backward yarn over",
+        "back yarn over",
+        "reverse yarn over"
+      ],
+      "written_forms": [
+        "wrap yarn over the right needle from back to front"
+      ],
+      "ambiguity_notes": [
+        "CYC-standard abbreviation. Produces a twisted eyelet if knit normally on the following row."
+      ],
+      "source_specific": {
+        "cyc": [
+          "byo"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Bring yarn to the front of work",
+        "Pass yarn over the right needle from back to front, ending with yarn in back"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "yarn_over"
+      ],
+      "ws_equivalent": null
+    },
+    "tags": [
+      "basic",
+      "yarn_over",
+      "twisted",
+      "eyelet"
+    ],
+    "difficulty": "basic"
+  }
+]

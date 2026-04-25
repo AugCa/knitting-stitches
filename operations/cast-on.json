@@ -1,0 +1,532 @@
+[
+  {
+    "id": "long_tail_co",
+    "canonical_name": "Long-Tail Cast On",
+    "category": "cast_on",
+    "subcategory": "standard",
+    "semantic_description": "The most common cast-on method for general knitting. Uses a tail of yarn and the working yarn simultaneously to create stitches. Produces a firm, elastic edge that counts as the first row. Each cast-on stitch is a new stitch created on the needle. The length of tail needed is approximately 3x the desired edge width.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "CO",
+        "co",
+        "cast on",
+        "LTCO",
+        "long-tail CO",
+        "LT CO",
+        "thumb CO",
+        "two-finger CO"
+      ],
+      "alternate_names": [
+        "long-tail cast on",
+        "continental cast on",
+        "two-strand cast on",
+        "slingshot cast on",
+        "thumb cast on",
+        "two-finger cast on",
+        "slingshot cast on method"
+      ],
+      "written_forms": [
+        "cast on using the long-tail method",
+        "CO: make a slip knot, hold yarn in slingshot position, wrap and pull through",
+        "cast on using the slingshot method",
+        "thumb cast on: make slingshot with yarn, cast on"
+      ],
+      "source_specific": {
+        "british_vintage": [
+          "cast on using two needle method",
+          "thumb method"
+        ],
+        "german_english": [
+          "Kreuzanschlag (cross cast on)"
+        ],
+        "marchant": [
+          "long-tail cast on"
+        ],
+        "cyc": [
+          "CO",
+          "co"
+        ]
+      },
+      "ambiguity_notes": [
+        "'CO' is the CYC standard for cast on (any method). When a pattern specifies long-tail, 'LTCO' or 'long-tail CO' is more precise. In most chart contexts just 'CO' is used."
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Make a slip knot and place on needle (counts as first stitch)",
+        "Hold tail over thumb and working yarn over index finger (slingshot position)",
+        "Insert needle under the thumb yarn (from front), then over and around the index yarn",
+        "Pull through the thumb loop",
+        "Tighten \u2014 one stitch cast on"
+      ],
+      "tools": [
+        "single needle"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cable_co",
+        "knitted_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cast_on",
+      "basic",
+      "standard",
+      "universal",
+      "elastic"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "cable_co",
+    "canonical_name": "Cable Cast On",
+    "category": "cast_on",
+    "subcategory": "standard",
+    "semantic_description": "A sturdy cast-on that uses two needles. After the first two stitches are created, each subsequent stitch is made by inserting the needle BETWEEN the last two stitches, knitting, and placing the new stitch on the left needle. Produces a firm, rope-like edge. Good for button bands and other firm edges. Also used to cast on stitches mid-row (e.g., for buttonholes).",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "cable CO",
+        "cable cast on",
+        "cable CO X sts"
+      ],
+      "alternate_names": [
+        "cable cast on",
+        "two-needle cast on",
+        "cable cast on (mid-row)"
+      ],
+      "written_forms": [
+        "insert needle between the last 2 stitches on left needle, wrap yarn, pull through, place new stitch on left needle",
+        "cable cast on: knit between stitches and transfer",
+        "cable CO X sts: insert needle between last 2 sts, CO additional stitches using cable method"
+      ],
+      "source_specific": {
+        "cocoknits": [
+          "cable cast-on"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Make a slip knot on left needle",
+        "Knit into it, place new stitch on left needle (2 stitches)",
+        "For each subsequent stitch: insert right needle BETWEEN the last 2 stitches on left needle",
+        "Wrap yarn, pull through, place new stitch on left needle"
+      ],
+      "tools": [
+        "two needles"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "long_tail_co",
+        "knitted_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cast_on",
+      "basic",
+      "firm",
+      "mid_row"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "knitted_co",
+    "canonical_name": "Knitted Cast On",
+    "category": "cast_on",
+    "subcategory": "standard",
+    "semantic_description": "A beginner-friendly cast-on using two needles. Each new stitch is created by knitting into the last stitch on the left needle and transferring the new stitch back to the left needle. Simpler than cable cast-on (needle goes INTO the stitch, not between stitches). Produces a looser, stretchier edge.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "knitted CO",
+        "knit CO",
+        "kCO"
+      ],
+      "alternate_names": [
+        "knitted cast on",
+        "knit-on cast on"
+      ],
+      "written_forms": [
+        "knit into the last stitch on left needle, place new stitch back on left needle",
+        "knitted cast on: knit each stitch and transfer back"
+      ]
+    },
+    "execution": {
+      "rs": [
+        "Make a slip knot on left needle",
+        "Knit into the slip knot, place new stitch on left needle",
+        "Knit into the new stitch just placed, transfer back to left needle",
+        "Repeat for each stitch"
+      ]
+    },
+    "relationships": {
+      "similar": [
+        "cable_co",
+        "long_tail_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cast_on",
+      "basic",
+      "beginner",
+      "loose"
+    ],
+    "difficulty": "basic"
+  },
+  {
+    "id": "provisional_co",
+    "canonical_name": "Provisional Cast On",
+    "category": "cast_on",
+    "subcategory": "provisional",
+    "semantic_description": "A temporary cast-on using waste yarn that can be removed later to expose live stitches. The live stitches can then be picked up and knit in the opposite direction, grafted, or joined. Essential for seamless construction, toe-up socks, and any situation where both ends of a piece need live stitches. Multiple methods exist (crochet chain, invisible, Turkish) but the concept is the same: a removable foundation.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "provisional CO",
+        "prov CO",
+        "waste yarn CO",
+        "open CO",
+        "crochet prov CO"
+      ],
+      "alternate_names": [
+        "provisional cast on",
+        "temporary cast on",
+        "invisible cast on",
+        "open cast on",
+        "crochet provisional cast on",
+        "crochet chain provisional"
+      ],
+      "written_forms": [
+        "using waste yarn, crochet a chain, then pick up stitches through the back bumps",
+        "provisional cast on: cast on with waste yarn, to be removed later",
+        "crochet chain provisional CO: chain with waste yarn, pick up through back bumps with project yarn",
+        "open CO: cast on with waste yarn crochet chain to leave live stitches"
+      ],
+      "source_specific": {
+        "ez": [
+          "string cast on"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "With waste yarn, crochet a chain slightly longer than needed stitches",
+        "Using project yarn, pick up and knit one stitch through each back bump of the chain",
+        "Later: unzip the crochet chain to reveal live stitches"
+      ],
+      "tools": [
+        "waste yarn",
+        "crochet hook"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cast_on",
+      "intermediate",
+      "provisional",
+      "seamless_construction"
+    ],
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "tubular_co",
+    "canonical_name": "Tubular Cast On",
+    "category": "cast_on",
+    "subcategory": "ribbing",
+    "semantic_description": "A specialty cast-on that produces a rounded, folded edge ideal for 1x1 or 2x2 ribbing. The edge looks like the ribbing emerges from a fold rather than having a visible cast-on row. Works by casting on in stockinette for a few setup rows, then separating the stitches into rib pattern. Produces the most professional-looking ribbing edge but is more complex to execute.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "tubular CO",
+        "Italian CO",
+        "invisible CO"
+      ],
+      "alternate_names": [
+        "tubular cast on",
+        "Italian cast on",
+        "invisible ribbed cast on",
+        "Channel Island CO",
+        "double-start CO",
+        "invisible ribbed CO"
+      ],
+      "written_forms": [
+        "work tubular cast on for 1x1 ribbing",
+        "Italian cast on: provisional CO, work stockinette setup rows, then separate into ribbing"
+      ],
+      "source_specific": {
+        "marchant": [
+          "tubular cast on for brioche ribbing"
+        ]
+      }
+    },
+    "execution": {
+      "rs": [
+        "Using waste yarn, work a provisional cast on for half the needed stitches",
+        "Work 2-4 rows of stockinette with project yarn",
+        "On the setup row: alternate between knitting from the needle and picking up from the purl bumps below to establish the rib pattern"
+      ]
+    },
+    "relationships": {
+      "ws_equivalent": "rs_only"
+    },
+    "tags": [
+      "cast_on",
+      "advanced",
+      "ribbing",
+      "polished_finish"
+    ],
+    "difficulty": "advanced"
+  },
+  {
+    "id": "german_twisted_co",
+    "canonical_name": "German Twisted Cast On",
+    "category": "cast_on",
+    "subcategory": "standard",
+    "semantic_description": "A variant of the long-tail cast-on in which the thumb loop is twisted before the needle passes through it, creating a twisted stitch at the base of each cast-on stitch. Produces a firmer, more elastic edge than the standard long-tail, with a decorative twisted row at the foundation. Used in German tradition and common in sock knitting and colorwork.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "german twisted CO",
+        "old Norwegian CO",
+        "TW CO",
+        "twisted CO",
+        "GTCO"
+      ],
+      "alternate_names": [
+        "German twisted cast on",
+        "old Norwegian cast on",
+        "twisted long-tail cast on",
+        "Bavarian cast on"
+      ],
+      "written_forms": [
+        "cast on using German twisted method: long-tail position, insert needle through the back of the thumb loop",
+        "old Norwegian CO: slingshot position, enter thumb loop from below and behind"
+      ],
+      "source_specific": {
+        "westknits": [
+          "german twisted cast on"
+        ],
+        "german_english": [
+          "Kreuzanschlag (twisted cross cast on)",
+          "gedrehter Anschlag"
+        ],
+        "sock_architecture": [
+          "german twisted cast on"
+        ]
+      },
+      "ambiguity_notes": [
+        "'TW CO' can be confused with 'two-way cast on' in some patterns. 'GTCO' (German twisted cast on) is descriptive and unambiguous."
+      ]
+    },
+    "tags": [
+      "cast_on",
+      "intermediate",
+      "elastic",
+      "sock",
+      "colorwork"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "long_tail_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "cast on using German twisted method: long-tail position, insert needle through the back of the thumb loop",
+        "old Norwegian CO: slingshot position, enter thumb loop from below and behind"
+      ]
+    }
+  },
+  {
+    "id": "judys_magic_co",
+    "canonical_name": "Judy's Magic Cast On",
+    "category": "cast_on",
+    "subcategory": "two_needle",
+    "semantic_description": "A cast-on technique by Judy Becker that simultaneously places stitches on two parallel needles (or two ends of a circular needle), creating live stitches on both needles with no seam at the cast-on point. Essential for toe-up sock construction and any project where stitches must emerge from a central point in both directions. The working yarn wraps around both needle tips in alternating directions.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Judy's magic CO",
+        "JMCO",
+        "magic CO",
+        "judy's magic cast on"
+      ],
+      "alternate_names": [
+        "Judy's magic cast on",
+        "Judy Becker magic cast on",
+        "magic cast on"
+      ],
+      "written_forms": [
+        "using Judy's Magic Cast On, CO X sts to each needle",
+        "JMCO: alternate stitches onto two needle tips using both strands"
+      ],
+      "source_specific": {
+        "sock_architecture": [
+          "Judy's Magic Cast On"
+        ],
+        "knitty": [
+          "Judy's Magic Cast On"
+        ]
+      }
+    },
+    "tags": [
+      "cast_on",
+      "intermediate",
+      "toe_up",
+      "sock",
+      "two_needle"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "turkish_co",
+        "figure8_co",
+        "provisional_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "using Judy's Magic Cast On, CO X sts to each needle",
+        "JMCO: alternate stitches onto two needle tips using both strands"
+      ]
+    }
+  },
+  {
+    "id": "turkish_co",
+    "canonical_name": "Turkish Cast On",
+    "category": "cast_on",
+    "subcategory": "two_needle",
+    "semantic_description": "A two-needle cast-on for toe-up sock construction. Wraps yarn around both needles multiple times, then works through the loops on each needle to create live stitches on both. Similar in application to Judy's Magic Cast On but mechanically distinct. Used when working the toe of a sock in both directions.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "Turkish CO",
+        "Eastern CO",
+        "Turkish cast on"
+      ],
+      "alternate_names": [
+        "Turkish cast on",
+        "Eastern cast on"
+      ],
+      "written_forms": [
+        "wrap yarn around both needles X times, then knit through loops on each needle",
+        "Turkish CO: figure-eight wrap across two needles"
+      ]
+    },
+    "tags": [
+      "cast_on",
+      "intermediate",
+      "toe_up",
+      "sock",
+      "two_needle"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "judys_magic_co",
+        "figure8_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "wrap yarn around both needles X times, then knit through loops on each needle",
+        "Turkish CO: figure-eight wrap across two needles"
+      ]
+    }
+  },
+  {
+    "id": "figure8_co",
+    "canonical_name": "Figure-8 Cast On",
+    "category": "cast_on",
+    "subcategory": "two_needle",
+    "semantic_description": "A cast-on that wraps yarn in a figure-8 pattern around two parallel needles. Produces live stitches on both needles for toe-up sock construction. Similar to Turkish CO but the wrapping path traces a figure-8 between the two needle tips.",
+    "stitch_manipulation": {
+      "stitches_in": 0,
+      "stitches_out": 1,
+      "lean": "none"
+    },
+    "surface_forms": {
+      "abbreviations": [
+        "figure-8 CO",
+        "fig 8 CO",
+        "figure 8 CO",
+        "fig-8 CO",
+        "figure 8 cast on"
+      ],
+      "alternate_names": [
+        "figure-8 cast on",
+        "figure eight cast on"
+      ],
+      "written_forms": [
+        "wrap yarn in a figure-8 between two needle tips to cast on toe stitches",
+        "figure-8 CO: alternate wraps around each needle in a figure-8 path"
+      ]
+    },
+    "tags": [
+      "cast_on",
+      "intermediate",
+      "toe_up",
+      "sock",
+      "two_needle"
+    ],
+    "difficulty": "intermediate",
+    "relationships": {
+      "similar": [
+        "turkish_co",
+        "judys_magic_co"
+      ],
+      "ws_equivalent": "rs_only"
+    },
+    "execution": {
+      "rs": [
+        "wrap yarn in a figure-8 between two needle tips to cast on toe stitches",
+        "figure-8 CO: alternate wraps around each needle in a figure-8 path"
+      ]
+    }
+  }
+]
