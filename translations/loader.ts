@@ -3,22 +3,22 @@
  *
  * Usage:
  *
- *   import { getDefaultRegistry } from "knitting-operations";
- *   import { loadTranslations, mergeTranslations } from "knitting-operations/translations/loader";
+ *   import { getDefaultRegistry } from "knitting-stitches";
+ *   import { loadTranslations, mergeTranslations } from "knitting-stitches/translations/loader";
  *
  *   const reg = getDefaultRegistry();
  *   const de = loadTranslations("de");
- *   const knitInGerman = mergeTranslations(reg.lookupById("knit"), de.operations.knit);
- *   //   → operation with canonical_name + abbreviations + ... replaced by German entries
+ *   const knitInGerman = mergeTranslations(reg.getById("knit"), de.stitches.knit);
+ *   //   → stitch with canonical_name + abbreviations + ... replaced by German entries
  *   //     where the German file provides them; English fields preserved otherwise.
  *
  * Languages currently shipped (most as skeletons awaiting community contribution):
- *   - en (English) — fully populated from operations/*.json
+ *   - en (English) — fully populated from stitches/*.json
  *   - de, fr, ja, es, sv, it — skeleton files, contributions welcome
  */
 
-import type { KnittingOperation } from "../schema";
-import type { LanguageFile, OperationTranslation } from "./schema";
+import type { KnittingStitch } from "../schema";
+import type { LanguageFile, StitchTranslation } from "./schema";
 
 import en from "./en.json";
 import de from "./de.json";
@@ -59,20 +59,20 @@ export function loadTranslations(language: string): LanguageFile {
 }
 
 /**
- * Merge a translation into a base operation. Returns a new operation
+ * Merge a translation into a base stitch. Returns a new stitch
  * with `canonical_name`, `surface_forms.abbreviations`,
  * `surface_forms.alternate_names`, and `surface_forms.written_forms`
  * replaced by the translation entries when provided. All other fields
  * (stitch_manipulation, execution, relationships, etc.) are unchanged.
  *
- * Pass `undefined` for `translation` to get the base operation back
- * unmodified — useful when iterating over many operations and only
+ * Pass `undefined` for `translation` to get the base stitch back
+ * unmodified — useful when iterating over many stitches and only
  * some have translations in the chosen language.
  */
 export function mergeTranslations(
-  base: KnittingOperation,
-  translation: OperationTranslation | undefined,
-): KnittingOperation {
+  base: KnittingStitch,
+  translation: StitchTranslation | undefined,
+): KnittingStitch {
   if (!translation) return base;
   return {
     ...base,

@@ -14,7 +14,7 @@ import type {
   CableGroupStitch,
   CableSequenceTemplate,
   CrossDirection,
-  KnittingOperation,
+  KnittingStitch,
 } from "./schema";
 
 const TWO_GROUP_TWIST_SIZES: [number, number][] = [
@@ -357,7 +357,7 @@ function sequenceTools(template: CableSequenceTemplate): string[] | undefined {
   return undefined;
 }
 
-function sequenceRelationships(template: CableSequenceTemplate): KnittingOperation["relationships"] {
+function sequenceRelationships(template: CableSequenceTemplate): KnittingStitch["relationships"] {
   const mirror: CableSequenceTemplate = {
     ...template,
     groups: [...template.groups],
@@ -366,7 +366,7 @@ function sequenceRelationships(template: CableSequenceTemplate): KnittingOperati
     direction: template.direction === "right" ? "left" : "right",
   };
 
-  const relationships: KnittingOperation["relationships"] = {
+  const relationships: KnittingStitch["relationships"] = {
     mirror: sequenceId(mirror),
   };
 
@@ -401,7 +401,7 @@ function sequenceRelationships(template: CableSequenceTemplate): KnittingOperati
   return relationships;
 }
 
-export function generateSequenceCable(template: CableSequenceTemplate): KnittingOperation {
+export function generateSequenceCable(template: CableSequenceTemplate): KnittingStitch {
   validateTemplate(template);
 
   const family = familyWords(template);
@@ -457,8 +457,8 @@ export function generateSequenceCable(template: CableSequenceTemplate): Knitting
   };
 }
 
-export function generateAllSequenceCables(): KnittingOperation[] {
-  const results: KnittingOperation[] = [];
+export function generateAllSequenceCables(): KnittingStitch[] {
+  const results: KnittingStitch[] = [];
 
   for (const [left, right] of TWO_GROUP_TWIST_SIZES) {
     for (const direction of ["right", "left"] as CrossDirection[]) {

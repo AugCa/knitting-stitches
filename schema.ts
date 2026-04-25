@@ -13,7 +13,7 @@
 
 // ─── Categories ──────────────────────────────────────────────────────────────
 
-export type OperationCategory =
+export type StitchCategory =
   | "basic"       // knit, purl, twisted variants
   | "yarn_over"   // YO and variants (0→N increases via wrapping)
   | "slip"        // slipped stitches (stitch moved, not worked)
@@ -150,7 +150,7 @@ export interface ExecutionRecipe {
 
 // ─── Relationships ───────────────────────────────────────────────────────────
 
-export interface OperationRelationships {
+export interface StitchRelationships {
   /**
    * The operation that produces the mirror-image result.
    * E.g., ssk is the mirror of k2tog (same decrease, opposite lean).
@@ -190,7 +190,7 @@ export interface OperationRelationships {
 
 // ─── The Operation ───────────────────────────────────────────────────────────
 
-export interface KnittingOperation {
+export interface KnittingStitch {
   /** Unique identifier, lowercase with underscores. E.g., "k2tog". */
   id: string;
 
@@ -198,7 +198,7 @@ export interface KnittingOperation {
   canonical_name: string;
 
   /** Primary operation category. */
-  category: OperationCategory;
+  category: StitchCategory;
 
   /** Finer classification within category. E.g., "single_right" in decrease. */
   subcategory?: string;
@@ -224,7 +224,7 @@ export interface KnittingOperation {
   execution: ExecutionRecipe;
 
   /** Connections to related operations. */
-  relationships: OperationRelationships;
+  relationships: StitchRelationships;
 
   /** Searchable tags for filtering and grouping. */
   tags: string[];

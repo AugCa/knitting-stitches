@@ -28,7 +28,7 @@
     "cable-sequence-generator.ts",
     "translations/loader.ts",
     "translations/schema.ts",
-    "operations/**/*.json",
+    "stitches/**/*.json",
     "translations/*.json"
   ],
   "exclude": ["node_modules", "dist", "scripts"]

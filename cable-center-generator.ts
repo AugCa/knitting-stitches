@@ -6,7 +6,7 @@
  * in others.
  */
 
-import type { KnittingOperation } from "./schema";
+import type { KnittingStitch } from "./schema";
 
 const CENTER_CABLE_SIZES: [number, number, number][] = [
   [1, 1, 1],
@@ -136,7 +136,7 @@ function centerExecution(groups: number[]): string[] {
   ];
 }
 
-function centerRelationships(groups: number[]): KnittingOperation["relationships"] {
+function centerRelationships(groups: number[]): KnittingStitch["relationships"] {
   const base = `cable_${groups.join("_")}`;
 
   return {
@@ -144,7 +144,7 @@ function centerRelationships(groups: number[]): KnittingOperation["relationships
   };
 }
 
-export function generateCenterCable(groups: [number, number, number]): KnittingOperation {
+export function generateCenterCable(groups: [number, number, number]): KnittingStitch {
   const total = totalWidth(groups);
   const ratioText = ratio(groups);
 
@@ -189,6 +189,6 @@ export function generateCenterCable(groups: [number, number, number]): KnittingO
   };
 }
 
-export function generateAllCenterCables(): KnittingOperation[] {
+export function generateAllCenterCables(): KnittingStitch[] {
   return CENTER_CABLE_SIZES.map((groups) => generateCenterCable(groups));
 }

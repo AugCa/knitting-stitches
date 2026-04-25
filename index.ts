@@ -1,10 +1,10 @@
 export type {
-  KnittingOperation,
-  OperationCategory,
+  KnittingStitch,
+  StitchCategory,
   StitchManipulation,
   SurfaceForms,
   ExecutionRecipe,
-  OperationRelationships,
+  StitchRelationships,
   Lean,
   CrossDirection,
   CableCrossingStyle,
@@ -13,7 +13,7 @@ export type {
   CableSequenceTemplate,
 } from "./schema";
 
-export { OperationRegistry, getDefaultRegistry, getSearchText } from "./registry";
+export { StitchRegistry, getDefaultRegistry, getSearchText } from "./registry";
 export { generateCable, generateAllStandardCables } from "./cable-generator";
 export { generateSequenceCable, generateAllSequenceCables } from "./cable-sequence-generator";
 export { generateCenterCable, generateAllCenterCables } from "./cable-center-generator";

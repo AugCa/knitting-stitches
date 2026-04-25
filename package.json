@@ -1,7 +1,7 @@
 {
-  "name": "@knitr/knitting-operations",
+  "name": "@knitr/knitting-stitches",
   "version": "0.1.0",
-  "description": "Machine-readable semantic vocabulary of knitting operations: stitch identity, abbreviations, relationships, and translations.",
+  "description": "Machine-readable semantic vocabulary of knitting stitches: stitch identity, abbreviations, relationships, and translations.",
   "private": true,
   "type": "module",
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   },
   "files": [
     "dist/",
-    "operations/",
+    "stitches/",
     "translations/",
     "schema.ts",
     "registry.ts",
@@ -53,7 +53,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/knitr/knitting-operations"
+    "url": "https://github.com/AugCa/knitting-stitches"
   },
   "devDependencies": {
     "tsx": "^4.19.0",

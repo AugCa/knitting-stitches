@@ -3,13 +3,13 @@
  *
  * Cables follow a predictable pattern: (front_count, back_count, direction, purl_cross).
  * Rather than manually defining every combination, this generator produces valid
- * KnittingOperation objects from parameters.
+ * KnittingStitch objects from parameters.
  *
  * The explicit cables in cables.json cover the most common combinations with
  * rich surface forms and ambiguity notes. This generator covers the long tail.
  */
 
-import type { KnittingOperation, CableTemplate, CrossDirection } from "./schema";
+import type { KnittingStitch, CableTemplate, CrossDirection } from "./schema";
 
 function cableId(
   front: number,
@@ -121,7 +121,7 @@ function cableExecutionSteps(t: CableTemplate): string[] {
   ];
 }
 
-export function generateCable(template: CableTemplate): KnittingOperation {
+export function generateCable(template: CableTemplate): KnittingStitch {
   const total = totalWidth(template);
   const dirWord = template.direction === "right" ? "Right" : "Left";
   const pcWord = template.purl_cross ? " Purl" : "";
@@ -194,8 +194,8 @@ export function generateCable(template: CableTemplate): KnittingOperation {
  * Produces standard two-group cables, in both directions,
  * with and without purl cross.
  */
-export function generateAllStandardCables(): KnittingOperation[] {
-  const results: KnittingOperation[] = [];
+export function generateAllStandardCables(): KnittingStitch[] {
+  const results: KnittingStitch[] = [];
   const sizes: [number, number][] = [
     [1, 2], [2, 1],
     [2, 2],

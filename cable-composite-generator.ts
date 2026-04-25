@@ -11,7 +11,7 @@
  *   - decorator placement (left/right)
  */
 
-import type { KnittingOperation } from "./schema";
+import type { KnittingStitch } from "./schema";
 
 const COMPOSITE_CABLE_BASE_OPERATION_IDS = [
   "twist_right",
@@ -73,10 +73,10 @@ export function compositeCableOperationId(
 }
 
 export function generateCompositeCableOperation(
-  baseOperation: KnittingOperation,
-  decoratorOperation: KnittingOperation,
+  baseOperation: KnittingStitch,
+  decoratorOperation: KnittingStitch,
   placement: CompositeCablePlacement
-): KnittingOperation {
+): KnittingStitch {
   const baseOperationId = baseOperation.id;
   const decoratorOperationId = decoratorOperation.id;
   const baseSm = baseOperation.stitch_manipulation;
@@ -143,10 +143,10 @@ export function generateCompositeCableOperation(
 }
 
 export function generateAllCompositeCableOperations(
-  existingOperations: KnittingOperation[]
-): KnittingOperation[] {
+  existingOperations: KnittingStitch[]
+): KnittingStitch[] {
   const byId = new Map(existingOperations.map((operation) => [operation.id, operation]));
-  const generated: KnittingOperation[] = [];
+  const generated: KnittingStitch[] = [];
 
   for (const baseOperationId of COMPOSITE_CABLE_BASE_OPERATION_IDS) {
     const baseOperation = byId.get(baseOperationId);

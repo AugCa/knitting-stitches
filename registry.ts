@@ -11,15 +11,15 @@
  *   - Generate search text for vector embedding
  */
 
-import type { KnittingOperation, OperationCategory } from "./schema";
+import type { KnittingStitch, StitchCategory } from "./schema";
 import { generateAllStandardCables } from "./cable-generator";
 
 /**
- * Coerces JSON-imported operations into the typed `KnittingOperation[]`.
+ * Coerces JSON-imported operations into the typed `KnittingStitch[]`.
  *
  * Why this exists: TypeScript's `resolveJsonModule` infers JSON literals more
  * narrowly than the schema accepts. For example, it widens `category: "decrease"`
- * to `string` (rather than the `OperationCategory` union), and surfaces optional
+ * to `string` (rather than the `StitchCategory` union), and surfaces optional
  * `source_specific` keys as `undefined` values, which doesn't structurally match
  * `Record<string, string[]>`.
  *
@@ -28,8 +28,8 @@ import { generateAllStandardCables } from "./cable-generator";
  * one named, documented place rather than scatter `as unknown as` casts across
  * every JSON import site.
  */
-function loadJsonOperations(data: unknown): KnittingOperation[] {
-  return data as KnittingOperation[];
+function loadJsonStitches(data: unknown): KnittingStitch[] {
+  return data as KnittingStitch[];
 }
 
 import { generateAllSequenceCables } from "./cable-sequence-generator";
@@ -38,35 +38,35 @@ import { generateAllCompositeCableOperations } from "./cable-composite-generator
 
 // ─── JSON imports ────────────────────────────────────────────────────────────
 
-import basicOps from "./operations/basic.json";
-import slippedOps from "./operations/slipped.json";
-import decreaseOps from "./operations/decreases.json";
-import increaseOps from "./operations/increases.json";
-import cableOps from "./operations/cables.json";
-import textureOps from "./operations/texture.json";
-import briocheOps from "./operations/brioche.json";
-import edgeOps from "./operations/edge.json";
-import castOnOps from "./operations/cast-on.json";
-import bindOffOps from "./operations/bind-off.json";
-import compositeOps from "./operations/composite.json";
-import structuralOps from "./operations/structural.json";
-import placeholderOps from "./operations/placeholders.json";
+import basicStitches from "./stitches/basic.json";
+import slippedStitches from "./stitches/slipped.json";
+import decreaseStitches from "./stitches/decreases.json";
+import increaseStitches from "./stitches/increases.json";
+import cableStitches from "./stitches/cables.json";
+import textureStitches from "./stitches/texture.json";
+import briocheStitches from "./stitches/brioche.json";
+import edgeStitches from "./stitches/edge.json";
+import castOnStitches from "./stitches/cast-on.json";
+import bindOffStitches from "./stitches/bind-off.json";
+import compositeStitches from "./stitches/composite.json";
+import structuralStitches from "./stitches/structural.json";
+import placeholderStitches from "./stitches/placeholders.json";
 
 // ─── Registry ────────────────────────────────────────────────────────────────
 
-export class OperationRegistry {
-  private byId: Map<string, KnittingOperation> = new Map();
-  private byAbbreviation: Map<string, KnittingOperation[]> = new Map();
-  private byTag: Map<string, KnittingOperation[]> = new Map();
-  private byCategory: Map<OperationCategory, KnittingOperation[]> = new Map();
+export class StitchRegistry {
+  private byId: Map<string, KnittingStitch> = new Map();
+  private byAbbreviation: Map<string, KnittingStitch[]> = new Map();
+  private byTag: Map<string, KnittingStitch[]> = new Map();
+  private byCategory: Map<StitchCategory, KnittingStitch[]> = new Map();
 
-  constructor(operations: KnittingOperation[]) {
+  constructor(operations: KnittingStitch[]) {
     for (const op of operations) {
       this.register(op);
     }
   }
 
-  private register(op: KnittingOperation): void {
+  private register(op: KnittingStitch): void {
     // ID index (unique)
     if (this.byId.has(op.id)) {
       console.warn(`Duplicate operation ID: ${op.id} — skipping`);
@@ -101,7 +101,7 @@ export class OperationRegistry {
   // ─── Lookups ─────────────────────────────────────────────────────────
 
   /** Get an operation by its unique ID. */
-  getById(id: string): KnittingOperation | undefined {
+  getById(id: string): KnittingStitch | undefined {
     return this.byId.get(id);
   }
 
@@ -110,22 +110,22 @@ export class OperationRegistry {
    * Returns multiple results when the abbreviation is ambiguous
    * (e.g., "m1" matches m1, m1l, m1r).
    */
-  resolveAbbreviation(abbr: string): KnittingOperation[] {
+  resolveAbbreviation(abbr: string): KnittingStitch[] {
     return this.byAbbreviation.get(abbr.toLowerCase().trim()) ?? [];
   }
 
   /** Get all operations with a given tag. */
-  getByTag(tag: string): KnittingOperation[] {
+  getByTag(tag: string): KnittingStitch[] {
     return this.byTag.get(tag) ?? [];
   }
 
   /** Get all operations in a category. */
-  getByCategory(category: OperationCategory): KnittingOperation[] {
+  getByCategory(category: StitchCategory): KnittingStitch[] {
     return this.byCategory.get(category) ?? [];
   }
 
   /** Get all registered operations. */
-  getAll(): KnittingOperation[] {
+  getAll(): KnittingStitch[] {
     return Array.from(this.byId.values());
   }
 
@@ -140,7 +140,7 @@ export class OperationRegistry {
    * Find operations matching a stitch count behavior.
    * E.g., findByStitchCount(2, 1) finds all 2→1 decreases.
    */
-  findByStitchCount(stitchesIn: number, stitchesOut: number): KnittingOperation[] {
+  findByStitchCount(stitchesIn: number, stitchesOut: number): KnittingStitch[] {
     return this.getAll().filter(
       (op) =>
         op.stitch_manipulation.stitches_in === stitchesIn &&
@@ -151,7 +151,7 @@ export class OperationRegistry {
   /**
    * Find operations by lean direction.
    */
-  findByLean(lean: "left" | "right" | "center" | "none"): KnittingOperation[] {
+  findByLean(lean: "left" | "right" | "center" | "none"): KnittingStitch[] {
     return this.getAll().filter(
       (op) => op.stitch_manipulation.lean === lean
     );
@@ -160,7 +160,7 @@ export class OperationRegistry {
   /**
    * Find operations that are mirrors of a given operation.
    */
-  getMirror(id: string): KnittingOperation | undefined {
+  getMirror(id: string): KnittingStitch | undefined {
     const op = this.byId.get(id);
     if (!op?.relationships.mirror) return undefined;
     return this.byId.get(op.relationships.mirror);
@@ -169,7 +169,7 @@ export class OperationRegistry {
   /**
    * Find operations that are the WS equivalent of a given operation.
    */
-  getWsEquivalent(id: string): KnittingOperation | undefined {
+  getWsEquivalent(id: string): KnittingStitch | undefined {
     const op = this.byId.get(id);
     if (!op?.relationships.ws_equivalent) return undefined;
     return this.byId.get(op.relationships.ws_equivalent);
@@ -180,7 +180,7 @@ export class OperationRegistry {
    * Simple substring matching — for production use, replace with
    * vector similarity search on embedded text.
    */
-  search(query: string): KnittingOperation[] {
+  search(query: string): KnittingStitch[] {
     const q = query.toLowerCase().trim();
     return this.getAll().filter((op) => {
       const searchable = getSearchText(op).toLowerCase();
@@ -233,7 +233,7 @@ export class OperationRegistry {
  * "decrease that leans right" will match k2tog because
  * the description says "right-leaning single decrease."
  */
-export function getSearchText(op: KnittingOperation): string {
+export function getSearchText(op: KnittingStitch): string {
   const parts: string[] = [
     op.canonical_name,
     op.semantic_description,
@@ -262,37 +262,37 @@ export function getSearchText(op: KnittingOperation): string {
 
 // ─── Default registry (loads everything) ─────────────────────────────────────
 
-let _defaultRegistry: OperationRegistry | null = null;
+let _defaultRegistry: StitchRegistry | null = null;
 
 /**
  * Returns the singleton default registry with all operations loaded.
  * Includes both hand-authored operations and generated cables.
  */
-export function getDefaultRegistry(): OperationRegistry {
+export function getDefaultRegistry(): StitchRegistry {
   if (!_defaultRegistry) {
     // Hand-authored operation files plus generated cable families.
     //
-    // The `loadJsonOperations` helper is used to coerce JSON-imported arrays
-    // into `KnittingOperation[]`. We need this because `resolveJsonModule`
+    // The `loadJsonStitches` helper is used to coerce JSON-imported arrays
+    // into `KnittingStitch[]`. We need this because `resolveJsonModule`
     // infers JSON literal types more narrowly than the schema (e.g. it widens
-    // `category: "decrease"` to `string` rather than the `OperationCategory`
+    // `category: "decrease"` to `string` rather than the `StitchCategory`
     // union, and surfaces optional `source_specific` keys with `undefined`
     // values). The JSON files are validated separately via `pnpm validate`,
     // so the runtime cast is sound.
-    const allOps: KnittingOperation[] = [
-      ...loadJsonOperations(basicOps),
-      ...loadJsonOperations(slippedOps),
-      ...loadJsonOperations(decreaseOps),
-      ...loadJsonOperations(increaseOps),
-      ...loadJsonOperations(cableOps),
-      ...loadJsonOperations(textureOps),
-      ...loadJsonOperations(briocheOps),
-      ...loadJsonOperations(edgeOps),
-      ...loadJsonOperations(castOnOps),
-      ...loadJsonOperations(bindOffOps),
-      ...loadJsonOperations(compositeOps),
-      ...loadJsonOperations(structuralOps),
-      ...loadJsonOperations(placeholderOps),
+    const allOps: KnittingStitch[] = [
+      ...loadJsonStitches(basicStitches),
+      ...loadJsonStitches(slippedStitches),
+      ...loadJsonStitches(decreaseStitches),
+      ...loadJsonStitches(increaseStitches),
+      ...loadJsonStitches(cableStitches),
+      ...loadJsonStitches(textureStitches),
+      ...loadJsonStitches(briocheStitches),
+      ...loadJsonStitches(edgeStitches),
+      ...loadJsonStitches(castOnStitches),
+      ...loadJsonStitches(bindOffStitches),
+      ...loadJsonStitches(compositeStitches),
+      ...loadJsonStitches(structuralStitches),
+      ...loadJsonStitches(placeholderStitches),
     ];
 
     // Add generated cables that don't overlap with hand-authored ones
@@ -322,7 +322,7 @@ export function getDefaultRegistry(): OperationRegistry {
       }
     }
 
-    _defaultRegistry = new OperationRegistry(allOps);
+    _defaultRegistry = new StitchRegistry(allOps);
   }
   return _defaultRegistry;
 }
