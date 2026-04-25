@@ -85,4 +85,4 @@ See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full guide.
 
 ## Provenance
 
-This library was originally extracted from the [Knitr](https://github.com/) app's internal knitting-stitches directory and open-sourced so the broader knitting / pattern-tools community can contribute and benefit. The Knitr team continues to be a primary maintainer; outside contributions are warmly welcomed.
+This library was originally extracted from the [Knitr](https://knitr.app) app's internal knitting-stitches directory and open-sourced so the broader knitting / pattern-tools community can contribute and benefit. The Knitr team continues to be a primary maintainer; outside contributions are warmly welcomed.
